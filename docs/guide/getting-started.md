@@ -4,7 +4,7 @@ description: "First steps for new members: join, meet people, and find work."
 
 # First steps
 
-There is something for everyone in the movement. You can stay informed, join an event, bring people together, or take responsibility for ongoing work.
+There's something for everyone in the movement, whatever time you have to give. Here's how to take your first steps, find people and work, and stay in touch as you go.
 
 ## Your first steps
 
@@ -17,7 +17,7 @@ Start with a commitment you can keep. Let people know if your availability chang
 
 ## Find people and work
 
-Atlas has views for roles, domains of work, and people. Look up the work that interests you, then find the linked [role](glossary.md#role) or [circle](glossary.md#circle). That gives you a starting point for asking questions.
+Atlas is where you find who's responsible for the work you care about. It has views for roles, domains of work, and people: look up the work that interests you, then find the linked [role](glossary.md#role) or [circle](glossary.md#circle). That gives you a starting point for asking questions.
 
 If nobody is listed, ask for help finding an owner. A missing assignment doesn't grant authority to make commitments for the organization.
 
@@ -32,11 +32,11 @@ If nobody is listed, ask for help finding an owner. A missing assignment doesn't
 Fellows should also follow the [Fellowship onboarding guide](fellowship.md).
 :::
 
-## Communication and tools
+## Stay in touch
 
-The website helps people find events and ways to participate. Email keeps supporters informed. The Fellowship uses Discord for day-to-day communication and coordination. Some groups also use Signal.
+We use different channels for different things, so use whichever your group has agreed on. The website helps people find events and ways to participate. Email keeps supporters informed. The Fellowship uses Discord for day-to-day communication and coordination, and some groups also use Signal.
 
-Use the channels your group has agreed on. Keep project decisions and useful work somewhere others can find them, and link to them from the relevant work record. Protect passwords, member data, donor information, and private conversations.
+Keep project decisions and useful work somewhere others can find them, and link to them from the relevant work record. Protect passwords, member data, donor information, and private conversations.
 
 ::: related
 - [Participation](../organization/participation.md) — Ways to get involved, from supporter to staff.

@@ -4,7 +4,7 @@ description: Short definitions of the terms used across the Sapiens First handbo
 
 # Glossary
 
-Short definitions of the words we use across the handbook. Each entry links to the page that explains it in full.
+Not sure what a word means? This page defines the terms we use across the handbook, each linking to where it's explained in full.
 
 ## People and responsibility
 

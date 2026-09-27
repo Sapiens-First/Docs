@@ -7,7 +7,7 @@ audience: Fellows
 
 The Fellowship is a structured way to contribute to Sapiens First. Each Fellow takes responsibility for a project that helps the movement, with support from people working on related priorities.
 
-You'll build skills in strategic analysis, planning, and leadership, meet people working on AI and politics, and help create something others can use. We also want you to have fun!
+You'll build skills in strategic analysis, planning, and leadership, meet people working on AI and politics, and help create something others can use — and have fun along the way. Here's what to expect, how your first weeks go, and what comes after the Fellowship.
 
 ## What to expect
 
