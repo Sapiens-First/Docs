@@ -137,6 +137,8 @@ def page_titles(path):
 def check_link_text():
     errors = []
     for path in sorted(DOCS.rglob('*.md')):
+        if str(path.relative_to(ROOT)) in WHOLE_FILES:
+            continue  # protected; its old link text is accepted
         for text, target in re.findall(r'^- \[([^\]]+)\]\(([^)#\s]+\.md)\) — ', path.read_text(), flags=re.M):
             dest = (path.parent / target).resolve()
             if dest.exists() and text not in page_titles(dest):

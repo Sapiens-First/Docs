@@ -277,8 +277,8 @@
 @media (min-width: 960px) {
   .VPSidebar { border-right: var(--sf-border); }
 }
-/* group labels match the section titles exactly, so keep them in sentence
-   case: tracked caps wrapped "How we learn and improve" onto two lines */
+/* group labels are the one-word section verbs (Join, Learn, …); keep them in
+   sentence case so they match the homepage cards and page eyebrows */
 .VPSidebarItem.level-0 > .item > .text,
 .VPSidebarItem.level-0 > .item > .link > .text {
   font-family: var(--sf-font-display);
