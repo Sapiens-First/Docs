@@ -4,7 +4,7 @@ description: "First steps for new members: join, meet people, and find work."
 
 # First steps
 
-There's something for everyone in the movement, whatever time you have to give. Here's how to take your first steps, find people and work, and stay in touch as you go.
+There's something for everyone in the movement, whatever time you have to give. You can stay informed, join an event, bring people together, or take responsibility for ongoing work. Here's how to take your first steps, find people and work, and stay in touch as you go.
 
 ## Your first steps
 
