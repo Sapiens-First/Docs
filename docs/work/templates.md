@@ -4,7 +4,7 @@ description: "Copyable templates for scopes, plans, updates, and handoffs."
 
 # Templates
 
-Use these as starting points. Keep what helps, adapt the examples, and leave out sections that don't serve the work. Store completed records with the project and link them from Atlas.
+Use these as starting points for the documents your project needs — a scope, a plan, an update, a weekly plan, or a handoff. Keep what helps, adapt the examples, and leave out sections that don't serve the work. Store completed records with the project and link them from Atlas.
 
 ## Project scope
 

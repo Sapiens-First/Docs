@@ -24,9 +24,9 @@ If priorities compete, make the tradeoff visible to the person responsible for c
 
 ## Make tasks actionable
 
-“Work on onboarding” leaves too much to work out. “Ask three new members where they got stuck during onboarding and summarize the answers” gives you a place to start.
+A useful task has an action, enough context to do it, and a clear stopping point. “Work on onboarding” leaves too much to work out; “Ask three new members where they got stuck during onboarding and summarize the answers” gives you a place to start.
 
-A useful task has an action, enough context to do it, and a clear stopping point. Include the responsible person and a date when timing matters.
+Include the responsible person and a date when timing matters.
 
 ::: background Getting Things Done
 
