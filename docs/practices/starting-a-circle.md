@@ -33,7 +33,7 @@ As the group grows, give people manageable responsibilities and the context to d
 This is a suggested sequence, not a formal recognition or affiliation procedure.
 :::
 
-## As the group grows
+## Plan for growth
 
 The source guide sketches circles, hubs, chapters, and alliances at increasing sizes. These are ideas for organizing growth; the membership thresholds and procedures need confirmation before becoming rules.
 

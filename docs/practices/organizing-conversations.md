@@ -8,6 +8,16 @@ One-on-one conversations are a core way to invite people into the movement. Star
 
 ## A simple conversation
 
+A good conversation moves through five steps, from first contact to a clear next step.
+
+```mermaid
+flowchart TB
+  C["<b>Connect</b> · ask what matters to them"] --> L["<b>Listen</b> · give them room"] --> F["<b>Find common ground</b>"]
+  F --> I["<b>Invite</b> · offer a concrete next step"] --> Fo["<b>Follow up</b> · agree how and when"]
+  classDef accent fill:#ffd60a,stroke:#111,stroke-width:2px
+  class C accent
+```
+
 1. **Connect.** Introduce yourself and ask an open question about what matters to the other person.
 2. **Listen.** Give them room to explain their concerns and experience. Resist the urge to turn the conversation into a speech.
 3. **Find common ground.** Connect their concerns to a relevant part of the movement's work, without pretending you agree about everything.
@@ -16,7 +26,7 @@ One-on-one conversations are a core way to invite people into the movement. Star
 
 The original door-knocking guidance suggests listening most of the time—roughly 80%. Use that as a reminder to listen, rather than a quota to track during the conversation.
 
-## Door-knocking
+## Try door-knocking
 
 Door-knocking is one way to meet people outside your existing network. It creates opportunities to hear concerns directly and invite people into local activity.
 
