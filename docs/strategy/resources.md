@@ -23,7 +23,7 @@ Start with the question you're trying to answer. You don't need to work through 
 
 - *High Output Management*, by Andy Grove: leading indicators, pairing measures, and objectives and key results.
 - *Working Backwards*, by Colin Bryar and Bill Carr: how Amazon separates controllable inputs from outcomes and reviews metrics every week.
-- [*From Hierarchy to Intelligence*](https://block.xyz/inside/from-hierarchy-to-intelligence), by Jack Dorsey and Roelof Botha: an argument that AI can take on much of the information routing that management layers exist for.
+- [*From Hierarchy to Intelligence*](https://block.xyz/inside/from-hierarchy-to-intelligence), by Jack Dorsey and Roelof Botha: an argument AI can take on much of the information routing that management layers exist for.
 
 See [Metrics](../learning/metrics.md) for how we apply these ideas.
 
@@ -31,7 +31,7 @@ These resources offer perspectives to discuss and evaluate. Including a resource
 
 ::: background Further reading from the original movement guide
 
-The original guide also recommended *The AI Revolution* by Tim Urban, *AI 2027*, *The Adolescence of Technology* by Dario Amodei, and resources about citizens' assemblies and international AI governance.
+The original guide also recommended *The AI Revolution* by Tim Urban, *AI 2027*, and *The Adolescence of Technology* by Dario Amodei. It also pointed to resources about citizens' assemblies and international AI governance.
 
 Specific research claims and reading links should be checked before they're used in training or public materials. When sharing a source, explain the question it helps answer and any assumptions that matter.
 :::

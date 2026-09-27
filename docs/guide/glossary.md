@@ -10,15 +10,15 @@ Not sure what a word means? This page defines the terms we use across the handbo
 
 ### Atlas
 
-Our live record of current governance, roles, projects, priorities, and owners. The handbook explains concepts; [Atlas](https://sapiensfirst.org/atlas) shows who is doing what right now. See [The handbook and Atlas](index.md#the-handbook-and-atlas).
+Our live record of current governance, roles, projects, priorities, and owners — the handbook explains concepts, while [Atlas](https://sapiensfirst.org/atlas) shows who is doing what right now. See [The handbook and Atlas](index.md#the-handbook-and-atlas).
 
 ### Role
 
-A defined responsibility, with a purpose, accountabilities, and a scope. People can hold several roles, and the person filling a role can change. See [Roles and circles](../organization/roles-and-circles.md).
+A defined responsibility, with a purpose, accountabilities, and a scope. A person can hold several roles, and who fills a role can change. See [Roles and circles](../organization/roles-and-circles.md).
 
 ### Role holder
 
-The person currently filling a role. Atlas records who holds each role.
+The person currently filling a role, as recorded in Atlas.
 
 ### Circle
 
@@ -34,7 +34,7 @@ Ways to participate, from staying informed to taking on ongoing responsibility. 
 
 ### Fellowship
 
-A structured volunteer program in which each Fellow takes responsibility for a project, with support. It is not employment. See [The Fellowship](fellowship.md).
+A structured volunteer program, not employment, in which each Fellow takes responsibility for a project, with support. See [The Fellowship](fellowship.md).
 
 ### Red lines
 
@@ -44,7 +44,7 @@ Things people acting in the name of Sapiens First must never do, such as threate
 
 ### Mission, pillar, program
 
-How Atlas organizes work: the **mission** is the overall change we work toward; a **pillar** is a major contribution to it; a **program** groups related work around a continuing purpose. See [From mission to work](../work/index.md#from-mission-to-work).
+How Atlas organizes work: the **mission** is the overall change we work toward, and a **pillar** is a major contribution to it. A **program** groups related work around a continuing purpose. See [From mission to work](../work/index.md#from-mission-to-work).
 
 ### Product or service
 
@@ -66,7 +66,7 @@ A change we want to achieve. See [Outcomes and outputs](../work/index.md#outcome
 
 ### Key result
 
-How we will recognize progress toward an objective. Each key result should point to a defined metric. Also called a success criterion.
+How we recognize progress toward an objective, also called a success criterion. Each key result should point to a defined metric.
 
 ### Output and outcome
 
@@ -74,7 +74,7 @@ An **output** is something we create, like a workshop. An **outcome** is the cha
 
 ### Metric
 
-A clearly defined measure with a starting point, a target, and a date. It is useful when it helps someone make a better decision. See [Metrics](../learning/metrics.md).
+A clearly defined measure with a starting point, a target, and a date, useful when it helps someone decide better. See [Metrics](../learning/metrics.md).
 
 ### Input
 
@@ -88,12 +88,12 @@ A gap between how things are and how they could be, raised with the responsible 
 
 ### Proposal
 
-A possible future practice that has not been adopted. Proposals appear in boxes with a dashed border and a yellow **Proposal** label.
+A possible future practice that hasn't been adopted, shown in a box with a dashed border and a yellow **Proposal** label.
 
 ### To clarify
 
-A decision we still need to make. These boxes have a blue **To clarify** label and explain what to do in the meantime.
+A decision we still need to make, shown in a box with a blue **To clarify** label that explains what to do in the meantime.
 
 ### For role holders
 
-Extra detail for Fellows, organizers, staff, and anyone else holding a role. Everyone is welcome to read it.
+Extra detail for Fellows, organizers, staff, and anyone else holding a role — everyone is welcome to read it.
