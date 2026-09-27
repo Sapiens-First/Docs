@@ -113,6 +113,7 @@ export default withMermaid(defineConfig({
         items: [
           { text: 'Overview', link: '/learning/' },
           { text: 'Metrics', link: '/learning/metrics' },
+          { text: 'Strategic hypotheses', link: '/learning/strategic-hypotheses' },
           { text: 'Metric reviews', link: '/learning/reviewing-metrics' },
           { text: 'Atlas and AI', link: '/learning/atlas-and-ai' },
           { text: 'Feedback and development', link: '/learning/feedback' },

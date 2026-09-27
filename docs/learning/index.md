@@ -23,6 +23,7 @@ flowchart TB
 **Measure what matters.** Choose a few useful numbers and look at them together.
 
 - [Metrics](metrics.md) — Why we measure, how metrics connect to objectives, and what we don't measure.
+- [Strategic hypotheses](strategic-hypotheses.md) — Working backwards from an outcome, and testing strategy as a hypothesis.
 - [Metric reviews](reviewing-metrics.md) — How circles review results, find bottlenecks, and decide where to put resources.
 
 **See the whole picture.** Build a shared view of the movement that shows what needs attention.

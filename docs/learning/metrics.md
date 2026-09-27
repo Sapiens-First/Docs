@@ -104,6 +104,7 @@ Define each variable, the time period, the assumptions, and the evidence behind 
 :::
 
 ::: related
+- [Strategic hypotheses](strategic-hypotheses.md) — Working backwards from an outcome, and testing strategy as a hypothesis.
 - [Metric reviews](reviewing-metrics.md) — How circles review results, find bottlenecks, and allocate resources.
 - [Atlas and AI](atlas-and-ai.md) — Where we're heading: Atlas and AI that help us notice what needs attention.
 - [The work](../work/index.md) — How the mission turns into objectives, projects, and next steps.
