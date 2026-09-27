@@ -6,9 +6,11 @@ description: "What roles and circles are, and how to read them in Atlas."
 
 A **role** is a defined responsibility. A **circle** brings roles together around a shared purpose. Clear roles help people act without having to ask one person about everything.
 
-People may hold multiple roles, and the person filling a role can change. The responsibility should remain understandable when that happens.
+People may hold multiple roles, and the person filling a role can change. The responsibility should remain understandable when that happens. Here's how to read a role in Atlas, how circles and work relate, and what to do when a role changes hands.
 
 ## Reading a role in Atlas
+
+Atlas records each role through these fields:
 
 | Field | What it tells you |
 | --- | --- |
@@ -22,7 +24,7 @@ People may hold multiple roles, and the person filling a role can change. The re
 
 Missing access details mean they haven't been documented. Linked work records responsibility; it does not by itself grant formal Holacracy authority or system access.
 
-## Circles and work
+## See how circles and work relate
 
 Atlas holds two related views: how responsibilities are organized, and how work contributes to the mission. A circle is a group of roles. A program or product is an area of work. They can be linked without being the same thing.
 

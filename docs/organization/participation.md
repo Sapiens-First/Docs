@@ -16,7 +16,7 @@ You can contribute in different ways at different points in your life. Choose a 
 
 Check the current joining process for membership terms, dues, and eligibility. The handbook isn't a record of current prices or program dates.
 
-## Participation and responsibility
+## Keep role and participation separate
 
 Your relationship to the organization and your responsibilities are different things. “Fellow” describes participation in a program. “Website Owner” describes a role. One person may hold more than one role.
 

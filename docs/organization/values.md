@@ -4,7 +4,7 @@ description: "Core values, operating principles, leadership standards, and red l
 
 # Values
 
-Anyone can act in the name of Sapiens First if they follow our values. Shared values let people take initiative while caring for the movement and one another.
+Anyone can act in the name of Sapiens First if they follow our values. Shared values let people take initiative while caring for the movement and one another. Here's what we value, how we expect leaders to act, and where the lines are.
 
 ## Our core values
 
