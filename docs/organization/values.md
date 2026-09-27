@@ -16,7 +16,7 @@ Anyone can act in the name of Sapiens First if they follow our values. Shared va
 
 **Respect.** We are kind, listen, and use nonviolent communication.
 
-**Agency.** When we feel strongly, we take action!
+**Agency.** When we feel strongly, we take action.
 
 ## Operating principles
 
@@ -49,7 +49,7 @@ People acting in the name of Sapiens First must not:
 - Knowingly create serious risks for participants or the public.
 - Misrepresent Sapiens First's demands, values, activities, or relationships.
 
-People who cross these lines may be asked to leave an event, step down from a role, or stop acting in the name of Sapiens First.
+People who cross these lines may be asked to leave an event or step down from a role. They may also be asked to stop acting in the name of Sapiens First.
 
 The existing reporting route is [rohan@sapiensfirst.org](mailto:rohan@sapiensfirst.org). Following a report, leadership interviews the parties involved and other relevant members before deciding next steps.
 

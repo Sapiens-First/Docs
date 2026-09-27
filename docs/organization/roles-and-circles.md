@@ -4,7 +4,7 @@ description: "What roles and circles are, and how to read them in Atlas."
 
 # Roles and circles
 
-A **role** is a defined responsibility. A **circle** brings roles together around a shared purpose. Clear roles help people act without having to ask one person about everything.
+A **role** is a defined responsibility. A **circle** brings roles together around a shared purpose. Clear roles help people act without asking one person for everything.
 
 People may hold multiple roles, and the person filling a role can change. The responsibility should remain understandable when that happens. Here's how to read a role in Atlas, how circles and work relate, and what to do when a role changes hands.
 
@@ -26,7 +26,7 @@ Missing access details mean they haven't been documented. Linked work records re
 
 ## See how circles and work relate
 
-Atlas holds two related views: how responsibilities are organized, and how work contributes to the mission. A circle is a group of roles. A program or product is an area of work. They can be linked without being the same thing.
+Atlas holds two related views: how responsibilities are organized, and how work contributes to the mission. A circle is a group of roles, while a program or product is an area of work. The two can be linked without being the same thing.
 
 This distinction helps when responsibilities change. A product can continue even when its owner or supporting circle changes.
 
@@ -39,7 +39,7 @@ The source material does not establish a complete adopted constitution or decisi
 
 ## Taking on or handing over a role
 
-Review the purpose, responsibilities, linked work, access needs, and available capacity with the person coordinating the assignment. Make sure the current assignment is reflected in Atlas.
+Review the purpose, responsibilities, linked work, access needs, and available capacity with the person coordinating the assignment. Make sure Atlas reflects the current assignment.
 
 When handing over, leave the next person the relevant files, context, open decisions, and next steps. Explain what needs attention soon.
 

@@ -18,7 +18,7 @@ Check the current joining process for membership terms, dues, and eligibility. T
 
 ## Keep role and participation separate
 
-Your relationship to the organization and your responsibilities are different things. “Fellow” describes participation in a program. “Website Owner” describes a role. One person may hold more than one role.
+Participation and role are different things. “Fellow” describes participation in a program. “Website Owner” describes a role. One person may hold more than one role.
 
 Similarly, leading a team is a responsibility, not a requirement that everyone must progress toward. Continuing as an individual contributor can be a valuable choice.
 

@@ -31,9 +31,9 @@ Consultation and approval are different. Be clear about which you're asking for 
 
 ## Follow current Fellowship practice
 
-Fellows review project scope and plans with Rohan. The existing planning guidance also calls for discussing spending, public communications, external commitments, major scope or deadline changes, and important blockers with him where approval or a decision is needed.
+Fellows review project scope and plans with Rohan. The existing planning guidance also calls for discussing these with him where approval or a decision is needed: spending, public communications, external commitments, major scope or deadline changes, and important blockers.
 
-As responsibility is distributed, record the actual decision holder in the role or project records. A change in the handbook's wording alone doesn't transfer authority.
+As we distribute responsibility, record the actual decision holder in the role or project records. A change in the handbook's wording alone doesn't transfer authority.
 
 ## When responsibility is unclear
 
