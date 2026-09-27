@@ -4,7 +4,7 @@ description: "Scope, plan, test, and hand off a project."
 
 # Projects
 
-A project should produce something useful. A clear scope and a realistic plan help you spend time on the work that matters, as you move from scope to plan to a finished hand-off.
+A project should produce something useful. A clear scope and a realistic plan keep your time on the work that matters, from scope to plan to a finished hand-off.
 
 Here's the shape that work takes, with room to loop back and improve before you finish.
 

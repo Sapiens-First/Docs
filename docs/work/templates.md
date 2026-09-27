@@ -44,7 +44,7 @@ Milestones:
 
 **Output:** A short guide and sample agenda.
 
-**Success criteria:** Agree criteria with the project contact; for example, a new organizer can use the guide to prepare and run a pilot meeting, and identify a next step with participants.
+**Success criteria:** Agree criteria with the project contact. For example, a new organizer can use the guide to prepare and run a pilot meeting, and identify a next step with participants.
 
 **In scope:** Invitations, preparation, facilitation, and follow-up.
 
