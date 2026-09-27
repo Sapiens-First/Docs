@@ -1,3 +1,7 @@
+---
+description: "Copyable templates for scopes, plans, updates, and handoffs."
+---
+
 # Templates
 
 Use these as starting points. Keep what helps, adapt the examples, and leave out sections that don't serve the work. Store completed records with the project and link them from Atlas.
@@ -19,7 +23,22 @@ Based on the Fellowship's scope template.
 | Decision rights | What the owner decides, where consultation is needed, and who approves reserved decisions |
 | Milestones | Meaningful results or decision points on the way to completion |
 
-::: details Example: a first-meeting guide
+Copy this outline into your project document:
+
+```text
+Project (name, owner, team, timeframe):
+Objective:
+Audience:
+Success criteria:
+Outputs:
+Key questions:
+Scope (included / excluded):
+Constraints:
+Decision rights (decide / consult / approve):
+Milestones:
+```
+
+::: example A first-meeting guide
 
 **Objective:** Help a new organizer run a welcoming first meeting.
 
@@ -95,7 +114,7 @@ Receiving owner or contact:
 Access or transfer still needed:
 ```
 
-::: details Optional: use an AI assistant to help plan
+::: optional Use an AI assistant to help plan
 
 The original Fellowship handbook includes a detailed planning prompt. The reusable version below keeps its main constraints without tying them to one cohort's dates.
 

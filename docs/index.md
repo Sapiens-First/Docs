@@ -13,14 +13,42 @@ hero:
       text: Explore Atlas
       link: https://sapiensfirst.org/atlas
 
-features:
-  - title: Learn
-    details: Why we organize, what we stand for, and how we make change.
+# Role-based starting points, shown beside the hero (HomePaths.vue)
+paths:
+  - who: Curious about the movement
+    text: Our mission and approach
     link: /strategy/
-  - title: Organize
-    details: Find your place, understand responsibilities, and help others participate.
+  - who: Joining as a member
+    text: Getting started
+    link: /guide/getting-started
+  - who: Joining the Fellowship
+    text: Being a Fellow
+    link: /guide/fellowship
+  - who: Starting or supporting a local group
+    text: Starting a circle
+    link: /practices/starting-a-circle
+  - who: Taking on a role, including as staff
+    text: Roles and circles
+    link: /organization/roles-and-circles
+
+# One card per sidebar section; titles match the section names exactly
+features:
+  - title: Start here
+    details: Welcome, first steps, the Fellowship, and a glossary of the terms we use.
+    link: /guide/
+  - title: How we make change
+    details: Our mission, what we stand for, and our theory of change.
+    link: /strategy/
+  - title: How we organize
+    details: Values, ways to participate, roles and circles, and how decisions get made.
     link: /organization/
-  - title: Act
-    details: Plan useful work, bring people together, and learn from the results.
+  - title: How we get things done
+    details: Objectives, projects, weekly planning, meetings, and templates.
     link: /work/
+  - title: How we learn and improve
+    details: Metrics, reviews, feedback, and development.
+    link: /learning/
+  - title: Practical guides
+    details: Start a circle, run gatherings and conversations, train others, and plan actions.
+    link: /practices/
 ---

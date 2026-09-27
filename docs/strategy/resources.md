@@ -1,3 +1,7 @@
+---
+description: "Reading on our position, on movements, and on measurement."
+---
+
 # Learning resources
 
 Start with the question you're trying to answer. You don't need to work through a reading list before you can participate.
@@ -15,13 +19,23 @@ Start with the question you're trying to answer. You don't need to work through 
 - *Blueprint for Revolution*, by Srđa Popović: examples and ideas for nonviolent organizing.
 - *Common Sense for the 21st Century*, by Roger Hallam: an argument for mass civil disobedience.
 
+## Think about measurement and organization
+
+- *High Output Management*, by Andy Grove: leading indicators, pairing measures, and objectives and key results.
+- *Working Backwards*, by Colin Bryar and Bill Carr: how Amazon separates controllable inputs from outcomes and reviews metrics every week.
+- [*From Hierarchy to Intelligence*](https://block.xyz/inside/from-hierarchy-to-intelligence), by Jack Dorsey and Roelof Botha: an argument that AI can take on much of the information routing that management layers exist for.
+
+See [Metrics and learning](../learning/metrics.md) for how we apply these ideas.
+
 These resources offer perspectives to discuss and evaluate. Including a resource doesn't mean adopting every claim or tactic in it.
 
-::: details Further reading from the original movement guide
+::: background Further reading from the original movement guide
 
 The original guide also recommended *The AI Revolution* by Tim Urban, *AI 2027*, *The Adolescence of Technology* by Dario Amodei, and resources about citizens' assemblies and international AI governance.
 
 Specific research claims and reading links should be checked before they're used in training or public materials. When sharing a source, explain the question it helps answer and any assumptions that matter.
 :::
 
-**Read more:** [Training and facilitation](../practices/training.md)
+::: related
+- [Training and facilitation](../practices/training.md) — Help people learn through practice.
+:::

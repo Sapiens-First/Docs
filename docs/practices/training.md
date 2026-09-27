@@ -1,3 +1,7 @@
+---
+description: "Help people learn through practice."
+---
+
 # Training and facilitation
 
 Training should help people do something they couldn't do before. Start with a concrete outcome, such as facilitating a meeting, having an organizing conversation, or scoping a project.
@@ -8,7 +12,7 @@ Explain the idea, show an example, let people try it, and make time to reflect. 
 
 Keep the material relevant to the participants. New members need an approachable introduction; people taking responsibility for a project need enough detail to act.
 
-::: details Proposal: a flipped classroom
+::: proposal A flipped classroom
 
 The notes propose using a flipped classroom: share a short reading or video before the session, then use time together for questions, practice, and feedback.
 
@@ -21,4 +25,7 @@ Ask whether participants can use what they learned. Their questions and difficul
 
 Share the agenda, examples, and useful lessons so another facilitator can run the session. Current schedules and assigned facilitators belong in the live program records.
 
-**Read more:** [Learning resources](../strategy/resources.md) · [Metrics and learning](../learning/metrics.md)
+::: related
+- [Learning resources](../strategy/resources.md) — Reading on our position, on movements, and on measurement.
+- [Metrics and learning](../learning/metrics.md) — Why we measure, and how to define a useful metric.
+:::

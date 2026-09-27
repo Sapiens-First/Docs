@@ -1,3 +1,7 @@
+---
+description: "Bring a small local group together and share the work."
+---
+
 # Starting a circle
 
 A local circle gives people a place to connect and act together. Start small, make it welcoming, and share the work.
@@ -18,7 +22,7 @@ Make it clear who will facilitate, arrange the next meeting, follow up with part
 
 As the group grows, give people manageable responsibilities and the context to do them. Use explicit roles to prevent everything from depending on the founder.
 
-::: details For organizers: a first-month starting point
+::: roles A first-month starting point
 
 1. Join the movement and find the current contact for supporting local groups.
 2. Bring together a small group and discuss what you want to do.
@@ -35,4 +39,8 @@ The source guide sketches circles, hubs, chapters, and alliances at increasing s
 
 A local group and a governance circle are related concepts, but not every use of “circle” establishes the same formal structure. Confirm how your group connects to the movement and how that relationship should be recorded in Atlas.
 
-**Read more:** [Gatherings](gatherings.md) · [Organizing conversations](organizing-conversations.md) · [Roles and circles](../organization/roles-and-circles.md)
+::: related
+- [Gatherings](gatherings.md) — Help people connect and take a next step.
+- [Organizing conversations](organizing-conversations.md) — Listen first, then invite people to participate.
+- [Roles and circles](../organization/roles-and-circles.md) — What roles and circles are, and how to read them in Atlas.
+:::

@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/Sapiens-First/Handbook#readme",
   "devDependencies": {
+    "markdown-it-container": "^4.0.0",
     "vitepress": "^1.6.4"
   },
   "private": true

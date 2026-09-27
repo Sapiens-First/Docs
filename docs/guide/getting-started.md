@@ -1,3 +1,7 @@
+---
+description: "First steps for new members: join, meet people, and find work."
+---
+
 # Getting started
 
 There is something for everyone in the movement. You can stay informed, join an event, bring people together, or take responsibility for ongoing work.
@@ -7,17 +11,17 @@ There is something for everyone in the movement. You can stay informed, join an 
 1. **Get to know the movement.** Read our [mission and approach](../strategy/index.md) and [values](../organization/values.md).
 2. **Join us.** Use the [Sapiens First website](https://sapiensfirst.org) to find current ways to join and upcoming events.
 3. **Meet other people.** Introduce yourself in the community space you're invited to. Share where you're based, what you care about, and how you'd like to contribute.
-4. **Choose a next step.** Attend a gathering, help with an activity, explore the Fellowship, or talk to a role holder about work listed in [Atlas](https://sapiensfirst.org/atlas).
+4. **Choose a next step.** Attend a gathering, help with an activity, explore the Fellowship, or talk to a [role holder](glossary.md#role-holder) about work listed in [Atlas](https://sapiensfirst.org/atlas).
 
 Start with a commitment you can keep. Let people know if your availability changes.
 
 ## Find people and work
 
-Atlas has views for roles, domains of work, and people. Look up the work that interests you, then find the linked role or circle. That gives you a starting point for asking questions.
+Atlas has views for roles, domains of work, and people. Look up the work that interests you, then find the linked [role](glossary.md#role) or [circle](glossary.md#circle). That gives you a starting point for asking questions.
 
 If nobody is listed, ask for help finding an owner. A missing assignment doesn't grant authority to make commitments for the organization.
 
-::: details For fellows and role holders: your first week
+::: roles Your first week
 
 - Read your role's purpose and responsibilities in Atlas.
 - Confirm your priority project and who will support you.
@@ -34,4 +38,7 @@ The website helps people find events and ways to participate. Email keeps suppor
 
 Use the channels your group has agreed on. Keep project decisions and useful work somewhere others can find them, and link to them from the relevant work record. Protect passwords, member data, donor information, and private conversations.
 
-**Read more:** [Ways to participate](../organization/participation.md) · [Meetings and updates](../work/meetings-and-updates.md)
+::: related
+- [Ways to participate](../organization/participation.md) — Ways to get involved, from supporter to staff.
+- [Meetings and updates](../work/meetings-and-updates.md) — Check-ins, written updates, and general meetings.
+:::

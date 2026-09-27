@@ -1,3 +1,8 @@
+---
+description: "What to expect as a Fellow, from your first weeks to after the program."
+audience: Fellows
+---
+
 # Being a Fellow
 
 The Fellowship is a structured way to contribute to Sapiens First. Each Fellow takes responsibility for a project that helps the movement, with support from people working on related priorities.
@@ -30,7 +35,7 @@ As the program grows, support may be assigned to other role holders. Check your 
 
 Projects differ. Research, organizing, and software projects won't follow an identical calendar. Use your cohort schedule and agreed plan for actual dates.
 
-::: details For fellows: preparing for your first project conversation
+::: roles Preparing for your first project conversation
 
 Bring your interests, available time, and questions. Discuss who will use the result, why it matters, and what is achievable during the Fellowship. Use the [scope template](../work/templates.md#project-scope) to capture what you agree.
 
@@ -47,4 +52,8 @@ You might continue as a Fellow, take on a coordination or leadership role, or us
 
 Atlas describes Stewards as a possible next engagement level after three months and graduation. A role with “Steward” in its title is separate from that engagement level. Confirm the current progression process with the Fellowship contact.
 
-**Read more:** [Fellowship agreement](agreement.md) · [Planning a project](../work/projects.md) · [Meetings and updates](../work/meetings-and-updates.md)
+::: related
+- [Fellowship agreement](agreement.md) — The agreement every Fellow accepts before starting.
+- [Planning a project](../work/projects.md) — Scope, plan, test, and hand off a project.
+- [Meetings and updates](../work/meetings-and-updates.md) — Check-ins, written updates, and general meetings.
+:::

@@ -1,3 +1,7 @@
+---
+description: "Choose and plan a peaceful action that serves the campaign."
+---
+
 # Peaceful actions
 
 Actions help people participate, draw attention to an issue, and build support for a campaign. Choose an action because it serves a purpose you can explain.
@@ -16,11 +20,15 @@ Agree on responsibilities for preparation, participation, communication, and fol
 
 Afterward, discuss what happened, what you learned, and what to do next. Make sure people who want to join have a clear invitation.
 
-::: details Read more: the original action categories
+::: background The original action categories
 
 The source guide groups ideas as green, yellow, and red according to disruption, participation needs, and personal commitment. Examples range from themed signs or a pajama-party message at a public meeting to larger demonstrations and sit-ins.
 
 Those colors are brainstorming categories, not a formal approval process or a guarantee about an action's risks. The full original idea list remains in the source archive. More detailed action guides need campaign-specific context and review before becoming repeatable instructions.
 :::
 
-**Read more:** [Current campaigns](https://sapiensfirst.org/campaigns) · [Making decisions](../organization/decisions.md) · [Organizing conversations](organizing-conversations.md)
+::: related
+- [Current campaigns](https://sapiensfirst.org/campaigns) — What Sapiens First is campaigning on now.
+- [Making decisions](../organization/decisions.md) — What you can decide, when to consult, and what needs approval.
+- [Organizing conversations](organizing-conversations.md) — Listen first, then invite people to participate.
+:::

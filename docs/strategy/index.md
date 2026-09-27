@@ -1,3 +1,7 @@
+---
+description: "Our mission, what we stand for, and how we make change."
+---
+
 # How we make change
 
 We imagine a world where AI serves the common good. We believe in technology that uplifts all people, not just a rich few.
@@ -38,7 +42,7 @@ These activities reinforce each other. Someone comes to an event, meets people, 
 
 Atlas records the current structure, including the DNA pillar and the programs and work linked beneath the mission. This handbook explains the concepts; Atlas holds the current arrangement.
 
-::: details Read more: assumptions, evidence, and strategy
+::: background Assumptions, evidence, and strategy
 
 The source movement guide names mobilizing 3.5% of the population as an ambition. Treat a participation target as a strategic ambition, not a guarantee that reaching a percentage will produce political change.
 
@@ -47,4 +51,8 @@ Our growth depends on more than recruitment. Retention, leadership capacity, rel
 The Fellowship's initial strategy used a California campaign against mass surveillance, “Stop 1984!”, as a concrete starting point. The broader lesson is to choose work that matters, offers a plausible path to progress, and builds capacity for what comes next. Current campaign priorities belong in Atlas and the [campaign pages](https://sapiensfirst.org/campaigns).
 :::
 
-**Read more:** [Work and objectives](../work/index.md) · [Metrics and learning](../learning/metrics.md) · [Learning resources](resources.md)
+::: related
+- [How we get things done](../work/index.md) — How the mission turns into objectives, projects, and next steps.
+- [Metrics and learning](../learning/metrics.md) — Why we measure, and how to define a useful metric.
+- [Learning resources](resources.md) — Reading on our position, on movements, and on measurement.
+:::

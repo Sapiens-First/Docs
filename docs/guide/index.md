@@ -1,3 +1,7 @@
+---
+description: "Where to start, and how the handbook relates to Atlas."
+---
+
 # Welcome to Sapiens First
 
 We imagine a world where AI serves the common good. We fight for democracy, prosperity, and security in the age of AI.
@@ -14,7 +18,7 @@ Thank you for joining us! Whether you're coming to your first gathering, startin
 | Starting or supporting a local group | [Starting a circle](../practices/starting-a-circle.md) |
 | Taking on a role, including as staff | [Roles and circles](../organization/roles-and-circles.md), then [How we work](../work/index.md) |
 
-You don't need to read everything at once. Each page starts with the basics. Expand **For fellows and role holders** or **Read more** when you need more detail.
+You don't need to read everything at once. Each page starts with the basics. Open the collapsible sections labelled **For role holders** or **Background** when you need more detail. New to our terms? The [glossary](glossary.md) explains them.
 
 ## The handbook and Atlas
 
@@ -34,6 +38,6 @@ If a record is missing or unclear, ask the relevant role holder for help. An emp
 
 ## A handbook that grows with us
 
-Some practices are already in use. Others are being developed as we prepare for more people to join. Sections marked **Proposal** describe a possible future practice, not an adopted rule. **To clarify** identifies a decision we still need to make.
+Some practices are already in use. Others are being developed as we prepare for more people to join. Boxes labelled **Proposal** describe a possible future practice, not an adopted rule. **To clarify** identifies a decision we still need to make. Both have a dashed border so they're easy to tell apart from current practice.
 
 If an instruction is confusing, tell the person responsible for that area or suggest an edit. Improving these pages makes it easier for the next person to participate.

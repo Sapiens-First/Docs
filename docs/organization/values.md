@@ -1,3 +1,7 @@
+---
+description: "Core values, operating principles, leadership standards, and red lines."
+---
+
 # Values and expectations
 
 Anyone can act in the name of Sapiens First if they follow our values. Shared values let people take initiative while caring for the movement and one another.
@@ -49,7 +53,7 @@ People who cross these lines may be asked to leave an event, step down from a ro
 
 The existing reporting route is [rohan@sapiensfirst.org](mailto:rohan@sapiensfirst.org). Following a report, leadership interviews the parties involved and other relevant members before deciding next steps.
 
-::: info To clarify
+::: clarify
 The future reporting process needs a route for cases involving the usual contact, clear responsibility for handling reports, and an explanation of review or appeal. Those additions are not yet established in the source documents.
 :::
 
@@ -59,4 +63,7 @@ Members can hold different political views, participate in other organizations, 
 
 The source guide states that Sapiens First does not currently issue official candidate endorsements or coalition statements. It describes democratic chapter endorsements as a future possibility. Confirm any change in policy before representing an endorsement as official.
 
-**Read more:** [Making decisions](decisions.md) · [Feedback and development](../learning/feedback.md)
+::: related
+- [Making decisions](decisions.md) — What you can decide, when to consult, and what needs approval.
+- [Feedback and development](../learning/feedback.md) — Giving useful feedback and developing through responsibility.
+:::

@@ -1,3 +1,7 @@
+---
+description: "Scope, plan, test, and hand off a project."
+---
+
 # Planning a project
 
 A project should produce something useful. A clear scope and a realistic plan help you spend time on the work that matters.
@@ -24,7 +28,7 @@ A milestone says what will be achieved: “Test the workshop with three new orga
 
 Plan around your real capacity and dependencies. Leave time for feedback, revision, and handoff. Don't add reports or presentations unless they help the project or are an agreed requirement.
 
-::: details For fellows: adapt the process to the project
+::: roles Adapt the process to the project
 
 The Fellowship uses discovery, strategy, a first useful version, testing, iteration, and handoff as planning stages. They may overlap. A research project might test a draft argument with readers; an organizing project might pilot one event; a software project might test a prototype.
 
@@ -49,4 +53,7 @@ A project is ready to hand off when the agreed output has been reviewed against 
 
 Milestones are checkpoints, not automatically additional documents to submit. Keep documentation proportionate to what others need to continue the work.
 
-**Read more:** [Scope and plan templates](templates.md) · [Metrics and learning](../learning/metrics.md)
+::: related
+- [Templates](templates.md) — Copyable templates for scopes, plans, updates, and handoffs.
+- [Metrics and learning](../learning/metrics.md) — Why we measure, and how to define a useful metric.
+:::

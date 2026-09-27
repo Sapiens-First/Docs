@@ -1,3 +1,7 @@
+---
+description: "What roles and circles are, and how to read them in Atlas."
+---
+
 # Roles and circles
 
 A **role** is a defined responsibility. A **circle** brings roles together around a shared purpose. Clear roles help people act without having to ask one person about everything.
@@ -24,7 +28,7 @@ Atlas holds two related views: how responsibilities are organized, and how work 
 
 This distinction helps when responsibilities change. A product can continue even when its owner or supporting circle changes.
 
-::: details Read more: Holacracy and distributed authority
+::: background Holacracy and distributed authority
 
 The movement guide draws on Holacracy: explicit roles, distributed responsibility, and a process for addressing unclear or changing responsibilities. The aim is to let people act with context and purpose while reducing dependence on a single leader.
 
@@ -37,4 +41,8 @@ Review the purpose, responsibilities, linked work, access needs, and available c
 
 When handing over, leave the next person the relevant files, context, open decisions, and next steps. Explain what needs attention soon.
 
-**Read more:** [Making decisions](decisions.md) · [Project handoffs](../work/projects.md#finish-and-hand-off) · [Atlas](https://sapiensfirst.org/atlas)
+::: related
+- [Making decisions](decisions.md) — What you can decide, when to consult, and what needs approval.
+- [Finishing and handing off](../work/projects.md#finish-and-hand-off) — What to leave behind when work changes hands.
+- [Atlas](https://sapiensfirst.org/atlas) — Current roles, projects, priorities, and owners.
+:::

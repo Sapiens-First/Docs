@@ -1,3 +1,7 @@
+---
+description: "What you can decide, when to consult, and what needs approval."
+---
+
 # Making decisions
 
 People need room to act and clarity about when to involve others. Before starting work, agree on what you can decide, what needs consultation, and what needs approval.
@@ -24,11 +28,14 @@ Describe the problem, the work it affects, and the decision you need. Raise it w
 
 If you can't identify the right person, ask your onboarding or Fellowship contact to help find them.
 
-::: details Proposal: changing roles and circle responsibilities
+::: proposal Changing roles and circle responsibilities
 
 A repeatable governance process could let people bring a concrete tension, propose a change to a role or circle, consider effects on others, and record the agreed change in Atlas.
 
 Before adopting this process, we need to settle who can approve changes, how disagreements are resolved, how decisions take effect, and who updates the record. Until then, follow the current decision rights and agreements.
 :::
 
-**Read more:** [Scope template](../work/templates.md#project-scope) · [Roles and circles](roles-and-circles.md)
+::: related
+- [Project scope template](../work/templates.md#project-scope) — A project's objective, scope, success criteria, and decision rights.
+- [Roles and circles](roles-and-circles.md) — What roles and circles are, and how to read them in Atlas.
+:::

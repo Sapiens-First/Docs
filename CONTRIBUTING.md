@@ -20,13 +20,17 @@ Use the existing six folders: `guide`, `strategy`, `organization`, `work`, `lear
 
 Create a page when a reader would reasonably look for that topic on its own. Keep related details together; avoid a deep folder tree or a separate file for every paragraph. Store shared images in `docs/public/`.
 
-Add each new page to the sidebar in `docs/.vitepress/config.mts` and link it from the relevant overview or reading path. Use relative `.md` links in Markdown so readers can navigate the repository as well as the site. Keep the `/Handbook/` base path in the site configuration rather than hard-coding it into content links.
+Add each new page to the sidebar in `docs/.vitepress/config.mts` and link it from the relevant overview or reading path. Use the page's H1 as its sidebar label, and use the same words wherever you link to it; a section's own overview page is listed as **Overview**. If you add or rename a section, update its card on the homepage too (`docs/index.md`). Use relative `.md` links in Markdown so readers can navigate the repository as well as the site. Keep the `/Handbook/` base path in the site configuration rather than hard-coding it into content links.
 
 ## Write with cascading detail
 
-Start with a short explanation and the action or idea the reader needs. Put essential expectations in ordinary text. Use expandable sections for optional detail, worked examples, and explanations for people holding responsibilities.
+Start with a short explanation and the action or idea the reader needs. Put essential expectations in ordinary text. Use the handbook's labelled blocks for optional detail, worked examples, and explanations for people holding responsibilities.
 
 ```md
+---
+description: One sentence saying what the page helps with.
+---
+
 # Topic
 
 A short introduction that explains why this matters.
@@ -35,27 +39,47 @@ A short introduction that explains why this matters.
 
 The practical steps or shared expectations.
 
-::: details For fellows and role holders
-
+::: roles Preparing for the first meeting
 Additional context for people doing the work.
 :::
 
-**Read more:** [Relevant guide](relative-page.md)
+::: related
+- [Relevant guide](relative-page.md) — One line on what the reader will find there.
+:::
 ```
 
-Use direct, welcoming language and concrete examples. Define unfamiliar terms where they first appear. Prefer a visible definition or an expandable section to hover-only explanations. Keep links next to the topic they support.
+Every page starts with a `description:` in its frontmatter. It feeds search results and link previews, and it is the line to reuse when you list the page in a section overview or a Related block. Add `audience: Fellows` (or similar) only when a whole page is for one group.
+
+Each block gets a fixed label, so readers can tell what kind of text it holds. Use only these:
+
+| Block | Label | Use for |
+| --- | --- | --- |
+| `::: roles` | For role holders | Extra detail for Fellows, organizers, staff, and other role holders |
+| `::: example` | Example | A worked example. Don't use `>` blockquotes for examples; keep those for real quotations |
+| `::: background` | Background | History, sources, and further reading |
+| `::: optional` | Optional | An extra tool or technique the reader can skip |
+| `::: proposal` | Proposal | See below |
+| `::: clarify` | To clarify | See below |
+
+Add a title after the block name (`::: background Holacracy and distributed authority`) to make it collapsible. Without a title, it stays open. Keep essential expectations out of collapsed blocks.
+
+End a page with one `::: related` list rather than inline "Read more" links. Use each page's sidebar title as the link text, and follow it with a dash and the page's description.
+
+Use direct, welcoming language and concrete examples. Define unfamiliar terms where they first appear, and add new organizational terms to the [glossary](docs/guide/glossary.md). Prefer a visible definition or a collapsible block to hover-only explanations. Keep links next to the topic they support.
 
 ## Distinguish practice from proposals
 
 Preserve established expectations from the source material. Label new governance rules, schemas, evaluation processes, and other unapproved organizational requirements as proposals.
 
 ```md
-::: info Proposal
+::: proposal Role-specific development rubrics
 Explain the proposed practice and what still needs to be settled.
 :::
 ```
 
-Use **To clarify** for a specific unresolved decision. Explain what people should do in the meantime. An editorial rewrite does not itself adopt a policy or change decision rights.
+Proposal and To clarify blocks have a dashed border and a coloured label, so they can't be mistaken for adopted practice. A title makes a proposal collapsible; the label stays visible either way.
+
+Use `::: clarify` for a specific unresolved decision. Explain what people should do in the meantime. An editorial rewrite does not itself adopt a policy or change decision rights.
 
 Once a proposal is adopted, update its wording and the relevant Atlas records through the organization's agreed decision process. Keep actual assignments and targets in the live records.
 

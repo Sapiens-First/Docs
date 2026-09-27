@@ -1,3 +1,7 @@
+---
+description: "Listen first, then invite people to participate."
+---
+
 # Organizing conversations
 
 One-on-one conversations are a core way to invite people into the movement. Start by listening. People are more likely to participate when they feel heard and can see a meaningful place for themselves.
@@ -18,11 +22,14 @@ Door-knocking is one way to meet people outside your existing network. It create
 
 Prepare a clear introduction and a real event or next step to invite people to. Respect a person's decision to end the conversation. Follow the organizing arrangements and guidance for the place you're working in.
 
-::: details For organizers: learn from each session
+::: roles Learn from each session
 
 Discuss what people cared about, where the invitation was unclear, and whether the next step felt useful. Record what helps the team improve without exposing private personal details.
 
 Recruitment is only the beginning. Make sure someone can welcome the people who respond.
 :::
 
-**Read more:** [Gatherings](gatherings.md) · [Starting a circle](starting-a-circle.md)
+::: related
+- [Gatherings](gatherings.md) — Help people connect and take a next step.
+- [Starting a circle](starting-a-circle.md) — Bring a small local group together and share the work.
+:::

@@ -1,3 +1,7 @@
+---
+description: "Ways to get involved, from supporter to staff."
+---
+
 # Ways to participate
 
 You can contribute in different ways at different points in your life. Choose a level of involvement that fits your interests and capacity.
@@ -18,11 +22,14 @@ Your relationship to the organization and your responsibilities are different th
 
 Similarly, leading a team is a responsibility, not a requirement that everyone must progress toward. Continuing as an individual contributor can be a valuable choice.
 
-::: details For fellows and role holders
+::: roles Taking on a role
 
 Taking on a role means agreeing to its purpose and ongoing responsibilities. Discuss the time involved and the support you need before committing. Find your current assignments in Atlas and raise a mismatch if the record doesn't reflect your actual work.
 
 A “Steward” role title is separate from the Steward engagement level. A title alone doesn't establish permissions or authority.
 :::
 
-**Read more:** [Being a Fellow](../guide/fellowship.md) · [Roles and circles](roles-and-circles.md)
+::: related
+- [Being a Fellow](../guide/fellowship.md) — What to expect as a Fellow, from your first weeks to after the program.
+- [Roles and circles](roles-and-circles.md) — What roles and circles are, and how to read them in Atlas.
+:::

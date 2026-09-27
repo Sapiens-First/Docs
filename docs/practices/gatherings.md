@@ -1,3 +1,7 @@
+---
+description: "Help people connect and take a next step."
+---
+
 # Gatherings
 
 A movement grows through relationships. Gatherings give people a place to connect, share concerns, and find something they can do together.
@@ -16,7 +20,7 @@ Invite people to another gathering, a conversation, a campaign activity, or a sm
 
 Agree on who will follow up. Use the group's agreed process for contact information and keep personal details private.
 
-::: details For organizers: a simple agenda
+::: roles A simple agenda
 
 - Welcome people and introduce the purpose.
 - Give everyone a chance to speak.
@@ -28,4 +32,7 @@ Agree on who will follow up. Use the group's agreed process for contact informat
 The original guide also suggests activities such as Hamming circles, Estuary conversations, and meditation circles once participants share enough context and interest. Choose activities for the people present and explain how they work.
 :::
 
-**Read more:** [Training and facilitation](training.md) · [Meetings and updates](../work/meetings-and-updates.md)
+::: related
+- [Training and facilitation](training.md) — Help people learn through practice.
+- [Meetings and updates](../work/meetings-and-updates.md) — Check-ins, written updates, and general meetings.
+:::

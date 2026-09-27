@@ -1,3 +1,7 @@
+---
+description: "How the mission turns into objectives, projects, and next steps."
+---
+
 # How we get things done
 
 Good work starts with a clear purpose. Before taking on a task, understand who it helps, what should change, and how it contributes to the movement.
@@ -26,7 +30,9 @@ An **objective** describes a change we want to achieve. An **output** is somethi
 
 For example, a workshop is an output. Participants being able to run their first meeting is an outcome. Both matter: we need to deliver the workshop and find out whether it helps.
 
-::: details Proposal: connecting objectives, products, and tasks
+Each key result should point to a defined metric, so everyone reads it the same way. Track the outcome, and also the inputs a role can directly influence. [Metrics and learning](../learning/metrics.md) explains how.
+
+::: proposal Connecting objectives, products, and tasks
 
 The working notes propose connecting high-level priorities to products, milestones, tasks, and subtasks. Atlas already has a mission, pillar, program, product/service, and project structure. We should clarify the relationship between these before treating them as a single fixed hierarchy.
 
@@ -50,4 +56,10 @@ Objectives may apply at more than one level. Whether they become separate Atlas 
 4. Break the work into milestones and concrete next actions.
 5. Review what happened and adjust the plan.
 
-**Read more:** [Planning a project](projects.md) · [Weekly work](weekly-work.md) · [Meetings and updates](meetings-and-updates.md) · [Templates](templates.md)
+::: related
+- [Planning a project](projects.md) — Scope, plan, test, and hand off a project.
+- [Planning your week](weekly-work.md) — A simple weekly review and tasks you can act on.
+- [Meetings and updates](meetings-and-updates.md) — Check-ins, written updates, and general meetings.
+- [Templates](templates.md) — Copyable templates for scopes, plans, updates, and handoffs.
+- [Metrics and learning](../learning/metrics.md) — Why we measure, and how to define a useful metric.
+:::

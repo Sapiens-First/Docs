@@ -1,4 +1,7 @@
+import { readFileSync } from 'node:fs'
+import { join } from 'node:path'
 import { defineConfig } from 'vitepress'
+import { handbookContainers } from './containers'
 
 const base = '/Handbook/'
 
@@ -10,6 +13,22 @@ export default defineConfig({
   base,
   cleanUrls: true,
   lastUpdated: true,
+
+  markdown: {
+    config: (md) => handbookContainers(md)
+  },
+
+  // Reading time for the page eyebrow, and no "On this page" box on pages too
+  // short to need one (fewer than three sections).
+  transformPageData(pageData, { siteConfig }) {
+    if (pageData.frontmatter.layout === 'home') return
+    const src = readFileSync(join(siteConfig.srcDir, pageData.relativePath), 'utf8')
+    const words = src.replace(/^---[\s\S]*?---/, '').split(/\s+/).filter(Boolean).length
+    pageData.frontmatter.readingTime ??= Math.max(1, Math.round(words / 220))
+    if (pageData.frontmatter.outline === undefined && (src.match(/^## /gm)?.length ?? 0) < 3) {
+      pageData.frontmatter.outline = false
+    }
+  },
 
   head: [
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${base}favicon-32x32.png` }],
@@ -42,19 +61,20 @@ export default defineConfig({
           { text: 'Getting started', link: '/guide/getting-started' },
           { text: 'Being a Fellow', link: '/guide/fellowship' },
           { text: 'Fellowship agreement', link: '/guide/agreement' },
+          { text: 'Glossary', link: '/guide/glossary' },
         ]
       },
       {
         text: 'How we make change',
-        collapsed: true,
+        collapsed: false,
         items: [
-          { text: 'Mission and approach', link: '/strategy/' },
+          { text: 'Overview', link: '/strategy/' },
           { text: 'Learning resources', link: '/strategy/resources' },
         ]
       },
       {
         text: 'How we organize',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Overview', link: '/organization/' },
           { text: 'Values and expectations', link: '/organization/values' },
@@ -65,9 +85,9 @@ export default defineConfig({
       },
       {
         text: 'How we get things done',
-        collapsed: true,
+        collapsed: false,
         items: [
-          { text: 'Work and objectives', link: '/work/' },
+          { text: 'Overview', link: '/work/' },
           { text: 'Planning a project', link: '/work/projects' },
           { text: 'Planning your week', link: '/work/weekly-work' },
           { text: 'Meetings and updates', link: '/work/meetings-and-updates' },
@@ -76,16 +96,18 @@ export default defineConfig({
       },
       {
         text: 'How we learn and improve',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Overview', link: '/learning/' },
           { text: 'Metrics and learning', link: '/learning/metrics' },
+          { text: 'Reviewing metrics', link: '/learning/reviewing-metrics' },
+          { text: 'Atlas, metrics, and AI', link: '/learning/atlas-and-ai' },
           { text: 'Feedback and development', link: '/learning/feedback' },
         ]
       },
       {
         text: 'Practical guides',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Overview', link: '/practices/' },
           { text: 'Starting a circle', link: '/practices/starting-a-circle' },
@@ -97,7 +119,9 @@ export default defineConfig({
       },
     ],
 
-    search: { provider: 'local' },
+    search: { provider: 'local', options: { detailedView: true } },
+
+    externalLinkIcon: true,
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Sapiens-First/Handbook' }
