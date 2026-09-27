@@ -44,3 +44,12 @@ Shell commands require escalation because the sandbox fails with `mountinfo path
 An initial overwrite was rejected because starter pages already had uncommitted changes. Exact copies of every existing file to be changed were then saved and verified under `/tmp/s1-handbook-before-merge/`; subsequent guarded writes were approved. Permanent source archives also preserve both original input documents.
 
 Pre-existing changes included the VitePress config, homepage, guide index, theme entry point, and public assets. Do not discard those changes. The current files retain the theme and publishing configuration.
+
+## Readability pass (style guide rollout)
+
+Started 2026-09-27. The approach is in `STYLE-GUIDE.md`: hook, three things, next step, applied top-down. The step-by-step plan for stages 2 and 3 is `REWRITE-PLAN.md`; `scripts/check-rewrite.py` guards protected text and heading links.
+
+- **Stage 1, done:** the style guide; Mermaid diagrams in the site palette; the homepage, Welcome page, and six section overviews rewritten. Proposal and background blocks keep their wording.
+- **Stage 2a, next:** apply the naming scheme (section verbs Join · Learn · Organize · Build · Act · Grow; noun page titles; URLs unchanged). Decided with the user 2026-09-27.
+- **Stage 2b:** the openings and `##` headings of the 20 topic pages, with bold lead-ins and one diagram where a page describes a flow.
+- **Stage 3, after that:** paragraph-level tightening, including the fixed-wording rule for the Fellowship agreement (don't edit it).

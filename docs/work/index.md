@@ -4,13 +4,13 @@ description: "How the mission turns into objectives, projects, and next steps."
 
 # How we get things done
 
-Good work starts with a clear purpose. Before taking on a task, understand who it helps, what should change, and how it contributes to the movement.
+Good work starts with a clear purpose. Before you take on a task, know three things: **who it helps, what should change, and how it moves the mission forward.**
 
-[Atlas](https://sapiensfirst.org/atlas) records the current work and responsibilities. These pages explain how to turn that context into a practical plan.
+[Atlas](https://sapiensfirst.org/atlas) records the current work and who's responsible. These pages show you how to turn that context into a practical plan.
 
 ## From mission to work
 
-Atlas currently uses these kinds of work records:
+Every piece of work traces back to the mission. Atlas uses these kinds of work records:
 
 | Kind | Plain-language meaning | Example |
 | --- | --- | --- |
@@ -26,9 +26,13 @@ A product or service can need several projects over its life. Finishing a projec
 
 ## Outcomes and outputs
 
-An **objective** describes a change we want to achieve. An **output** is something we create. A **key result** or success criterion tells us how we will recognize success.
+Three terms keep plans honest:
 
-For example, a workshop is an output. Participants being able to run their first meeting is an outcome. Both matter: we need to deliver the workshop and find out whether it helps.
+- **An objective is a change.** It describes what we want to be different.
+- **An output is a thing.** It's something we create.
+- **A key result is the proof.** It tells us how we'll recognize success.
+
+A workshop is an output. Participants who can run their first meeting are the outcome. Both matter: we need to deliver the workshop, and find out whether it helps.
 
 Each key result should point to a defined metric, so everyone reads it the same way. Track the outcome, and also the inputs a role can directly influence. [Metrics and learning](../learning/metrics.md) explains how.
 
@@ -50,11 +54,22 @@ Objectives may apply at more than one level. Whether they become separate Atlas 
 
 ## Choose a useful next step
 
-1. Find the relevant work and owner in Atlas.
-2. Understand the intended outcome and current priority.
-3. Agree on scope, success criteria, and decision rights.
-4. Break the work into milestones and concrete next actions.
-5. Review what happened and adjust the plan.
+Work moves in a loop. Plan, act, review, and adjust the next round.
+
+```mermaid
+flowchart TB
+  F["Find the work and owner"] --> U["Understand the outcome"] --> A["Agree scope and decisions"]
+  A --> B["Break into next actions"] --> R["Review and adjust"]
+  R -. next round .-> U
+  classDef accent fill:#ffd60a,stroke:#111,stroke-width:2px
+  class F accent
+```
+
+1. **Find it.** Locate the relevant work and its owner in Atlas.
+2. **Understand it.** Learn the intended outcome and current priority.
+3. **Agree on it.** Settle scope, success criteria, and decision rights.
+4. **Break it down.** Split the work into milestones and concrete next actions.
+5. **Review it.** Look at what happened and adjust the plan.
 
 ::: related
 - [Planning a project](projects.md) — Scope, plan, test, and hand off a project.

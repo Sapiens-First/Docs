@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Sapiens First
   text: The Handbook
-  tagline: Learn about the movement, find your place, and get things done together.
+  tagline: Understand the movement. Find your place. Get things done together.
   actions:
     - theme: brand
       text: Start here
@@ -34,21 +34,21 @@ paths:
 # One card per sidebar section; titles match the section names exactly
 features:
   - title: Start here
-    details: Welcome, first steps, the Fellowship, and a glossary of the terms we use.
+    details: Your first steps, life as a Fellow, and the words we use.
     link: /guide/
   - title: How we make change
-    details: Our mission, what we stand for, and our theory of change.
+    details: Why AI matters now, what we stand for, and how we build power.
     link: /strategy/
   - title: How we organize
-    details: Values, ways to participate, roles and circles, and how decisions get made.
+    details: What we stand for, where you fit, and how decisions get made.
     link: /organization/
   - title: How we get things done
-    details: Objectives, projects, weekly planning, meetings, and templates.
+    details: Turn the mission into projects, weekly plans, and useful meetings.
     link: /work/
   - title: How we learn and improve
-    details: Metrics, reviews, feedback, and development.
+    details: Measure what matters, review it together, and grow as people.
     link: /learning/
   - title: Practical guides
-    details: Start a circle, run gatherings and conversations, train others, and plan actions.
+    details: Start a circle, bring people in, and take peaceful action.
     link: /practices/
 ---

@@ -2,6 +2,8 @@
 
 The handbook explains how Sapiens First works. Write for someone who wants to participate and may be encountering the organization for the first time.
 
+Read the [style guide](STYLE-GUIDE.md) before you write. It covers naming, framing, the rule of three, bold lead-ins, sentence rhythm, and diagrams. This file covers the mechanics.
+
 ## Put information in the right place
 
 | Information | Home |
@@ -16,7 +18,7 @@ A handbook page may explain what a project record contains. It should link to th
 
 ## Organize pages by topic
 
-Use the existing six folders: `guide`, `strategy`, `organization`, `work`, `learning`, and `practices`. Put a section overview in `index.md`. Use short, lowercase, hyphenated filenames for individual topics.
+Use the existing six folders. On the site they appear as six verbs (see [Names](STYLE-GUIDE.md#names) in the style guide): `guide` is **Join**, `strategy` is **Learn**, `organization` is **Organize**, `work` is **Build**, `practices` is **Act**, and `learning` is **Grow**. The folder names stay as they are so URLs don't break. Put a section overview in `index.md`. Use short, lowercase, hyphenated filenames for individual topics.
 
 Create a page when a reader would reasonably look for that topic on its own. Keep related details together; avoid a deep folder tree or a separate file for every paragraph. Store shared images in `docs/public/`.
 
@@ -90,6 +92,8 @@ Check the [source map](archive/README.md) before removing a topic. Historical sc
 When adding a factual claim or external resource, verify it and link to the relevant source. Distinguish organizational beliefs, strategic assumptions, and research findings.
 
 ## Check before publishing
+
+Diagrams go in fenced `mermaid` blocks; see the style guide for when to use one.
 
 Run `npm run docs:build`. VitePress checks Markdown compilation and internal page links. Also check new fragment links, navigation entries, expandable sections, and the page at narrow widths when browser testing is available.
 

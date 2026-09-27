@@ -1,12 +1,13 @@
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 import { handbookContainers } from './containers'
 
 const base = '/Handbook/'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid(defineConfig({
   title: 'Sapiens First Handbook',
   description: 'How Sapiens First works — the handbook for fellows, organizers and staff.',
   // Served from https://sapiens-first.github.io/Handbook/
@@ -138,5 +139,25 @@ export default defineConfig({
       message: 'Learn · Organize · Act',
       copyright: 'Sapiens First'
     }
-  }
-})
+  },
+
+  // Flowcharts in ```mermaid blocks, drawn in the site's paper-and-ink palette
+  mermaid: {
+    theme: 'base',
+    themeVariables: {
+      fontFamily: 'DM Sans, sans-serif',
+      fontSize: '15px',
+      primaryColor: '#ffffff',
+      primaryTextColor: '#111111',
+      primaryBorderColor: '#111111',
+      lineColor: '#111111',
+      secondaryColor: '#ffd60a',
+      tertiaryColor: '#f0e8dc',
+      clusterBkg: '#f0e8dc',
+      clusterBorder: '#111111',
+      edgeLabelBackground: '#f8f3eb'
+    },
+    flowchart: { curve: 'basis', padding: 14, htmlLabels: true }
+  },
+  mermaidPlugin: { class: 'sf-diagram' }
+}))

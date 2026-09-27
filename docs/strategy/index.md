@@ -8,39 +8,52 @@ We imagine a world where AI serves the common good. We believe in technology tha
 
 ## The moment
 
-Sapiens First is organizing around the possibility of powerful AI arriving soon, and the need to shape its development before its effects become difficult to reverse. Three concerns guide our work:
+Powerful AI may arrive soon. Sapiens First is organizing to shape its development before its effects become hard to reverse. Three concerns guide our work:
 
 - **Economic impacts.** The benefits could concentrate among people who already hold wealth and power.
 - **Democracy.** AI could strengthen surveillance, autocracy, and other forms of concentrated power.
 - **Security.** Powerful AI could cause serious harm through misuse or loss of control.
 
-We call this the AI Crisis. Our response is to build the public participation and political power needed to shape what happens next.
+We call this the AI Crisis. Our answer is to build the public participation and political power to shape what happens next.
 
 ## What we stand for
 
-Our policy focus has three parts:
+Our policy focus answers each concern:
 
-- **Democratic renewal:** strengthen democracy to meet the challenges of AI.
-- **Common prosperity:** share the gains from AI broadly.
-- **A secure future:** govern AI so it doesn't cause catastrophic harm.
+- **Democratic renewal.** Strengthen democracy to meet the challenges of AI.
+- **Common prosperity.** Share the gains from AI broadly.
+- **A secure future.** Govern AI so it doesn't cause catastrophic harm.
 
 Find current recommendations on the [policy page](https://sapiensfirst.org/policy), and current work in [Atlas](https://sapiensfirst.org/atlas).
 
 ## Act, recruit, train
 
-Our approach connects three activities:
+Our approach is a cycle. Each activity feeds the next, so every turn brings in more people who can lead.
+
+```mermaid
+flowchart TB
+  A["<b>Act</b> · gatherings, outreach, campaigns, action"] --> R["<b>Recruit</b> · conversations that invite a next step"]
+  R --> T["<b>Train</b> · learn to organize and lead"]
+  T --> A
+  classDef accent fill:#ffd60a,stroke:#111,stroke-width:2px
+  class A accent
+```
 
 1. **Act.** Bring people together and inspire participation through gatherings, outreach, campaigns, and peaceful action.
 2. **Recruit.** Have conversations that invite others to join and take a next step.
 3. **Train.** Help people learn to organize, lead, and support others.
 
-These activities reinforce each other. Someone comes to an event, meets people, takes on a small responsibility, and learns to help the next person get involved.
+Here's how it looks for one person. They come to an event and meet people. They take on a small responsibility. Soon they're helping the next person get involved.
 
 ## How the work fits together
 
-**Community** builds participation and lasting relationships. **Empowerment** helps people develop the knowledge and confidence to lead. **Advocacy** turns that capacity toward political change. Shared direction, governance, resources, and support help all of this work together.
+Three kinds of work build on each other:
 
-Atlas records the current structure, including the DNA pillar and the programs and work linked beneath the mission. This handbook explains the concepts; Atlas holds the current arrangement.
+- **Community** builds participation and lasting relationships.
+- **Empowerment** gives people the knowledge and confidence to lead.
+- **Advocacy** turns that capacity toward political change.
+
+Shared direction, governance, resources, and support hold it all together. Atlas records the current structure, including the DNA pillar and the programs and work linked beneath the mission. This handbook explains the concepts; Atlas holds the current arrangement.
 
 ::: background Assumptions, evidence, and strategy
 
