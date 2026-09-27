@@ -50,6 +50,9 @@ Pre-existing changes included the VitePress config, homepage, guide index, theme
 Started 2026-09-27. The approach is in `STYLE-GUIDE.md`: hook, three things, next step, applied top-down. The step-by-step plan for stages 2 and 3 is `REWRITE-PLAN.md`; `scripts/check-rewrite.py` guards protected text and heading links.
 
 - **Stage 1, done:** the style guide; Mermaid diagrams in the site palette; the homepage, Welcome page, and six section overviews rewritten. Proposal and background blocks keep their wording.
-- **Stage 2a, next:** apply the naming scheme (section verbs Join · Learn · Organize · Build · Act · Grow; noun page titles; URLs unchanged). Decided with the user 2026-09-27.
-- **Stage 2b:** the openings and `##` headings of the 20 topic pages, with bold lead-ins and one diagram where a page describes a flow.
-- **Stage 3, after that:** paragraph-level tightening, including the fixed-wording rule for the Fellowship agreement (don't edit it).
+- **Stage 2a, done:** section verbs Join · Learn · Organize · Build · Act · Grow; noun page titles; URLs unchanged.
+- **Stage 2b, done:** openings, headings, and bold lead-ins on all topic pages; diagrams on Decisions, Projects, Atlas and AI, and Conversations.
+- **Stage 3, done:** prose tightened on every topic page. Cuts were modest because stage 2b had already tightened most pages.
+- **Added:** Grow → Strategic hypotheses (working backwards; the planning habit is a proposal). Its source's "5-step hypothesis framework" was missing and is not yet written.
+- **Open decisions:** the `::: tip` and `::: info` blocks in the Grow pages aren't in CONTRIBUTING's block list; decide whether to convert them.
+- **Verified 2026-09-27:** build passes; `scripts/check-rewrite.py db22c61` reports 0 problems; all 29 pages load at 390 and 1440 px with no errors or horizontal overflow; all 8 diagrams render.
