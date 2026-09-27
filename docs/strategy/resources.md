@@ -4,7 +4,7 @@ description: "Reading on our position, on movements, and on measurement."
 
 # Reading list
 
-Start with the question you're trying to answer. You don't need to work through a reading list before you can participate.
+Start with the question you're trying to answer. You don't need to work through a reading list before you can participate. It covers three areas: our position, movements, and measurement and organization.
 
 ## Understand our position
 
