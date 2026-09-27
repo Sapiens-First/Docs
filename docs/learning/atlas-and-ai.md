@@ -6,7 +6,7 @@ description: "Where we're heading: Atlas and AI that help us notice what needs a
 
 As we grow, keeping everyone informed gets harder. More chapters and projects usually mean more meetings, more reports, and more people whose main job is passing information along. We want to grow without that overhead growing at the same rate.
 
-Our aim is for [Atlas](https://sapiensfirst.org/atlas) to give everyone a shared, current picture of the movement, and for AI to help us make sense of it: answer basic questions about the work, turn everyday records into metrics, and notice what needs attention before someone has to ask. People should be able to act with context instead of waiting for it to reach them through layers of coordination.
+Our aim is for [Atlas](https://sapiensfirst.org/atlas) to give everyone a shared, current picture of the movement, and for AI to help us make sense of it. That means answering basic questions about the work, turning everyday records into metrics, and noticing what needs attention before someone has to ask. People should be able to act with context instead of waiting for it to reach them through layers of coordination.
 
 ::: info Where we are now
 Atlas currently records our mission, work structure, roles, circles, and assignments. The rest of this page describes where we're heading. None of it is a current feature or requirement.
@@ -33,7 +33,7 @@ When these are linked, responsibility is clear without anyone having to piece it
 
 ## Get metrics from the work itself
 
-We want metrics to come from the ordinary records of doing the work, not from extra reporting. When someone signs up, attends an orientation, or joins a chapter, or when a project finishes or a role is filled, that step is already recorded somewhere. Atlas can calculate recruitment, retention, and project results from those records, so nobody has to count by hand.
+We want metrics to come from the ordinary records of doing the work, not from extra reporting. When someone signs up, attends an orientation, or joins a chapter, that step is already recorded somewhere. So is a project finishing or a role being filled. Atlas can calculate recruitment, retention, and project results from those records, so nobody has to count by hand.
 
 These are records of organizational steps that people already expect us to keep. They aren't a way of tracking anyone's personal activity.
 
@@ -85,7 +85,7 @@ We'll start with suggestions that people approve. Routine, low-risk tasks can mo
 
 ::: background Why this matters for how we organize
 
-In *From Hierarchy to Intelligence*, Jack Dorsey and Roelof Botha argue that much of traditional management exists to move information: collecting context from below, relaying decisions from above, and keeping teams aligned. They suggest AI can increasingly do that routing, leaving people to own outcomes and develop one another.
+In *From Hierarchy to Intelligence*, Jack Dorsey and Roelof Botha argue that much of traditional management exists to move information. It collects context from below, relays decisions from above, and keeps teams aligned. They suggest AI can increasingly do that routing, leaving people to own outcomes and develop one another.
 
 This fits the idea behind our [roles and circles](../organization/roles-and-circles.md): distributed responsibility, explicit roles, and people acting with context rather than depending on a single leader. We're drawing on the idea, not adopting any particular company's structure.
 :::

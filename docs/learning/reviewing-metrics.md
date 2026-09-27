@@ -16,7 +16,7 @@ Not everyone needs the same numbers. Metrics should roll up from the work to the
 | Circle | The outcomes the circle is responsible for | New and active members, retention, organizer capacity |
 | Movement | A small set of measures of overall health | Active members, active organizers, active chapters, retention, objectives on track |
 
-People coordinating the whole movement shouldn't need to inspect every project. They should be able to see the overall state of the work, then follow a number down to the circle, role, and records behind it when something looks wrong.
+People coordinating the whole movement shouldn't need to inspect every project. They should see the overall state of the work, then follow a number down to the circle, role, and records behind it when something looks wrong.
 
 Keep the top-level set small. If everything is a priority, nothing is.
 
@@ -67,7 +67,7 @@ A number moving in the right direction doesn't automatically prove that our work
 
 A falling number is a reason to have a conversation, not a verdict about a person.
 
-Suppose someone's weekly outreach falls from 24 to 19, then 11, then 6. That's worth noticing. The right response is a check-in: they may have exams, the target may be unrealistic, the role may be poorly designed, or they may need support.
+Suppose someone's weekly outreach falls from 24 to 19, then 11, then 6. That's worth noticing. The right response is a check-in. They may have exams, the target may be unrealistic, the role may be poorly designed, or they may need support.
 
 Use metrics to see where help is needed. Use conversations and [feedback](feedback.md) to understand people's contributions. Outcomes depend on resources and circumstances outside anyone's control, so don't judge a person by a result alone.
 

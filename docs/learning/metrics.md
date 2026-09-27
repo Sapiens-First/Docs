@@ -89,7 +89,7 @@ Specific definitions, targets, and results belong in Atlas or the live records l
 
 - We don't track individuals' personal activity, messages, or online behavior.
 - We don't give people a single performance score.
-- We don't ask volunteers to fill out reports just to produce numbers. If a metric needs manual reporting, ask whether it's worth the time.
+- We don't ask volunteers to fill out reports only to produce numbers. If a metric needs manual reporting, ask whether it's worth the time.
 - We don't collect data without a decision it's meant to inform.
 
 When someone's work shows up in a metric, the purpose is to notice where support might help. See [Metrics and people](reviewing-metrics.md#metrics-and-people).
