@@ -1,49 +1,39 @@
-# Introduction
+# Welcome to Sapiens First
 
-Welcome to the Sapiens First Handbook. This page is a placeholder that also shows how each kind of content looks on the site.
+We imagine a world where AI serves the common good. We fight for democracy, prosperity, and security in the age of AI.
 
-## Body text
+Thank you for joining us! Whether you're coming to your first gathering, starting a circle, or taking responsibility for a project, this handbook will help you get started.
 
-Handbook pages are for reading, so paragraphs are set in DM Sans at a comfortable size with generous line spacing, and the text column is kept short enough to follow easily. Links look [like this](/guide/getting-started), and important phrases can be **bolded**.
+## Find your starting point
 
-- Lists are spaced out so each item stands on its own.
-- Nested ideas stay easy to scan.
-  - Like this one.
+| If you are… | Start here |
+| --- | --- |
+| Curious about the movement | [Our mission and approach](../strategy/index.md) |
+| Joining as a member | [Getting started](getting-started.md) |
+| Joining the Fellowship | [Being a Fellow](fellowship.md) |
+| Starting or supporting a local group | [Starting a circle](../practices/starting-a-circle.md) |
+| Taking on a role, including as staff | [Roles and circles](../organization/roles-and-circles.md), then [How we work](../work/index.md) |
 
-## Callouts
+You don't need to read everything at once. Each page starts with the basics. Expand **For fellows and role holders** or **Read more** when you need more detail.
 
-::: tip
-Tips highlight something useful. Replace this page with real content.
-:::
+## The handbook and Atlas
 
-::: info
-Info blocks carry neutral background context.
-:::
+The handbook explains our shared concepts, expectations, and practices. [Atlas](https://sapiensfirst.org/atlas) is the source of truth for current governance, work, priorities, and owners.
 
-::: warning
-Warnings flag something to watch out for.
-:::
+Use the handbook to understand what a role means. Use Atlas to find the role and the person filling it. Use the handbook to learn how to plan a project. Use Atlas to find the current project and its records.
 
-::: danger
-Danger blocks are for things that must not go wrong.
-:::
+If a record is missing or unclear, ask the relevant role holder for help. An empty field doesn't mean a decision has been made.
 
-## Other elements
+## Explore the handbook
 
-> Quotes are set off with a thick coral rule, taken from the main site.
+- [How we make change](../strategy/index.md): our mission, theory of change, and policy focus.
+- [How we organize](../organization/index.md): values, participation, roles, circles, and decisions.
+- [How we get things done](../work/index.md): objectives, projects, plans, and weekly work.
+- [How we learn and improve](../learning/index.md): metrics, reflection, feedback, and development.
+- [Practical guides](../practices/index.md): organizing, gatherings, training, and actions.
 
-| Stage    | Owner        | Metric            |
-| -------- | ------------ | ----------------- |
-| Learn    | Fellowship   | Fellows onboarded |
-| Organize | Circle leads | Active circles    |
-| Act      | Projects     | Milestones hit    |
+## A handbook that grows with us
 
-Inline `code` and code blocks:
+Some practices are already in use. Others are being developed as we prepare for more people to join. Sections marked **Proposal** describe a possible future practice, not an adopted rule. **To clarify** identifies a decision we still need to make.
 
-```sh
-npm run docs:dev
-```
-
-### A third-level heading
-
-Headings use Barlow Condensed, the main site's display face.
+If an instruction is confusing, tell the person responsible for that area or suggest an edit. Improving these pages makes it easier for the next person to participate.

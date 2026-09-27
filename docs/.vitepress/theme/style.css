@@ -230,7 +230,7 @@
 }
 /* reserve room for the tag so it never collides with search */
 .VPNavBar .VPNavBarTitle .title { margin-right: 104px; }
-@media (max-width: 359px) {
+@media (max-width: 959px) {
   .VPNavBar .VPNavBarTitle .title .sf-title-tag { display: none; }
   .VPNavBar .VPNavBarTitle .title { margin-right: 0; }
 }

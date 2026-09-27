@@ -4,23 +4,23 @@ layout: home
 hero:
   name: Sapiens First
   text: The Handbook
-  tagline: How we organize, make decisions and win — everything a fellow, organizer or teammate needs in one place.
-  image:
-    src: /logo.png
-    alt: Sapiens First flame
+  tagline: Learn about the movement, find your place, and get things done together.
   actions:
     - theme: brand
-      text: Start reading
+      text: Start here
       link: /guide/
     - theme: alt
-      text: Getting started
-      link: /guide/getting-started
+      text: Explore Atlas
+      link: https://sapiensfirst.org/atlas
 
 features:
   - title: Learn
-    details: Placeholder — what AI means for democracy, and why mass mobilization is our theory of change.
+    details: Why we organize, what we stand for, and how we make change.
+    link: /strategy/
   - title: Organize
-    details: Placeholder — circles, roles and the practices we use to run projects together.
+    details: Find your place, understand responsibilities, and help others participate.
+    link: /organization/
   - title: Act
-    details: Placeholder — projects, milestones and how we measure progress week to week.
+    details: Plan useful work, bring people together, and learn from the results.
+    link: /work/
 ---
