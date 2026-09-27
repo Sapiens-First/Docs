@@ -2,7 +2,7 @@
 description: "Listen first, then invite people to participate."
 ---
 
-# Organizing conversations
+# Conversations
 
 One-on-one conversations are a core way to invite people into the movement. Start by listening. People are more likely to participate when they feel heard and can see a meaningful place for themselves.
 
@@ -31,5 +31,5 @@ Recruitment is only the beginning. Make sure someone can welcome the people who 
 
 ::: related
 - [Gatherings](gatherings.md) — Help people connect and take a next step.
-- [Starting a circle](starting-a-circle.md) — Bring a small local group together and share the work.
+- [Local circles](starting-a-circle.md) — Bring a small local group together and share the work.
 :::

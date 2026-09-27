@@ -2,7 +2,7 @@
 description: "What you can decide, when to consult, and what needs approval."
 ---
 
-# Making decisions
+# Decisions
 
 People need room to act and clarity about when to involve others. Before starting work, agree on what you can decide, what needs consultation, and what needs approval.
 

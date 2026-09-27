@@ -33,6 +33,6 @@ The original guide also suggests activities such as Hamming circles, Estuary con
 :::
 
 ::: related
-- [Training and facilitation](training.md) — Help people learn through practice.
+- [Training](training.md) — Help people learn through practice.
 - [Meetings and updates](../work/meetings-and-updates.md) — Check-ins, written updates, and general meetings.
 :::

@@ -2,7 +2,7 @@
 description: "Scope, plan, test, and hand off a project."
 ---
 
-# Planning a project
+# Projects
 
 A project should produce something useful. A clear scope and a realistic plan help you spend time on the work that matters.
 
@@ -55,5 +55,5 @@ Milestones are checkpoints, not automatically additional documents to submit. Ke
 
 ::: related
 - [Templates](templates.md) — Copyable templates for scopes, plans, updates, and handoffs.
-- [Metrics and learning](../learning/metrics.md) — Why we measure, and how to define a useful metric.
+- [Metrics](../learning/metrics.md) — Why we measure, and how to define a useful metric.
 :::

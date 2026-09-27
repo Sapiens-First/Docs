@@ -2,7 +2,7 @@
 description: "Our mission, what we stand for, and how we make change."
 ---
 
-# How we make change
+# The mission
 
 We imagine a world where AI serves the common good. We believe in technology that uplifts all people, not just a rich few.
 
@@ -65,7 +65,7 @@ The Fellowship's initial strategy used a California campaign against mass survei
 :::
 
 ::: related
-- [How we get things done](../work/index.md) — How the mission turns into objectives, projects, and next steps.
-- [Metrics and learning](../learning/metrics.md) — Why we measure, and how to define a useful metric.
-- [Learning resources](resources.md) — Reading on our position, on movements, and on measurement.
+- [The work](../work/index.md) — How the mission turns into objectives, projects, and next steps.
+- [Metrics](../learning/metrics.md) — Why we measure, and how to define a useful metric.
+- [Reading list](resources.md) — Reading on our position, on movements, and on measurement.
 :::

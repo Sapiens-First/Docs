@@ -22,23 +22,23 @@ The person currently filling a role. Atlas records who holds each role.
 
 ### Circle
 
-A group of roles brought together around a shared purpose. A **local circle** is a small group that meets and acts together in one place. See [Roles and circles](../organization/roles-and-circles.md) and [Starting a circle](../practices/starting-a-circle.md).
+A group of roles brought together around a shared purpose. A **local circle** is a small group that meets and acts together in one place. See [Roles and circles](../organization/roles-and-circles.md) and [Local circles](../practices/starting-a-circle.md).
 
 ### Decision rights
 
-What a role or project owner can **decide** alone, where they should **consult** affected people, and which choices someone else must **approve**. See [Making decisions](../organization/decisions.md).
+What a role or project owner can **decide** alone, where they should **consult** affected people, and which choices someone else must **approve**. See [Decisions](../organization/decisions.md).
 
 ### Supporter, Member, Fellow, Steward, Staff
 
-Ways to participate, from staying informed to taking on ongoing responsibility. See [Ways to participate](../organization/participation.md).
+Ways to participate, from staying informed to taking on ongoing responsibility. See [Participation](../organization/participation.md).
 
 ### Fellowship
 
-A structured volunteer program in which each Fellow takes responsibility for a project, with support. It is not employment. See [Being a Fellow](fellowship.md).
+A structured volunteer program in which each Fellow takes responsibility for a project, with support. It is not employment. See [The Fellowship](fellowship.md).
 
 ### Red lines
 
-Things people acting in the name of Sapiens First must never do, such as threatening harm or harassing others. See [Values and expectations](../organization/values.md#red-lines).
+Things people acting in the name of Sapiens First must never do, such as threatening harm or harassing others. See [Values](../organization/values.md#red-lines).
 
 ## Work
 
@@ -52,7 +52,7 @@ Something people can use or benefit from, such as a resource center or a trainin
 
 ### Project
 
-A bounded effort to create or change something. See [Planning a project](../work/projects.md).
+A bounded effort to create or change something. See [Projects](../work/projects.md).
 
 ### Scope
 
@@ -74,7 +74,7 @@ An **output** is something we create, like a workshop. An **outcome** is the cha
 
 ### Metric
 
-A clearly defined measure with a starting point, a target, and a date. It is useful when it helps someone make a better decision. See [Metrics and learning](../learning/metrics.md).
+A clearly defined measure with a starting point, a target, and a date. It is useful when it helps someone make a better decision. See [Metrics](../learning/metrics.md).
 
 ### Input
 
@@ -82,7 +82,7 @@ An early-stage measure a role holder can directly influence, such as how quickly
 
 ### Tension
 
-A gap between how things are and how they could be, raised with the responsible role or circle. See [Atlas, metrics, and AI](../learning/atlas-and-ai.md).
+A gap between how things are and how they could be, raised with the responsible role or circle. See [Atlas and AI](../learning/atlas-and-ai.md).
 
 ## Reading this handbook
 

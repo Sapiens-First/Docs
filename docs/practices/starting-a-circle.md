@@ -2,7 +2,7 @@
 description: "Bring a small local group together and share the work."
 ---
 
-# Starting a circle
+# Local circles
 
 A local circle gives people a place to connect and act together. Start small, make it welcoming, and share the work.
 
@@ -41,6 +41,6 @@ A local group and a governance circle are related concepts, but not every use of
 
 ::: related
 - [Gatherings](gatherings.md) — Help people connect and take a next step.
-- [Organizing conversations](organizing-conversations.md) — Listen first, then invite people to participate.
+- [Conversations](organizing-conversations.md) — Listen first, then invite people to participate.
 - [Roles and circles](../organization/roles-and-circles.md) — What roles and circles are, and how to read them in Atlas.
 :::

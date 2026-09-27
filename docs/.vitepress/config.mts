@@ -55,67 +55,67 @@ export default withMermaid(defineConfig({
 
     sidebar: [
       {
-        text: 'Start here',
+        text: 'Join',
         collapsed: false,
         items: [
           { text: 'Welcome', link: '/guide/' },
-          { text: 'Getting started', link: '/guide/getting-started' },
-          { text: 'Being a Fellow', link: '/guide/fellowship' },
+          { text: 'First steps', link: '/guide/getting-started' },
+          { text: 'The Fellowship', link: '/guide/fellowship' },
           { text: 'Fellowship agreement', link: '/guide/agreement' },
           { text: 'Glossary', link: '/guide/glossary' },
         ]
       },
       {
-        text: 'How we make change',
+        text: 'Learn',
         collapsed: false,
         items: [
           { text: 'Overview', link: '/strategy/' },
-          { text: 'Learning resources', link: '/strategy/resources' },
+          { text: 'Reading list', link: '/strategy/resources' },
         ]
       },
       {
-        text: 'How we organize',
+        text: 'Organize',
         collapsed: false,
         items: [
           { text: 'Overview', link: '/organization/' },
-          { text: 'Values and expectations', link: '/organization/values' },
-          { text: 'Ways to participate', link: '/organization/participation' },
+          { text: 'Values', link: '/organization/values' },
+          { text: 'Participation', link: '/organization/participation' },
           { text: 'Roles and circles', link: '/organization/roles-and-circles' },
-          { text: 'Making decisions', link: '/organization/decisions' },
+          { text: 'Decisions', link: '/organization/decisions' },
         ]
       },
       {
-        text: 'How we get things done',
+        text: 'Build',
         collapsed: false,
         items: [
           { text: 'Overview', link: '/work/' },
-          { text: 'Planning a project', link: '/work/projects' },
-          { text: 'Planning your week', link: '/work/weekly-work' },
+          { text: 'Projects', link: '/work/projects' },
+          { text: 'Weekly planning', link: '/work/weekly-work' },
           { text: 'Meetings and updates', link: '/work/meetings-and-updates' },
           { text: 'Templates', link: '/work/templates' },
         ]
       },
       {
-        text: 'How we learn and improve',
-        collapsed: false,
-        items: [
-          { text: 'Overview', link: '/learning/' },
-          { text: 'Metrics and learning', link: '/learning/metrics' },
-          { text: 'Reviewing metrics', link: '/learning/reviewing-metrics' },
-          { text: 'Atlas, metrics, and AI', link: '/learning/atlas-and-ai' },
-          { text: 'Feedback and development', link: '/learning/feedback' },
-        ]
-      },
-      {
-        text: 'Practical guides',
+        text: 'Act',
         collapsed: false,
         items: [
           { text: 'Overview', link: '/practices/' },
-          { text: 'Starting a circle', link: '/practices/starting-a-circle' },
+          { text: 'Local circles', link: '/practices/starting-a-circle' },
           { text: 'Gatherings', link: '/practices/gatherings' },
-          { text: 'Organizing conversations', link: '/practices/organizing-conversations' },
-          { text: 'Training and facilitation', link: '/practices/training' },
+          { text: 'Conversations', link: '/practices/organizing-conversations' },
+          { text: 'Training', link: '/practices/training' },
           { text: 'Peaceful actions', link: '/practices/actions' },
+        ]
+      },
+      {
+        text: 'Grow',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/learning/' },
+          { text: 'Metrics', link: '/learning/metrics' },
+          { text: 'Metric reviews', link: '/learning/reviewing-metrics' },
+          { text: 'Atlas and AI', link: '/learning/atlas-and-ai' },
+          { text: 'Feedback and development', link: '/learning/feedback' },
         ]
       },
     ],

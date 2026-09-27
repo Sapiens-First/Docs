@@ -2,7 +2,7 @@
 description: "Why we measure, and how to define a useful metric."
 ---
 
-# Metrics and learning
+# Metrics
 
 We use metrics to understand the health of the movement and to decide where to put our limited time, money, and attention. A metric is useful when it helps someone make a better decision.
 
@@ -83,7 +83,7 @@ Write the definition down once, then collect values against it over time. The de
 
 Link each metric to the objective or area of work it measures, then link responsibility to the relevant role or circle. That keeps the meaning of the measure separate from whoever currently holds the role.
 
-Specific definitions, targets, and results belong in Atlas or the live records linked from it. The handbook holds the approach. Atlas doesn't yet store metric definitions or history; see [Atlas, metrics, and AI](atlas-and-ai.md) for where we're heading.
+Specific definitions, targets, and results belong in Atlas or the live records linked from it. The handbook holds the approach. Atlas doesn't yet store metric definitions or history; see [Atlas and AI](atlas-and-ai.md) for where we're heading.
 
 ## What we don't measure
 
@@ -104,8 +104,8 @@ Define each variable, the time period, the assumptions, and the evidence behind 
 :::
 
 ::: related
-- [Reviewing metrics](reviewing-metrics.md) — How circles review results, find bottlenecks, and allocate resources.
-- [Atlas, metrics, and AI](atlas-and-ai.md) — Where we're heading: Atlas and AI that help us notice what needs attention.
-- [How we get things done](../work/index.md) — How the mission turns into objectives, projects, and next steps.
+- [Metric reviews](reviewing-metrics.md) — How circles review results, find bottlenecks, and allocate resources.
+- [Atlas and AI](atlas-and-ai.md) — Where we're heading: Atlas and AI that help us notice what needs attention.
+- [The work](../work/index.md) — How the mission turns into objectives, projects, and next steps.
 - [Project scope template](../work/templates.md#project-scope) — A project's objective, scope, success criteria, and decision rights.
 :::

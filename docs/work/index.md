@@ -2,7 +2,7 @@
 description: "How the mission turns into objectives, projects, and next steps."
 ---
 
-# How we get things done
+# The work
 
 Good work starts with a clear purpose. Before you take on a task, know three things: **who it helps, what should change, and how it moves the mission forward.**
 
@@ -34,7 +34,7 @@ Three terms keep plans honest:
 
 A workshop is an output. Participants who can run their first meeting are the outcome. Both matter: we need to deliver the workshop, and find out whether it helps.
 
-Each key result should point to a defined metric, so everyone reads it the same way. Track the outcome, and also the inputs a role can directly influence. [Metrics and learning](../learning/metrics.md) explains how.
+Each key result should point to a defined metric, so everyone reads it the same way. Track the outcome, and also the inputs a role can directly influence. [Metrics](../learning/metrics.md) explains how.
 
 ::: proposal Connecting objectives, products, and tasks
 
@@ -72,9 +72,9 @@ flowchart TB
 5. **Review it.** Look at what happened and adjust the plan.
 
 ::: related
-- [Planning a project](projects.md) — Scope, plan, test, and hand off a project.
-- [Planning your week](weekly-work.md) — A simple weekly review and tasks you can act on.
+- [Projects](projects.md) — Scope, plan, test, and hand off a project.
+- [Weekly planning](weekly-work.md) — A simple weekly review and tasks you can act on.
 - [Meetings and updates](meetings-and-updates.md) — Check-ins, written updates, and general meetings.
 - [Templates](templates.md) — Copyable templates for scopes, plans, updates, and handoffs.
-- [Metrics and learning](../learning/metrics.md) — Why we measure, and how to define a useful metric.
+- [Metrics](../learning/metrics.md) — Why we measure, and how to define a useful metric.
 :::

@@ -2,7 +2,7 @@
 description: "Where we're heading: Atlas and AI that help us notice what needs attention."
 ---
 
-# Atlas, metrics, and AI
+# Atlas and AI
 
 As we grow, keeping everyone informed gets harder. More chapters and projects usually mean more meetings, more reports, and more people whose main job is passing information along. We want to grow without that overhead growing at the same rate.
 
@@ -83,7 +83,7 @@ This fits the idea behind our [roles and circles](../organization/roles-and-circ
 :::
 
 ::: related
-- [Metrics and learning](metrics.md) — Why we measure, and how to define a useful metric.
-- [Reviewing metrics](reviewing-metrics.md) — How circles review results, find bottlenecks, and allocate resources.
-- [Making decisions](../organization/decisions.md) — What you can decide, when to consult, and what needs approval.
+- [Metrics](metrics.md) — Why we measure, and how to define a useful metric.
+- [Metric reviews](reviewing-metrics.md) — How circles review results, find bottlenecks, and allocate resources.
+- [Decisions](../organization/decisions.md) — What you can decide, when to consult, and what needs approval.
 :::

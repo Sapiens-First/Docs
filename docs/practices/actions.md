@@ -29,6 +29,6 @@ Those colors are brainstorming categories, not a formal approval process or a gu
 
 ::: related
 - [Current campaigns](https://sapiensfirst.org/campaigns) — What Sapiens First is campaigning on now.
-- [Making decisions](../organization/decisions.md) — What you can decide, when to consult, and what needs approval.
-- [Organizing conversations](organizing-conversations.md) — Listen first, then invite people to participate.
+- [Decisions](../organization/decisions.md) — What you can decide, when to consult, and what needs approval.
+- [Conversations](organizing-conversations.md) — Listen first, then invite people to participate.
 :::

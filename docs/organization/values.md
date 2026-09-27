@@ -2,7 +2,7 @@
 description: "Core values, operating principles, leadership standards, and red lines."
 ---
 
-# Values and expectations
+# Values
 
 Anyone can act in the name of Sapiens First if they follow our values. Shared values let people take initiative while caring for the movement and one another.
 
@@ -64,6 +64,6 @@ Members can hold different political views, participate in other organizations, 
 The source guide states that Sapiens First does not currently issue official candidate endorsements or coalition statements. It describes democratic chapter endorsements as a future possibility. Confirm any change in policy before representing an endorsement as official.
 
 ::: related
-- [Making decisions](decisions.md) — What you can decide, when to consult, and what needs approval.
+- [Decisions](decisions.md) — What you can decide, when to consult, and what needs approval.
 - [Feedback and development](../learning/feedback.md) — Giving useful feedback and developing through responsibility.
 :::

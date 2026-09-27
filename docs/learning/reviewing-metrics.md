@@ -2,7 +2,7 @@
 description: "How circles review results, find bottlenecks, and allocate resources."
 ---
 
-# Reviewing metrics
+# Metric reviews
 
 Collecting numbers is the easy part. The value comes from looking at them regularly, understanding what changed, and deciding what to do.
 
@@ -80,7 +80,7 @@ Use metrics to see where help is needed. Use conversations and [feedback](feedba
 - **Treating completion as success.** Finishing a project isn't the same as achieving its outcome.
 
 ::: related
-- [Metrics and learning](metrics.md) — Why we measure, and how to define a useful metric.
-- [Atlas, metrics, and AI](atlas-and-ai.md) — Where we're heading: Atlas and AI that help us notice what needs attention.
+- [Metrics](metrics.md) — Why we measure, and how to define a useful metric.
+- [Atlas and AI](atlas-and-ai.md) — Where we're heading: Atlas and AI that help us notice what needs attention.
 - [Meetings and updates](../work/meetings-and-updates.md) — Check-ins, written updates, and general meetings.
 :::

@@ -2,7 +2,7 @@
 description: "Where to start, and how the handbook relates to Atlas."
 ---
 
-# Welcome to Sapiens First
+# Welcome
 
 We imagine a world where AI serves the common good. We fight for **democracy, prosperity, and security** in the age of AI, and we're glad you're here.
 
@@ -12,11 +12,11 @@ This handbook helps you do three things: understand the movement, find your plac
 
 | If you are… | Start here |
 | --- | --- |
-| Curious about the movement | [Our mission and approach](../strategy/index.md) |
-| Joining as a member | [Getting started](getting-started.md) |
-| Joining the Fellowship | [Being a Fellow](fellowship.md) |
-| Starting or supporting a local group | [Starting a circle](../practices/starting-a-circle.md) |
-| Taking on a role, including as staff | [Roles and circles](../organization/roles-and-circles.md), then [How we get things done](../work/index.md) |
+| Curious about the movement | [The mission](../strategy/index.md) |
+| Joining as a member | [First steps](getting-started.md) |
+| Joining the Fellowship | [The Fellowship](fellowship.md) |
+| Starting or supporting a local group | [Local circles](../practices/starting-a-circle.md) |
+| Taking on a role, including as staff | [Roles and circles](../organization/roles-and-circles.md), then [The work](../work/index.md) |
 
 ## Read it in layers
 
@@ -28,22 +28,23 @@ This handbook helps you do three things: understand the movement, find your plac
 
 ## How the handbook fits together
 
-The handbook follows the path from purpose to practice. Each section answers one question, and what we learn feeds back into how we work.
+The handbook follows our motto, *Learn · Organize · Act*, expanded to six verbs. The first three get you in; the last three get you going. What we learn as we grow feeds back into how we build.
 
 ```mermaid
 flowchart TB
-  S["<b>Why</b> · How we make change"] --> O["<b>Who</b> · How we organize"] --> W["<b>How</b> · How we get things done"]
-  W --> P["<b>Do</b> · Practical guides"] --> L["<b>Improve</b> · How we learn and improve"]
-  L -. feeds back .-> W
+  J["<b>Join</b> · find your place"] --> L["<b>Learn</b> · why we exist"] --> O["<b>Organize</b> · how we fit together"]
+  O --> B["<b>Build</b> · plan the work"] --> A["<b>Act</b> · do it with others"] --> G["<b>Grow</b> · get better"]
+  G -.-> B
   classDef accent fill:#ffd60a,stroke:#111,stroke-width:2px
-  class S accent
+  class J accent
 ```
 
-- **Why:** [How we make change](../strategy/index.md) — our mission, theory of change, and policy focus.
-- **Who:** [How we organize](../organization/index.md) — values, participation, roles, and decisions.
-- **How:** [How we get things done](../work/index.md) — objectives, projects, and weekly work.
-- **Do:** [Practical guides](../practices/index.md) — circles, gatherings, training, and actions.
-- **Improve:** [How we learn and improve](../learning/index.md) — metrics, reflection, and feedback.
+- **Join:** you're here. Next come [First steps](getting-started.md), [The Fellowship](fellowship.md), and the [glossary](glossary.md).
+- **Learn:** [The mission](../strategy/index.md) — our mission, theory of change, and policy focus.
+- **Organize:** [Structure](../organization/index.md) — values, participation, roles, and decisions.
+- **Build:** [The work](../work/index.md) — objectives, projects, and weekly work.
+- **Act:** [Field guides](../practices/index.md) — circles, gatherings, training, and actions.
+- **Grow:** [The learning loop](../learning/index.md) — metrics, reflection, and feedback.
 
 ## The handbook and Atlas
 

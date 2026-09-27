@@ -2,7 +2,7 @@
 description: "First steps for new members: join, meet people, and find work."
 ---
 
-# Getting started
+# First steps
 
 There is something for everyone in the movement. You can stay informed, join an event, bring people together, or take responsibility for ongoing work.
 
@@ -39,6 +39,6 @@ The website helps people find events and ways to participate. Email keeps suppor
 Use the channels your group has agreed on. Keep project decisions and useful work somewhere others can find them, and link to them from the relevant work record. Protect passwords, member data, donor information, and private conversations.
 
 ::: related
-- [Ways to participate](../organization/participation.md) — Ways to get involved, from supporter to staff.
+- [Participation](../organization/participation.md) — Ways to get involved, from supporter to staff.
 - [Meetings and updates](../work/meetings-and-updates.md) — Check-ins, written updates, and general meetings.
 :::

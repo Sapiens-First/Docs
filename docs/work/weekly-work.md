@@ -2,7 +2,7 @@
 description: "A simple weekly review and tasks you can act on."
 ---
 
-# Planning your week
+# Weekly planning
 
 A useful weekly plan connects your available time to the next important result. You should be able to tell what to do next and why it matters.
 
@@ -36,6 +36,6 @@ Choose tools that support that habit. The handbook does not require a particular
 :::
 
 ::: related
-- [Planning a project](projects.md) — Scope, plan, test, and hand off a project.
+- [Projects](projects.md) — Scope, plan, test, and hand off a project.
 - [Weekly plan template](templates.md#weekly-plan) — A one-page plan for your week.
 :::

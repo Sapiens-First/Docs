@@ -42,7 +42,7 @@ Review the purpose, responsibilities, linked work, access needs, and available c
 When handing over, leave the next person the relevant files, context, open decisions, and next steps. Explain what needs attention soon.
 
 ::: related
-- [Making decisions](decisions.md) — What you can decide, when to consult, and what needs approval.
+- [Decisions](decisions.md) — What you can decide, when to consult, and what needs approval.
 - [Finishing and handing off](../work/projects.md#finish-and-hand-off) — What to leave behind when work changes hands.
 - [Atlas](https://sapiensfirst.org/atlas) — Current roles, projects, priorities, and owners.
 :::
