@@ -161,7 +161,7 @@ def lint(files):
                 if len(sent.split()) > 25:
                     print(f'  line {n}: {len(sent.split())}-word sentence: {sent[:80]}…')
             for phrase in CUT_LIST:
-                if phrase in plain.lower():
+                if re.search(r'\b' + re.escape(phrase.strip()) + r'\b', plain.lower()):
                     print(f'  line {n}: cut-list phrase "{phrase.strip()}"')
 
 

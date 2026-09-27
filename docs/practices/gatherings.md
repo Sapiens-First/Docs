@@ -12,7 +12,7 @@ A gathering can be simple: tea and letter writing, a picnic, a town hall discuss
 
 Tell people what the gathering is for, where and when it happens, and what to expect. Welcome newcomers and explain the context without assuming they already know the movement.
 
-Make room for conversation. A successful gathering gives people a chance to know one another, not just listen to a presentation.
+**Make room for conversation.** A good gathering lets people get to know one another, not only hear a presentation.
 
 ## Offer a next step
 
