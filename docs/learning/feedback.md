@@ -4,7 +4,7 @@ description: "Giving useful feedback and developing through responsibility."
 
 # Feedback and development
 
-People learn through practice, support, and honest feedback. We want people to take responsibility and ask for help when they need it.
+You learn through practice, support, and honest feedback. We want you to take responsibility and ask for help when you need it.
 
 Our [leadership standards](../organization/values.md#standards-for-leadership) describe the expectations we already set: reliability, openness to feedback, care, judgment, information sharing, and responsible handoffs.
 

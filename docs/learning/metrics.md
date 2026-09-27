@@ -4,7 +4,7 @@ description: "Why we measure, and how to define a useful metric."
 
 # Metrics
 
-We use metrics to understand the health of the movement and to decide where to put our limited time, money, and attention. A metric is useful when it helps someone make a better decision.
+We use metrics to understand the health of the movement and to decide where to put our limited time, money, and attention. A metric is useful when it helps someone make a better decision. Three ideas make that work: start from the objective, pair inputs with outcomes, and define each measure clearly.
 
 Metrics describe the state of our work, not the worth of a person. They come from records the work already produces — sign-ups, attendance, roles filled, projects completed — not from monitoring what individuals do.
 
@@ -40,7 +40,7 @@ Most results come at the end of a chain. For recruitment, it might look like thi
 
 The later stages matter most, but they're slow to move and depend on many things at once. The earlier stages are **inputs**: things a role holder can directly influence, and that show up quickly.
 
-We track both. The outcome tells us whether the work is succeeding. The inputs tell us where to act. A recruitment lead can control how quickly new sign-ups are contacted; they can't personally guarantee that a chapter reaches 100 members.
+**We track both.** The outcome tells us whether the work is succeeding. The inputs tell us where to act. A recruitment lead can control how quickly new sign-ups are contacted; they can't personally guarantee that a chapter reaches 100 members.
 
 Choosing the right input takes testing. If an input rises and the outcome doesn't follow, the input isn't measuring what matters. Revise it.
 

@@ -6,7 +6,7 @@ description: "How circles review results, find bottlenecks, and allocate resourc
 
 Collecting numbers is the easy part. The value comes from looking at them regularly, understanding what changed, and deciding what to do.
 
-## Different views for different roles
+## Give each level the view it needs
 
 Not everyone needs the same numbers. Metrics should roll up from the work to the whole movement.
 
@@ -71,7 +71,7 @@ Suppose someone's weekly outreach falls from 24 to 19, then 11, then 6. That's w
 
 Use metrics to see where help is needed. Use conversations and [feedback](feedback.md) to understand people's contributions. Outcomes depend on resources and circumstances outside anyone's control, so don't judge a person by a result alone.
 
-## Common pitfalls
+## Avoid common pitfalls
 
 - **Measuring what's easy instead of what matters.** Counting posts is simpler than knowing whether anyone joined because of them.
 - **Chasing the number.** When a measure becomes a target, people can hit it without achieving the purpose. Pairing measures helps.

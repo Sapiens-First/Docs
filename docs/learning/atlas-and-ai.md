@@ -6,7 +6,7 @@ description: "Where we're heading: Atlas and AI that help us notice what needs a
 
 As we grow, keeping everyone informed gets harder. More chapters and projects usually mean more meetings, more reports, and more people whose main job is passing information along. We want to grow without that overhead growing at the same rate.
 
-Our aim is for [Atlas](https://sapiensfirst.org/atlas) to give everyone a shared, current picture of the movement, and for AI to help us make sense of it. People should be able to act with context instead of waiting for it to reach them through layers of coordination.
+Our aim is for [Atlas](https://sapiensfirst.org/atlas) to give everyone a shared, current picture of the movement, and for AI to help us make sense of it: answer basic questions about the work, turn everyday records into metrics, and notice what needs attention before someone has to ask. People should be able to act with context instead of waiting for it to reach them through layers of coordination.
 
 ::: info Where we are now
 Atlas currently records our mission, work structure, roles, circles, and assignments. The rest of this page describes where we're heading. None of it is a current feature or requirement.
@@ -31,7 +31,7 @@ Answering these needs four connected kinds of records:
 
 When these are linked, responsibility is clear without anyone having to piece it together from documents. A key result links to a metric, the metric to the circle responsible for it, and the circle to the projects working on it.
 
-## Metrics from the work itself
+## Get metrics from the work itself
 
 We want metrics to come from the ordinary records of doing the work, not from extra reporting. When someone signs up, attends an orientation, or joins a chapter, or when a project finishes or a role is filled, that step is already recorded somewhere. Atlas can calculate recruitment, retention, and project results from those records, so nobody has to count by hand.
 
@@ -41,7 +41,15 @@ This also lets Atlas keep each metric's history. With a history, we can see tren
 
 ## From a signal to a decision
 
-Once Atlas knows what we're aiming for, who's responsible, and how the numbers are moving, AI can help us notice what needs attention sooner. The loop we're working toward:
+Once Atlas knows what we're aiming for, who's responsible, and how the numbers are moving, AI can help us notice what needs attention sooner. Here's how that loop should work:
+
+```mermaid
+flowchart TB
+  M["<b>Metric moves</b>"] --> T["<b>Tension raised</b>"] --> C["<b>Causes suggested</b>"] --> D["<b>People decide</b>"] --> R["<b>Measure the result</b>"]
+  R -.-> M
+  classDef accent fill:#ffd60a,stroke:#111,stroke-width:2px
+  class M accent
+```
 
 1. A metric moves outside its expected range.
 2. Atlas raises it with the responsible role or circle as a **tension**: a gap between how things are and how they could be.
@@ -68,7 +76,7 @@ The purpose of AI here is to give organizers more time for the work only people 
 
 We'll start with suggestions that people approve. Routine, low-risk tasks can move to automatic handling once we trust them. Decisions about people, priorities, and resources stay with people.
 
-## Boundaries
+## Know the limits
 
 - AI helps us notice and understand. People make consequential decisions, especially about roles, commitments, and anyone's contribution.
 - Atlas shouldn't produce performance scores for individuals. A declining number prompts a check-in, as described in [Metrics and people](reviewing-metrics.md#metrics-and-people).
