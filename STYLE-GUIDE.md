@@ -158,7 +158,7 @@ flowchart TB
 ```
 ````
 
-- **Keep it small.** Three to seven boxes, with labels of four words or fewer. Draw top to bottom (`flowchart TB`); a sideways row shrinks to nothing on a phone.
+- **Keep it small.** Three to seven boxes, with labels of four words or fewer. Draw top to bottom (`flowchart TB`); a sideways row shrinks to nothing on a phone. The exception is a decision that fans out into several branches: draw it left to right (`flowchart LR`) so the branches stack.
 - **Highlight one thing.** Use the yellow `accent` class on at most one box: the start, or the step the page is about.
 - **Say it in words too.** Introduce every diagram with a sentence and keep the essential information in the text. Screen readers and search can't read the picture.
 

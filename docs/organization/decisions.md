@@ -11,14 +11,14 @@ People need room to act and clarity about when to involve others. Before startin
 Your role and project scope are the starting points. Here's how to work through a decision:
 
 ```mermaid
-flowchart TB
-  C["A choice to make"] --> Q{"What does your<br/>scope say?"}
+flowchart LR
+  Q{"What does your<br/>scope say?"}
   Q -->|Decide| D["Go ahead"]
   Q -->|Consult| I["Seek input,<br/>then decide"]
   Q -->|Approve| A["Ask the<br/>decision holder"]
   Q -->|Unclear| U["Raise it with<br/>the role holder"]
   classDef accent fill:#ffd60a,stroke:#111,stroke-width:2px
-  class C accent
+  class Q accent
 ```
 
 A useful scope records:
