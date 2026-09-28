@@ -86,75 +86,81 @@ export default withMermaid(defineConfig({
     siteTitle: 'Sapiens First',
 
     nav: [
-      { text: 'Handbook', link: '/guide/', activeMatch: '/(guide|strategy|organization|work|learning|practices)/' },
+      { text: 'Handbook', link: '/guide/', activeMatch: '/(guide|strategy|organization|work|learning|practices|find)/' },
+      { text: 'Find anything', link: '/find' },
       { text: 'Atlas', link: 'https://sapiensfirst.org/atlas' },
       { text: 'Website', link: 'https://sapiensfirst.org' }
     ],
 
+    // Grouped by frontmatter `section` (see AI-READABILITY-PLAN.md), in the
+    // fixed section order: Start here, About Sapiens First, People and
+    // organization, Running the work, Field guides, Reference.
     sidebar: [
       {
-        text: 'Join',
+        text: 'Start here',
         collapsed: false,
         items: [
           { text: 'Welcome', link: '/guide/' },
           { text: 'First steps', link: '/guide/getting-started' },
-          { text: 'The Fellowship', link: '/guide/fellowship' },
-          { text: 'Fellowship agreement', link: '/guide/agreement' },
+          { text: 'Find anything', link: '/find' },
           { text: 'Glossary', link: '/guide/glossary' },
         ]
       },
       {
-        text: 'Learn',
+        text: 'About Sapiens First',
         collapsed: false,
         items: [
-          { text: 'Overview', link: '/strategy/' },
+          { text: 'Mission and strategy', link: '/strategy/' },
+          { text: 'Values', link: '/organization/values' },
           { text: 'Reading list', link: '/strategy/resources' },
         ]
       },
       {
-        text: 'Organize',
+        text: 'People and organization',
         collapsed: false,
         items: [
-          { text: 'Overview', link: '/organization/' },
-          { text: 'Values', link: '/organization/values' },
-          { text: 'Participation', link: '/organization/participation' },
+          { text: "How we're organized", link: '/organization/' },
+          { text: 'Ways to participate', link: '/organization/participation' },
+          { text: 'The Fellowship', link: '/guide/fellowship' },
+          { text: 'Fellowship agreement', link: '/guide/agreement' },
           { text: 'Roles and circles', link: '/organization/roles-and-circles' },
           { text: 'Decisions', link: '/organization/decisions' },
         ]
       },
       {
-        text: 'Build',
+        text: 'Running the work',
         collapsed: false,
         items: [
-          { text: 'Overview', link: '/work/' },
+          { text: 'How we manage work', link: '/work/' },
           { text: 'Projects', link: '/work/projects' },
           { text: 'Weekly planning', link: '/work/weekly-work' },
           { text: 'Meetings and updates', link: '/work/meetings-and-updates' },
-          { text: 'Templates', link: '/work/templates' },
+          { text: 'Measuring and learning', link: '/learning/' },
+          { text: 'Metrics', link: '/learning/metrics' },
+          { text: 'Strategic hypotheses', link: '/learning/strategic-hypotheses' },
+          { text: 'Metric reviews', link: '/learning/reviewing-metrics' },
+          { text: 'Feedback and development', link: '/learning/feedback' },
         ]
       },
       {
-        text: 'Act',
+        text: 'Field guides',
         collapsed: false,
         items: [
-          { text: 'Overview', link: '/practices/' },
-          { text: 'Local circles', link: '/practices/starting-a-circle' },
+          { text: 'Overview of field guides', link: '/practices/' },
+          { text: 'Starting a local circle', link: '/practices/starting-a-circle' },
           { text: 'Gatherings', link: '/practices/gatherings' },
-          { text: 'Conversations', link: '/practices/organizing-conversations' },
-          { text: 'Training', link: '/practices/training' },
+          { text: 'Organizing conversations', link: '/practices/organizing-conversations' },
+          { text: 'Training organizers', link: '/practices/training' },
           { text: 'Peaceful actions', link: '/practices/actions' },
         ]
       },
       {
-        text: 'Grow',
+        text: 'Reference',
         collapsed: false,
         items: [
-          { text: 'Overview', link: '/learning/' },
-          { text: 'Metrics', link: '/learning/metrics' },
-          { text: 'Strategic hypotheses', link: '/learning/strategic-hypotheses' },
-          { text: 'Metric reviews', link: '/learning/reviewing-metrics' },
+          { text: 'Glossary', link: '/guide/glossary' },
+          { text: 'Templates', link: '/work/templates' },
           { text: 'Atlas and AI', link: '/learning/atlas-and-ai' },
-          { text: 'Feedback and development', link: '/learning/feedback' },
         ]
       },
     ],
