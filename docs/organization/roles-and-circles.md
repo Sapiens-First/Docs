@@ -1,4 +1,5 @@
 ---
+title: "Roles and circles"
 description: "What roles and circles are, and how to read them in Atlas."
 section: People and organization
 status: adopted

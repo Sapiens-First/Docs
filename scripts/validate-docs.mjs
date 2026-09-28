@@ -209,7 +209,7 @@ function main() {
 
     if (!/^::: ?related\b/m.test(body)) warnings.push(`${relPath}: no ::: related block`)
     if (!/^## In brief\s*$/m.test(body)) warnings.push(`${relPath}: no "## In brief" section`)
-    const afterH1 = body.replace(/^[\s\S]*?^# .+$/m, '').replace(/^\r?\n/, '')
+    const afterH1 = body.replace(/^[\s\S]*?^# .+$/m, '').trimStart()
     if (h1s.length && !/^>\s+\S/.test(afterH1)) {
       warnings.push(`${relPath}: no one-sentence "> summary" directly under the H1`)
     }

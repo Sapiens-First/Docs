@@ -1,4 +1,5 @@
 ---
+title: "Glossary"
 description: Short definitions of the terms used across the Sapiens First handbook, with links to where each is explained.
 section: Reference
 status: reference

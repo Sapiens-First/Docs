@@ -1,4 +1,5 @@
 ---
+title: "Sapiens First's mission and strategy"
 description: "Our mission, what we stand for, and how we make change."
 section: About Sapiens First
 status: adopted

@@ -1,4 +1,5 @@
 ---
+title: "Ways to participate: supporters, members, Fellows, and staff"
 description: "Ways to get involved, from supporter to staff."
 section: People and organization
 status: adopted

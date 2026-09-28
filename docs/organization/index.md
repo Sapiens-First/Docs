@@ -1,4 +1,5 @@
 ---
+title: "How Sapiens First is organized"
 description: "How values, participation, roles, and decisions fit together."
 section: People and organization
 status: adopted

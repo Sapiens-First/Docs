@@ -34,6 +34,13 @@ CUT_LIST = [
 ]
 
 
+def agreement_body(text):
+    # Everything from the first agreement line ("As a ... I agree to:") onwards.
+    # Frontmatter, the H1, and the summary above it may change; the agreement may not.
+    i = text.find('As a Sapiens First Fellow, I agree to:')
+    return text[i:] if i >= 0 else text
+
+
 def git_show(ref, rel):
     r = subprocess.run(['git', 'show', f'{ref}:{rel}'], cwd=ROOT, capture_output=True, text=True)
     return r.stdout if r.returncode == 0 else None
@@ -97,7 +104,7 @@ def check_protected(ref):
         if old is None:
             continue
         new = path.read_text()
-        if rel in WHOLE_FILES and old != new:
+        if rel in WHOLE_FILES and agreement_body(old) != agreement_body(new):
             errors.append(f'{rel}: this file must not change')
         if Counter(protected_blocks(old)) != Counter(protected_blocks(new)):
             gone = set(protected_blocks(old)) - set(protected_blocks(new))

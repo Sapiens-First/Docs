@@ -1,4 +1,5 @@
 ---
+title: "The Fellowship"
 description: "What to expect as a Fellow, from your first weeks to after the program."
 audience: Fellows
 section: People and organization

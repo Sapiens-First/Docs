@@ -51,7 +51,7 @@ Atlas holds current campaigns, circles, and decision rights. This page and its g
 :::
 
 ::: related
-- [The mission](../strategy/index.md) — What Sapiens First stands for and how we build power.
+- [Sapiens First's mission and strategy](../strategy/index.md) — What Sapiens First stands for and how we build power.
 - [Values](../organization/values.md) — Our values, operating principles, and red lines.
 - [Decisions](../organization/decisions.md) — What you can decide, when to consult, and what needs approval.
 :::

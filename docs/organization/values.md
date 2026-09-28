@@ -1,4 +1,5 @@
 ---
+title: "Sapiens First's values"
 description: "Core values, operating principles, leadership standards, and red lines."
 section: About Sapiens First
 status: adopted

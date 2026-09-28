@@ -1,4 +1,5 @@
 ---
+title: "Reading list"
 description: "Reading on our position, on movements, and on measurement."
 section: About Sapiens First
 status: reference

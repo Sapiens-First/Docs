@@ -1,4 +1,5 @@
 ---
+title: "First steps for new members"
 description: "First steps for new members: join, meet people, and find work."
 section: Start here
 status: adopted

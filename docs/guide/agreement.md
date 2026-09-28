@@ -1,9 +1,25 @@
 ---
+title: "Sapiens First Fellowship Agreement"
 description: "The agreement every Fellow accepts before starting."
 audience: Fellows
+section: People and organization
+status: adopted
+last_updated: 2026-09-27
+canonical: /guide/agreement
 ---
 
 # Sapiens First Fellowship Agreement
+
+> The agreement every Fellow accepts before starting the Fellowship.
+
+## In brief
+
+- Every Fellow accepts this agreement before their Fellowship starts.
+- Fellows aim to spend 5–10 hours per week on their Fellowship project during the program.
+- Fellows stay in touch with their Department, join required check-ins, and uphold the Core Values and Red Lines.
+- The agreement text below is reproduced exactly; [The Fellowship](fellowship.md) explains how the program works.
+
+## The agreement
 
 As a Sapiens First Fellow, I agree to:
 

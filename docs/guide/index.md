@@ -1,4 +1,5 @@
 ---
+title: "Welcome to the Sapiens First Handbook"
 description: "Where to start, and how the handbook relates to Atlas."
 section: Start here
 status: adopted
