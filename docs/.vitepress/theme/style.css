@@ -549,6 +549,23 @@
   color: var(--vp-c-text-1);
 }
 
+/* lede: the `>` line directly under the H1 is the page's one-sentence
+   summary, not a quotation, so it drops the quote bar and serif voice and
+   reads as calm, larger body text instead. Any other blockquote (a real
+   quotation, mid-page) keeps the styling above. */
+.vp-doc h1 + blockquote {
+  margin: -8px 0 36px;
+  padding: 0;
+  border-left: none;
+}
+.vp-doc h1 + blockquote > p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.28em;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--vp-c-text-2);
+}
+
 /* callouts: flat tinted panels. Hard shadows are kept for things you can
    click (buttons, pager, cards) so they still read as interactive. */
 .vp-doc .custom-block {
@@ -679,6 +696,10 @@
 .vp-doc .sf-background .sf-chip { background: transparent; color: var(--vp-c-text-1); }
 .vp-doc .sf-optional { background: var(--vp-c-bg-soft); }
 .vp-doc .sf-optional .sf-chip { background: transparent; color: var(--vp-c-text-1); border-style: dashed; }
+/* source of truth: solid and calm — the opposite signal from the dashed
+   proposal/clarify blocks. Ink accent instead of a status colour. */
+.vp-doc .sf-source { background: var(--vp-c-bg-soft); border-left: 6px solid var(--sf-ink); }
+.vp-doc .sf-source .sf-chip { background: var(--sf-ink); color: var(--vp-c-bg); }
 
 .dark .vp-doc .sf-proposal { background: rgba(255, 214, 10, 0.1); }
 .dark .vp-doc .sf-clarify { background: rgba(58, 134, 255, 0.14); }
@@ -716,6 +737,56 @@
 }
 .sf-page-meta > span + span::before { content: '·'; margin: 0 10px; }
 .sf-page-meta .sf-audience { color: var(--vp-c-text-1); }
+
+/* ─── STATUS BADGE + CALLOUT (PageMeta.vue) ────
+   Badge sits inline in the eyebrow row; the callout (proposal, draft,
+   experimental) renders just below it, before the H1, so a reader hits the
+   caveat before the content. Adopted pages get a one-line note instead of a
+   full callout — a badge alone already tells that story. */
+.sf-status-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border: 2px solid var(--sf-ink);
+  background: var(--sf-soft);
+  color: var(--sf-ink);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.sf-status-badge.sf-status-adopted { background: #cdeccb; }
+.sf-status-badge.sf-status-proposal { background: var(--sf-yellow); }
+.sf-status-badge.sf-status-draft { background: var(--sf-sky); }
+.sf-status-badge.sf-status-experimental { background: var(--sf-coral-chip); }
+.sf-status-badge.sf-status-reference { background: var(--sf-soft); }
+.dark .sf-status-badge.sf-status-adopted { background: rgba(76, 175, 80, 0.28); color: var(--vp-c-text-1); }
+.dark .sf-status-badge.sf-status-proposal { background: rgba(255, 214, 10, 0.28); color: var(--vp-c-text-1); }
+.dark .sf-status-badge.sf-status-draft { background: rgba(58, 134, 255, 0.28); color: var(--vp-c-text-1); }
+.dark .sf-status-badge.sf-status-experimental { background: rgba(255, 120, 112, 0.28); color: var(--vp-c-text-1); }
+.dark .sf-status-badge.sf-status-reference { background: var(--sf-soft); color: var(--vp-c-text-1); }
+
+.sf-status-note {
+  margin: 0 0 24px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--vp-c-text-2);
+}
+
+.sf-status-callout {
+  margin: 0 0 28px;
+  padding: 12px 16px 10px;
+  border: 2px dashed var(--sf-ink);
+  font-size: 15.5px;
+  line-height: 1.6;
+}
+.sf-status-callout p { margin: 0; }
+.sf-status-callout.sf-status-proposal { background: #fff6cc; }
+.sf-status-callout.sf-status-draft { background: #e3eeff; }
+.sf-status-callout.sf-status-experimental { background: var(--sf-coral-chip); }
+.dark .sf-status-callout.sf-status-proposal { background: rgba(255, 214, 10, 0.1); }
+.dark .sf-status-callout.sf-status-draft { background: rgba(58, 134, 255, 0.14); }
+.dark .sf-status-callout.sf-status-experimental { background: rgba(255, 120, 112, 0.14); }
 
 /* ─── HOME: STARTING POINTS (HomePaths.vue) */
 /* The panel lives in the hero image slot; undo the slot's fixed image box

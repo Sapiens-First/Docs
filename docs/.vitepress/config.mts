@@ -5,6 +5,7 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 import { handbookContainers } from './containers'
 
 const base = '/docs/'
+const siteHostname = 'https://sapiens-first.github.io/docs/'
 
 // https://vitepress.dev/reference/site-config
 export default withMermaid(defineConfig({
@@ -16,12 +17,18 @@ export default withMermaid(defineConfig({
   cleanUrls: true,
   lastUpdated: true,
 
+  // Advisory until the site has its own domain: robots.txt only takes
+  // effect at a host root, and GitHub Pages serves this site under /docs/.
+  sitemap: { hostname: siteHostname },
+
   markdown: {
     config: (md) => handbookContainers(md)
   },
 
-  // Reading time for the page eyebrow, and no "On this page" box on pages too
-  // short to need one (fewer than three sections).
+  // Reading time for the page eyebrow, no "On this page" box on pages too
+  // short to need one (fewer than three sections), and the page's own
+  // `last_updated` frontmatter (not git history) driving the footer's
+  // "Last updated" date.
   transformPageData(pageData, { siteConfig }) {
     if (pageData.frontmatter.layout === 'home') return
     const src = readFileSync(join(siteConfig.srcDir, pageData.relativePath), 'utf8')
@@ -30,6 +37,29 @@ export default withMermaid(defineConfig({
     if (pageData.frontmatter.outline === undefined && (src.match(/^## /gm)?.length ?? 0) < 3) {
       pageData.frontmatter.outline = false
     }
+    // YAML parses an unquoted `YYYY-MM-DD` scalar as a Date, not a string,
+    // so frontmatter `last_updated` can arrive as either depending on how
+    // it was written; accept both.
+    const lastUpdated = pageData.frontmatter.last_updated
+    let time: number | undefined
+    if (lastUpdated instanceof Date && !Number.isNaN(lastUpdated.getTime())) {
+      time = lastUpdated.getTime()
+    } else if (typeof lastUpdated === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(lastUpdated)) {
+      const parsed = new Date(`${lastUpdated}T00:00:00Z`).getTime()
+      if (!Number.isNaN(parsed)) time = parsed
+    }
+    if (time !== undefined) pageData.lastUpdated = time
+  },
+
+  // Canonical link tag per page, using frontmatter `canonical` when a page
+  // has migrated to the new schema, falling back to its clean-URL path.
+  transformHead({ pageData }) {
+    if (pageData.frontmatter.layout === 'home') return
+    const fallback = `/${pageData.relativePath}`
+      .replace(/(^|\/)index\.md$/, '$1')
+      .replace(/\.md$/, '')
+    const canonical = pageData.frontmatter.canonical || fallback
+    return [['link', { rel: 'canonical', href: `${siteHostname.replace(/\/$/, '')}${canonical}` }]]
   },
 
   head: [
@@ -136,6 +166,13 @@ export default withMermaid(defineConfig({
     },
 
     outline: { level: [2, 3], label: 'On this page' },
+
+    // Rendered from frontmatter `last_updated` (set on pageData.lastUpdated
+    // in transformPageData above), not from git history.
+    lastUpdated: {
+      text: 'Last updated',
+      formatOptions: { dateStyle: 'long', timeZone: 'UTC' }
+    },
 
     footer: {
       message: 'Learn · Organize · Act',
