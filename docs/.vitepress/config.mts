@@ -3,6 +3,7 @@ import { join } from 'node:path'
 import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 import { handbookContainers } from './containers'
+import { generateLlmsFiles } from './llms'
 
 const base = '/docs/'
 const siteHostname = 'https://sapiens-first.github.io/docs/'
@@ -60,6 +61,12 @@ export default withMermaid(defineConfig({
       .replace(/\.md$/, '')
     const canonical = pageData.frontmatter.canonical || fallback
     return [['link', { rel: 'canonical', href: `${siteHostname.replace(/\/$/, '')}${canonical}` }]]
+  },
+
+  // Writes llms.txt, llms-full.md, llms-full.txt, and a raw-Markdown twin of
+  // every page (docs/.vitepress/llms.ts) once the static build has run.
+  async buildEnd(config) {
+    await generateLlmsFiles(config)
   },
 
   head: [
