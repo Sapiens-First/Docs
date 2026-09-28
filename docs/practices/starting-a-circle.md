@@ -3,7 +3,7 @@ title: Starting a local circle
 description: Bring a small local group together and share the work.
 section: Field guides
 status: adopted
-last_updated: 2026-09-27
+last_updated: 2026-09-28
 canonical: /practices/starting-a-circle
 ---
 
@@ -13,6 +13,7 @@ canonical: /practices/starting-a-circle
 
 ## In brief
 
+- Every local group starts as a [circle](../guide/glossary.md#circle) — a [chapter](../guide/glossary.md#chapter) is a later stage of local organizing whose thresholds and procedures aren't adopted yet.
 - A local circle gives people a place to connect and act together.
 - Start with a few hours a week and, if possible, two friends who care about the issue. Meet more collaborators along the way.
 - Build around three things: a regular gathering, a repeatable way to recruit, and a concrete campaign.

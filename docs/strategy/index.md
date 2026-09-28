@@ -3,7 +3,7 @@ title: "Sapiens First's mission and strategy"
 description: "Our mission, what we stand for, and how we make change."
 section: About Sapiens First
 status: adopted
-last_updated: 2026-09-27
+last_updated: 2026-09-28
 canonical: /strategy/
 ---
 
@@ -17,6 +17,7 @@ canonical: /strategy/
 - Our policy focus is **democratic renewal, common prosperity, and a secure future**.
 - Our approach is a cycle: **act, recruit, train** — each turn brings in more people who can lead.
 - Three kinds of work build on each other: **community, empowerment, and advocacy**.
+- Our [theory of change](#our-theory-of-change): acting together builds community and recruits people; training turns them into organizers; that growing base is what empowerment and advocacy turn into policy change.
 - Current campaigns, priorities, and structure live in [Atlas](https://sapiensfirst.org/atlas); this page explains the concepts behind them.
 
 ## When to use this
@@ -77,6 +78,10 @@ Three kinds of work build on each other:
 - **Advocacy** turns that capacity toward political change.
 
 Shared direction, governance, resources, and support hold it all together. Atlas records the current structure, including the DNA pillar and the programs and work linked beneath the mission. This handbook explains the concepts; Atlas holds the current arrangement.
+
+## Our theory of change
+
+We believe the AI Crisis is still open to being shaped, so we build the public participation and political power to change its course. Community work brings people into gatherings and lasting relationships; recruiting invites them to take a next step, and training builds their capacity to organize and lead. That growing base of organizers and relationships is what empowerment and advocacy turn toward political change — pushing for democratic renewal, common prosperity, and a secure future. Each turn of act, recruit, train brings in more people who can lead the next turn, compounding our capacity before powerful AI's effects become hard to reverse.
 
 ::: source
 Atlas records the current mission structure, campaign priorities, and who owns them. This page explains the strategy and cycle behind that structure.

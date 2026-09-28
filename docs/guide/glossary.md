@@ -3,7 +3,7 @@ title: "Glossary of Sapiens First terms"
 description: Short definitions of the terms used across the Sapiens First handbook, with links to where each is explained.
 section: Reference
 status: reference
-last_updated: 2026-09-27
+last_updated: 2026-09-28
 canonical: /guide/glossary
 ---
 
@@ -59,7 +59,7 @@ A structured volunteer program, not employment, in which each Fellow takes respo
 
 ### Key result
 
-How we recognize progress toward an objective, also called a success criterion. Each key result should point to a defined metric. See [How Sapiens First manages work](../work/index.md#outcomes-and-outputs).
+The measure that shows an objective's outcome happened, also called a success criterion. Each key result should point to a defined metric — usually one that measures the outcome. See [How Sapiens First manages work](../work/index.md#outcomes-and-outputs).
 
 ### Member
 
@@ -67,7 +67,7 @@ Someone who participates in the community, helps with events, and builds connect
 
 ### Metric
 
-A clearly defined measure with a starting point, a target, and a date, useful when it helps someone decide better. See [Metrics](../learning/metrics.md).
+A clearly defined measure — typed as an input, output, or outcome — with a starting point, a target, and a date, useful when it helps someone decide better. See [Metrics](../learning/metrics.md).
 
 ### Mission, pillar, program
 
@@ -75,11 +75,11 @@ How Atlas organizes work: the **mission** is the overall change we work toward, 
 
 ### Objective
 
-A change we want to achieve. See [Outcomes and outputs](../work/index.md#outcomes-and-outputs).
+A change we want to achieve — it names the outcome we want. See [Outcomes and outputs](../work/index.md#outcomes-and-outputs).
 
 ### Output and outcome
 
-An **output** is something we create, like a workshop. An **outcome** is the change it leads to, like participants being able to run their first meeting.
+An **output** is something we create, like a workshop. An **outcome** is the change it leads to, like participants being able to run their first meeting — the change an objective names. [Metrics](../learning/metrics.md#inputs-and-outcomes) uses these words the same way, and pairs them with **input**, an early measure of effort.
 
 ### Input
 

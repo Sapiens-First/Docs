@@ -3,7 +3,7 @@ title: How Sapiens First defines and uses metrics
 description: "Why we measure, and how to define a useful metric."
 section: Running the work
 status: adopted
-last_updated: 2026-09-27
+last_updated: 2026-09-28
 canonical: /learning/metrics
 ---
 
@@ -15,6 +15,7 @@ canonical: /learning/metrics
 
 - A metric is useful only when it helps someone make a better decision; otherwise, don't collect it.
 - Metrics come in three kinds: an **input** is an early, fast-moving measure a role can directly influence; an **output** is what gets produced; an **outcome** is the change that resulted. We track inputs and outcomes together, because inputs show where to act and outcomes show whether the work is succeeding.
+- These match the objective / output / key result terms in [How Sapiens First manages work](../work/index.md#outcomes-and-outputs): an objective names the outcome we want, a key result is the measure that shows it happened, and an output is the same idea in both pages.
 - The handbook defines what each metric means and how to read it; Atlas holds its current value and history (once it's built to store one).
 - Metrics describe the state of the work, not the worth of a person, and come from records the work already produces.
 - Modeling how recruitment, coaching capacity, and chapters affect one another is a proposal, not adopted practice.
@@ -49,6 +50,8 @@ An **objective** describes a change we want to achieve. **Key results** tell us 
 :::
 
 "Active member" and "30-day retention" need agreed definitions before the key results mean anything. Two people reading the same number should understand the same thing.
+
+This matches [How Sapiens First manages work](../work/index.md#outcomes-and-outputs): an objective names the outcome we want, and a key result is the measure that shows that outcome happened — usually an outcome metric, paired with the inputs that show where to act.
 
 Start with the outcome you care about. Then ask what you can observe, how you'll collect it, and what you would do differently after seeing the result. If no result would change a decision, you probably don't need the metric.
 

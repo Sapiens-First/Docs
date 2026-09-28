@@ -3,7 +3,7 @@ title: "How Sapiens First makes decisions"
 description: "What you can decide, when to consult, and what needs approval."
 section: People and organization
 status: adopted
-last_updated: 2026-09-27
+last_updated: 2026-09-28
 canonical: /organization/decisions
 ---
 
@@ -14,6 +14,7 @@ canonical: /organization/decisions
 ## In brief
 
 - Every scope should mark choices as **Decide** (you choose alone), **Consult** (seek input, then decide), or **Approve** (someone else decides).
+- By default, authority over a project rests with its owner — named in the project scope and recorded in Atlas.
 - Fellows currently review project scope and plans with Rohan, including spending, public communications, external commitments, major scope or deadline changes, and important blockers.
 - Consultation and approval are different: be clear which one you're asking for and who makes the final call.
 - The actual decision holder for a role or project should be recorded in Atlas, not just implied by the handbook's wording.
@@ -51,6 +52,8 @@ A useful scope records:
 - **Approve:** choices reserved for someone else.
 
 Consultation and approval are different. Be clear about which you're asking for and who will make the final decision.
+
+By default, authority over a project rests with its owner — the person named in the project scope and recorded in Atlas — exercised through the Decide, Consult, and Approve rights set out in that scope.
 
 ::: source
 Atlas records the current decision holder for each role and project. This page explains how to check and use decision rights.

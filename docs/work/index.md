@@ -3,7 +3,7 @@ title: How Sapiens First manages work
 description: "How the mission turns into objectives, projects, and next steps."
 section: Running the work
 status: adopted
-last_updated: 2026-09-27
+last_updated: 2026-09-28
 canonical: /work/
 ---
 
@@ -14,7 +14,7 @@ canonical: /work/
 ## In brief
 
 - Every piece of work traces back to the mission through pillars, programs, products or services, and projects.
-- An **objective** describes a change; an **output** is a thing you create; a **key result** is the proof that the change happened.
+- An **objective** describes a change; an **output** is a thing you create; a **key result** is the proof that the change happened. [Metrics](../learning/metrics.md) calls that change an **outcome**, and adds **input** for an early, fast-moving measure of effort.
 - Work moves in a loop: find it, understand it, agree on it, break it down, and review it.
 - Connecting objectives, products, milestones, and tasks into one fixed hierarchy is still a proposal, not settled practice.
 - [Atlas](https://sapiensfirst.org/atlas) records current work and who's responsible; these pages explain how to turn that into a plan.
@@ -60,6 +60,8 @@ Three terms keep plans honest:
 A workshop is an output. Participants who can run their first meeting are the outcome. Both matter: we need to deliver the workshop, and find out whether it helps.
 
 Each key result should point to a defined metric, so everyone reads it the same way. Track the outcome, and also the inputs a role can directly influence. [Metrics](../learning/metrics.md) explains how.
+
+These match the terms in [Metrics](../learning/metrics.md#inputs-and-outcomes): an objective names the outcome we want, a key result is the measure that shows that outcome happened, and an output is the same idea in both pages.
 
 ::: proposal Connecting objectives, products, and tasks
 

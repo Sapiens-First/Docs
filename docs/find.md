@@ -3,7 +3,7 @@ title: "Find anything in Sapiens First"
 description: "Common questions about Sapiens First, routed straight to the page that answers them."
 section: Start here
 status: reference
-last_updated: 2026-09-27
+last_updated: 2026-09-28
 canonical: /find
 ---
 
@@ -23,7 +23,7 @@ canonical: /find
 → [Sapiens First's mission and strategy](strategy/index.md)
 
 ### Our theory of change — how we think we'll win
-→ [Act, recruit, train](strategy/index.md#act-recruit-train)
+→ [Our theory of change](strategy/index.md#our-theory-of-change)
 
 ### How membership and participation work
 → [Ways to participate](organization/participation.md#ways-to-participate)
@@ -43,8 +43,8 @@ canonical: /find
 ### How decisions get made — and who decides what
 → [Check the decision rights](organization/decisions.md#check-the-decision-rights)
 
-### How to start a new project
-→ [Start with a scope](work/projects.md#start-with-a-scope)
+### How to propose or start a new project
+→ [Propose a new project](work/projects.md#propose-a-new-project)
 
 ### How to hand off a project when you're finishing
 → [Finish and hand off](work/projects.md#finish-and-hand-off)
@@ -75,6 +75,9 @@ canonical: /find
 
 ### How to start a local circle
 → [Start with three things](practices/starting-a-circle.md#start-with-three-things)
+
+### How to start a chapter
+→ [Plan for growth](practices/starting-a-circle.md#plan-for-growth) — every local group starts as a circle; chapter criteria aren't adopted yet.
 
 ### What circles currently exist, and where
 → [Atlas](https://sapiensfirst.org/atlas): current circles.
