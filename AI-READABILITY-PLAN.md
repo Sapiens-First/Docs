@@ -89,7 +89,7 @@ The `>` line directly under the H1 is the summary and is styled as a lede; that 
 
 Workstreams (update the status as each lands):
 
-- [ ] A. Content, Start here + About + People (guide/*, strategy/*, organization/*), including glossary expansion
+- [x] A. Content, Start here + About + People — done 666f986. Glossary rebuilt alphabetically. agreement.md untouched because check-rewrite protects the whole file; wave E loosens it to protect the body only, then adds frontmatter. practices/index still links to the mission page as "The mission"; fix in wave E.
 - [x] B. Content, Running the work (work/*, learning/*) — done 23922a8, 662cc38. Status calls: weekly-work = proposal, atlas-and-ai = proposal, reviewing-metrics = adopted (its cadence is only suggested). H1s left short: Weekly planning, Meetings and updates, Strategic hypotheses, Atlas and AI; wave E should make them self-describing. Link texts in guide/index and strategy/index still use the old H1s; fix after A finishes.
 - [x] C. Content, Field guides (practices/*) — done f8958bb, all adopted
 - [ ] D. Infrastructure: status badge, last-updated from frontmatter, lede style, llms.txt / llms-full.md / llms-full.txt, sitemap, robots.txt, validation script + CI
