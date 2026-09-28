@@ -2,7 +2,7 @@
 description: "Ways to get involved, from supporter to staff."
 ---
 
-# Ways to participate
+# Participation
 
 You can contribute in different ways at different points in your life. Choose a level of involvement that fits your interests and capacity.
 
@@ -16,9 +16,9 @@ You can contribute in different ways at different points in your life. Choose a 
 
 Check the current joining process for membership terms, dues, and eligibility. The handbook isn't a record of current prices or program dates.
 
-## Participation and responsibility
+## Keep role and participation separate
 
-Your relationship to the organization and your responsibilities are different things. “Fellow” describes participation in a program. “Website Owner” describes a role. One person may hold more than one role.
+Participation and role are different things. “Fellow” describes participation in a program. “Website Owner” describes a role. One person may hold more than one role.
 
 Similarly, leading a team is a responsibility, not a requirement that everyone must progress toward. Continuing as an individual contributor can be a valuable choice.
 
@@ -30,6 +30,6 @@ A “Steward” role title is separate from the Steward engagement level. A titl
 :::
 
 ::: related
-- [Being a Fellow](../guide/fellowship.md) — What to expect as a Fellow, from your first weeks to after the program.
+- [The Fellowship](../guide/fellowship.md) — What to expect as a Fellow, from your first weeks to after the program.
 - [Roles and circles](roles-and-circles.md) — What roles and circles are, and how to read them in Atlas.
 :::

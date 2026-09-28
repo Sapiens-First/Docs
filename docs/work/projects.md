@@ -2,9 +2,19 @@
 description: "Scope, plan, test, and hand off a project."
 ---
 
-# Planning a project
+# Projects
 
-A project should produce something useful. A clear scope and a realistic plan help you spend time on the work that matters.
+A project should produce something useful. A clear scope and a realistic plan keep your time on the work that matters, from scope to plan to a finished hand-off.
+
+Here's the shape that work takes, with room to loop back and improve before you finish.
+
+```mermaid
+flowchart TB
+  S["<b>Start with a scope</b>"] --> C["<b>Choose an approach</b>"] --> P["<b>Build a plan</b>"] --> T["<b>Test and improve</b>"] --> F["<b>Finish and hand off</b>"]
+  T -.-> P
+  classDef accent fill:#ffd60a,stroke:#111,stroke-width:2px
+  class S accent
+```
 
 ## Start with a scope
 
@@ -55,5 +65,5 @@ Milestones are checkpoints, not automatically additional documents to submit. Ke
 
 ::: related
 - [Templates](templates.md) — Copyable templates for scopes, plans, updates, and handoffs.
-- [Metrics and learning](../learning/metrics.md) — Why we measure, and how to define a useful metric.
+- [Metrics](../learning/metrics.md) — Why we measure, and how to define a useful metric.
 :::

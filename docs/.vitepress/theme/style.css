@@ -277,8 +277,8 @@
 @media (min-width: 960px) {
   .VPSidebar { border-right: var(--sf-border); }
 }
-/* group labels match the section titles exactly, so keep them in sentence
-   case: tracked caps wrapped "How we learn and improve" onto two lines */
+/* group labels are the one-word section verbs (Join, Learn, …); keep them in
+   sentence case so they match the homepage cards and page eyebrows */
 .VPSidebarItem.level-0 > .item > .text,
 .VPSidebarItem.level-0 > .item > .link > .text {
   font-family: var(--sf-font-display);
@@ -799,3 +799,27 @@
   .VPDocFooter .pager-link:hover,
   .VPNavBar .VPNavBarTitle .title:hover { transform: none; }
 }
+
+/* ─── Diagrams (```mermaid) ───────────────────────────────────────────────
+   Framed like the handbook's cards: paper panel, ink border, hard shadow.
+   Wide charts scroll inside the frame rather than widening the page. */
+.vp-doc .sf-diagram {
+  margin: 28px 0;
+  padding: 20px 16px;
+  background: var(--sf-soft);
+  border: var(--sf-border);
+  box-shadow: 4px 4px 0 var(--sf-shadow);
+  overflow-x: auto;
+  text-align: center;
+}
+.vp-doc .sf-diagram svg { max-width: 100%; height: auto; }
+.vp-doc .sf-diagram .node rect,
+.vp-doc .sf-diagram .node polygon,
+.vp-doc .sf-diagram .node circle { stroke-width: 2px !important; }
+.vp-doc .sf-diagram .edgePath path,
+.vp-doc .sf-diagram .flowchart-link { stroke-width: 2px !important; }
+/* Mermaid sizes label boxes at its own line-height; stop .vp-doc's taller
+   body line-height from pushing the last line out of the box. */
+.vp-doc .sf-diagram foreignObject div,
+.vp-doc .sf-diagram foreignObject span,
+.vp-doc .sf-diagram foreignObject p { line-height: 1.5 !important; margin: 0; }

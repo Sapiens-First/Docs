@@ -1,8 +1,8 @@
 # Sapiens First Handbook
 
-The shared handbook for members, organizers, Fellows, staff, and people curious about the movement. Start with [Welcome to Sapiens First](docs/guide/index.md).
+The shared handbook for members, organizers, Fellows, staff, and people curious about the movement. Start with [Welcome](docs/guide/index.md).
 
-Built with [VitePress](https://vitepress.dev) for [GitHub Pages](https://sapiens-first.github.io/Handbook/). [Atlas](https://sapiensfirst.org/atlas) holds current governance, projects, priorities, and owners; the handbook explains the concepts and practices behind them.
+Built with [VitePress](https://vitepress.dev) for [GitHub Pages](https://sapiens-first.github.io/docs/). [Atlas](https://sapiensfirst.org/atlas) holds current governance, projects, priorities, and owners; the handbook explains the concepts and practices behind them.
 
 ## Repository layout
 
@@ -33,7 +33,7 @@ npm run docs:build
 npm run docs:preview
 ```
 
-The production build is written to `docs/.vitepress/dist`. The site uses the `/Handbook/` base path. Do not commit generated build files.
+The production build is written to `docs/.vitepress/dist`. The site uses the `/docs/` base path. Do not commit generated build files.
 
 ## Editing
 

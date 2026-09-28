@@ -2,11 +2,11 @@
 description: "Where we're heading: Atlas and AI that help us notice what needs attention."
 ---
 
-# Atlas, metrics, and AI
+# Atlas and AI
 
 As we grow, keeping everyone informed gets harder. More chapters and projects usually mean more meetings, more reports, and more people whose main job is passing information along. We want to grow without that overhead growing at the same rate.
 
-Our aim is for [Atlas](https://sapiensfirst.org/atlas) to give everyone a shared, current picture of the movement, and for AI to help us make sense of it. People should be able to act with context instead of waiting for it to reach them through layers of coordination.
+Our aim is for [Atlas](https://sapiensfirst.org/atlas) to give everyone a shared, current picture of the movement, and for AI to help us make sense of it. That means answering basic questions about the work, turning everyday records into metrics, and noticing what needs attention before someone has to ask. People should be able to act with context instead of waiting for it to reach them through layers of coordination.
 
 ::: info Where we are now
 Atlas currently records our mission, work structure, roles, circles, and assignments. The rest of this page describes where we're heading. None of it is a current feature or requirement.
@@ -31,9 +31,9 @@ Answering these needs four connected kinds of records:
 
 When these are linked, responsibility is clear without anyone having to piece it together from documents. A key result links to a metric, the metric to the circle responsible for it, and the circle to the projects working on it.
 
-## Metrics from the work itself
+## Get metrics from the work itself
 
-We want metrics to come from the ordinary records of doing the work, not from extra reporting. When someone signs up, attends an orientation, or joins a chapter, or when a project finishes or a role is filled, that step is already recorded somewhere. Atlas can calculate recruitment, retention, and project results from those records, so nobody has to count by hand.
+We want metrics to come from the ordinary records of doing the work, not from extra reporting. When someone signs up, attends an orientation, or joins a chapter, that step is already recorded somewhere. So is a project finishing or a role being filled. Atlas can calculate recruitment, retention, and project results from those records, so nobody has to count by hand.
 
 These are records of organizational steps that people already expect us to keep. They aren't a way of tracking anyone's personal activity.
 
@@ -41,7 +41,15 @@ This also lets Atlas keep each metric's history. With a history, we can see tren
 
 ## From a signal to a decision
 
-Once Atlas knows what we're aiming for, who's responsible, and how the numbers are moving, AI can help us notice what needs attention sooner. The loop we're working toward:
+Once Atlas knows what we're aiming for, who's responsible, and how the numbers are moving, AI can help us notice what needs attention sooner. Here's how that loop should work:
+
+```mermaid
+flowchart TB
+  M["<b>Metric moves</b>"] --> T["<b>Tension raised</b>"] --> C["<b>Causes suggested</b>"] --> D["<b>People decide</b>"] --> R["<b>Measure the result</b>"]
+  R -.-> M
+  classDef accent fill:#ffd60a,stroke:#111,stroke-width:2px
+  class M accent
+```
 
 1. A metric moves outside its expected range.
 2. Atlas raises it with the responsible role or circle as a **tension**: a gap between how things are and how they could be.
@@ -68,7 +76,7 @@ The purpose of AI here is to give organizers more time for the work only people 
 
 We'll start with suggestions that people approve. Routine, low-risk tasks can move to automatic handling once we trust them. Decisions about people, priorities, and resources stay with people.
 
-## Boundaries
+## Know the limits
 
 - AI helps us notice and understand. People make consequential decisions, especially about roles, commitments, and anyone's contribution.
 - Atlas shouldn't produce performance scores for individuals. A declining number prompts a check-in, as described in [Metrics and people](reviewing-metrics.md#metrics-and-people).
@@ -77,13 +85,13 @@ We'll start with suggestions that people approve. Routine, low-risk tasks can mo
 
 ::: background Why this matters for how we organize
 
-In *From Hierarchy to Intelligence*, Jack Dorsey and Roelof Botha argue that much of traditional management exists to move information: collecting context from below, relaying decisions from above, and keeping teams aligned. They suggest AI can increasingly do that routing, leaving people to own outcomes and develop one another.
+In *From Hierarchy to Intelligence*, Jack Dorsey and Roelof Botha argue that much of traditional management exists to move information. It collects context from below, relays decisions from above, and keeps teams aligned. They suggest AI can increasingly do that routing, leaving people to own outcomes and develop one another.
 
 This fits the idea behind our [roles and circles](../organization/roles-and-circles.md): distributed responsibility, explicit roles, and people acting with context rather than depending on a single leader. We're drawing on the idea, not adopting any particular company's structure.
 :::
 
 ::: related
-- [Metrics and learning](metrics.md) — Why we measure, and how to define a useful metric.
-- [Reviewing metrics](reviewing-metrics.md) — How circles review results, find bottlenecks, and allocate resources.
-- [Making decisions](../organization/decisions.md) — What you can decide, when to consult, and what needs approval.
+- [Metrics](metrics.md) — Why we measure, and how to define a useful metric.
+- [Metric reviews](reviewing-metrics.md) — How circles review results, find bottlenecks, and allocate resources.
+- [Decisions](../organization/decisions.md) — What you can decide, when to consult, and what needs approval.
 :::

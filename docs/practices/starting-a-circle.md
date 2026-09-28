@@ -2,7 +2,7 @@
 description: "Bring a small local group together and share the work."
 ---
 
-# Starting a circle
+# Local circles
 
 A local circle gives people a place to connect and act together. Start small, make it welcoming, and share the work.
 
@@ -14,11 +14,11 @@ The original guide suggests starting with a few hours a week and, if possible, t
 
 **A way to recruit.** Choose a repeatable way to meet people. This might be door-knocking, conversations at an event, or invitations through existing relationships.
 
-**A campaign to work on.** A concrete campaign gives people an answer to “What do you do?” Use the current [campaign resources](https://sapiensfirst.org/campaigns) and connect with the relevant movement contact.
+**A campaign to work on.** A concrete campaign answers “What do you do?” Use the current [campaign resources](https://sapiensfirst.org/campaigns) and connect with the relevant movement contact.
 
 ## Share responsibilities
 
-Make it clear who will facilitate, arrange the next meeting, follow up with participants, and stay in touch with the wider movement. One person may initially do more than one of these things.
+Make clear who will facilitate, arrange the next meeting, follow up with participants, and stay in touch with the wider movement. One person may do more than one of these things at first.
 
 As the group grows, give people manageable responsibilities and the context to do them. Use explicit roles to prevent everything from depending on the founder.
 
@@ -33,14 +33,14 @@ As the group grows, give people manageable responsibilities and the context to d
 This is a suggested sequence, not a formal recognition or affiliation procedure.
 :::
 
-## As the group grows
+## Plan for growth
 
 The source guide sketches circles, hubs, chapters, and alliances at increasing sizes. These are ideas for organizing growth; the membership thresholds and procedures need confirmation before becoming rules.
 
-A local group and a governance circle are related concepts, but not every use of “circle” establishes the same formal structure. Confirm how your group connects to the movement and how that relationship should be recorded in Atlas.
+A local group and a governance circle are related, but not every use of “circle” means the same formal structure. Confirm how your group connects to the movement and how to record that relationship in Atlas.
 
 ::: related
 - [Gatherings](gatherings.md) — Help people connect and take a next step.
-- [Organizing conversations](organizing-conversations.md) — Listen first, then invite people to participate.
+- [Conversations](organizing-conversations.md) — Listen first, then invite people to participate.
 - [Roles and circles](../organization/roles-and-circles.md) — What roles and circles are, and how to read them in Atlas.
 :::

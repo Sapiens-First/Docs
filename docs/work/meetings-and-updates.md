@@ -4,7 +4,7 @@ description: "Check-ins, written updates, and general meetings."
 
 # Meetings and updates
 
-Meetings and written updates help people make decisions, support one another, and keep work moving. Choose the format that serves the purpose.
+Meetings and written updates help people make decisions, support one another, and keep work moving. Choose the format that serves the purpose: a check-in, a written update, or a general meeting.
 
 ## Project check-ins
 

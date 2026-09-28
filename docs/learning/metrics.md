@@ -2,9 +2,9 @@
 description: "Why we measure, and how to define a useful metric."
 ---
 
-# Metrics and learning
+# Metrics
 
-We use metrics to understand the health of the movement and to decide where to put our limited time, money, and attention. A metric is useful when it helps someone make a better decision.
+We use metrics to understand the health of the movement and to decide where to put our limited time, money, and attention. A metric is useful when it helps someone make a better decision. Three ideas make that work: start from the objective, pair inputs with outcomes, and define each measure clearly.
 
 Metrics describe the state of our work, not the worth of a person. They come from records the work already produces — sign-ups, attendance, roles filled, projects completed — not from monitoring what individuals do.
 
@@ -40,7 +40,7 @@ Most results come at the end of a chain. For recruitment, it might look like thi
 
 The later stages matter most, but they're slow to move and depend on many things at once. The earlier stages are **inputs**: things a role holder can directly influence, and that show up quickly.
 
-We track both. The outcome tells us whether the work is succeeding. The inputs tell us where to act. A recruitment lead can control how quickly new sign-ups are contacted; they can't personally guarantee that a chapter reaches 100 members.
+**We track both.** The outcome tells us whether the work is succeeding. The inputs tell us where to act. A recruitment lead can control how quickly new sign-ups are contacted; they can't personally guarantee that a chapter reaches 100 members.
 
 Choosing the right input takes testing. If an input rises and the outcome doesn't follow, the input isn't measuring what matters. Revise it.
 
@@ -83,13 +83,13 @@ Write the definition down once, then collect values against it over time. The de
 
 Link each metric to the objective or area of work it measures, then link responsibility to the relevant role or circle. That keeps the meaning of the measure separate from whoever currently holds the role.
 
-Specific definitions, targets, and results belong in Atlas or the live records linked from it. The handbook holds the approach. Atlas doesn't yet store metric definitions or history; see [Atlas, metrics, and AI](atlas-and-ai.md) for where we're heading.
+Specific definitions, targets, and results belong in Atlas or the live records linked from it. The handbook holds the approach. Atlas doesn't yet store metric definitions or history; see [Atlas and AI](atlas-and-ai.md) for where we're heading.
 
 ## What we don't measure
 
 - We don't track individuals' personal activity, messages, or online behavior.
 - We don't give people a single performance score.
-- We don't ask volunteers to fill out reports just to produce numbers. If a metric needs manual reporting, ask whether it's worth the time.
+- We don't ask volunteers to fill out reports only to produce numbers. If a metric needs manual reporting, ask whether it's worth the time.
 - We don't collect data without a decision it's meant to inform.
 
 When someone's work shows up in a metric, the purpose is to notice where support might help. See [Metrics and people](reviewing-metrics.md#metrics-and-people).
@@ -104,8 +104,9 @@ Define each variable, the time period, the assumptions, and the evidence behind 
 :::
 
 ::: related
-- [Reviewing metrics](reviewing-metrics.md) — How circles review results, find bottlenecks, and allocate resources.
-- [Atlas, metrics, and AI](atlas-and-ai.md) — Where we're heading: Atlas and AI that help us notice what needs attention.
-- [How we get things done](../work/index.md) — How the mission turns into objectives, projects, and next steps.
+- [Strategic hypotheses](strategic-hypotheses.md) — Working backwards from an outcome, and testing strategy as a hypothesis.
+- [Metric reviews](reviewing-metrics.md) — How circles review results, find bottlenecks, and allocate resources.
+- [Atlas and AI](atlas-and-ai.md) — Where we're heading: Atlas and AI that help us notice what needs attention.
+- [The work](../work/index.md) — How the mission turns into objectives, projects, and next steps.
 - [Project scope template](../work/templates.md#project-scope) — A project's objective, scope, success criteria, and decision rights.
 :::

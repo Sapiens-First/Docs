@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Sapiens First
   text: The Handbook
-  tagline: Learn about the movement, find your place, and get things done together.
+  tagline: Understand the movement. Find your place. Get things done together.
   actions:
     - theme: brand
       text: Start here
@@ -16,16 +16,16 @@ hero:
 # Role-based starting points, shown beside the hero (HomePaths.vue)
 paths:
   - who: Curious about the movement
-    text: Our mission and approach
+    text: The mission
     link: /strategy/
   - who: Joining as a member
-    text: Getting started
+    text: First steps
     link: /guide/getting-started
   - who: Joining the Fellowship
-    text: Being a Fellow
+    text: The Fellowship
     link: /guide/fellowship
   - who: Starting or supporting a local group
-    text: Starting a circle
+    text: Local circles
     link: /practices/starting-a-circle
   - who: Taking on a role, including as staff
     text: Roles and circles
@@ -33,22 +33,22 @@ paths:
 
 # One card per sidebar section; titles match the section names exactly
 features:
-  - title: Start here
-    details: Welcome, first steps, the Fellowship, and a glossary of the terms we use.
+  - title: Join
+    details: Your first steps, life as a Fellow, and the words we use.
     link: /guide/
-  - title: How we make change
-    details: Our mission, what we stand for, and our theory of change.
+  - title: Learn
+    details: Why AI matters now, what we stand for, and how we build power.
     link: /strategy/
-  - title: How we organize
-    details: Values, ways to participate, roles and circles, and how decisions get made.
+  - title: Organize
+    details: Our values, where you fit, and how decisions get made.
     link: /organization/
-  - title: How we get things done
-    details: Objectives, projects, weekly planning, meetings, and templates.
+  - title: Build
+    details: Turn the mission into projects, weekly plans, and useful meetings.
     link: /work/
-  - title: How we learn and improve
-    details: Metrics, reviews, feedback, and development.
-    link: /learning/
-  - title: Practical guides
-    details: Start a circle, run gatherings and conversations, train others, and plan actions.
+  - title: Act
+    details: Start a circle, bring people in, and take peaceful action.
     link: /practices/
+  - title: Grow
+    details: Measure what matters, review it together, and develop as people.
+    link: /learning/
 ---

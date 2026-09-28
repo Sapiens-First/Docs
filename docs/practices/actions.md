@@ -10,13 +10,13 @@ All actions taken in the name of Sapiens First must follow our [values and red l
 
 ## Start with the purpose
 
-Be clear about the audience, the message, and what you want people to do next. Consider the people needed, the preparation involved, and how the action connects to ongoing organizing.
+Be clear about the audience, the message, and what you want people to do next. Consider who you need, the preparation it takes, and how the action connects to ongoing organizing.
 
 The original guide suggests using humor, drama, or visible commitment to communicate a message. A small action can be effective when the purpose is clear and people can participate meaningfully.
 
 ## Plan together
 
-Agree on responsibilities for preparation, participation, communication, and follow-up. Decide how you will explain the action to others and how photography or media involvement will be handled.
+Agree on responsibilities for preparation, participation, communication, and follow-up. Decide how you will explain the action to others and how you'll handle photography or media involvement.
 
 Afterward, discuss what happened, what you learned, and what to do next. Make sure people who want to join have a clear invitation.
 
@@ -29,6 +29,6 @@ Those colors are brainstorming categories, not a formal approval process or a gu
 
 ::: related
 - [Current campaigns](https://sapiensfirst.org/campaigns) — What Sapiens First is campaigning on now.
-- [Making decisions](../organization/decisions.md) — What you can decide, when to consult, and what needs approval.
-- [Organizing conversations](organizing-conversations.md) — Listen first, then invite people to participate.
+- [Decisions](../organization/decisions.md) — What you can decide, when to consult, and what needs approval.
+- [Conversations](organizing-conversations.md) — Listen first, then invite people to participate.
 :::

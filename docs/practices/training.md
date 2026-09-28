@@ -2,7 +2,7 @@
 description: "Help people learn through practice."
 ---
 
-# Training and facilitation
+# Training
 
 Training should help people do something they couldn't do before. Start with a concrete outcome, such as facilitating a meeting, having an organizing conversation, or scoping a project.
 
@@ -26,6 +26,6 @@ Ask whether participants can use what they learned. Their questions and difficul
 Share the agenda, examples, and useful lessons so another facilitator can run the session. Current schedules and assigned facilitators belong in the live program records.
 
 ::: related
-- [Learning resources](../strategy/resources.md) — Reading on our position, on movements, and on measurement.
-- [Metrics and learning](../learning/metrics.md) — Why we measure, and how to define a useful metric.
+- [Reading list](../strategy/resources.md) — Reading on our position, on movements, and on measurement.
+- [Metrics](../learning/metrics.md) — Why we measure, and how to define a useful metric.
 :::

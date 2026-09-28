@@ -1,15 +1,17 @@
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 import { handbookContainers } from './containers'
 
-const base = '/Handbook/'
+const base = '/docs/'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid(defineConfig({
   title: 'Sapiens First Handbook',
   description: 'How Sapiens First works — the handbook for fellows, organizers and staff.',
-  // Served from https://sapiens-first.github.io/Handbook/
+  // Served from https://sapiens-first.github.io/docs/. When the site moves to
+  // docs.sapiensfirst.org, set `base` to '/' and add docs/public/CNAME.
   base,
   cleanUrls: true,
   lastUpdated: true,
@@ -54,67 +56,68 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Start here',
+        text: 'Join',
         collapsed: false,
         items: [
           { text: 'Welcome', link: '/guide/' },
-          { text: 'Getting started', link: '/guide/getting-started' },
-          { text: 'Being a Fellow', link: '/guide/fellowship' },
+          { text: 'First steps', link: '/guide/getting-started' },
+          { text: 'The Fellowship', link: '/guide/fellowship' },
           { text: 'Fellowship agreement', link: '/guide/agreement' },
           { text: 'Glossary', link: '/guide/glossary' },
         ]
       },
       {
-        text: 'How we make change',
+        text: 'Learn',
         collapsed: false,
         items: [
           { text: 'Overview', link: '/strategy/' },
-          { text: 'Learning resources', link: '/strategy/resources' },
+          { text: 'Reading list', link: '/strategy/resources' },
         ]
       },
       {
-        text: 'How we organize',
+        text: 'Organize',
         collapsed: false,
         items: [
           { text: 'Overview', link: '/organization/' },
-          { text: 'Values and expectations', link: '/organization/values' },
-          { text: 'Ways to participate', link: '/organization/participation' },
+          { text: 'Values', link: '/organization/values' },
+          { text: 'Participation', link: '/organization/participation' },
           { text: 'Roles and circles', link: '/organization/roles-and-circles' },
-          { text: 'Making decisions', link: '/organization/decisions' },
+          { text: 'Decisions', link: '/organization/decisions' },
         ]
       },
       {
-        text: 'How we get things done',
+        text: 'Build',
         collapsed: false,
         items: [
           { text: 'Overview', link: '/work/' },
-          { text: 'Planning a project', link: '/work/projects' },
-          { text: 'Planning your week', link: '/work/weekly-work' },
+          { text: 'Projects', link: '/work/projects' },
+          { text: 'Weekly planning', link: '/work/weekly-work' },
           { text: 'Meetings and updates', link: '/work/meetings-and-updates' },
           { text: 'Templates', link: '/work/templates' },
         ]
       },
       {
-        text: 'How we learn and improve',
-        collapsed: false,
-        items: [
-          { text: 'Overview', link: '/learning/' },
-          { text: 'Metrics and learning', link: '/learning/metrics' },
-          { text: 'Reviewing metrics', link: '/learning/reviewing-metrics' },
-          { text: 'Atlas, metrics, and AI', link: '/learning/atlas-and-ai' },
-          { text: 'Feedback and development', link: '/learning/feedback' },
-        ]
-      },
-      {
-        text: 'Practical guides',
+        text: 'Act',
         collapsed: false,
         items: [
           { text: 'Overview', link: '/practices/' },
-          { text: 'Starting a circle', link: '/practices/starting-a-circle' },
+          { text: 'Local circles', link: '/practices/starting-a-circle' },
           { text: 'Gatherings', link: '/practices/gatherings' },
-          { text: 'Organizing conversations', link: '/practices/organizing-conversations' },
-          { text: 'Training and facilitation', link: '/practices/training' },
+          { text: 'Conversations', link: '/practices/organizing-conversations' },
+          { text: 'Training', link: '/practices/training' },
           { text: 'Peaceful actions', link: '/practices/actions' },
+        ]
+      },
+      {
+        text: 'Grow',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/learning/' },
+          { text: 'Metrics', link: '/learning/metrics' },
+          { text: 'Strategic hypotheses', link: '/learning/strategic-hypotheses' },
+          { text: 'Metric reviews', link: '/learning/reviewing-metrics' },
+          { text: 'Atlas and AI', link: '/learning/atlas-and-ai' },
+          { text: 'Feedback and development', link: '/learning/feedback' },
         ]
       },
     ],
@@ -124,11 +127,11 @@ export default defineConfig({
     externalLinkIcon: true,
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Sapiens-First/Handbook' }
+      { icon: 'github', link: 'https://github.com/Sapiens-First/docs' }
     ],
 
     editLink: {
-      pattern: 'https://github.com/Sapiens-First/Handbook/edit/main/docs/:path',
+      pattern: 'https://github.com/Sapiens-First/docs/edit/main/docs/:path',
       text: 'Suggest an edit'
     },
 
@@ -138,5 +141,25 @@ export default defineConfig({
       message: 'Learn · Organize · Act',
       copyright: 'Sapiens First'
     }
-  }
-})
+  },
+
+  // Flowcharts in ```mermaid blocks, drawn in the site's paper-and-ink palette
+  mermaid: {
+    theme: 'base',
+    themeVariables: {
+      fontFamily: 'DM Sans, sans-serif',
+      fontSize: '15px',
+      primaryColor: '#ffffff',
+      primaryTextColor: '#111111',
+      primaryBorderColor: '#111111',
+      lineColor: '#111111',
+      secondaryColor: '#ffd60a',
+      tertiaryColor: '#f0e8dc',
+      clusterBkg: '#f0e8dc',
+      clusterBorder: '#111111',
+      edgeLabelBackground: '#f8f3eb'
+    },
+    flowchart: { curve: 'basis', padding: 14, htmlLabels: true }
+  },
+  mermaidPlugin: { class: 'sf-diagram' }
+}))

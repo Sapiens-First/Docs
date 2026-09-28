@@ -2,9 +2,9 @@
 description: "Core values, operating principles, leadership standards, and red lines."
 ---
 
-# Values and expectations
+# Values
 
-Anyone can act in the name of Sapiens First if they follow our values. Shared values let people take initiative while caring for the movement and one another.
+Anyone can act in the name of Sapiens First if they follow our values. Shared values let people take initiative while caring for the movement and one another. Here's what we value, how we expect leaders to act, and where the lines are.
 
 ## Our core values
 
@@ -16,7 +16,7 @@ Anyone can act in the name of Sapiens First if they follow our values. Shared va
 
 **Respect.** We are kind, listen, and use nonviolent communication.
 
-**Agency.** When we feel strongly, we take action!
+**Agency.** When we feel strongly, we take action.
 
 ## Operating principles
 
@@ -49,7 +49,7 @@ People acting in the name of Sapiens First must not:
 - Knowingly create serious risks for participants or the public.
 - Misrepresent Sapiens First's demands, values, activities, or relationships.
 
-People who cross these lines may be asked to leave an event, step down from a role, or stop acting in the name of Sapiens First.
+People who cross these lines may be asked to leave an event or step down from a role. They may also be asked to stop acting in the name of Sapiens First.
 
 The existing reporting route is [rohan@sapiensfirst.org](mailto:rohan@sapiensfirst.org). Following a report, leadership interviews the parties involved and other relevant members before deciding next steps.
 
@@ -64,6 +64,6 @@ Members can hold different political views, participate in other organizations, 
 The source guide states that Sapiens First does not currently issue official candidate endorsements or coalition statements. It describes democratic chapter endorsements as a future possibility. Confirm any change in policy before representing an endorsement as official.
 
 ::: related
-- [Making decisions](decisions.md) — What you can decide, when to consult, and what needs approval.
+- [Decisions](decisions.md) — What you can decide, when to consult, and what needs approval.
 - [Feedback and development](../learning/feedback.md) — Giving useful feedback and developing through responsibility.
 :::

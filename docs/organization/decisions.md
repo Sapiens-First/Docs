@@ -2,13 +2,26 @@
 description: "What you can decide, when to consult, and what needs approval."
 ---
 
-# Making decisions
+# Decisions
 
-People need room to act and clarity about when to involve others. Before starting work, agree on what you can decide, what needs consultation, and what needs approval.
+People need room to act and clarity about when to involve others. Before starting work, agree on what you can decide, what needs consultation, and what needs approval. Here's how to check your decision rights, follow current Fellowship practice, and get help when responsibility isn't clear.
 
 ## Check the decision rights
 
-Your role and project scope are the starting points. A useful scope records:
+Your role and project scope are the starting points. Here's how to work through a decision:
+
+```mermaid
+flowchart LR
+  Q{"What does your<br/>scope say?"}
+  Q -->|Decide| D["Go ahead"]
+  Q -->|Consult| I["Seek input,<br/>then decide"]
+  Q -->|Approve| A["Ask the<br/>decision holder"]
+  Q -->|Unclear| U["Raise it with<br/>the role holder"]
+  classDef accent fill:#ffd60a,stroke:#111,stroke-width:2px
+  class Q accent
+```
+
+A useful scope records:
 
 - **Decide:** choices the owner can make independently.
 - **Consult:** choices where the owner should seek input from affected people.
@@ -16,11 +29,11 @@ Your role and project scope are the starting points. A useful scope records:
 
 Consultation and approval are different. Be clear about which you're asking for and who will make the final decision.
 
-## Existing Fellowship practice
+## Follow current Fellowship practice
 
-Fellows review project scope and plans with Rohan. The existing planning guidance also calls for discussing spending, public communications, external commitments, major scope or deadline changes, and important blockers with him where approval or a decision is needed.
+Fellows review project scope and plans with Rohan. The existing planning guidance also calls for discussing these with him where approval or a decision is needed: spending, public communications, external commitments, major scope or deadline changes, and important blockers.
 
-As responsibility is distributed, record the actual decision holder in the role or project records. A change in the handbook's wording alone doesn't transfer authority.
+As we distribute responsibility, record the actual decision holder in the role or project records. A change in the handbook's wording alone doesn't transfer authority.
 
 ## When responsibility is unclear
 

@@ -2,11 +2,11 @@
 description: "How circles review results, find bottlenecks, and allocate resources."
 ---
 
-# Reviewing metrics
+# Metric reviews
 
 Collecting numbers is the easy part. The value comes from looking at them regularly, understanding what changed, and deciding what to do.
 
-## Different views for different roles
+## Give each level the view it needs
 
 Not everyone needs the same numbers. Metrics should roll up from the work to the whole movement.
 
@@ -16,7 +16,7 @@ Not everyone needs the same numbers. Metrics should roll up from the work to the
 | Circle | The outcomes the circle is responsible for | New and active members, retention, organizer capacity |
 | Movement | A small set of measures of overall health | Active members, active organizers, active chapters, retention, objectives on track |
 
-People coordinating the whole movement shouldn't need to inspect every project. They should be able to see the overall state of the work, then follow a number down to the circle, role, and records behind it when something looks wrong.
+People coordinating the whole movement shouldn't need to inspect every project. They should see the overall state of the work, then follow a number down to the circle, role, and records behind it when something looks wrong.
 
 Keep the top-level set small. If everything is a priority, nothing is.
 
@@ -67,11 +67,11 @@ A number moving in the right direction doesn't automatically prove that our work
 
 A falling number is a reason to have a conversation, not a verdict about a person.
 
-Suppose someone's weekly outreach falls from 24 to 19, then 11, then 6. That's worth noticing. The right response is a check-in: they may have exams, the target may be unrealistic, the role may be poorly designed, or they may need support.
+Suppose someone's weekly outreach falls from 24 to 19, then 11, then 6. That's worth noticing. The right response is a check-in. They may have exams, the target may be unrealistic, the role may be poorly designed, or they may need support.
 
 Use metrics to see where help is needed. Use conversations and [feedback](feedback.md) to understand people's contributions. Outcomes depend on resources and circumstances outside anyone's control, so don't judge a person by a result alone.
 
-## Common pitfalls
+## Avoid common pitfalls
 
 - **Measuring what's easy instead of what matters.** Counting posts is simpler than knowing whether anyone joined because of them.
 - **Chasing the number.** When a measure becomes a target, people can hit it without achieving the purpose. Pairing measures helps.
@@ -80,7 +80,7 @@ Use metrics to see where help is needed. Use conversations and [feedback](feedba
 - **Treating completion as success.** Finishing a project isn't the same as achieving its outcome.
 
 ::: related
-- [Metrics and learning](metrics.md) — Why we measure, and how to define a useful metric.
-- [Atlas, metrics, and AI](atlas-and-ai.md) — Where we're heading: Atlas and AI that help us notice what needs attention.
+- [Metrics](metrics.md) — Why we measure, and how to define a useful metric.
+- [Atlas and AI](atlas-and-ai.md) — Where we're heading: Atlas and AI that help us notice what needs attention.
 - [Meetings and updates](../work/meetings-and-updates.md) — Check-ins, written updates, and general meetings.
 :::

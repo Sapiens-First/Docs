@@ -3,11 +3,11 @@ description: "What to expect as a Fellow, from your first weeks to after the pro
 audience: Fellows
 ---
 
-# Being a Fellow
+# The Fellowship
 
 The Fellowship is a structured way to contribute to Sapiens First. Each Fellow takes responsibility for a project that helps the movement, with support from people working on related priorities.
 
-You'll build skills in strategic analysis, planning, and leadership, meet people working on AI and politics, and help create something others can use. We also want you to have fun!
+You'll build skills in strategic analysis, planning, and leadership. You'll meet people working on AI and politics, help create something others can use, and have fun along the way. Here's what to expect, how your first weeks go, and what comes after the Fellowship.
 
 ## What to expect
 
@@ -39,7 +39,7 @@ Projects differ. Research, organizing, and software projects won't follow an ide
 
 Bring your interests, available time, and questions. Discuss who will use the result, why it matters, and what is achievable during the Fellowship. Use the [scope template](../work/templates.md#project-scope) to capture what you agree.
 
-If you're unsure how the project helps the mission, ask. Understanding the purpose makes it easier to make good decisions as the work develops.
+If you're unsure how the project helps the mission, ask. Understanding the purpose makes good decisions easier as the work develops.
 :::
 
 ## Keep people in the loop
@@ -54,6 +54,6 @@ Atlas describes Stewards as a possible next engagement level after three months 
 
 ::: related
 - [Fellowship agreement](agreement.md) — The agreement every Fellow accepts before starting.
-- [Planning a project](../work/projects.md) — Scope, plan, test, and hand off a project.
+- [Projects](../work/projects.md) — Scope, plan, test, and hand off a project.
 - [Meetings and updates](../work/meetings-and-updates.md) — Check-ins, written updates, and general meetings.
 :::
