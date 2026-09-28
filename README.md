@@ -9,6 +9,7 @@ Built with [VitePress](https://vitepress.dev) for [GitHub Pages](https://sapiens
 ```text
 docs/                     Published handbook
   index.md                Site home
+  find.md                 "Find anything" — common questions routed to their answer
   guide/                  Welcome, onboarding, Fellowship, agreement
   strategy/               Mission, theory of change, learning resources
   organization/           Values, participation, roles, decisions
@@ -40,7 +41,7 @@ The build also writes `llms.txt`, `llms-full.md`, `llms-full.txt`, a `sitemap.xm
 
 ## Editing
 
-Edit Markdown under `docs/`. Use lowercase, hyphenated filenames and relative `.md` links so content is navigable in both GitHub and VitePress. Add new pages to `docs/.vitepress/config.mts` and link them from the relevant section index. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Edit Markdown under `docs/`. Use lowercase, hyphenated filenames and relative `.md` links so content is navigable in both GitHub and VitePress. Add new pages to `docs/.vitepress/config.mts`, in the sidebar group matching the page's frontmatter `section` (the sidebar groups by subject, not by folder — see [CONTRIBUTING.md](CONTRIBUTING.md)), and link them from the relevant overview or from `docs/find.md`.
 
 ## Deployment
 

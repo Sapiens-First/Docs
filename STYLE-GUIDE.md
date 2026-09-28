@@ -14,72 +14,55 @@ This guide sets out how we do that. It covers **framing, wording, and visuals**,
 
 ## One pattern at every level
 
-The handbook is fractal. The same three-part shape repeats at every scale:
+The handbook is fractal. The same three-part shape repeats at every scale, and at the topic-page level it's now a fixed anatomy: a self-describing **H1**, a one-sentence **summary** (the `>` line directly under the H1), **`## In brief`** (3–5 bullets), **`## When to use this`**, the main content, then **`## Related`**. That anatomy *is* hook / three things / next step, made literal so both people and tools can rely on it:
 
-1. **Hook.** Why should the reader care? Start from their situation, not ours.
-2. **Three things.** The core ideas, steps, or choices, grouped so they stick.
-3. **Next step.** Where to go or what to do now.
+1. **Hook.** The summary line and `## In brief` — why should the reader care, and what's the gist if they read no further?
+2. **Three things.** `## When to use this` plus the main `##` sections — the core ideas, steps, or choices, grouped so they stick.
+3. **Next step.** The `::: related` block at the end.
 
 ```mermaid
 flowchart TB
-  H["<b>Hook</b> · why this matters to you"] --> T["<b>Three things</b> · the ideas that stick"] --> N["<b>Next step</b> · where to go now"]
+  H["<b>Hook</b> · summary + In brief"] --> T["<b>Three things</b> · When to use this + sections"] --> N["<b>Next step</b> · Related"]
   classDef accent fill:#ffd60a,stroke:#111,stroke-width:2px
   class T accent
 ```
 
 | Level | Hook | Three things | Next step |
 | --- | --- | --- | --- |
-| Homepage | Hero tagline | Three verbs in the tagline; six section cards in two rows of three | "Start here" button |
-| Section overview | One- or two-sentence opener | Pages grouped under three bold headings | Related block or first page |
-| Topic page | Opening paragraph | Two to four `##` sections | Related block |
+| Homepage | Hero tagline | Subject-based routing cards (New here? / Doing the work? / Organizing locally? / Looking for current information?) | "Start here" and "Find anything" buttons |
+| Section overview | Summary + `## In brief` | Pages grouped under bold headings | Related block or first page |
+| Topic page | Summary + `## In brief` | `## When to use this` plus two to four more `##` sections | Related block |
 | Section of a page | First sentence under the heading | Bold lead-ins or a three-item list | A link or an action |
 | Paragraph | Bold lead-in | Up to three supporting sentences | — |
 
-Work top-down. Fix the homepage and overviews first, then the openings of topic pages, then paragraphs. A strong frame makes every lower level easier to write.
+Work top-down. Fix the homepage and overviews first, then the openings of topic pages, then paragraphs. A strong frame makes every lower level easier to write. The conceptual Join → Learn → Organize → Build → Act → Grow journey survives only as the homepage's closing section, not as the sidebar's organizing principle — see [AI-READABILITY-PLAN.md](AI-READABILITY-PLAN.md).
 
 ## Names
 
-Every name in the handbook follows one grammar. The theory: **what you do, then what it's about, then how to do it.**
+**This section is superseded by [AI-READABILITY-PLAN.md](AI-READABILITY-PLAN.md) for H1s and sections; read that file first.** A page title (H1) is no longer capped at three words — it's a short, self-describing sentence a reader (or an AI, or a search engine) can understand out of context, with no page around it: "How Sapiens First uses metrics", not "Metrics". Frontmatter `title:` repeats the H1 exactly. The old three-word H1 rule and "name the thing, not the activity" still guide the **sidebar label**, which stays short (see below); it's the H1 that changed.
 
 | Level | Form | Examples |
 | --- | --- | --- |
-| Section | One verb | Join, Learn, Build |
-| Page title (H1) | A short noun phrase, three words or fewer | First steps, Projects, Local circles |
+| Section (sidebar group) | A subject category, not a verb | Start here, Running the work, Field guides |
+| Page title (H1) | A self-describing sentence, meaningful out of context | "How Sapiens First manages work", "The Sapiens First Fellowship" |
+| Sidebar label | A short noun phrase, three words or fewer | First steps, Projects, Starting a local circle |
 | Heading (`##`) | An action or a promise | Start with a scope, Offer a next step |
 
-On the site, a page's section shows as the small label above its title. Together they read as a pair: **Build · Projects**, **Act · Gatherings**.
+On the site, a page's section still shows as the small label above its title, but the sidebar itself groups pages by these subject categories rather than by the six verbs. A page's sidebar label is what appears in the navigation tree and in Related blocks; its H1 is what appears at the top of the page, in `llms.txt`, and in a search result.
 
-### The six sections
+### Sections are subject categories
 
-The sections are our motto, "Learn · Organize · Act", expanded to six verbs. They fall into two triads: the first three get you in, and the last three get you going.
+The sidebar (`docs/.vitepress/config.mts`) is grouped by the frontmatter `section` value, in this fixed order: **Start here · About Sapiens First · People and organization · Running the work · Field guides · Reference.** These are subjects a newcomer would search for, not verbs of a journey.
 
-```mermaid
-flowchart TB
-  J["<b>Join</b> · find your place"] --> L["<b>Learn</b> · why we exist"] --> O["<b>Organize</b> · how we fit together"]
-  O --> B["<b>Build</b> · plan the work"] --> A["<b>Act</b> · do it with others"] --> G["<b>Grow</b> · get better"]
-  G -.-> B
-  classDef accent fill:#ffd60a,stroke:#111,stroke-width:2px
-  class J accent
-```
-
-| Section | Holds | Folder |
-| --- | --- | --- |
-| **Join** | Welcome, first steps, the Fellowship, the glossary | `guide/` |
-| **Learn** | The mission, what we stand for, our theory of change | `strategy/` |
-| **Organize** | Values, participation, roles, decisions | `organization/` |
-| **Build** | Objectives, projects, weekly plans, meetings | `work/` |
-| **Act** | Circles, gatherings, conversations, training, actions | `practices/` |
-| **Grow** | Metrics, reviews, feedback, development | `learning/` |
-
-Folders and URLs keep their original names, so links people have already shared keep working.
+The six verbs — **Join, Learn, Organize, Build, Act, Grow** — still exist, but only as the conceptual journey shown on the homepage (`docs/index.md`), not as sidebar or folder groupings. Folders and URLs keep their original names (`guide/`, `strategy/`, `organization/`, `work/`, `practices/`, `learning/`), so links people have already shared keep working; see the mapping from folder to section in [AI-READABILITY-PLAN.md](AI-READABILITY-PLAN.md).
 
 ### Naming a new page
 
-**Name the thing, not the activity.** Write "Projects", not "Planning a project". The section verb already says what you do.
+**Write a self-describing H1.** Someone should understand what the page is about from the H1 alone, with no other context — "Reviewing metrics together", not "Reviews" or "Overview".
 
-**Keep it plain.** Use the word a newcomer would search for. Add an article only when it reads more naturally ("The Fellowship").
+**Keep the sidebar label plain and short.** Use the word a newcomer would search for. Add an article only when it reads more naturally ("The Fellowship"). Never use "Overview" alone as a label.
 
-**Keep one name everywhere.** The H1, the sidebar label, and the link text in overviews and Related blocks all match. `scripts/check-rewrite.py` checks this.
+**Keep one name for each purpose.** The H1 stays the same everywhere it's quoted in full; the sidebar label stays the same everywhere it's used as link text. `scripts/check-rewrite.py` checks that list-style link text (as in Related blocks and overviews) matches one of the two.
 
 ## The rule of three
 
