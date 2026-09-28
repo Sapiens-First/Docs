@@ -1,8 +1,33 @@
 ---
+title: Atlas and AI
 description: "Where we're heading: Atlas and AI that help us notice what needs attention."
+section: Reference
+status: proposal
+last_updated: 2026-09-27
+canonical: /learning/atlas-and-ai
 ---
 
 # Atlas and AI
+
+> Where we're heading: Atlas giving everyone a shared, current picture, and AI helping us notice what needs attention.
+
+## In brief
+
+- This whole page describes a direction, not a current feature or requirement. Atlas today records mission, work structure, roles, circles, and assignments — nothing described further down this page yet exists.
+- The goal is metrics computed from records the work already produces, not extra reporting, so nobody has to count by hand.
+- The proposed loop is: a metric moves, Atlas raises it as a **tension** with the responsible role, likely causes are suggested, people decide, and the result gets measured.
+- People keep the consequential decisions — about roles, commitments, and anyone's contribution. AI would only help notice and summarize.
+
+## When to use this
+
+Read this page when:
+
+- You want to understand the direction Atlas and AI are heading, not what they do today.
+- You're curious how a metric could become a decision without more meetings.
+
+::: source
+Atlas records what currently exists: mission, work structure, roles, circles, and assignments. This page describes a proposed future, not Atlas's current features.
+:::
 
 As we grow, keeping everyone informed gets harder. More chapters and projects usually mean more meetings, more reports, and more people whose main job is passing information along. We want to grow without that overhead growing at the same rate.
 

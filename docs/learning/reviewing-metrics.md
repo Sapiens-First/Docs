@@ -1,8 +1,30 @@
 ---
+title: Reviewing metrics together
 description: "How circles review results, find bottlenecks, and allocate resources."
+section: Running the work
+status: adopted
+last_updated: 2026-09-27
+canonical: /learning/reviewing-metrics
 ---
 
-# Metric reviews
+# Reviewing metrics together
+
+> How circles review results regularly, find the real bottleneck, and decide where to put resources.
+
+## In brief
+
+- Each level sees a different view: a role sees the inputs and outputs it influences, a circle sees the outcomes it's responsible for, and the movement sees a small set of overall health measures.
+- A short review every week or two — look at the trend, focus on surprises, ask the responsible role to explain, decide what to do, and check the metric itself — is a suggested starting point, not a fixed requirement, while the practice is still being settled.
+- Metrics are most useful for finding the stage in a chain that's holding everything else back, so support can go there first.
+- A falling number is a reason for a conversation, not a verdict about a person.
+
+## When to use this
+
+Read this page when:
+
+- You're running or preparing for a circle's regular metrics review.
+- A number moved unexpectedly and you need a way to work out why.
+- You want to decide where to put limited time, money, or attention.
 
 Collecting numbers is the easy part. The value comes from looking at them regularly, understanding what changed, and deciding what to do.
 

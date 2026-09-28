@@ -1,8 +1,29 @@
 ---
+title: Strategic hypotheses
 description: "Working backwards from an outcome, and testing strategy as a hypothesis."
+section: Running the work
+status: adopted
+last_updated: 2026-09-27
+canonical: /learning/strategic-hypotheses
 ---
 
 # Strategic hypotheses
+
+> Work backward from the outcome you want, then treat your strategy as a hypothesis you test rather than a belief you defend.
+
+## In brief
+
+- Working backward means picking the outcome first, then asking what inputs could plausibly move it — the opposite of listing activities and hoping they add up.
+- A strategy is a testable claim: "if we change this input, then that outcome will follow."
+- A good input metric is one a role can move directly, whose link to the outcome is a stated assumption (not a settled fact), and that rewards the real work rather than a shortcut to game the number.
+- Formalizing this as a standing habit — who adopts it, how often it's reviewed, where hypotheses get recorded in Atlas — is still a **proposal**; the "work backward, treat it as a hypothesis" framing itself is current practice.
+
+## When to use this
+
+Read this page when:
+
+- You're setting a strategy and want to start from the outcome rather than the activity.
+- You want to check whether a proposed input-outcome link is actually testable.
 
 Most plans start from what we already do and ask what to add next. That habit protects the status quo. Working backwards starts from the change you want. Then it asks what would have to be true to get there — a sharper way to choose which inputs deserve attention.
 

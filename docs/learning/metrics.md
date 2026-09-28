@@ -1,10 +1,37 @@
 ---
+title: How Sapiens First defines and uses metrics
 description: "Why we measure, and how to define a useful metric."
+section: Running the work
+status: adopted
+last_updated: 2026-09-27
+canonical: /learning/metrics
 ---
 
-# Metrics
+# How Sapiens First defines and uses metrics
+
+> Why we measure, and how to define a metric that actually helps someone decide.
+
+## In brief
+
+- A metric is useful only when it helps someone make a better decision; otherwise, don't collect it.
+- Metrics come in three kinds: an **input** is an early, fast-moving measure a role can directly influence; an **output** is what gets produced; an **outcome** is the change that resulted. We track inputs and outcomes together, because inputs show where to act and outcomes show whether the work is succeeding.
+- The handbook defines what each metric means and how to read it; Atlas holds its current value and history (once it's built to store one).
+- Metrics describe the state of the work, not the worth of a person, and come from records the work already produces.
+- Modeling how recruitment, coaching capacity, and chapters affect one another is a proposal, not adopted practice.
+
+## When to use this
+
+Read this page when:
+
+- You're defining a new metric and want the fields a good definition covers.
+- You need to explain the difference between an input, an output, and an outcome.
+- You want to know what Sapiens First deliberately doesn't measure.
 
 We use metrics to understand the health of the movement and to decide where to put our limited time, money, and attention. A metric is useful when it helps someone make a better decision. Three ideas make that work: start from the objective, pair inputs with outcomes, and define each measure clearly.
+
+::: source
+The handbook defines what a metric means and how it should be read. Atlas holds each metric's current value and history, once it's built to store one; see [Atlas and AI](atlas-and-ai.md).
+:::
 
 Metrics describe the state of our work, not the worth of a person. They come from records the work already produces — sign-ups, attendance, roles filled, projects completed — not from monitoring what individuals do.
 
@@ -107,6 +134,6 @@ Define each variable, the time period, the assumptions, and the evidence behind 
 - [Strategic hypotheses](strategic-hypotheses.md) — Working backwards from an outcome, and testing strategy as a hypothesis.
 - [Metric reviews](reviewing-metrics.md) — How circles review results, find bottlenecks, and allocate resources.
 - [Atlas and AI](atlas-and-ai.md) — Where we're heading: Atlas and AI that help us notice what needs attention.
-- [The work](../work/index.md) — How the mission turns into objectives, projects, and next steps.
+- [How Sapiens First manages work](../work/index.md) — How the mission turns into objectives, projects, and next steps.
 - [Project scope template](../work/templates.md#project-scope) — A project's objective, scope, success criteria, and decision rights.
 :::

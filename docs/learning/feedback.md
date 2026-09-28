@@ -1,8 +1,30 @@
 ---
+title: Giving feedback and growing through responsibility
 description: "Giving useful feedback and developing through responsibility."
+section: Running the work
+status: adopted
+last_updated: 2026-09-27
+canonical: /learning/feedback
 ---
 
-# Feedback and development
+# Giving feedback and growing through responsibility
+
+> You learn through practice, support, and honest feedback; leadership standards already set the expectations.
+
+## In brief
+
+- Our leadership standards already set the expectations: reliability, openness to feedback, care, judgment, information sharing, and responsible handoffs.
+- Useful feedback describes what happened and its effect, asks about the other person's perspective, and ends in a concrete next step.
+- People develop by taking on stretching responsibility, such as running part of a meeting or coordinating a team.
+- Role-specific development rubrics are a proposal, not an adopted evaluation system.
+
+## When to use this
+
+Read this page when:
+
+- You're giving feedback and want a structure that lands as useful, not vague.
+- You're looking for a next step that stretches your responsibility.
+- A commitment was missed and you need to understand what got in the way.
 
 You learn through practice, support, and honest feedback. We want you to take responsibility and ask for help when you need it.
 

@@ -1,8 +1,29 @@
 ---
+title: How Sapiens First measures and learns
 description: "How we measure, review, and improve our work."
+section: Running the work
+status: adopted
+last_updated: 2026-09-27
+canonical: /learning/
 ---
 
-# The learning loop
+# How Sapiens First measures and learns
+
+> How we measure our work, review the results together, and turn what we learn into a better next attempt.
+
+## In brief
+
+- Learning runs as a loop: define what matters, observe what happens, reflect together, and change the next attempt.
+- Metrics and reviewing metrics together describe adopted practice; strategic hypotheses, Atlas and AI, and parts of feedback and development are proposals or a stated direction, not settled requirements.
+- Atlas doesn't yet store metric definitions or results, and evaluation rubrics are still being developed.
+- The handbook explains the approach to measuring and learning; Atlas holds the current numbers.
+
+## When to use this
+
+Read this page when:
+
+- You want to understand how metrics, reviews, and feedback fit together.
+- You're looking for the right page among metrics, strategic hypotheses, metric reviews, Atlas and AI, or feedback and development.
 
 We want to get better at the work, and help others do the same. That means paying attention to results, welcoming feedback, and sharing what we learn.
 
