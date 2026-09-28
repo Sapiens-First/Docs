@@ -94,8 +94,8 @@ Workstreams (update the status as each lands):
 - [x] C. Content, Field guides (practices/*) — done f8958bb, all adopted
 - [x] D. Infrastructure: status badge, last-updated from frontmatter, lede style, llms.txt / llms-full.md / llms-full.txt, sitemap, robots.txt, validation script + CI — done. Note: `last_updated` arrives as a JS `Date` server-side (YAML parses unquoted `YYYY-MM-DD`) and as an ISO string client-side; both `transformPageData` and `PageMeta.vue` handle either form.
 - [x] E. Navigation: sidebar regrouped by section, `/find` page, homepage routing, STYLE-GUIDE / CONTRIBUTING updates — done 4a7950c, 4d0e3e3, bf127ef, 9e5b9f8, b0e3245
-- [ ] F. QA: build, links, mobile/desktop check, llms-full review, LLM acceptance questions
-- [~] Published to main: increment 1 (content A–C + infra D) pushed 106bddf on 2026-09-27
+- [x] F. QA: build, links, mobile/desktop check, llms-full review, LLM acceptance questions
+- [x] Published to main: increments 1–4; increment 1 (content A–C + infra D) pushed 106bddf on 2026-09-27
 
 Log:
 
@@ -115,3 +115,13 @@ Log:
 - 2026-09-28: Wave F acceptance-test fixes 1–5 landed. (1) work/projects.md: new "Propose a new project" section (write a scope, check decision rights, discuss with the relevant circle/role holder, record in Atlas) plus a `::: clarify` that who approves a project and what a proposal must include isn't defined; linked from find.md. (2) Reconciled objective/output/key result (work/index.md) with input/output/outcome (learning/metrics.md) with a cross-referencing sentence on each page and matching In brief bullets; updated glossary entries for Objective, Key result, Metric, and Output and outcome to use consistent language. (3) organization/decisions.md and work/projects.md: added the declarative default that a project's owner (named in its scope, recorded in Atlas) holds authority, exercised via Decide/Consult/Approve. (4) practices/starting-a-circle.md: new In brief bullet — every local group starts as a circle, chapter is a later stage without adopted criteria; added a find.md entry routing "start a chapter" here. (5) strategy/index.md: new "## Our theory of change" section (act/recruit/train → community/empowerment/advocacy → policy change) since `#act-recruit-train` is linked from elsewhere and couldn't be renamed; find.md's theory-of-change question now points to it. `npm run docs:check`: 0 errors. `python3 scripts/check-rewrite.py d290205`: 0 problems.
 - 2026-09-28: llms.ts fix (fix 6) done. Workstream E done. Increment 2 published (2c658b8: sidebar, /find, homepage, titles). Wave F dispatched: F1 = content fixes 1–5 (no build); F2 = read-only browser QA at 390/1440 px plus a live-deploy check. Next: apply F2's defects, rebuild, re-run the acceptance test, publish increment 3.
 - 2026-09-28: F1 fixes reviewed; project-authority sentences reworded to state only what the scope template defines (no invented default). F2 browser QA: 62 loads at 390/1440 px, 0 errors, 0 overflow, badges/dates/diagrams OK, deploy confirmed live. Its one finding (5 of 10 key destinations were 2 clicks from home) fixed with a "Go straight to" link section on the homepage. Increment 3 published. Next: re-run the LLM acceptance test on the fresh llms-full.md.
+- 2026-09-28: Re-test on llms-full: 17/18 pass (18 = before a first gathering, now linked from First steps). No markup leftovers, no heading skips, no proposal/adopted confusion. Increment 4 published.
+
+## Open items for the team (not blocking)
+
+- Decide who approves a new project and what a proposal must include (a `::: clarify` block on work/projects).
+- learning/metrics uses "Build a strong Berkeley chapter" as its objective example, while chapter criteria aren't adopted. Consider "circle".
+- The objective/output/outcome reconciliation is stated on both work/index and learning/metrics; consider keeping one copy in the glossary.
+- `::: tip` / `::: info` in the Grow pages are still outside CONTRIBUTING's block list (they now export correctly to llms-full).
+- robots.txt only takes effect at a host root; it's advisory until the site moves to docs.sapiensfirst.org.
+- Add an `owner:` to pages once owners are agreed (none were invented).

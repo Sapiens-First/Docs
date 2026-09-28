@@ -3,7 +3,7 @@ title: "First steps for new members"
 description: "First steps for new members: join, meet people, and find work."
 section: Start here
 status: adopted
-last_updated: 2026-09-27
+last_updated: 2026-09-28
 canonical: /guide/getting-started
 ---
 
@@ -33,7 +33,7 @@ There's something for everyone in the movement, whatever time you have to give. 
 1. **Get to know the movement.** Read our [mission and strategy](../strategy/index.md) and [values](../organization/values.md).
 2. **Join us.** Use the [Sapiens First website](https://sapiensfirst.org) to find current ways to join and upcoming events.
 3. **Meet other people.** Introduce yourself in the community space you're invited to. Share where you're based, what you care about, and how you'd like to contribute.
-4. **Choose a next step.** Attend a gathering, help with an activity, explore the Fellowship, or talk to a [role holder](glossary.md#role-holder) about work listed in [Atlas](https://sapiensfirst.org/atlas).
+4. **Choose a next step.** Attend a [gathering](../practices/gatherings.md) (often something simple, like a picnic or a town hall discussion, with room to get to know people), help with an activity, explore the Fellowship, or talk to a [role holder](glossary.md#role-holder) about work listed in [Atlas](https://sapiensfirst.org/atlas).
 
 Start with a commitment you can keep. Let people know if your availability changes.
 
