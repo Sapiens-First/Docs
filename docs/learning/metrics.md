@@ -15,7 +15,7 @@ canonical: /learning/metrics
 
 - A metric is useful only when it helps someone make a better decision; otherwise, don't collect it.
 - Metrics come in three kinds: an **input** is an early, fast-moving measure a role can directly influence; an **output** is what gets produced; an **outcome** is the change that resulted. We track inputs and outcomes together, because inputs show where to act and outcomes show whether the work is succeeding.
-- These match the objective / output / key result terms in [How Sapiens First manages work](../work/index.md#outcomes-and-outputs): an objective names the outcome we want, a key result is the measure that shows it happened, and an output is the same idea in both pages.
+- These match the objective / output / key result terms in [How Sapiens First manages work](../work/index.md#outcomes-and-outputs): an objective names the outcome we want, a key result is the measure that shows it happened, and an output means the same thing on both pages.
 - The handbook defines what each metric means and how to read it; Atlas holds its current value and history (once it's built to store one).
 - Metrics describe the state of the work, not the worth of a person, and come from records the work already produces.
 - Modeling how recruitment, coaching capacity, and chapters affect one another is a proposal, not adopted practice.

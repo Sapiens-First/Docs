@@ -61,7 +61,7 @@ A workshop is an output. Participants who can run their first meeting are the ou
 
 Each key result should point to a defined metric, so everyone reads it the same way. Track the outcome, and also the inputs a role can directly influence. [Metrics](../learning/metrics.md) explains how.
 
-These match the terms in [Metrics](../learning/metrics.md#inputs-and-outcomes): an objective names the outcome we want, a key result is the measure that shows that outcome happened, and an output is the same idea in both pages.
+These match the terms in [Metrics](../learning/metrics.md#inputs-and-outcomes): an objective names the outcome we want, a key result is the measure that shows that outcome happened, and an output is what we produce along the way. Metrics adds inputs: the early measures of effort.
 
 ::: proposal Connecting objectives, products, and tasks
 

@@ -16,7 +16,7 @@ canonical: /work/projects
 - A [project](../guide/glossary.md#project) is a bounded effort to create or change something; it has a scope, a plan, and a defined hand-off.
 - To propose a new project, write a scope, check decision rights, and discuss it with the relevant circle or role holder; who approves a new project isn't defined yet.
 - Fellows currently review a project's scope with Rohan before investing heavily in an approach.
-- By default, a project's owner — named in its scope and recorded in Atlas — holds authority over its decisions.
+- A project's scope names its owner and sets its decision rights: what the owner decides, where they consult, and who approves reserved decisions. Atlas records the current owner.
 - Planning stages — discovery, strategy, a first useful version, testing, iteration, handoff — can overlap and adapt to the project.
 - A project is ready to hand off once the agreed output has been checked against its success criteria and the next person can use it.
 
@@ -54,7 +54,7 @@ Who approves a new project, and what a proposal needs to include beyond the scop
 
 Write down the intended outcome, audience, outputs, success criteria, boundaries, constraints, and decision rights. Be explicit about what you're leaving out.
 
-Discuss the scope with the relevant decision holder before investing heavily in a particular approach. Fellows currently review this with Rohan. By default, a project's owner — the person named in its scope and recorded in Atlas — holds authority over its decisions, exercised through the Decide, Consult, and Approve rights set out in that scope.
+Discuss the scope with the relevant decision holder before investing heavily in a particular approach. Fellows currently review this with Rohan. The scope names the project's owner and sets its decision rights: what the owner decides, where they consult, and who approves reserved decisions. Atlas records the current owner.
 
 Use the [project scope template](templates.md#project-scope). It is a starting point for agreement, not a form to fill out without discussion.
 

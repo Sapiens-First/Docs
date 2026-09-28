@@ -14,7 +14,7 @@ canonical: /organization/decisions
 ## In brief
 
 - Every scope should mark choices as **Decide** (you choose alone), **Consult** (seek input, then decide), or **Approve** (someone else decides).
-- By default, authority over a project rests with its owner — named in the project scope and recorded in Atlas.
+- Authority over a project is set in its scope: the scope names the owner and splits decisions into Decide, Consult, and Approve. Atlas records the current owner.
 - Fellows currently review project scope and plans with Rohan, including spending, public communications, external commitments, major scope or deadline changes, and important blockers.
 - Consultation and approval are different: be clear which one you're asking for and who makes the final call.
 - The actual decision holder for a role or project should be recorded in Atlas, not just implied by the handbook's wording.
@@ -53,7 +53,7 @@ A useful scope records:
 
 Consultation and approval are different. Be clear about which you're asking for and who will make the final decision.
 
-By default, authority over a project rests with its owner — the person named in the project scope and recorded in Atlas — exercised through the Decide, Consult, and Approve rights set out in that scope.
+Authority over a project is set in its scope, which names the owner and records these three kinds of decision. Atlas records the current owner and decision holders.
 
 ::: source
 Atlas records the current decision holder for each role and project. This page explains how to check and use decision rights.
