@@ -95,10 +95,11 @@ Workstreams (update the status as each lands):
 - [x] D. Infrastructure: status badge, last-updated from frontmatter, lede style, llms.txt / llms-full.md / llms-full.txt, sitemap, robots.txt, validation script + CI — done. Note: `last_updated` arrives as a JS `Date` server-side (YAML parses unquoted `YYYY-MM-DD`) and as an ISO string client-side; both `transformPageData` and `PageMeta.vue` handle either form.
 - [ ] E. Navigation: sidebar regrouped by section, `/find` page, homepage routing, STYLE-GUIDE / CONTRIBUTING updates
 - [ ] F. QA: build, links, mobile/desktop check, llms-full review, LLM acceptance questions
-- [ ] Published to main
+- [~] Published to main: increment 1 (content A–C + infra D) pushed 106bddf on 2026-09-27
 
 Log:
 
 - 2026-09-27: plan written; `::: source` container added.
 - 2026-09-27: wave 1 dispatched in parallel (Sonnet agents): A, B, C (content, disjoint files, no builds) and D (infra, sole builder). Wave 2 = E (navigation), after D finishes because it edits config.mts. Then F, then publish. If a session dies mid-wave, check `git log` for each workstream's commits and run `python3 scripts/check-rewrite.py d290205` and `npm run docs:check`.
 - 2026-09-27/28: D landed. Status badge + callout and eyebrow section/last-updated in `PageMeta.vue`; `h1 + blockquote` lede style and `.sf-source` block in `theme/style.css`; `transformPageData`/`transformHead`/`sitemap`/`buildEnd` in `config.mts`; `docs/.vitepress/llms.ts` generates `llms.txt`, `llms-full.md`, `llms-full.txt`, and a raw-Markdown twin of every page; `docs/public/robots.txt` added; `scripts/validate-docs.mjs` (+ `npm run docs:check`, wired into `deploy.yml` before the build step, strict in CI, `--warn-only` for local mid-migration runs). `npm run docs:build` and `node scripts/validate-docs.mjs --warn-only` both run clean; strict `docs:check` currently fails only on pages content waves A/B/C haven't finished migrating (missing `title`, mostly `guide/*` and `organization/*` and `strategy/index.md`) — expected until those waves finish. Semantic HTML checked on a built page: one `<h1>`, one `<main>`, Related block renders as `<nav>`.
+- 2026-09-27: after wave 1, added the missing `title:` fields, gave the agreement frontmatter and a summary (check-rewrite now protects only the agreement text), and fixed the validator's summary detection. docs:check 0 errors; build OK. Published increment 1. Wave 2 dispatched: E (navigation) and an acceptance-test agent reading llms-full.md.
