@@ -90,7 +90,7 @@ The `>` line directly under the H1 is the summary and is styled as a lede; that 
 Workstreams (update the status as each lands):
 
 - [ ] A. Content, Start here + About + People (guide/*, strategy/*, organization/*), including glossary expansion
-- [ ] B. Content, Running the work (work/*, learning/*)
+- [x] B. Content, Running the work (work/*, learning/*) — done 23922a8, 662cc38. Status calls: weekly-work = proposal, atlas-and-ai = proposal, reviewing-metrics = adopted (its cadence is only suggested). H1s left short: Weekly planning, Meetings and updates, Strategic hypotheses, Atlas and AI; wave E should make them self-describing. Link texts in guide/index and strategy/index still use the old H1s; fix after A finishes.
 - [x] C. Content, Field guides (practices/*) — done f8958bb, all adopted
 - [ ] D. Infrastructure: status badge, last-updated from frontmatter, lede style, llms.txt / llms-full.md / llms-full.txt, sitemap, robots.txt, validation script + CI
 - [ ] E. Navigation: sidebar regrouped by section, `/find` page, homepage routing, STYLE-GUIDE / CONTRIBUTING updates
