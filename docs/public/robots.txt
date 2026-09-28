@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sapiens-first.github.io/docs/sitemap.xml
