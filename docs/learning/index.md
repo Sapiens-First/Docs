@@ -60,3 +60,9 @@ Want the theory behind it? [Reading list](../strategy/resources.md) in *The miss
 ::: clarify
 Atlas doesn't yet store metric definitions or results, and evaluation rubrics are still being developed. Treat proposals on these pages as proposals: they need to be discussed and adopted before they become requirements.
 :::
+
+::: related
+- [Metrics](metrics.md) — Why we measure, and how to define a useful metric.
+- [Metric reviews](reviewing-metrics.md) — How circles review results, find bottlenecks, and allocate resources.
+- [Feedback and development](feedback.md) — Builds on our leadership expectations and proposes a way to review growth.
+:::

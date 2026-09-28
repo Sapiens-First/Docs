@@ -18,6 +18,7 @@ canonical: /guide/
 - Pages follow the Join → Learn → Organize → Build → Act → Grow path, but you can jump straight to the page you need.
 - **Proposal** and **To clarify** blocks mark ideas that aren't adopted practice yet; everything else is current.
 - Look up any unfamiliar word in the [glossary](glossary.md).
+- Can't find what you're looking for? Try [Find anything](../find.md).
 
 ## When to use this
 
@@ -38,6 +39,7 @@ We imagine a world where AI serves the common good. We fight for **democracy, pr
 | Joining the Fellowship | [The Fellowship](fellowship.md) |
 | Starting or supporting a local group | [Local circles](../practices/starting-a-circle.md) |
 | Taking on a role, including as staff | [Roles and circles](../organization/roles-and-circles.md), then [The work](../work/index.md) |
+| Looking for a specific answer fast | [Find anything](../find.md) |
 
 ## Read it in layers
 
@@ -46,6 +48,8 @@ We imagine a world where AI serves the common good. We fight for **democracy, pr
 **Open the details when you need them.** Collapsible sections labelled **For role holders** or **Background** hold the extra depth.
 
 **Look up any term.** The [glossary](glossary.md) explains the words we use.
+
+**Looking for something specific?** [Find anything](../find.md) routes common questions to their answer.
 
 ## How the handbook fits together
 
@@ -99,4 +103,5 @@ Found something confusing? Tell the person responsible for that area, or suggest
 - [The Fellowship](fellowship.md) — What to expect as a Fellow, from your first weeks to after the program.
 - [Glossary](glossary.md) — Short definitions of the terms used across the Sapiens First handbook, with links to where each is explained.
 - [How Sapiens First is organized](../organization/index.md) — How values, participation, roles, and decisions fit together.
+- [Find anything](../find.md) — Common questions, routed to their answer.
 :::
