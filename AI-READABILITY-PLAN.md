@@ -91,7 +91,7 @@ Workstreams (update the status as each lands):
 
 - [ ] A. Content, Start here + About + People (guide/*, strategy/*, organization/*), including glossary expansion
 - [ ] B. Content, Running the work (work/*, learning/*)
-- [ ] C. Content, Field guides (practices/*)
+- [x] C. Content, Field guides (practices/*) — done f8958bb, all adopted
 - [ ] D. Infrastructure: status badge, last-updated from frontmatter, lede style, llms.txt / llms-full.md / llms-full.txt, sitemap, robots.txt, validation script + CI
 - [ ] E. Navigation: sidebar regrouped by section, `/find` page, homepage routing, STYLE-GUIDE / CONTRIBUTING updates
 - [ ] F. QA: build, links, mobile/desktop check, llms-full review, LLM acceptance questions
