@@ -31,9 +31,12 @@ npm ci
 npm run docs:dev
 npm run docs:build
 npm run docs:preview
+npm run docs:check   # validate frontmatter and links; add --warn-only locally
 ```
 
 The production build is written to `docs/.vitepress/dist`. The site uses the `/docs/` base path. Do not commit generated build files.
+
+The build also writes `llms.txt`, `llms-full.md`, `llms-full.txt`, a `sitemap.xml`, and a raw-Markdown twin of every page (for example `learning/metrics.md` next to `learning/metrics.html`), for LLMs and other tools that read the site directly. See "Metadata and machine-readable files" in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Editing
 

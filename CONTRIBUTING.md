@@ -91,10 +91,47 @@ Check the [source map](archive/README.md) before removing a topic. Historical sc
 
 When adding a factual claim or external resource, verify it and link to the relevant source. Distinguish organizational beliefs, strategic assumptions, and research findings.
 
+## Metadata and machine-readable files
+
+Every content page (everything under `docs/` except `docs/index.md`) carries frontmatter that both the site and outside tools read:
+
+```yaml
+---
+title: How Sapiens First uses metrics   # identical to the page's H1 text
+description: One sentence saying what the page covers.
+section: Running the work                # one of the six sections below
+status: adopted                          # one of the five statuses below
+last_updated: 2026-09-27                 # YYYY-MM-DD; quote it if you want it to stay a plain string
+canonical: /learning/metrics             # site path, no base, no .md; index pages end in /
+tags: [metrics, planning]                # optional
+owner: …                                 # optional; only if the source names one — never invent
+---
+```
+
+**Sections** (fixed list, used to group the sidebar and the generated `llms.txt`): `Start here` · `About Sapiens First` · `People and organization` · `Running the work` · `Field guides` · `Reference`.
+
+**Status** (fixed list, rendered as a badge near the top of the page): `adopted` · `proposal` · `draft` · `experimental` · `reference`. A page that's mostly current practice but contains `::: proposal` blocks is still `adopted`; say which parts are proposals in `## In brief`. Proposal, draft, and experimental pages also get a short callout under the eyebrow ("Proposal: this describes a possible future practice…"); adopted pages get a one-line note instead.
+
+Note that YAML parses an unquoted `2026-09-27` as a date value, not a string — this handbook's build code accepts both forms, but if you want to be certain `last_updated` stays a plain string, quote it (`last_updated: "2026-09-27"`).
+
+**The lede.** The `>` blockquote directly under the H1 is the page's one-sentence summary and is styled without a quote bar; every other blockquote is a real quotation and keeps the usual styling.
+
+**`::: source`** is the "Source of truth" callout (label rendered automatically): use it wherever the handbook explains a concept but Atlas holds the current state, for example roles, projects, or metric values. It renders as a solid, calm block — deliberately distinct from the dashed `::: proposal` / `::: clarify` blocks, so a reader can't mistake an open question for settled fact.
+
+**Generated files.** At build time (`npm run docs:build`), a `buildEnd` hook (`docs/.vitepress/llms.ts`) writes, into `docs/.vitepress/dist`:
+
+- `llms.txt` — an index of every page, grouped by section, for LLMs and other tools that support the [llms.txt convention](https://llmstxt.org).
+- `llms-full.md` / `llms-full.txt` — the entire handbook as one Markdown file, headings demoted so the whole document has one hierarchy, `::: kind` blocks spelled out as bold labels, and relative links rewritten to absolute URLs.
+- A raw Markdown twin of every page next to its HTML (e.g. `dist/learning/metrics.md` beside `metrics.html`) — these don't conflict with VitePress's clean URLs, which serve `metrics.html` for `/learning/metrics`.
+
+Don't hand-edit anything under `.vitepress/dist`; it's regenerated on every build.
+
 ## Check before publishing
 
 Diagrams go in fenced `mermaid` blocks; see the style guide for when to use one.
 
 Run `npm run docs:build`. VitePress checks Markdown compilation and internal page links. Also check new fragment links, navigation entries, expandable sections, and the page at narrow widths when browser testing is available.
+
+Run `npm run docs:check` (or `node scripts/validate-docs.mjs --warn-only` while content is still mid-migration) to check frontmatter completeness, the status and section vocabularies, `last_updated` formatting, duplicate or mismatched `canonical` paths, a single matching H1, and broken relative `.md` links or `#fragments`. It also warns (without failing) when a page has no `::: related` block, no `## In brief`, or no one-sentence lede under the H1. CI runs this in strict mode before every build; the local run can use `--warn-only` since content may be in flux.
 
 Do not commit `node_modules`, `.vitepress/cache`, or `.vitepress/dist`. A push to `main` triggers the existing GitHub Pages workflow; a local build does not publish anything.
