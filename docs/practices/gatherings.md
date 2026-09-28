@@ -1,8 +1,31 @@
 ---
-description: "Help people connect and take a next step."
+title: Running gatherings
+description: Help people connect and take a next step.
+section: Field guides
+status: adopted
+last_updated: 2026-09-27
+canonical: /practices/gatherings
 ---
 
-# Gatherings
+# Running gatherings
+
+> Gatherings give people a place to connect, share concerns, and find something to do together.
+
+## In brief
+
+- A movement grows through relationships, and gatherings are where those relationships start.
+- A gathering can be simple: tea and letter writing, a picnic, a town hall discussion, or an introduction to the AI Crisis.
+- Tell people what the gathering is for, where and when it happens, and what to expect.
+- Make room for conversation, not only a presentation.
+- Always end with a specific next step and agree who will follow up.
+
+## When to use this
+
+Read this page when:
+
+- You're planning a gathering and want a simple agenda to follow.
+- You want to make sure newcomers feel welcome and know what to expect.
+- You need to decide what next step to offer at the end.
 
 A movement grows through relationships. Gatherings give people a place to connect, share concerns, and find something they can do together.
 

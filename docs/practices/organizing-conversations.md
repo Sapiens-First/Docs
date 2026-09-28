@@ -1,8 +1,31 @@
 ---
-description: "Listen first, then invite people to participate."
+title: Having organizing conversations
+description: Listen first, then invite people to participate.
+section: Field guides
+status: adopted
+last_updated: 2026-09-27
+canonical: /practices/organizing-conversations
 ---
 
-# Conversations
+# Having organizing conversations
+
+> One-on-one conversations are a core way to invite people into the movement, and they start with listening.
+
+## In brief
+
+- People are more likely to participate when they feel heard and can see a meaningful place for themselves.
+- A good conversation moves through five steps: connect, listen, find common ground, invite, and follow up.
+- Listen roughly 80% of the time — a reminder to listen, not a quota to track live.
+- Door-knocking is one way to meet people outside your existing network; always respect a person's decision to end the conversation.
+- Recruitment is only the beginning — make sure someone can welcome the people who respond.
+
+## When to use this
+
+Read this page when:
+
+- You're preparing to have a one-on-one organizing conversation.
+- You want a simple structure to follow, from first contact to a next step.
+- You're planning or debriefing a door-knocking session.
 
 One-on-one conversations are a core way to invite people into the movement. Start by listening. People are more likely to participate when they feel heard and can see a meaningful place for themselves.
 

@@ -1,8 +1,31 @@
 ---
-description: "Help people learn through practice."
+title: Training organizers
+description: Help people learn through practice.
+section: Field guides
+status: adopted
+last_updated: 2026-09-27
+canonical: /practices/training
 ---
 
-# Training
+# Training organizers
+
+> Training should help people do something they couldn't do before.
+
+## In brief
+
+- Start with a concrete outcome, such as facilitating a meeting, having an organizing conversation, or scoping a project.
+- Explain the idea, show an example, let people try it, and make time to reflect.
+- Keep material relevant: an approachable introduction for new members, more detail for people taking on a project.
+- A proposed flipped-classroom format shares reading or a video beforehand and uses session time for practice and feedback.
+- Current schedules and assigned facilitators live in the program records, not this page.
+
+## When to use this
+
+Read this page when:
+
+- You're designing or running a training session.
+- You want a structure that helps people practice, not just listen.
+- You're improving a training based on what participants struggled with.
 
 Training should help people do something they couldn't do before. Start with a concrete outcome, such as facilitating a meeting, having an organizing conversation, or scoping a project.
 
