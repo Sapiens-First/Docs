@@ -16,6 +16,7 @@ const kinds: Record<string, string> = {
   roles: 'For role holders',
   background: 'Background',
   optional: 'Optional',
+  source: 'Source of truth',
 }
 
 export function handbookContainers(md: MarkdownIt) {
