@@ -1,10 +1,34 @@
 ---
+title: How projects work at Sapiens First
 description: "Scope, plan, test, and hand off a project."
+section: Running the work
+status: adopted
+last_updated: 2026-09-27
+canonical: /work/projects
 ---
 
-# Projects
+# How projects work at Sapiens First
 
-A project should produce something useful. A clear scope and a realistic plan keep your time on the work that matters, from scope to plan to a finished hand-off.
+> A clear scope and a realistic plan keep a project's time on the work that matters, from scope to a finished hand-off.
+
+## In brief
+
+- A [project](../guide/glossary.md#project) is a bounded effort to create or change something; it has a scope, a plan, and a defined hand-off.
+- Fellows currently review a project's scope with Rohan before investing heavily in an approach.
+- Planning stages — discovery, strategy, a first useful version, testing, iteration, handoff — can overlap and adapt to the project.
+- A project is ready to hand off once the agreed output has been checked against its success criteria and the next person can use it.
+
+## When to use this
+
+Read this page when:
+
+- You're scoping a new project and need to know what to write down.
+- You're building a plan and want to work backward from the output and deadline.
+- You're finishing a project and need to know what a good hand-off includes.
+
+::: source
+Atlas lists current projects and their owners. This page explains how projects work.
+:::
 
 Here's the shape that work takes, with room to loop back and improve before you finish.
 

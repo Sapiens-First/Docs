@@ -1,8 +1,29 @@
 ---
+title: Weekly planning
 description: "A simple weekly review and tasks you can act on."
+section: Running the work
+status: proposal
+last_updated: 2026-09-27
+canonical: /work/weekly-work
 ---
 
 # Weekly planning
+
+> A simple weekly review that connects your available time to the next important result.
+
+## In brief
+
+- The Fellowship already uses project plans, check-ins, and written updates as shared practice.
+- The five-step weekly review and the task-writing guidance below are a **proposed routine**, not an adopted requirement.
+- Atlas does not yet assign weekly tasks; this page doesn't establish a new reporting obligation.
+- A useful task names an action, gives enough context to start, and has a clear stopping point.
+
+## When to use this
+
+Read this page when:
+
+- You want a simple weekly rhythm for turning priorities into next actions.
+- You're writing a task and want to check it's specific enough to act on.
 
 A useful weekly plan connects your available time to the next important result. You should be able to tell what to do next and why it matters.
 

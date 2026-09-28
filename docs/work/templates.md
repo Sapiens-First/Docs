@@ -1,8 +1,28 @@
 ---
+title: Templates for planning and project work
 description: "Copyable templates for scopes, plans, updates, and handoffs."
+section: Reference
+status: reference
+last_updated: 2026-09-27
+canonical: /work/templates
 ---
 
-# Templates
+# Templates for planning and project work
+
+> Copyable starting points for a project scope, plan, update, weekly plan, and hand-off.
+
+## In brief
+
+- Each template below is a starting point, not a form to fill out without discussion.
+- Keep what helps, adapt the examples, and leave out sections that don't serve the work.
+- Store completed records with the project and link them from Atlas rather than in the handbook.
+
+## When to use this
+
+Read this page when:
+
+- You're scoping, planning, updating on, or handing off a project and want a copyable outline.
+- You want the fields a good project scope or plan should cover.
 
 Use these as starting points for the documents your project needs — a scope, a plan, an update, a weekly plan, or a handoff. Keep what helps, adapt the examples, and leave out sections that don't serve the work. Store completed records with the project and link them from Atlas.
 
@@ -140,4 +160,10 @@ Agreed check-in / update schedule: [fill in]
 ```
 
 Review the result yourself and with the relevant project contact. An AI-generated plan doesn't establish priorities or grant approval. Keep private organizational information out of tools unless their use is authorized.
+:::
+
+::: related
+- [Projects](projects.md) — Scope, plan, test, and hand off a project.
+- [Weekly planning](weekly-work.md) — A simple weekly review and tasks you can act on.
+- [Meetings and updates](meetings-and-updates.md) — Check-ins, written updates, and general meetings.
 :::

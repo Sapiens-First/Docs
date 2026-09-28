@@ -1,12 +1,37 @@
 ---
+title: How Sapiens First manages work
 description: "How the mission turns into objectives, projects, and next steps."
+section: Running the work
+status: adopted
+last_updated: 2026-09-27
+canonical: /work/
 ---
 
-# The work
+# How Sapiens First manages work
+
+> How the mission turns into objectives, projects, and next steps you can act on.
+
+## In brief
+
+- Every piece of work traces back to the mission through pillars, programs, products or services, and projects.
+- An **objective** describes a change; an **output** is a thing you create; a **key result** is the proof that the change happened.
+- Work moves in a loop: find it, understand it, agree on it, break it down, and review it.
+- Connecting objectives, products, milestones, and tasks into one fixed hierarchy is still a proposal, not settled practice.
+- [Atlas](https://sapiensfirst.org/atlas) records current work and who's responsible; these pages explain how to turn that into a plan.
+
+## When to use this
+
+Read this page when:
+
+- You're starting a new piece of work and want to know where it fits.
+- You need to tell an objective, an output, and a key result apart.
+- You want the shared loop for finding, scoping, and reviewing work.
+
+::: source
+Atlas lists current mission, pillar, program, and project records and who owns them. This page explains the concepts behind those records.
+:::
 
 Good work starts with a clear purpose. Before you take on a task, know three things: **who it helps, what should change, and how it moves the mission forward.**
-
-[Atlas](https://sapiensfirst.org/atlas) records the current work and who's responsible. These pages show you how to turn that context into a practical plan.
 
 ## From mission to work
 
@@ -28,9 +53,9 @@ A product or service can need several projects over its life. Finishing a projec
 
 Three terms keep plans honest:
 
-- **An objective is a change.** It describes what we want to be different.
+- **An [objective](../guide/glossary.md#objective) is a change.** It describes what we want to be different.
 - **An output is a thing.** It's something we create.
-- **A key result is the proof.** It tells us how we'll recognize success.
+- **A [key result](../guide/glossary.md#key-result) is the proof.** It tells us how we'll recognize success.
 
 A workshop is an output. Participants who can run their first meeting are the outcome. Both matter: we need to deliver the workshop, and find out whether it helps.
 

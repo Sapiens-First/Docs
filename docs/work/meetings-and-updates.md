@@ -1,8 +1,31 @@
 ---
+title: Meetings and updates
 description: "Check-ins, written updates, and general meetings."
+section: Running the work
+status: adopted
+last_updated: 2026-09-27
+canonical: /work/meetings-and-updates
 ---
 
 # Meetings and updates
+
+> Meetings and written updates keep work moving; choose the format that serves the purpose.
+
+## In brief
+
+- The existing Fellowship practice is weekly 1–1s with Rohan, plus either a team meeting or a written update every two weeks.
+- A check-in covers progress, decisions, blockers, and support, and ends with what happens next and who owns it.
+- A written update covers what was completed, links to evidence, risks or decisions needed, and what's next.
+- General meetings are for connection and shared understanding of the vision, not project decisions.
+- Your current program instructions hold the actual schedule that applies to you.
+
+## When to use this
+
+Read this page when:
+
+- You're deciding whether a check-in, a written update, or a general meeting fits your situation.
+- You're preparing a written update and want to know what to include.
+- You're facilitating a meeting and want a simple structure to run it well.
 
 Meetings and written updates help people make decisions, support one another, and keep work moving. Choose the format that serves the purpose: a check-in, a written update, or a general meeting.
 
