@@ -50,6 +50,16 @@ features:
     link: https://sapiensfirst.org/atlas
 ---
 
+## Go straight to
+
+**New here?** [Mission and strategy](/strategy/) · [Theory of change](/strategy/#our-theory-of-change) · [Ways to participate](/organization/participation) · [The Fellowship](/guide/fellowship) · [How we're organized](/organization/) · [Glossary](/guide/glossary)
+
+**Doing the work?** [Projects](/work/projects) · [Objectives and key results](/work/#outcomes-and-outputs) · [Weekly planning](/work/weekly-work) · [Meetings and updates](/work/meetings-and-updates) · [Metrics](/learning/metrics) · [Decisions](/organization/decisions)
+
+**Organizing locally?** [Starting a local circle](/practices/starting-a-circle) · [Gatherings](/practices/gatherings) · [Organizing conversations](/practices/organizing-conversations) · [Training organizers](/practices/training) · [Peaceful actions](/practices/actions)
+
+**Looking for current information?** [Atlas](https://sapiensfirst.org/atlas) holds current role holders, projects, objectives, and metric values. The handbook explains how they work.
+
 ## A journey from supporter to organizer
 
 You can understand Sapiens First as a journey from supporter to organizer, but the handbook navigation is organized by subject so information is easy to find.
