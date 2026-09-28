@@ -1,10 +1,32 @@
 ---
 description: "What you can decide, when to consult, and what needs approval."
+section: People and organization
+status: adopted
+last_updated: 2026-09-27
+canonical: /organization/decisions
 ---
 
-# Decisions
+# How Sapiens First makes decisions
 
-People need room to act and clarity about when to involve others. Before starting work, agree on what you can decide, what needs consultation, and what needs approval. Here's how to check your decision rights, follow current Fellowship practice, and get help when responsibility isn't clear.
+> Before starting work, agree on what you can decide, what needs consultation, and what needs approval.
+
+## In brief
+
+- Every scope should mark choices as **Decide** (you choose alone), **Consult** (seek input, then decide), or **Approve** (someone else decides).
+- Fellows currently review project scope and plans with Rohan, including spending, public communications, external commitments, major scope or deadline changes, and important blockers.
+- Consultation and approval are different: be clear which one you're asking for and who makes the final call.
+- The actual decision holder for a role or project should be recorded in Atlas, not just implied by the handbook's wording.
+- A repeatable governance process for changing roles and circle responsibilities is a **proposal**, not yet adopted.
+
+## When to use this
+
+Read this page when:
+
+- You're not sure whether you can decide something yourself, need to consult, or need approval.
+- You're a Fellow and want to know what Rohan currently expects to review.
+- Responsibility for a decision is unclear and you need to find the right person.
+
+People need room to act and clarity about when to involve others. Here's how to check your decision rights, follow current Fellowship practice, and get help when responsibility isn't clear.
 
 ## Check the decision rights
 
@@ -29,6 +51,10 @@ A useful scope records:
 
 Consultation and approval are different. Be clear about which you're asking for and who will make the final decision.
 
+::: source
+Atlas records the current decision holder for each role and project. This page explains how to check and use decision rights.
+:::
+
 ## Follow current Fellowship practice
 
 Fellows review project scope and plans with Rohan. The existing planning guidance also calls for discussing these with him where approval or a decision is needed: spending, public communications, external commitments, major scope or deadline changes, and important blockers.
@@ -51,4 +77,5 @@ Before adopting this process, we need to settle who can approve changes, how dis
 ::: related
 - [Project scope template](../work/templates.md#project-scope) — A project's objective, scope, success criteria, and decision rights.
 - [Roles and circles](roles-and-circles.md) — What roles and circles are, and how to read them in Atlas.
+- [Glossary](../guide/glossary.md) — Short definitions of the terms used across the Sapiens First handbook, with links to where each is explained.
 :::

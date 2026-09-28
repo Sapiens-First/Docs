@@ -1,9 +1,31 @@
 ---
 description: "What to expect as a Fellow, from your first weeks to after the program."
 audience: Fellows
+section: People and organization
+status: adopted
+last_updated: 2026-09-27
+canonical: /guide/fellowship
 ---
 
 # The Fellowship
+
+> A structured volunteer program: each Fellow takes responsibility for a project, with support from people working on related priorities.
+
+## In brief
+
+- Fellows aim to contribute **5–10 hours a week** during their program.
+- The Fellowship is a volunteer program, not employment.
+- Existing practice includes Discord, a standing weekly 1–1 with Rohan, a team meeting or written update every two weeks, and general meetings.
+- Every Fellow accepts the [Fellowship agreement](agreement.md) before starting.
+- After the Fellowship, you might continue as a Fellow, take on a coordination or leadership role, or use what you learned elsewhere.
+
+## When to use this
+
+Read this page when:
+
+- You're starting the Fellowship and want to know what to expect.
+- You want to know what happens in your first weeks on a project.
+- You're finishing a project or the Fellowship and need to plan a handoff.
 
 The Fellowship is a structured way to contribute to Sapiens First. Each Fellow takes responsibility for a project that helps the movement, with support from people working on related priorities.
 
@@ -21,6 +43,10 @@ The existing Fellowship practice includes:
 - General meetings to learn about the movement and connect with other Fellows.
 
 As the program grows, support may be assigned to other role holders. Check your onboarding instructions and current assignments in [Atlas](https://sapiensfirst.org/atlas); don't assume that change has already happened.
+
+::: source
+Atlas holds current Fellowship assignments and support contacts. This page explains what the program involves.
+:::
 
 ## Your first weeks
 
@@ -56,4 +82,5 @@ Atlas describes Stewards as a possible next engagement level after three months 
 - [Fellowship agreement](agreement.md) — The agreement every Fellow accepts before starting.
 - [Projects](../work/projects.md) — Scope, plan, test, and hand off a project.
 - [Meetings and updates](../work/meetings-and-updates.md) — Check-ins, written updates, and general meetings.
+- [Glossary](glossary.md) — Short definitions of the terms used across the Sapiens First handbook, with links to where each is explained.
 :::

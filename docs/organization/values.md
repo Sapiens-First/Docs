@@ -1,10 +1,32 @@
 ---
 description: "Core values, operating principles, leadership standards, and red lines."
+section: About Sapiens First
+status: adopted
+last_updated: 2026-09-27
+canonical: /organization/values
 ---
 
-# Values
+# Sapiens First's values
 
-Anyone can act in the name of Sapiens First if they follow our values. Shared values let people take initiative while caring for the movement and one another. Here's what we value, how we expect leaders to act, and where the lines are.
+> Anyone can act in the name of Sapiens First if they follow our values.
+
+## In brief
+
+- Our core values are **Peace, Wisdom, Deliberation, Respect, and Agency**.
+- People holding formal responsibilities, including Fellows and staff, are held to explicit leadership standards.
+- **Red lines** are things nobody may do in Sapiens First's name, such as harming or threatening people.
+- The current reporting route for a red-line concern is [rohan@sapiensfirst.org](mailto:rohan@sapiensfirst.org); a fuller reporting process is still being defined.
+- Members can hold their own political views and join other organizations in a personal capacity; Sapiens First does not currently issue official candidate endorsements.
+
+## When to use this
+
+Read this page when:
+
+- You want to know what Sapiens First stands for and expects of people acting in its name.
+- You're taking on a formal responsibility and want the leadership standards that come with it.
+- You need to report a concern about someone crossing a red line.
+
+Shared values let people take initiative while caring for the movement and one another. Here's what we value, how we expect leaders to act, and where the lines are.
 
 ## Our core values
 
@@ -66,4 +88,5 @@ The source guide states that Sapiens First does not currently issue official can
 ::: related
 - [Decisions](decisions.md) — What you can decide, when to consult, and what needs approval.
 - [Feedback and development](../learning/feedback.md) — Giving useful feedback and developing through responsibility.
+- [Glossary](../guide/glossary.md) — Short definitions of the terms used across the Sapiens First handbook, with links to where each is explained.
 :::

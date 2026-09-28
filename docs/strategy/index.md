@@ -1,10 +1,32 @@
 ---
 description: "Our mission, what we stand for, and how we make change."
+section: About Sapiens First
+status: adopted
+last_updated: 2026-09-27
+canonical: /strategy/
 ---
 
-# The mission
+# Sapiens First's mission and strategy
 
-We imagine a world where AI serves the common good. We believe in technology that uplifts all people, not just a rich few.
+> We imagine a world where AI serves the common good, and we organize to make that possible before powerful AI arrives.
+
+## In brief
+
+- We're organizing against the **AI Crisis**: concentrated economic gains, weakened democracy, and unmanaged security risks from powerful AI.
+- Our policy focus is **democratic renewal, common prosperity, and a secure future**.
+- Our approach is a cycle: **act, recruit, train** — each turn brings in more people who can lead.
+- Three kinds of work build on each other: **community, empowerment, and advocacy**.
+- Current campaigns, priorities, and structure live in [Atlas](https://sapiensfirst.org/atlas); this page explains the concepts behind them.
+
+## When to use this
+
+Read this page when:
+
+- You're new to Sapiens First and want to understand why we exist and what we're doing about it.
+- You want to see how our activities (gatherings, recruiting, training) fit together.
+- You want context before reading the [reading list](resources.md) or current campaign pages.
+
+We believe in technology that uplifts all people, not just a rich few.
 
 ## The moment
 
@@ -55,6 +77,10 @@ Three kinds of work build on each other:
 
 Shared direction, governance, resources, and support hold it all together. Atlas records the current structure, including the DNA pillar and the programs and work linked beneath the mission. This handbook explains the concepts; Atlas holds the current arrangement.
 
+::: source
+Atlas records the current mission structure, campaign priorities, and who owns them. This page explains the strategy and cycle behind that structure.
+:::
+
 ::: background Assumptions, evidence, and strategy
 
 The source movement guide names mobilizing 3.5% of the population as an ambition. Treat a participation target as a strategic ambition, not a guarantee that reaching a percentage will produce political change.
@@ -65,7 +91,8 @@ The Fellowship's initial strategy used a California campaign against mass survei
 :::
 
 ::: related
-- [The work](../work/index.md) — How the mission turns into objectives, projects, and next steps.
+- [How Sapiens First manages work](../work/index.md) — How the mission turns into objectives, projects, and next steps.
 - [Metrics](../learning/metrics.md) — Why we measure, and how to define a useful metric.
 - [Reading list](resources.md) — Reading on our position, on movements, and on measurement.
+- [Values](../organization/values.md) — Core values, operating principles, leadership standards, and red lines.
 :::

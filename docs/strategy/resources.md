@@ -1,10 +1,31 @@
 ---
 description: "Reading on our position, on movements, and on measurement."
+section: About Sapiens First
+status: reference
+last_updated: 2026-09-27
+canonical: /strategy/resources
 ---
 
 # Reading list
 
-Start with the question you're trying to answer. You don't need to work through a reading list before you can participate. It covers three areas: our position, movements, and measurement and organization.
+> Reading on our position, on movements, and on measurement — useful, not required.
+
+## In brief
+
+- You don't need to work through this list before you can participate.
+- It covers three areas: our position, movements, and measurement and organization.
+- Current policy recommendations and campaigns live on the Sapiens First website, not in this list.
+- Including a resource here doesn't mean adopting every claim or tactic in it.
+
+## When to use this
+
+Read this page when:
+
+- You want background reading on our strategy or position.
+- You're looking for movement-organizing books referenced elsewhere in the handbook.
+- You want the sources behind our approach to measurement.
+
+Start with the question you're trying to answer.
 
 ## Understand our position
 
@@ -38,4 +59,5 @@ Specific research claims and reading links should be checked before they're used
 
 ::: related
 - [Training](../practices/training.md) — Help people learn through practice.
+- [Metrics](../learning/metrics.md) — Why we measure, and how to define a useful metric.
 :::
