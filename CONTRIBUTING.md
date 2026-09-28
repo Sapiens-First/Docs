@@ -22,7 +22,7 @@ Use the existing six folders. On the site they appear as six verbs (see [Names](
 
 Create a page when a reader would reasonably look for that topic on its own. Keep related details together; avoid a deep folder tree or a separate file for every paragraph. Store shared images in `docs/public/`.
 
-Add each new page to the sidebar in `docs/.vitepress/config.mts` and link it from the relevant overview or reading path. Use the page's H1 as its sidebar label, and use the same words wherever you link to it; a section's own overview page is listed as **Overview**. If you add or rename a section, update its card on the homepage too (`docs/index.md`). Use relative `.md` links in Markdown so readers can navigate the repository as well as the site. Keep the `/Handbook/` base path in the site configuration rather than hard-coding it into content links.
+Add each new page to the sidebar in `docs/.vitepress/config.mts` and link it from the relevant overview or reading path. Use the page's H1 as its sidebar label, and use the same words wherever you link to it; a section's own overview page is listed as **Overview**. If you add or rename a section, update its card on the homepage too (`docs/index.md`). Use relative `.md` links in Markdown so readers can navigate the repository as well as the site. Keep the `/docs/` base path in the site configuration rather than hard-coding it into content links.
 
 ## Write with cascading detail
 

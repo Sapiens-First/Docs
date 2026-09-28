@@ -4,13 +4,14 @@ import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 import { handbookContainers } from './containers'
 
-const base = '/Handbook/'
+const base = '/docs/'
 
 // https://vitepress.dev/reference/site-config
 export default withMermaid(defineConfig({
   title: 'Sapiens First Handbook',
   description: 'How Sapiens First works — the handbook for fellows, organizers and staff.',
-  // Served from https://sapiens-first.github.io/Handbook/
+  // Served from https://sapiens-first.github.io/docs/. When the site moves to
+  // docs.sapiensfirst.org, set `base` to '/' and add docs/public/CNAME.
   base,
   cleanUrls: true,
   lastUpdated: true,
@@ -126,11 +127,11 @@ export default withMermaid(defineConfig({
     externalLinkIcon: true,
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Sapiens-First/Handbook' }
+      { icon: 'github', link: 'https://github.com/Sapiens-First/docs' }
     ],
 
     editLink: {
-      pattern: 'https://github.com/Sapiens-First/Handbook/edit/main/docs/:path',
+      pattern: 'https://github.com/Sapiens-First/docs/edit/main/docs/:path',
       text: 'Suggest an edit'
     },
 

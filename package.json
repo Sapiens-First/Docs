@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sapiens-First/Handbook.git"
+    "url": "git+https://github.com/Sapiens-First/docs.git"
   },
   "type": "module",
   "bugs": {
-    "url": "https://github.com/Sapiens-First/Handbook/issues"
+    "url": "https://github.com/Sapiens-First/docs/issues"
   },
-  "homepage": "https://github.com/Sapiens-First/Handbook#readme",
+  "homepage": "https://github.com/Sapiens-First/docs#readme",
   "devDependencies": {
     "markdown-it-container": "^4.0.0",
     "mermaid": "^11.17.2",
