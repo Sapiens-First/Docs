@@ -177,9 +177,8 @@ function resolveMdLink(sourceRelPath: string, target: string): string | undefine
 }
 
 // Turns one page's Markdown body into a section of llms-full.md: the H1 is
-// dropped (the caller prints the title as its own heading), every other
-// heading is demoted one level so the combined document keeps a single
-// valid hierarchy, relative .md links become absolute site URLs, `::: kind`
+// dropped (the caller prints the title as its own `#` heading, so the page's
+// `##` sections nest under it unchanged), relative .md links become absolute site URLs, `::: kind`
 // container fences become bold labels, and mermaid diagrams are dropped
 // (they restate nearby prose rather than adding information).
 function cleanBodyForFullDump(sourceRelPath: string, body: string): string {
@@ -209,8 +208,11 @@ function cleanBodyForFullDump(sourceRelPath: string, body: string): string {
     }
 
     const containerOpen = line.match(/^:::\s*([\w-]+)(?:\s+(.*))?\s*$/)
-    if (containerOpen && CONTAINER_LABELS[containerOpen[1]]) {
-      const label = CONTAINER_LABELS[containerOpen[1]]
+    if (containerOpen) {
+      // Unlisted kinds (VitePress's own tip, info, warning, details) still
+      // need their fences removed, or the block reads as never closing.
+      const kind = containerOpen[1]
+      const label = CONTAINER_LABELS[kind] ?? kind.charAt(0).toUpperCase() + kind.slice(1)
       const title = (containerOpen[2] || '').trim()
       out.push(title ? `**${label} — ${title}:**` : `**${label}:**`)
       continue
@@ -226,8 +228,7 @@ function cleanBodyForFullDump(sourceRelPath: string, body: string): string {
         removedH1 = true
         continue
       }
-      const level = Math.min(6, heading[1].length + 1)
-      out.push('#'.repeat(level) + ' ' + heading[2])
+      out.push(line)
       continue
     }
 
@@ -298,6 +299,8 @@ function buildLlmsFull(pages: PageInfo[]): string {
   lines.push(`- Atlas (${ATLAS_URL}) holds current people, roles, projects, objectives, and metrics.`)
   lines.push('- Where the handbook and Atlas differ about current operational state, prefer Atlas.')
   lines.push('- Pages marked "proposal" or "draft" describe possible future practice, not current Sapiens First policy.')
+  lines.push('- Inside adopted pages, text labelled **Proposal** or **To clarify** is not current policy either.')
+  lines.push('- On the website some labelled blocks are collapsible; here they are flattened into ordinary paragraphs.')
   lines.push('')
 
   for (const p of pages) {
