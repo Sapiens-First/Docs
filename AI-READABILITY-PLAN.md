@@ -100,3 +100,4 @@ Workstreams (update the status as each lands):
 Log:
 
 - 2026-09-27: plan written; `::: source` container added.
+- 2026-09-27: wave 1 dispatched in parallel (Sonnet agents): A, B, C (content, disjoint files, no builds) and D (infra, sole builder). Wave 2 = E (navigation), after D finishes because it edits config.mts. Then F, then publish. If a session dies mid-wave, check `git log` for each workstream's commits and run `python3 scripts/check-rewrite.py d290205` and `npm run docs:check`.
