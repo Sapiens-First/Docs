@@ -66,6 +66,6 @@ Atlas holds the current list of local circles, their contacts, and how each one 
 
 ::: related
 - [Gatherings](gatherings.md) — Help people connect and take a next step.
-- [Conversations](organizing-conversations.md) — Listen first, then invite people to participate.
+- [Organizing conversations](organizing-conversations.md) — Listen first, then invite people to participate.
 - [Roles and circles](../organization/roles-and-circles.md) — What roles and circles are, and how to read them in Atlas.
 :::

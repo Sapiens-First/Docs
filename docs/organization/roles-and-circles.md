@@ -1,5 +1,5 @@
 ---
-title: "Roles and circles"
+title: "Roles and circles at Sapiens First"
 description: "What roles and circles are, and how to read them in Atlas."
 section: People and organization
 status: adopted
@@ -7,7 +7,7 @@ last_updated: 2026-09-27
 canonical: /organization/roles-and-circles
 ---
 
-# Roles and circles
+# Roles and circles at Sapiens First
 
 > A role is a defined responsibility; a circle brings roles together around a shared purpose.
 

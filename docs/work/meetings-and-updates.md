@@ -1,5 +1,5 @@
 ---
-title: Meetings and updates
+title: Running meetings and writing updates
 description: "Check-ins, written updates, and general meetings."
 section: Running the work
 status: adopted
@@ -7,7 +7,7 @@ last_updated: 2026-09-27
 canonical: /work/meetings-and-updates
 ---
 
-# Meetings and updates
+# Running meetings and writing updates
 
 > Meetings and written updates keep work moving; choose the format that serves the purpose.
 

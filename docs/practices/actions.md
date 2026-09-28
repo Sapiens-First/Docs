@@ -57,5 +57,5 @@ Atlas and the current campaign resources hold what's active now and who approves
 ::: related
 - [Current campaigns](https://sapiensfirst.org/campaigns) — What Sapiens First is campaigning on now.
 - [Decisions](../organization/decisions.md) — What you can decide, when to consult, and what needs approval.
-- [Conversations](organizing-conversations.md) — Listen first, then invite people to participate.
+- [Organizing conversations](organizing-conversations.md) — Listen first, then invite people to participate.
 :::

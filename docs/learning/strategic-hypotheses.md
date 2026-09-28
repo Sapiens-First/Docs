@@ -1,5 +1,5 @@
 ---
-title: Strategic hypotheses
+title: "Strategic hypotheses: planning backward from outcomes"
 description: "Working backwards from an outcome, and testing strategy as a hypothesis."
 section: Running the work
 status: adopted
@@ -7,7 +7,7 @@ last_updated: 2026-09-27
 canonical: /learning/strategic-hypotheses
 ---
 
-# Strategic hypotheses
+# Strategic hypotheses: planning backward from outcomes
 
 > Work backward from the outcome you want, then treat your strategy as a hypothesis you test rather than a belief you defend.
 

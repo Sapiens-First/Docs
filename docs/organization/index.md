@@ -33,7 +33,7 @@ We want you to take initiative, and to have the clarity and support to do it wel
 
 **Where do you fit?** Everyone starts somewhere, and responsibility grows as you take it on.
 
-- [Participation](participation.md) — Ways to get involved, from supporter to staff.
+- [Ways to participate](participation.md) — Ways to get involved, from supporter to staff.
 - [Roles and circles](roles-and-circles.md) — What roles and circles are, and how to read them in Atlas.
 
 **How do decisions get made?** Know what you can decide, when to consult, and when to ask.
@@ -48,7 +48,7 @@ Atlas holds current roles, circles, and assignments. This page and the pages bel
 
 ::: related
 - [Values](values.md) — Core values, operating principles, leadership standards, and red lines.
-- [Participation](participation.md) — Ways to get involved, from supporter to staff.
+- [Ways to participate](participation.md) — Ways to get involved, from supporter to staff.
 - [Roles and circles](roles-and-circles.md) — What roles and circles are, and how to read them in Atlas.
 - [Decisions](decisions.md) — What you can decide, when to consult, and what needs approval.
 :::

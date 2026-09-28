@@ -1,5 +1,5 @@
 ---
-title: "Glossary"
+title: "Glossary of Sapiens First terms"
 description: Short definitions of the terms used across the Sapiens First handbook, with links to where each is explained.
 section: Reference
 status: reference
@@ -7,11 +7,15 @@ last_updated: 2026-09-27
 canonical: /guide/glossary
 ---
 
-# Glossary
+# Glossary of Sapiens First terms
 
 > Short definitions of the terms used across the Sapiens First handbook, each linking to where it's explained in full.
 
-Not sure what a word means? This page is the canonical definitions page for the handbook: every term below is defined here in one place, in alphabetical order, and linked from wherever it first appears in the handbook.
+## In brief
+
+- This page is the canonical definitions page for the handbook: every term is defined here in one place, in alphabetical order.
+- Each entry links to the page where the term is explained in full.
+- Not sure what a word means? Look it up here first, and add new organizational terms as you meet them.
 
 ::: source
 Atlas holds current roles, role holders, circles, projects, and priorities. This page defines the words the handbook uses for them.
@@ -59,7 +63,7 @@ How we recognize progress toward an objective, also called a success criterion. 
 
 ### Member
 
-Someone who participates in the community, helps with events, and builds connections, one of the ways to get involved with Sapiens First. See [Participation](../organization/participation.md).
+Someone who participates in the community, helps with events, and builds connections, one of the ways to get involved with Sapiens First. See [Ways to participate](../organization/participation.md).
 
 ### Metric
 
@@ -107,15 +111,15 @@ What a project includes and excludes, with its objective, success criteria, cons
 
 ### Staff
 
-Someone working in an assigned staff capacity, with expectations set by the relevant role and their employment arrangement. See [Participation](../organization/participation.md).
+Someone working in an assigned staff capacity, with expectations set by the relevant role and their employment arrangement. See [Ways to participate](../organization/participation.md).
 
 ### Steward
 
-A further engagement level described in Atlas for Fellows after three months and graduation. A role with "Steward" in its title is a separate thing from this engagement level. See [Participation](../organization/participation.md).
+A further engagement level described in Atlas for Fellows after three months and graduation. A role with "Steward" in its title is a separate thing from this engagement level. See [Ways to participate](../organization/participation.md).
 
 ### Supporter
 
-Someone who stays informed and joins activities when they can, the lightest way to get involved with Sapiens First. See [Participation](../organization/participation.md).
+Someone who stays informed and joins activities when they can, the lightest way to get involved with Sapiens First. See [Ways to participate](../organization/participation.md).
 
 ### Tension
 
@@ -138,5 +142,5 @@ Extra detail for Fellows, organizers, staff, and anyone else holding a role — 
 ::: related
 - [Welcome](index.md) — Where to start, and how the handbook relates to Atlas.
 - [Roles and circles](../organization/roles-and-circles.md) — What roles and circles are, and how to read them in Atlas.
-- [Participation](../organization/participation.md) — Ways to get involved, from supporter to staff.
+- [Ways to participate](../organization/participation.md) — Ways to get involved, from supporter to staff.
 :::

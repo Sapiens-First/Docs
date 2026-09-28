@@ -1,5 +1,5 @@
 ---
-title: "Reading list"
+title: "Sapiens First reading list"
 description: "Reading on our position, on movements, and on measurement."
 section: About Sapiens First
 status: reference
@@ -7,7 +7,7 @@ last_updated: 2026-09-27
 canonical: /strategy/resources
 ---
 
-# Reading list
+# Sapiens First reading list
 
 > Reading on our position, on movements, and on measurement — useful, not required.
 
@@ -59,6 +59,6 @@ Specific research claims and reading links should be checked before they're used
 :::
 
 ::: related
-- [Training](../practices/training.md) — Help people learn through practice.
+- [Training organizers](../practices/training.md) — Help people learn through practice.
 - [Metrics](../learning/metrics.md) — Why we measure, and how to define a useful metric.
 :::

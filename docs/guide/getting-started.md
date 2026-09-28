@@ -65,7 +65,7 @@ Use whichever channel your group has agreed on. The website helps people find ev
 Keep project decisions and useful work somewhere others can find them, and link to them from the relevant work record. Protect passwords, member data, donor information, and private conversations.
 
 ::: related
-- [Participation](../organization/participation.md) — Ways to get involved, from supporter to staff.
+- [Ways to participate](../organization/participation.md) — Ways to get involved, from supporter to staff.
 - [Meetings and updates](../work/meetings-and-updates.md) — Check-ins, written updates, and general meetings.
 - [Glossary](glossary.md) — Short definitions of the terms used across the Sapiens First handbook, with links to where each is explained.
 :::

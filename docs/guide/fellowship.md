@@ -1,5 +1,5 @@
 ---
-title: "The Fellowship"
+title: "The Sapiens First Fellowship"
 description: "What to expect as a Fellow, from your first weeks to after the program."
 audience: Fellows
 section: People and organization
@@ -8,7 +8,7 @@ last_updated: 2026-09-27
 canonical: /guide/fellowship
 ---
 
-# The Fellowship
+# The Sapiens First Fellowship
 
 > A structured volunteer program: each Fellow takes responsibility for a project, with support from people working on related priorities.
 

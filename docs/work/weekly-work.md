@@ -1,5 +1,5 @@
 ---
-title: Weekly planning
+title: Weekly planning at Sapiens First
 description: "A simple weekly review and tasks you can act on."
 section: Running the work
 status: proposal
@@ -7,7 +7,7 @@ last_updated: 2026-09-27
 canonical: /work/weekly-work
 ---
 
-# Weekly planning
+# Weekly planning at Sapiens First
 
 > A simple weekly review that connects your available time to the next important result.
 

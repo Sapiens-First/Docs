@@ -64,5 +64,5 @@ Recruitment is only the beginning. Make sure someone can welcome the people who 
 
 ::: related
 - [Gatherings](gatherings.md) — Help people connect and take a next step.
-- [Local circles](starting-a-circle.md) — Bring a small local group together and share the work.
+- [Starting a local circle](starting-a-circle.md) — Bring a small local group together and share the work.
 :::

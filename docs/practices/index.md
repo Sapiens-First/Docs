@@ -37,12 +37,12 @@ Read this page when:
 
 **Recruit: invite people in.**
 
-- [Conversations](organizing-conversations.md) — Listen first, then invite people to participate.
-- [Local circles](starting-a-circle.md) — Bring a small local group together and share the work.
+- [Organizing conversations](organizing-conversations.md) — Listen first, then invite people to participate.
+- [Starting a local circle](starting-a-circle.md) — Bring a small local group together and share the work.
 
 **Train: help others lead.**
 
-- [Training](training.md) — Help people learn through practice.
+- [Training organizers](training.md) — Help people learn through practice.
 
 Whatever you're doing, follow our [values and red lines](../organization/values.md). Use the current campaign resources and decision rights for your work.
 

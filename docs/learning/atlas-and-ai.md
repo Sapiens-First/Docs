@@ -1,5 +1,5 @@
 ---
-title: Atlas and AI
+title: "Atlas and AI: the proposed shared data system"
 description: "Where we're heading: Atlas and AI that help us notice what needs attention."
 section: Reference
 status: proposal
@@ -7,7 +7,7 @@ last_updated: 2026-09-27
 canonical: /learning/atlas-and-ai
 ---
 
-# Atlas and AI
+# Atlas and AI: the proposed shared data system
 
 > Where we're heading: Atlas giving everyone a shared, current picture, and AI helping us notice what needs attention.
 
