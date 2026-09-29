@@ -1,6 +1,6 @@
 # Sapiens First Handbook
 
-The shared handbook for members, organizers, Fellows, staff, and people curious about the movement. Start with [Welcome](docs/guide/index.md).
+The shared handbook for members, organizers, Fellows, staff, and people curious about the movement. Start with [Intro for Supporters](docs/supporters/index.md), [Intro for Members](docs/members/index.md), or [For Organizers](docs/organizers/index.md).
 
 Built with [VitePress](https://vitepress.dev) for [GitHub Pages](https://sapiens-first.github.io/docs/). [Atlas](https://sapiensfirst.org/atlas) holds current governance, projects, priorities, and owners; the handbook explains the concepts and practices behind them.
 
@@ -41,7 +41,7 @@ The build also writes `llms.txt`, `llms-full.md`, `llms-full.txt`, a `sitemap.xm
 
 ## Editing
 
-Edit Markdown under `docs/`. Use lowercase, hyphenated filenames and relative `.md` links so content is navigable in both GitHub and VitePress. Add new pages to `docs/.vitepress/config.mts`, in the sidebar group matching the page's frontmatter `section` (the sidebar groups by subject, not by folder — see [CONTRIBUTING.md](CONTRIBUTING.md)), and link them from the relevant overview or from `docs/find.md`.
+Edit Markdown under `docs/`. Use lowercase, hyphenated filenames and relative `.md` links so content is navigable in both GitHub and VitePress. Add new pages to `docs/.vitepress/config.mts`, in the sidebar group matching the page's frontmatter `section` (the sidebar groups by audience, with Fellows, Stewards, and Leads nested under Organizers — see [CONTRIBUTING.md](CONTRIBUTING.md)), and link them from the relevant overview or from `docs/find.md`.
 
 ## Deployment
 

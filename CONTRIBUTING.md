@@ -16,9 +16,11 @@ Read the [style guide](STYLE-GUIDE.md) before you write. It covers naming, frami
 
 A handbook page may explain what a project record contains. It should link to the current records rather than maintaining a second project register. Examples should be clearly illustrative.
 
-## Organize pages by topic
+## Organize pages by audience
 
-The handbook still lives in six folders — `guide`, `strategy`, `organization`, `work`, `practices`, `learning` — and their names and URLs don't change. But the **sidebar** no longer groups pages by folder or by the old six verbs (Join, Learn, Organize, Build, Act, Grow). It groups pages by each page's frontmatter `section` (Start here · About Sapiens First · People and organization · Running the work · Field guides · Reference), so a folder's pages can land in more than one sidebar group. See the folder-to-section mapping and the fixed section order in [AI-READABILITY-PLAN.md](AI-READABILITY-PLAN.md). The six verbs survive only as the conceptual journey on the homepage. Put a section overview in each folder's `index.md`. Use short, lowercase, hyphenated filenames for individual topics.
+The handbook has three sections: **For Supporters**, **For Members**, and **For Organizers**. Supporters need a clear introduction to Sapiens First and the AI Crisis. Members go deeper into theory of change, values, and participation. Organizers have ordered reading series for **Fellows**, **Stewards**, and **Leads**. Staff are Leads; metrics and compensation belong in the Lead series.
+
+Use one of the three section names in frontmatter. Organizer pages may add `audience: Fellows`, `audience: Stewards`, or `audience: Leads`. Place them under the appropriate nested series in the sidebar. Preserve existing article URLs; the audience hierarchy does not require moving older files.
 
 Create a page when a reader would reasonably look for that topic on its own. Keep related details together; avoid a deep folder tree or a separate file for every paragraph. Store shared images in `docs/public/`.
 
@@ -99,7 +101,7 @@ Every content page (everything under `docs/` except `docs/index.md`) carries fro
 ---
 title: How Sapiens First uses metrics   # identical to the page's H1 text
 description: One sentence saying what the page covers.
-section: Running the work                # one of the six sections below
+section: For Organizers                  # one of the three sections below
 status: adopted                          # one of the five statuses below
 last_updated: 2026-09-27                 # YYYY-MM-DD; quote it if you want it to stay a plain string
 canonical: /learning/metrics             # site path, no base, no .md; index pages end in /
@@ -108,7 +110,7 @@ owner: …                                 # optional; only if the source names 
 ---
 ```
 
-**Sections** (fixed list, used to group the sidebar and the generated `llms.txt`): `Start here` · `About Sapiens First` · `People and organization` · `Running the work` · `Field guides` · `Reference`.
+**Sections** (fixed list, used by the sidebar and generated `llms.txt`): `For Supporters` · `For Members` · `For Organizers`.
 
 **Status** (fixed list, rendered as a badge near the top of the page): `adopted` · `proposal` · `draft` · `experimental` · `reference`. A page that's mostly current practice but contains `::: proposal` blocks is still `adopted`; say which parts are proposals in `## In brief`. Proposal, draft, and experimental pages also get a short callout under the eyebrow ("Proposal: this describes a possible future practice…"); adopted pages get a one-line note instead.
 

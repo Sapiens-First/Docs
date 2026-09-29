@@ -1,7 +1,8 @@
 ---
 title: Weekly planning at Sapiens First
 description: "A simple weekly review and tasks you can act on."
-section: Running the work
+section: For Organizers
+audience: Fellows
 status: proposal
 last_updated: 2026-09-27
 canonical: /work/weekly-work

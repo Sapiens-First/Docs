@@ -1,7 +1,8 @@
 ---
 title: Templates for planning and project work
 description: "Copyable templates for scopes, plans, updates, and handoffs."
-section: Reference
+section: For Organizers
+audience: Fellows
 status: reference
 last_updated: 2026-09-27
 canonical: /work/templates

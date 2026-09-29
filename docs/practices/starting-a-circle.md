@@ -1,7 +1,8 @@
 ---
 title: Starting a local circle
 description: Bring a small local group together and share the work.
-section: Field guides
+section: For Organizers
+audience: Stewards
 status: adopted
 last_updated: 2026-09-28
 canonical: /practices/starting-a-circle

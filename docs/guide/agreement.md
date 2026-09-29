@@ -2,7 +2,7 @@
 title: "Sapiens First Fellowship Agreement"
 description: "The agreement every Fellow accepts before starting."
 audience: Fellows
-section: People and organization
+section: For Organizers
 status: adopted
 last_updated: 2026-09-27
 canonical: /guide/agreement

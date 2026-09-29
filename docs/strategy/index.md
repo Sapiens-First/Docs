@@ -1,9 +1,9 @@
 ---
 title: "Sapiens First's mission and strategy"
 description: "Our mission, what we stand for, and how we make change."
-section: About Sapiens First
+section: For Members
 status: adopted
-last_updated: 2026-09-28
+last_updated: 2026-09-29
 canonical: /strategy/
 ---
 
@@ -98,7 +98,7 @@ The Fellowship's initial strategy used a California campaign against mass survei
 
 ::: related
 - [How Sapiens First manages work](../work/index.md) — How the mission turns into objectives, projects, and next steps.
-- [Metrics](../learning/metrics.md) — Why we measure, and how to define a useful metric.
+- [For Organizers](../organizers/index.md) — Reading series for putting the strategy into practice.
 - [Reading list](resources.md) — Reading on our position, on movements, and on measurement.
 - [Values](../organization/values.md) — Core values, operating principles, leadership standards, and red lines.
 :::

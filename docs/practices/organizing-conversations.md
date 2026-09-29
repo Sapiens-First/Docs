@@ -1,7 +1,8 @@
 ---
 title: Having organizing conversations
 description: Listen first, then invite people to participate.
-section: Field guides
+section: For Organizers
+audience: Fellows
 status: adopted
 last_updated: 2026-09-27
 canonical: /practices/organizing-conversations

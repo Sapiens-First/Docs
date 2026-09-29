@@ -1,7 +1,8 @@
 ---
 title: Planning peaceful actions
 description: Choose and plan a peaceful action that serves the campaign.
-section: Field guides
+section: For Organizers
+audience: Fellows
 status: adopted
 last_updated: 2026-09-27
 canonical: /practices/actions

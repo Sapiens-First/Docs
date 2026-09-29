@@ -1,20 +1,21 @@
 ---
-title: "Ways to participate: supporters, members, Fellows, and staff"
-description: "Ways to get involved, from supporter to staff."
-section: People and organization
+title: "Ways to participate: supporters, members, and organizers"
+description: "Ways to get involved as a supporter, member, or organizer."
+section: For Members
 status: adopted
-last_updated: 2026-09-27
+last_updated: 2026-09-29
 canonical: /organization/participation
 ---
 
-# Ways to participate: supporters, members, Fellows, and staff
+# Ways to participate: supporters, members, and organizers
 
 > You can contribute in different ways at different points in your life; choose a level that fits your interests and capacity.
 
 ## In brief
 
-- There are five ways to participate: **Supporter, Member, Fellow, Steward, and Staff**, each with a different level of ongoing responsibility.
+- There are three main ways to participate: **Supporter, Member, and Organizer**. Organizers include **Fellows, Stewards, and Leads**; staff are Leads.
 - A **Fellow** takes responsibility for a project through a supported volunteer program; **Steward** is a further engagement level Atlas describes for Fellows after three months and graduation.
+- The **movement architecture** maps these onto a ladder of engagement (supporter, member, organizer), with recruitment and retention systems for each rung.
 - Participation and role are different things: "Fellow" describes participation in a program, while a role like "Website Owner" is a specific responsibility.
 - One person can hold more than one role, and leading a team is a choice, not a requirement everyone must progress toward.
 - Check [Atlas](https://sapiensfirst.org/atlas) for current joining terms, dues, and eligibility; this handbook doesn't record prices or program dates.
@@ -35,13 +36,31 @@ Read this page when:
 | Member | Participate in the community, help with events, and build connections |
 | Fellow | Take responsibility for a project through a supported volunteer program |
 | Steward | A further engagement level described in Atlas for Fellows after three months and graduation |
-| Staff | Work in an assigned staff capacity, with expectations set by the relevant role and employment arrangements |
+| Lead | Take on leadership responsibilities; staff are Leads, with expectations set by their roles and employment arrangements |
 
 Check the current joining process for membership terms, dues, and eligibility. The handbook isn't a record of current prices or program dates.
+
+## Movement architecture
+
+The movement architecture is a product roadmap for growing the movement. Each rung of the ladder of engagement has a definition, subcategories, and systems that recruit people onto it and keep them on it. Understanding it helps explain how we prioritize work: we build the systems that move people up the ladder.
+
+| | Supporter | Member | Organizer |
+| --- | --- | --- | --- |
+| **Defining feature** | Email on the list | Registered as a member and paid dues at least once | Applied and accepted into a Course |
+| **Info we hold** | Email, zip code | Email, address (line, city, state, zip code, country), full name, phone number | See Atlas |
+| **Subcategories** | Supporters; donors | Active; inactive | Fellow; Steward; Lead |
+| **Recruitment systems** | Media stunts; door-to-door; flyers; open letters; bought lists; event apps (Luma, Partiful); social media followers | Open events; membership free trial | Application |
+| **Retention systems** | Emails | Discord; events; text reminders; email reminders; member-only events | Courses; coaching; app; socials |
+
+The ladder groups the ways to participate above: Fellows, Stewards, and Leads are subcategories of Organizer. Staff are Leads. Atlas holds the current state of each system.
 
 ::: source
 Atlas holds current membership terms, role assignments, and engagement levels. This page explains what each way of participating means.
 :::
+
+## Find your reading path
+
+Start with [Intro for Supporters](../supporters/index.md), go deeper with [Intro for Members](../members/index.md), or choose the [organizer series](../organizers/index.md) for Fellows, Stewards, and Leads.
 
 ## Keep role and participation separate
 

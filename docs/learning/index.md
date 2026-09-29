@@ -1,7 +1,8 @@
 ---
 title: How Sapiens First measures and learns
 description: "How we measure, review, and improve our work."
-section: Running the work
+section: For Organizers
+audience: Leads
 status: adopted
 last_updated: 2026-09-27
 canonical: /learning/

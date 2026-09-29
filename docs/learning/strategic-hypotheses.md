@@ -1,7 +1,8 @@
 ---
 title: "Strategic hypotheses: planning backward from outcomes"
 description: "Working backwards from an outcome, and testing strategy as a hypothesis."
-section: Running the work
+section: For Organizers
+audience: Leads
 status: adopted
 last_updated: 2026-09-27
 canonical: /learning/strategic-hypotheses

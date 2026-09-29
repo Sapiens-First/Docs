@@ -1,7 +1,8 @@
 ---
 title: Training organizers
 description: Help people learn through practice.
-section: Field guides
+section: For Organizers
+audience: Stewards
 status: adopted
 last_updated: 2026-09-27
 canonical: /practices/training

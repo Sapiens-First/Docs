@@ -1,7 +1,8 @@
 ---
 title: How Sapiens First manages work
 description: "How the mission turns into objectives, projects, and next steps."
-section: Running the work
+section: For Organizers
+audience: Leads
 status: adopted
 last_updated: 2026-09-28
 canonical: /work/

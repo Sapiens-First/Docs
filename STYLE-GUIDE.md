@@ -29,40 +29,32 @@ flowchart TB
 
 | Level | Hook | Three things | Next step |
 | --- | --- | --- | --- |
-| Homepage | Hero tagline | Subject-based routing cards (New here? / Doing the work? / Organizing locally? / Looking for current information?) | "Start here" and "Find anything" buttons |
+| Homepage | Hero tagline | Audience routing cards (For Supporters / For Members / For Organizers) | "Start here" and "Find anything" buttons |
 | Section overview | Summary + `## In brief` | Pages grouped under bold headings | Related block or first page |
 | Topic page | Summary + `## In brief` | `## When to use this` plus two to four more `##` sections | Related block |
 | Section of a page | First sentence under the heading | Bold lead-ins or a three-item list | A link or an action |
 | Paragraph | Bold lead-in | Up to three supporting sentences | — |
 
-Work top-down. Fix the homepage and overviews first, then the openings of topic pages, then paragraphs. A strong frame makes every lower level easier to write. The conceptual Join → Learn → Organize → Build → Act → Grow journey survives only as the homepage's closing section, not as the sidebar's organizing principle — see [AI-READABILITY-PLAN.md](AI-READABILITY-PLAN.md).
+Work top-down. Fix the homepage and overviews first, then the openings of topic pages, then paragraphs. A strong frame makes every lower level easier to write. The audience structure in [CONTRIBUTING.md](CONTRIBUTING.md) governs navigation.
 
 ## Names
 
-**This section is superseded by [AI-READABILITY-PLAN.md](AI-READABILITY-PLAN.md) for H1s and sections; read that file first.** A page title (H1) is no longer capped at three words — it's a short, self-describing sentence a reader (or an AI, or a search engine) can understand out of context, with no page around it: "How Sapiens First uses metrics", not "Metrics". Frontmatter `title:` repeats the H1 exactly. The old three-word H1 rule and "name the thing, not the activity" still guide the **sidebar label**, which stays short (see below); it's the H1 that changed.
+**Use [CONTRIBUTING.md](CONTRIBUTING.md) for the current audience structure.** A page title (H1) is no longer capped at three words — it's a short, self-describing sentence a reader (or an AI, or a search engine) can understand out of context, with no page around it: "How Sapiens First uses metrics", not "Metrics". Frontmatter `title:` repeats the H1 exactly. The old three-word H1 rule and "name the thing, not the activity" still guide the **sidebar label**, which stays short (see below); it's the H1 that changed.
 
 | Level | Form | Examples |
 | --- | --- | --- |
-| Section (sidebar group) | A subject category, not a verb | Start here, Running the work, Field guides |
+| Section (sidebar group) | A reader audience | For Supporters, For Members, For Organizers |
 | Page title (H1) | A self-describing sentence, meaningful out of context | "How Sapiens First manages work", "The Sapiens First Fellowship" |
 | Sidebar label | A short noun phrase, three words or fewer | First steps, Projects, Starting a local circle |
 | Heading (`##`) | An action or a promise | Start with a scope, Offer a next step |
 
-On the site, a page's section still shows as the small label above its title, but the sidebar itself groups pages by these subject categories rather than by the six verbs. A page's sidebar label is what appears in the navigation tree and in Related blocks; its H1 is what appears at the top of the page, in `llms.txt`, and in a search result.
+On the site, a page's section still shows as the small label above its title, but the sidebar itself groups pages by these audiences rather than by the six verbs. A page's sidebar label is what appears in the navigation tree and in Related blocks; its H1 is what appears at the top of the page, in `llms.txt`, and in a search result.
 
 ### Sections are subject categories
 
-The sidebar (`docs/.vitepress/config.mts`) is grouped by the frontmatter `section` value, in this fixed order: **Start here · About Sapiens First · People and organization · Running the work · Field guides · Reference.** These are subjects a newcomer would search for, not verbs of a journey.
+The sidebar has three main sections, in order: **For Supporters · For Members · For Organizers**. Organizer articles are nested under **Intro for Fellows**, **Intro for Stewards**, and **Intro for Leads**. Staff are Leads. Match the introductory depth to the reader; put operational material in the organizer series and metrics in the Lead series.
 
-The six verbs — **Join, Learn, Organize, Build, Act, Grow** — still exist, but only as the conceptual journey shown on the homepage (`docs/index.md`), not as sidebar or folder groupings. Folders and URLs keep their original names (`guide/`, `strategy/`, `organization/`, `work/`, `practices/`, `learning/`), so links people have already shared keep working; see the mapping from folder to section in [AI-READABILITY-PLAN.md](AI-READABILITY-PLAN.md).
-
-### Naming a new page
-
-**Write a self-describing H1.** Someone should understand what the page is about from the H1 alone, with no other context — "Reviewing metrics together", not "Reviews" or "Overview".
-
-**Keep the sidebar label plain and short.** Use the word a newcomer would search for. Add an article only when it reads more naturally ("The Fellowship"). Never use "Overview" alone as a label.
-
-**Keep one name for each purpose.** The H1 stays the same everywhere it's quoted in full; the sidebar label stays the same everywhere it's used as link text. `scripts/check-rewrite.py` checks that list-style link text (as in Related blocks and overviews) matches one of the two.
+Existing article folders and URLs stay stable. See [CONTRIBUTING.md](CONTRIBUTING.md) for metadata and placement rules.
 
 ## The rule of three
 

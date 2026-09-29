@@ -1,9 +1,10 @@
 ---
 title: "Glossary of Sapiens First terms"
 description: Short definitions of the terms used across the Sapiens First handbook, with links to where each is explained.
-section: Reference
+section: For Organizers
+audience: Fellows
 status: reference
-last_updated: 2026-09-28
+last_updated: 2026-09-29
 canonical: /guide/glossary
 ---
 
@@ -111,7 +112,11 @@ What a project includes and excludes, with its objective, success criteria, cons
 
 ### Staff
 
-Someone working in an assigned staff capacity, with expectations set by the relevant role and their employment arrangement. See [Ways to participate](../organization/participation.md).
+A Lead working in an assigned staff capacity, with expectations set by the relevant role and their employment arrangement. See [Ways to participate](../organization/participation.md).
+
+### Lead
+
+An organizer taking on leadership responsibilities. Staff are Leads. See [Intro for Leads](../organizers/leads.md), including the [Compensation](../organizers/compensation.md) placeholder.
 
 ### Steward
 
@@ -140,7 +145,7 @@ A decision we still need to make, shown in a box with a blue **To clarify** labe
 Extra detail for Fellows, organizers, staff, and anyone else holding a role — everyone is welcome to read it.
 
 ::: related
-- [Welcome](index.md) — Where to start, and how the handbook relates to Atlas.
+- [How to use this handbook](index.md) — Where to start, and how the handbook relates to Atlas.
 - [Roles and circles](../organization/roles-and-circles.md) — What roles and circles are, and how to read them in Atlas.
-- [Ways to participate](../organization/participation.md) — Ways to get involved, from supporter to staff.
+- [Ways to participate](../organization/participation.md) — Ways to get involved as a supporter, member, or organizer.
 :::

@@ -1,7 +1,8 @@
 ---
 title: How projects work at Sapiens First
 description: "Scope, plan, test, and hand off a project."
-section: Running the work
+section: For Organizers
+audience: Stewards
 status: adopted
 last_updated: 2026-09-28
 canonical: /work/projects
