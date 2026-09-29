@@ -1,13 +1,14 @@
 ---
-title: "Welcome to the Sapiens First Handbook"
+title: "How to use this handbook"
 description: "Where to start, and how the handbook relates to Atlas."
-section: Start here
+section: For Organizers
+audience: Fellows
 status: adopted
-last_updated: 2026-09-27
+last_updated: 2026-09-29
 canonical: /guide/
 ---
 
-# Welcome to the Sapiens First Handbook
+# How to use this handbook
 
 > This handbook explains how Sapiens First works; [Atlas](https://sapiensfirst.org/atlas) records who's doing what right now.
 
@@ -15,7 +16,7 @@ canonical: /guide/
 
 - Sapiens First fights for **democracy, prosperity, and security** in the age of AI.
 - This handbook helps you understand the movement, find your place in it, and get things done with others.
-- Pages follow the Join → Learn → Organize → Build → Act → Grow path, but you can jump straight to the page you need.
+- Pages are organized for Supporters, Members, and Organizers, with reading series for Fellows, Stewards, and Leads.
 - **Proposal** and **To clarify** blocks mark ideas that aren't adopted practice yet; everything else is current.
 - Look up any unfamiliar word in the [glossary](glossary.md).
 - Can't find what you're looking for? Try [Find anything](../find.md).
@@ -34,12 +35,12 @@ We imagine a world where AI serves the common good. We fight for **democracy, pr
 
 | If you are… | Start here |
 | --- | --- |
-| Curious about the movement | [Sapiens First's mission and strategy](../strategy/index.md) |
-| Joining as a member | [First steps](getting-started.md) |
-| Joining the Fellowship | [The Fellowship](fellowship.md) |
-| Starting or supporting a local group | [Local circles](../practices/starting-a-circle.md) |
-| Taking on a role, including as staff | [Roles and circles](../organization/roles-and-circles.md), then [The work](../work/index.md) |
-| Looking for a specific answer fast | [Find anything](../find.md) |
+| Curious about Sapiens First and the AI Crisis | [Intro for Supporters](../supporters/index.md) |
+| Ready to go deeper into our approach and values | [Intro for Members](../members/index.md) |
+| Beginning to organize | [Intro for Fellows](../organizers/fellows.md) |
+| Supporting others and taking deeper responsibility | [Intro for Stewards](../organizers/stewards.md) |
+| A Lead, including staff | [Intro for Leads](../organizers/leads.md) |
+| Looking for a specific answer | [Find anything](../find.md) |
 
 ## Read it in layers
 
@@ -53,23 +54,13 @@ We imagine a world where AI serves the common good. We fight for **democracy, pr
 
 ## How the handbook fits together
 
-The handbook follows our motto, *Learn · Organize · Act*, expanded to six verbs. The first three get you in; the last three get you going. What we learn as we grow feeds back into how we build.
+The handbook has three main sections:
 
-```mermaid
-flowchart TB
-  J["<b>Join</b> · find your place"] --> L["<b>Learn</b> · why we exist"] --> O["<b>Organize</b> · how we fit together"]
-  O --> B["<b>Build</b> · plan the work"] --> A["<b>Act</b> · do it with others"] --> G["<b>Grow</b> · get better"]
-  G -.-> B
-  classDef accent fill:#ffd60a,stroke:#111,stroke-width:2px
-  class J accent
-```
+- **For Supporters:** what Sapiens First is, why the AI Crisis matters, and ways to help.
+- **For Members:** our theory of change, values, and pathways to action.
+- **For Organizers:** practical reading series for Fellows, Stewards, and Leads, covering structure, tools, organizing practices, and leadership.
 
-- **Join:** you're here. Next come [First steps](getting-started.md), [The Fellowship](fellowship.md), and the [glossary](glossary.md).
-- **Learn:** [Sapiens First's mission and strategy](../strategy/index.md) — our mission, theory of change, and policy focus.
-- **Organize:** [How Sapiens First is organized](../organization/index.md) — values, participation, roles, and decisions.
-- **Build:** [The work](../work/index.md) — objectives, projects, and weekly work.
-- **Act:** [Field guides](../practices/index.md) — circles, gatherings, training, and actions.
-- **Grow:** [The learning loop](../learning/index.md) — metrics, reflection, and feedback.
+The reading series build on one another. They are guides to learning, not restrictions on who may read a page. Staff use the Lead series.
 
 ## The handbook and Atlas
 

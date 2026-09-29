@@ -12,7 +12,7 @@
  * ERROR (fails the build in strict mode):
  *   - missing title / description / section / status / last_updated
  *   - status not in the controlled vocabulary
- *   - section not in the six allowed sections
+ *   - section not in the three allowed sections
  *   - last_updated not YYYY-MM-DD
  *   - duplicate canonical path across pages
  *   - canonical not matching the file's own path
@@ -37,14 +37,7 @@ const DOCS = join(ROOT, 'docs')
 const warnOnly = process.argv.includes('--warn-only')
 
 const ALLOWED_STATUS = ['adopted', 'proposal', 'draft', 'experimental', 'reference']
-const ALLOWED_SECTIONS = [
-  'Start here',
-  'About Sapiens First',
-  'People and organization',
-  'Running the work',
-  'Field guides',
-  'Reference',
-]
+const ALLOWED_SECTIONS = ['For Supporters', 'For Members', 'For Organizers']
 
 /** Same slug algorithm as VitePress / scripts/check-rewrite.py's `slugify`. */
 function slugify(s) {
@@ -182,7 +175,7 @@ function main() {
       errors.push(`${relPath}: status "${data.status}" not in [${ALLOWED_STATUS.join(', ')}]`)
     }
     if (data.section && !ALLOWED_SECTIONS.includes(data.section)) {
-      errors.push(`${relPath}: section "${data.section}" not one of the six allowed sections`)
+      errors.push(`${relPath}: section "${data.section}" not one of the three allowed sections`)
     }
     if (data.last_updated && !/^\d{4}-\d{2}-\d{2}$/.test(data.last_updated)) {
       errors.push(`${relPath}: last_updated "${data.last_updated}" is not YYYY-MM-DD`)

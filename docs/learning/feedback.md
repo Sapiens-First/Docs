@@ -1,7 +1,8 @@
 ---
 title: Giving feedback and growing through responsibility
 description: "Giving useful feedback and developing through responsibility."
-section: Running the work
+section: For Organizers
+audience: Stewards
 status: adopted
 last_updated: 2026-09-27
 canonical: /learning/feedback

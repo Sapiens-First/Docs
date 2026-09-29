@@ -11,47 +11,9 @@ const SITE_ORIGIN = 'https://sapiens-first.github.io'
 const BASE_PATH = '/docs'
 const ATLAS_URL = 'https://sapiensfirst.org/atlas'
 
-const SECTION_ORDER = [
-  'Start here',
-  'About Sapiens First',
-  'People and organization',
-  'Running the work',
-  'Field guides',
-  'Reference',
-]
+const SECTION_ORDER = ['For Supporters', 'For Members', 'For Organizers']
 
 const STATUS_VALUES = new Set(['adopted', 'proposal', 'draft', 'experimental', 'reference'])
-
-// Fallback section lookup for pages that don't have `section:` frontmatter
-// yet — content work is landing on a separate track while this file is
-// built. Mirrors the table in AI-READABILITY-PLAN.md so grouping still
-// works mid-migration; frontmatter `section` wins once it's present.
-const SECTION_FALLBACK: Record<string, string> = {
-  'guide/index': 'Start here',
-  'guide/getting-started': 'Start here',
-  find: 'Start here',
-  'strategy/index': 'About Sapiens First',
-  'strategy/resources': 'About Sapiens First',
-  'organization/values': 'About Sapiens First',
-  'organization/index': 'People and organization',
-  'organization/participation': 'People and organization',
-  'organization/roles-and-circles': 'People and organization',
-  'organization/decisions': 'People and organization',
-  'guide/fellowship': 'People and organization',
-  'guide/agreement': 'People and organization',
-  'work/index': 'Running the work',
-  'work/projects': 'Running the work',
-  'work/weekly-work': 'Running the work',
-  'work/meetings-and-updates': 'Running the work',
-  'learning/index': 'Running the work',
-  'learning/metrics': 'Running the work',
-  'learning/strategic-hypotheses': 'Running the work',
-  'learning/reviewing-metrics': 'Running the work',
-  'learning/feedback': 'Running the work',
-  'guide/glossary': 'Reference',
-  'work/templates': 'Reference',
-  'learning/atlas-and-ai': 'Reference',
-}
 
 // Handbook callout blocks (docs/.vitepress/containers.ts) rendered as plain
 // Markdown for the full-text dump. `related` isn't in containers' `kinds`
@@ -136,10 +98,9 @@ function collectPages(siteConfig: SiteConfig): PageInfo[] {
     }
     const { data, body } = readFrontmatter(src)
     const canonicalPath = data.canonical || toCanonicalPath(relPath)
-    const key = relPath.replace(/\.md$/, '')
     const section = data.section && SECTION_ORDER.includes(data.section)
       ? data.section
-      : SECTION_FALLBACK[key] || (key.startsWith('practices/') ? 'Field guides' : 'Reference')
+      : 'For Organizers'
     const status = data.status && STATUS_VALUES.has(data.status) ? data.status : undefined
     pages.push({
       relPath,

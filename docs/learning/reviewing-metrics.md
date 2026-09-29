@@ -1,7 +1,8 @@
 ---
 title: Reviewing metrics together
 description: "How circles review results, find bottlenecks, and allocate resources."
-section: Running the work
+section: For Organizers
+audience: Leads
 status: adopted
 last_updated: 2026-09-27
 canonical: /learning/reviewing-metrics

@@ -1,7 +1,7 @@
 ---
 title: "Sapiens First's values"
 description: "Core values, operating principles, leadership standards, and red lines."
-section: About Sapiens First
+section: For Members
 status: adopted
 last_updated: 2026-09-27
 canonical: /organization/values

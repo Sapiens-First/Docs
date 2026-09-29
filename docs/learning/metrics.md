@@ -1,7 +1,8 @@
 ---
 title: How Sapiens First defines and uses metrics
 description: "Why we measure, and how to define a useful metric."
-section: Running the work
+section: For Organizers
+audience: Leads
 status: adopted
 last_updated: 2026-09-28
 canonical: /learning/metrics

@@ -1,7 +1,8 @@
 ---
 title: "How Sapiens First makes decisions"
 description: "What you can decide, when to consult, and what needs approval."
-section: People and organization
+section: For Organizers
+audience: Stewards
 status: adopted
 last_updated: 2026-09-28
 canonical: /organization/decisions

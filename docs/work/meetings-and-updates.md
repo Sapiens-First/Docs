@@ -1,7 +1,8 @@
 ---
 title: Running meetings and writing updates
 description: "Check-ins, written updates, and general meetings."
-section: Running the work
+section: For Organizers
+audience: Fellows
 status: adopted
 last_updated: 2026-09-27
 canonical: /work/meetings-and-updates

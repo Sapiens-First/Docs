@@ -1,7 +1,7 @@
 ---
 title: "First steps for new members"
 description: "First steps for new members: join, meet people, and find work."
-section: Start here
+section: For Members
 status: adopted
 last_updated: 2026-09-28
 canonical: /guide/getting-started
@@ -65,7 +65,7 @@ Use whichever channel your group has agreed on. The website helps people find ev
 Keep project decisions and useful work somewhere others can find them, and link to them from the relevant work record. Protect passwords, member data, donor information, and private conversations.
 
 ::: related
-- [Ways to participate](../organization/participation.md) — Ways to get involved, from supporter to staff.
+- [Ways to participate](../organization/participation.md) — Ways to get involved as a supporter, member, or organizer.
 - [Meetings and updates](../work/meetings-and-updates.md) — Check-ins, written updates, and general meetings.
 - [Glossary](glossary.md) — Short definitions of the terms used across the Sapiens First handbook, with links to where each is explained.
 :::

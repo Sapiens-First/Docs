@@ -1,83 +1,46 @@
 ---
 layout: home
-
 hero:
   name: Sapiens First
   text: The Handbook
-  tagline: "How Sapiens First works: our strategy, organization, operating practices, and field guides."
+  tagline: "Understand the AI Crisis. Find your community. Learn to organize."
   actions:
     - theme: brand
       text: Start here
-      link: /guide/
+      link: /supporters/
     - theme: alt
       text: Find anything
       link: /find
-    - theme: alt
-      text: Open Atlas
-      link: https://sapiensfirst.org/atlas
-
-# Role-based starting points, shown beside the hero (HomePaths.vue)
 paths:
-  - who: Curious about the movement
-    text: Mission and strategy
-    link: /strategy/
-  - who: Joining as a member
-    text: First steps
-    link: /guide/getting-started
-  - who: Joining the Fellowship
-    text: The Fellowship
-    link: /guide/fellowship
-  - who: Starting or supporting a local group
-    text: Starting a local circle
-    link: /practices/starting-a-circle
-  - who: Taking on a role, including as staff
-    text: Roles and circles
-    link: /organization/roles-and-circles
-
-# Subject-based routing cards: who's reading, not a verb of the journey
+  - who: For Supporters
+    text: What is Sapiens First?
+    link: /supporters/
+  - who: For Members
+    text: Go deeper
+    link: /members/
+  - who: For Organizers
+    text: Be an activist
+    link: /organizers/
 features:
-  - title: New here?
-    details: Start with the basics — first steps, the Fellowship, and the words we use.
-    link: /guide/
-  - title: Doing the work?
-    details: Objectives, projects, weekly plans, and useful meetings.
-    link: /work/
-  - title: Organizing locally?
-    details: Start a circle, run a gathering, have a conversation, take action.
-    link: /practices/
-  - title: Looking for current information?
-    details: Atlas holds current roles, projects, objectives, and metrics.
-    link: https://sapiensfirst.org/atlas
+  - title: For Supporters
+    details: Understand the AI Crisis, why it matters, and how you can help.
+    link: /supporters/
+  - title: For Members
+    details: Explore our theory of change, shared values, and ways to take action.
+    link: /members/
+  - title: For Organizers
+    details: Reading series for Fellows, Stewards, and Leads on organizing, tools, and working together.
+    link: /organizers/
 ---
 
-## Go straight to
+## Find your place
 
-**New here?** [Mission and strategy](/strategy/) · [Theory of change](/strategy/#our-theory-of-change) · [Ways to participate](/organization/participation) · [The Fellowship](/guide/fellowship) · [How we're organized](/organization/) · [Glossary](/guide/glossary)
+Start with [Intro for Supporters](supporters/index.md) if you're curious about Sapiens First. [Intro for Members](members/index.md) goes deeper into what we're trying to achieve and how you can participate.
 
-**Doing the work?** [Projects](/work/projects) · [Objectives and key results](/work/#outcomes-and-outputs) · [Weekly planning](/work/weekly-work) · [Meetings and updates](/work/meetings-and-updates) · [Metrics](/learning/metrics) · [Decisions](/organization/decisions)
+Ready to organize? Choose your reading series:
 
-**Organizing locally?** [Starting a local circle](/practices/starting-a-circle) · [Gatherings](/practices/gatherings) · [Organizing conversations](/practices/organizing-conversations) · [Training organizers](/practices/training) · [Peaceful actions](/practices/actions)
+- [Intro for Fellows](organizers/fellows.md) — Vision, strategy, organizational structure, the handbook, Atlas, and practical tactics.
+- [Intro for Stewards](organizers/stewards.md) — Deeper governance, supporting a circle, and helping others develop.
+- [Intro for Leads](organizers/leads.md) — Direction, metrics, organizational learning, and compensation. Staff are Leads.
 
-**Looking for current information?** [Atlas](https://sapiensfirst.org/atlas) holds current role holders, projects, objectives, and metric values. The handbook explains how they work.
-
-## A journey from supporter to organizer
-
-You can understand Sapiens First as a journey from supporter to organizer, but the handbook navigation is organized by subject so information is easy to find.
-
-```mermaid
-flowchart TB
-  J["<b>Join</b> · find your place"] --> L["<b>Learn</b> · why we exist"] --> O["<b>Organize</b> · how we fit together"]
-  O --> B["<b>Build</b> · plan the work"] --> A["<b>Act</b> · do it with others"] --> G["<b>Grow</b> · get better"]
-  G -.-> B
-  classDef accent fill:#ffd60a,stroke:#111,stroke-width:2px
-  class J accent
-```
-
-- **Join** — find your place. [Welcome](/guide/)
-- **Learn** — understand why we exist. [Mission and strategy](/strategy/)
-- **Organize** — see how we fit together. [How we're organized](/organization/)
-- **Build** — plan the work. [How we manage work](/work/)
-- **Act** — do it with others. [Field guides](/practices/)
-- **Grow** — get better. [Measuring and learning](/learning/)
-
-Can't find what you're looking for? [Find anything](/find) routes common questions straight to their answer.
+You can read any section and return to individual articles as you need them. [Find anything](find.md) helps you locate a specific answer; [Atlas](https://sapiensfirst.org/atlas) holds current roles, projects, and priorities.

@@ -1,9 +1,9 @@
 ---
 title: "Find anything in Sapiens First"
 description: "Common questions about Sapiens First, routed straight to the page that answers them."
-section: Start here
+section: For Organizers
 status: reference
-last_updated: 2026-09-28
+last_updated: 2026-09-29
 canonical: /find
 ---
 
@@ -15,9 +15,22 @@ canonical: /find
 
 - Each question below is a single link: to the handbook page that explains a concept, or to [Atlas](https://sapiensfirst.org/atlas) for anything that changes day to day.
 - The handbook explains how things work; Atlas holds who's doing what right now.
-- Can't find your question here? Try the search box, the [glossary](guide/glossary.md), or the sidebar grouped by topic.
+- Can't find your question here? Try the search box, the [glossary](guide/glossary.md), or the sidebar grouped by audience.
+
+## Choose a starting point
+
+- [Intro for Supporters](supporters/index.md) — What Sapiens First is and why the AI Crisis matters.
+- [Intro for Members](members/index.md) — Theory of change, values, and pathways to action.
+- [For Organizers](organizers/index.md) — Reading series for Fellows, Stewards, and Leads.
 
 ## I want to know…
+
+### Where staff should start
+→ [Intro for Leads](organizers/leads.md) — Staff are Leads.
+
+### Where compensation is explained
+→ [Compensation](organizers/compensation.md) — Placeholder; details to be added.
+
 
 ### What Sapiens First is trying to accomplish
 → [Sapiens First's mission and strategy](strategy/index.md)
@@ -119,6 +132,6 @@ canonical: /find
 → [Red lines](organization/values.md#red-lines)
 
 ::: related
-- [Welcome to the Sapiens First Handbook](guide/index.md) — Where to start, and how the handbook relates to Atlas.
+- [How to use this handbook](guide/index.md) — Where to start, and how the handbook relates to Atlas.
 - [Glossary of Sapiens First terms](guide/glossary.md) — Short definitions of the terms used across the Sapiens First handbook, with links to where each is explained.
 :::

@@ -1,7 +1,8 @@
 ---
 title: Sapiens First field guides for organizers
 description: Repeatable guides for organizing locally, grouped by act, recruit, and train.
-section: Field guides
+section: For Organizers
+audience: Fellows
 status: adopted
 last_updated: 2026-09-27
 canonical: /practices/

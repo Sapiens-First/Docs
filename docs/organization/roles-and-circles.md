@@ -1,7 +1,8 @@
 ---
 title: "Roles and circles at Sapiens First"
 description: "What roles and circles are, and how to read them in Atlas."
-section: People and organization
+section: For Organizers
+audience: Fellows
 status: adopted
 last_updated: 2026-09-27
 canonical: /organization/roles-and-circles
