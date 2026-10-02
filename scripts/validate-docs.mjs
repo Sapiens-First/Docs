@@ -32,6 +32,8 @@
 import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs'
 import { join, dirname, relative, resolve, posix } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { validateHandbookToc } from './handbook-toc.mjs'
+import { resolveReferences } from './handbook-references.mjs'
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const DOCS = join(ROOT, 'docs')
@@ -117,7 +119,8 @@ function anchorsFor(cache, absPath) {
   let set = new Set()
   try {
     const { body } = readFrontmatter(readFileSync(absPath, 'utf8'))
-    for (const h of headings(body)) {
+    const expanded = resolveReferences(body, relative(DOCS, absPath), DOCS)
+    for (const h of headings(expanded)) {
       const custom = h.text.match(/\{#([\w-]+)\}\s*$/)
       let text = custom ? h.text.slice(0, custom.index).trim() : h.text
       text = text.replace(/[*_`]|\[([^\]]*)\]\([^)]*\)/g, (whole, g1) => g1 ?? '')
@@ -165,7 +168,13 @@ function checkLinks(errors, file, body, anchorCache) {
 
 function main() {
   const files = listMarkdownFiles(DOCS).filter((f) => f !== join(DOCS, 'index.md'))
-  const errors = []
+  const errors = validateHandbookToc(DOCS)
+  const home = join(DOCS, 'index.md')
+  if (existsSync(home)) {
+    const { data, body } = readFrontmatter(readFileSync(home, 'utf8'))
+    if (!isCalendarDate(data.last_updated)) errors.push('docs/index.md: last_updated must be a real YYYY-MM-DD calendar date')
+    checkLinks(errors, home, body, new Map())
+  }
   const warnings = []
   const canonicalOwners = new Map() // canonical path -> [files]
   const handbookIds = new Map()
@@ -228,7 +237,12 @@ function main() {
       errors.push(`${relPath}: frontmatter title "${data.title}" does not match the H1 "${h1s[0].text}"`)
     }
 
-    checkLinks(errors, file, body, anchorCache)
+    try {
+      const expanded = resolveReferences(body, relative(DOCS, file), DOCS)
+      checkLinks(errors, file, expanded, anchorCache)
+    } catch (error) {
+      errors.push(`${relPath}: ${error.message}`)
+    }
 
     if (numbered) {
       if (!/^## Summary\s*$/m.test(body)) warnings.push(`${relPath}: no "## Summary" section`)

@@ -31,6 +31,8 @@ Roles can overlap. Evaluate the roles a person actually held during the review p
 
 The three dimensions are **Direction, Enablement, and Systems**. Ratings describe the overall pattern of contribution and supporting evidence, rather than a checklist to maximize mechanically. A 4 or 5 represents meaningfully greater contribution, scope, or leverage than reliably fulfilling the expected role.
 
+<!-- handbook:block player-coach-expectations-rubric -->
+
 | Rating | **Direction** | **Enablement** | **Systems** |
 |---|---|---|---|
 | **5 — Extraordinary** | Creates exceptional clarity despite major ambiguity. People deeply understand goals, constraints, priorities, and success criteria and can independently make excellent tradeoffs. | People around them rapidly increase in capability, judgment, ownership, and autonomy. Gives exceptionally useful feedback and creates high standards while making disagreement, mistakes, and bad news safe to surface. | Builds operating and technical systems that materially multiply team output. Anticipates bottlenecks, redesigns systems before they fail, allocates talent exceptionally well, and makes the organization less dependent on themselves. |
@@ -38,6 +40,8 @@ The three dimensions are **Direction, Enablement, and Systems**. Ratings describ
 | **3 — Fully meets expectations** | People generally know what they own, what matters now, why it matters, and what successful completion looks like. Conflicting priorities are resolved reasonably quickly. | Holds useful 1:1s, provides timely feedback, recognizes good work, addresses problems, gives appropriate autonomy, and helps people develop their skills and judgment. | Provides adequate tools, information, processes, and staffing. Delegates appropriately and fixes obvious recurring coordination problems. |
 | **2 — Developing** | Priorities or ownership are sometimes unclear. Too many things are simultaneously important, definitions of success are vague, or direction changes without enough explanation. | Feedback is irregular, vague, or late. Alternates between micromanagement and insufficient support. Solves too many problems personally and people are not clearly becoming more autonomous. | Often handles recurring problems as isolated incidents. Processes are missing, cumbersome, or inconsistent, and delegation or resource allocation creates avoidable bottlenecks. |
 | **1 — Below expectations** | People frequently do not know what to prioritize, who owns what, or what success means. Conflicting instructions and delayed decisions cause substantial wasted work. | Important feedback is avoided or delivered too late. People are blocked, overly controlled, or unsupported. Speaking up, disagreeing, or reporting mistakes feels risky. | The player-coach becomes a major bottleneck. Problems repeatedly recur, responsibilities are confused, resources are missing, and team effectiveness depends on constant intervention. |
+
+<!-- /handbook:block -->
 
 ## A.1.4.3 Applying the draft {#applying-the-draft}
 

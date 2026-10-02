@@ -31,6 +31,8 @@ Roles can overlap. Evaluate the roles a person actually held during the review p
 
 The three dimensions are **Outcome, Ownership, and Judgment**. Ratings describe the overall pattern of contribution and supporting evidence, rather than a checklist to maximize mechanically. A 4 or 5 represents meaningfully greater contribution, scope, or leverage than reliably fulfilling the expected role.
 
+<!-- handbook:block dri-expectations-rubric -->
+
 | Rating | **Outcome** | **Ownership** | **Judgment** |
 |---|---|---|---|
 | **5 — Extraordinary** | Repeatedly achieves outcomes that materially exceed the original objective or unlock substantial new organizational capacity. Finds ways to succeed despite major ambiguity or constraints. | Operates as the unquestioned owner of the domain. Anticipates dependencies, coordinates contributors, resolves ambiguity, escalates intelligently, and creates systems that make future delivery easier. Requires very little executive attention. | Consistently identifies the highest-leverage problems, reframes goals when necessary, and makes excellent decisions under substantial uncertainty. Insights from the domain improve broader organizational strategy. |
@@ -38,6 +40,8 @@ The three dimensions are **Outcome, Ownership, and Judgment**. Ratings describe 
 | **3 — Fully meets expectations** | Reliably achieves the agreed outcome with appropriate quality and timing. Changes tactics when needed rather than mechanically completing the original task list. | Clearly owns the project or domain from beginning to end. Defines next actions, coordinates contributors, tracks progress, surfaces blockers early, and closes loops without reminders. | Understands the objective and constraints, prioritizes appropriately, considers reasonable alternatives, and makes sound day-to-day decisions independently. |
 | **2 — Developing** | Produces useful work, but achieving the actual outcome is inconsistent or sometimes depends heavily on intervention from others. | Owns assigned pieces but does not consistently drive the whole outcome. Dependencies, follow-ups, or risks sometimes require manager intervention. | Makes reasonable decisions in straightforward situations but struggles with ambiguity or tradeoffs and escalates decisions that should fall within their authority. |
 | **1 — Below expectations** | Activity occurs, but intended outcomes are frequently not achieved. | Behaves primarily as a recipient of tasks rather than an owner of the result. Work stalls without supervision and dependencies or unresolved problems are allowed to sit. | Requires substantial direction for routine decisions or repeatedly makes decisions that optimize the immediate task rather than the overall outcome. |
+
+<!-- /handbook:block -->
 
 ## A.1.3.3 Applying the draft {#applying-the-draft}
 

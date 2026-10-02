@@ -16,7 +16,7 @@ The user requested: “start directing agents to implement the handbook incremen
 
 ## Provisional technical choices
 
-The pilot stores stable IDs and display numbers in frontmatter and checks title/number consistency and uniqueness. A single ordered TOC registry is still pending; this pilot does not claim that registry or generated numbering is complete. Canonical references are linked until build-time inclusion and export parity are verified. Resource/citation/glossary generation and old-path migration remain later units.
+The pilot stores stable IDs and display numbers in frontmatter, validated against the single ordered `handbook-data/toc.json` registry. Navigation and export order derive from that registry. Authored headings still carry numbers; full automatic numbering is pending. Canonical named blocks now resolve in HTML and Markdown exports. Resource/citation/glossary generation and old-path migration remain later units.
 
 The style guide's SVG decision is an editorial/technical choice within the user's request, not a new organizational policy. Imported diagram palettes are retained pending visual review. Diagram validation checks XML and asset conventions; human review still checks legibility and meaning.
 
@@ -29,3 +29,9 @@ The style guide's SVG decision is an editorial/technical choice within the user'
 ## Remaining decisions
 
 Organizational adoption of the performance framework, evaluation owners/cadence/appeals, role mix and pay calculations, tech meeting ownership/cadence, data-access boundaries, governance adoption, and current priority records remain unresolved. Do not infer those decisions from permission to edit the handbook.
+
+## Structural pilot — 2026-10-02
+
+The ordered JSON TOC supplies numbered navigation and export ordering; validators enforce coverage and metadata agreement. Explicit Markdown comment directives select named bodies from canonical Appendix A pages. The same synchronous resolver runs before HTML parsing and in exports/validation. Source status/date remain independent of the host date. Nested includes/blocks are rejected rather than recursively expanded, preventing circular inclusion. Source markers are authoring metadata, not separately maintained policy copies.
+
+IC criteria appear in both expectations and tech guidance; DRI/PC criteria appear beside their role explanations. Raw Markdown twins now carry source/status/date. These are provisional technical implementations, not policy adoption. Resource/citation/glossary generation, full numbering generation and canonical-only search indexing remain pending. Existing local search may index both sources and receiving explanations.

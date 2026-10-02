@@ -1,6 +1,8 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { join, dirname, posix } from 'node:path'
 import type { SiteConfig } from 'vitepress'
+import { resolveReferences } from '../../scripts/handbook-references.mjs'
+import { getHandbookItems } from '../../scripts/handbook-toc.mjs'
 
 // Generates /llms.txt, /llms-full.md, /llms-full.txt, and a raw-Markdown
 // twin of every page (e.g. dist/learning/metrics.md next to metrics.html),
@@ -96,7 +98,8 @@ function collectPages(siteConfig: SiteConfig): PageInfo[] {
     } catch {
       continue
     }
-    const { data, body } = readFrontmatter(src)
+    const { data, body: authoredBody } = readFrontmatter(src)
+    const body = resolveReferences(authoredBody, relPath, siteConfig.srcDir)
     const canonicalPath = data.canonical || toCanonicalPath(relPath)
     const section = data.section && SECTION_ORDER.includes(data.section)
       ? data.section
@@ -118,8 +121,13 @@ function collectPages(siteConfig: SiteConfig): PageInfo[] {
     const i = SECTION_ORDER.indexOf(s)
     return i === -1 ? SECTION_ORDER.length : i
   }
+  const ordered = getHandbookItems().map((item) => item.link)
+  const rank = (page: PageInfo) => {
+    const index = ordered.indexOf(page.canonicalPath)
+    return index < 0 ? ordered.length : index
+  }
   return pages.sort(
-    (a, b) => sectionIndex(a.section) - sectionIndex(b.section) || a.relPath.localeCompare(b.relPath)
+    (a, b) => sectionIndex(a.section) - sectionIndex(b.section) || rank(a) - rank(b) || a.relPath.localeCompare(b.relPath)
   )
 }
 
@@ -137,6 +145,10 @@ function resolveMdLink(sourceRelPath: string, target: string): string | undefine
   const resolvedRel = pathPart.startsWith('/')
     ? pathPart.slice(1)
     : posix.normalize(posix.join(posix.dirname(sourceRelPath), pathPart))
+  if (pathPart.startsWith('/') && !pathPart.startsWith('//') && !posix.extname(pathPart)) {
+    const url = toAbsoluteUrl(pathPart)
+    return hash ? `${url}#${hash}` : url
+  }
   if (!resolvedRel.endsWith('.md')) return undefined
   const url = toAbsoluteUrl(toCanonicalPath(resolvedRel))
   return hash ? `${url}#${hash}` : url
@@ -300,6 +312,7 @@ export async function generateLlmsFiles(siteConfig: SiteConfig): Promise<void> {
   for (const p of pages) {
     const outPath = join(siteConfig.outDir, p.relPath)
     mkdirSync(dirname(outPath), { recursive: true })
-    writeFileSync(outPath, `# ${p.title}\n\n${cleanBodyForFullDump(p.relPath, p.body)}\n`, 'utf8')
+    const metadata = [`Source: ${p.url}`, p.status && `Status: ${p.status}`, p.lastUpdated && `Last updated: ${p.lastUpdated}`].filter(Boolean).join('\n')
+    writeFileSync(outPath, `# ${p.title}\n\n${metadata}\n\n${cleanBodyForFullDump(p.relPath, p.body)}\n`, 'utf8')
   }
 }

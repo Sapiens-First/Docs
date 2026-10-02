@@ -65,6 +65,10 @@ The October 2 notes name the following priorities. They belong to this quarter's
 
 **Open questions:** Who owns the department and each outcome? What counts as success? Which systems and dependencies are in scope? Where will current assignments be maintained as priorities change?
 
+For tech contributors working as Individual Contributors, the draft role framework below describes Output, Communication, and Judgment. It is shared with [3.1 Expectations](expectations.md#individual-contributor); the reference page maintains its criteria. Department-specific goals and adoption remain unresolved.
+
+<!-- handbook:include appendices/reference/ic-expectations.md#ic-expectations-rubric -->
+
 ## 3.4.2 Tech team: meeting format {#tech-team-meeting-format}
 
 Use the proposed [tech team meeting agenda](../appendices/reference/tech-team-meeting-agenda.md#proposed-agenda) to review outcomes, learn from prototypes, resolve decisions, and assign next steps. A.2.5 is the single maintained agenda; this section links to it while handbook embedding is deferred.

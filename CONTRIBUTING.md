@@ -114,7 +114,7 @@ owner: …                                 # optional; only if the source names 
 
 **Sections:** use the chapter values above for numbered pages; retain `For Supporters`, `For Members`, or `For Organizers` on legacy pages.
 
-**Status** (fixed list, rendered as a badge near the top of the page): `adopted` · `proposal` · `draft` · `experimental` · `reference`. A page that's mostly current practice but contains `::: proposal` blocks is still `adopted`; say which parts are proposals in `## In brief`. Proposal, draft, and experimental pages also get a short callout under the eyebrow ("Proposal: this describes a possible future practice…"); adopted pages get a one-line note instead.
+**Status** (fixed list, rendered as a badge near the top of the page): `adopted` · `proposal` · `draft` · `experimental` · `reference`. A page that's mostly current practice but contains `::: proposal` blocks is still `adopted`; say which parts are proposals in `## In brief`. Each page displays one status badge beneath its metadata. Draft or proposal content remains subject to review.
 
 Note that YAML parses an unquoted `2026-09-27` as a date value, not a string — this handbook's build code accepts both forms, but if you want to be certain `last_updated` stays a plain string, quote it (`last_updated: "2026-09-27"`).
 
@@ -139,3 +139,25 @@ Run `npm run docs:build`. VitePress checks Markdown compilation and internal pag
 Run `npm run docs:check` (or `node scripts/validate-docs.mjs --warn-only` while content is still mid-migration) to check frontmatter completeness, the status and section vocabularies, `last_updated` formatting, duplicate or mismatched `canonical` paths, a single matching H1, and broken relative `.md` links or `#fragments`. It also warns (without failing) when a page has no `::: related` block, no `## In brief`, or no one-sentence lede under the H1. CI runs this in strict mode before every build; the local run can use `--warn-only` since content may be in flux.
 
 Do not commit `node_modules`, `.vitepress/cache`, or `.vitepress/dist`. A push to `main` triggers the existing GitHub Pages workflow; a local build does not publish anything.
+
+## Numbered contents and canonical references
+
+`handbook-data/toc.json` is the ordered registry for numbered pages. Register each page’s stable ID, number, title, docs-relative path, and section there. Navigation and Markdown export order use this registry; validation checks page frontmatter and H1 against it. Keep IDs and filenames stable when changing display numbers. Authored numbers are checked against the registry; heading numbers are not yet generated.
+
+Reusable rubric text stays in Appendix A. Mark a named body block in its canonical source:
+
+```markdown
+<!-- handbook:block ic-expectations-rubric -->
+[The canonical rubric body]
+<!-- /handbook:block -->
+```
+
+Include it at the point of explanation with a docs-relative source path:
+
+```markdown
+<!-- handbook:include appendices/reference/ic-expectations.md#ic-expectations-rubric -->
+```
+
+Keep frontmatter, H1, Summary, and navigation outside the marked block. Included headings receive unique local anchors; relative links resolve from the source page. Every embed shows its source title/link, status, and editorial date. Nested blocks and includes are unsupported and fail validation/build, as do missing or ambiguous blocks. Update the source once; HTML, raw Markdown and combined exports resolve the same body at the next build. Raw Markdown also includes page source, status, and date.
+
+Run `node --test scripts/handbook-*.test.mjs` for resolver, TOC and validator integration fixtures. CI runs these before documentation checks and the build. Generated views never replace the canonical source.

@@ -31,6 +31,8 @@ Roles can overlap. Evaluate the roles a person actually held during the review p
 
 The three dimensions are **Output, Communication, and Judgment**. Ratings describe the overall pattern of contribution and supporting evidence, rather than a checklist to maximize mechanically. A 4 or 5 represents meaningfully greater contribution, scope, or leverage than reliably fulfilling the expected role.
 
+<!-- handbook:block ic-expectations-rubric -->
+
 | Rating | **Output** | **Communication** | **Judgment** |
 |---|---|---|---|
 | **5 — Extraordinary** | Repeatedly delivers major, high-quality systems or products that materially expand organizational capability. Creates tools or automation that multiply future output and handles highly ambiguous technical problems independently. | Creates exceptional clarity with very little overhead. Anticipates information needs, surfaces risks early, documents consequential decisions, and substantially reduces coordination costs. | Consistently identifies important problems or opportunities before they are assigned. Reframes problems, finds substantially higher-leverage solutions, and makes excellent product and technical tradeoffs under uncertainty. |
@@ -38,6 +40,8 @@ The three dimensions are **Output, Communication, and Judgment**. Ratings descri
 | **3 — Fully meets expectations** | Reliably delivers agreed work at the expected pace and quality. Tests and debugs their own work, finishes projects, follows through on commitments, and independently owns scoped projects. | Clearly and proactively communicates what they are doing, why, current status, blockers, important decisions, results, and what comes next. Others generally do not need to chase them for information. | Understands organizational and user goals, prioritizes accordingly, makes sound product and technical tradeoffs, and independently handles most decisions within their domain. |
 | **2 — Developing** | Produces useful work, but speed, quality, or reliability is inconsistent. Work sometimes requires substantial rework, follow-up, or additional direction. | Communicates when prompted, but updates may be late or incomplete. Blockers sometimes surface too late, or activity is reported without enough explanation of outcomes or next steps. | Handles clearly defined decisions but struggles with ambiguity, prioritization, or system-level consequences. Frequently needs guidance when comparing alternatives. |
 | **1 — Below expectations** | Frequently misses commitments or produces incomplete, unreliable, or low-value work. Requires substantial supervision or repeated follow-up. | Progress is difficult to understand without asking. Important blockers, changes, or failures surface late and create uncertainty for others. | Frequently works on the wrong things, requires step-by-step direction, or makes avoidable product or technical decisions that are misaligned with organizational goals. |
+
+<!-- /handbook:block -->
 
 ## A.1.2.3 Applying the draft {#applying-the-draft}
 

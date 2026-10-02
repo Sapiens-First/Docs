@@ -8,7 +8,7 @@ Built with [VitePress](https://vitepress.dev) for [GitHub Pages](https://sapiens
 
 The new structure follows [HANDBOOK-OUTLINE.md](HANDBOOK-OUTLINE.md). See [implementation progress](maintenance/implementation-progress.md), [decisions](maintenance/decisions.md), and [content map](maintenance/content-map.md). Existing pages remain available while numbered Introduction, DNA, Staff, and Appendix A drafts are introduced. Start with the [new Introduction](docs/introduction/index.md). The `10-2 content additions/` directory supplies helpful role rubrics, tech notes, and source diagrams.
 
-Published diagrams use SVG under `docs/public/diagrams/`; [STYLE-GUIDE.md](STYLE-GUIDE.md#diagrams-and-visuals) defines the standard. Run `npm run diagrams:check` for asset checks; `npm run docs:check` includes them.
+Published diagrams use SVG under `docs/public/diagrams/`; [STYLE-GUIDE.md](STYLE-GUIDE.md#diagrams-and-visuals) defines the standard. Run `npm run diagrams:check` for asset checks; `npm run docs:check` includes them. Run `node --test scripts/handbook-*.test.mjs` for TOC/reference fixtures; CI includes both checks. The ordered contents live in `handbook-data/toc.json`; canonical rubric blocks are included in HTML and Markdown exports. See CONTRIBUTING for the authoring syntax.
 
 ## Repository layout
 

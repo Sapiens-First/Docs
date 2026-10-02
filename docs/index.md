@@ -1,5 +1,6 @@
 ---
 layout: home
+last_updated: "2026-10-02"
 hero:
   name: Sapiens First
   text: The Handbook
@@ -25,12 +26,14 @@ features:
 
 ## Find your place
 
+Start with the [numbered Introduction](introduction/index.md) for the new handbook structure. The reading series below remain available during migration.
+
 Start with [Intro for Supporters](supporters/index.md) if you're curious about Sapiens First. [Intro for Members](members/index.md) goes deeper into what we're trying to achieve and how you can participate.
 
 Ready to organize? Choose your reading series:
 
 - [Intro for Fellows](organizers/fellows.md) — Vision, strategy, organizational structure, the handbook, Atlas, and practical tactics.
 - [Intro for Stewards](organizers/stewards.md) — Deeper governance, supporting a circle, and helping others develop.
-- [Intro for Leads](organizers/leads.md) — Direction, metrics, organizational learning, and compensation. Staff are Leads.
+- [Intro for Leads](organizers/leads.md) — Direction, metrics, organizational learning, and compensation. These legacy reading paths do not define paid staff status.
 
 You can read any section and return to individual articles as you need them. [Find anything](find.md) helps you locate a specific answer; [Atlas](https://sapiensfirst.org/atlas) holds current roles, projects, and priorities.

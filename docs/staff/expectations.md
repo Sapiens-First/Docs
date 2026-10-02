@@ -23,17 +23,23 @@ An Individual Contributor directly creates value through their craft. The centra
 
 Use [A.1.2 IC expectations](../appendices/reference/ic-expectations.md) for the maintained rating descriptions and suggested weighting. This section explains the role; the reference page maintains the score table.
 
+<!-- handbook:include appendices/reference/ic-expectations.md#ic-expectations-rubric -->
+
 ## 3.1.2 Directly Responsible Individual {#directly-responsible-individual}
 
 A DRI owns an outcome, especially one spanning functions, systems, or contributors. The central question is: **Did you make the outcome happen?** The dimensions are Outcome, Ownership, and Judgment.
 
 A DRI needs a clear purpose, domain, accountabilities, and decision authority. Responsibility without corresponding authority prevents effective ownership. Use [A.1.3 DRI expectations](../appendices/reference/dri-expectations.md) for the maintained rating descriptions.
 
+<!-- handbook:include appendices/reference/dri-expectations.md#dri-expectations-rubric -->
+
 ## 3.1.3 Player-Coach {#player-coach}
 
 A Player-Coach combines substantive work in their craft with developing other people. The central question is: **Are people and systems becoming more capable because of you?** The dimensions are Direction, Enablement, and Systems.
 
 Consider whether people understand priorities, receive useful feedback and appropriate autonomy, and have systems that help them do effective work. Use [A.1.4 Player-Coach expectations](../appendices/reference/player-coach-expectations.md) for the maintained rating descriptions and suggested weighting.
+
+<!-- handbook:include appendices/reference/player-coach-expectations.md#player-coach-expectations-rubric -->
 
 ## 3.1.4 Mixed roles and predominant role {#mixed-roles}
 

@@ -3,25 +3,18 @@ import { join } from 'node:path'
 import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 import { handbookContainers } from './containers'
+import { headingNumbers } from './heading-numbers'
 import { generateLlmsFiles } from './llms'
+import { getHandbookItems, validateHandbookToc } from '../../scripts/handbook-toc.mjs'
+import { resolveReferences } from '../../scripts/handbook-references.mjs'
 
 const base = '/docs/'
 const siteHostname = 'https://sapiens-first.github.io/docs/'
 
-// Numbered handbook pilot pages, shared by the nav dropdown and the sidebar.
-const pilotItems = [
-  { text: '0 Introduction', link: '/introduction/' },
-  { text: '0.1 Welcome', link: '/introduction/welcome' },
-  { text: '0.2 How the handbook works', link: '/introduction/how-the-handbook-works' },
-  { text: '1 DNA', link: '/dna/' },
-  { text: '1.2 Strategy', link: '/dna/strategy' },
-  { text: '3.1 Expectations', link: '/staff/expectations' },
-  { text: '3.4 Department-specific guidance', link: '/staff/department-specific-guidance' },
-  { text: 'A.1.2 IC expectations', link: '/appendices/reference/ic-expectations' },
-  { text: 'A.1.3 DRI expectations', link: '/appendices/reference/dri-expectations' },
-  { text: 'A.1.4 Player-Coach expectations', link: '/appendices/reference/player-coach-expectations' },
-  { text: 'A.2.5 Tech team meeting agenda', link: '/appendices/reference/tech-team-meeting-agenda' }
-]
+// One ordered registry supplies navigation and checks authored numbering.
+const tocErrors = validateHandbookToc()
+if (tocErrors.length) throw new Error(tocErrors.join('\n'))
+const pilotItems = getHandbookItems()
 
 // https://vitepress.dev/reference/site-config
 export default withMermaid(defineConfig({
@@ -38,7 +31,14 @@ export default withMermaid(defineConfig({
   sitemap: { hostname: siteHostname },
 
   markdown: {
-    config: (md) => handbookContainers(md)
+    config: (md) => {
+      // Run before VitePress parses headers so embeds share HTML/export anchors.
+      md.core.ruler.before('normalize', 'handbook-references', (state) => {
+        if (state.env.relativePath) state.src = resolveReferences(state.src, state.env.relativePath, join(process.cwd(), 'docs'))
+      })
+      handbookContainers(md)
+      headingNumbers(md)
+    }
   },
 
   // Reading time for the page eyebrow, no "On this page" box on pages too
@@ -201,7 +201,15 @@ export default withMermaid(defineConfig({
       },
     ],
 
-    search: { provider: 'local', options: { detailedView: true } },
+    search: {
+      provider: 'local',
+      options: {
+        detailedView: true,
+        miniSearch: {
+          searchOptions: { fuzzy: 0.2, prefix: true, boost: { title: 4, titles: 2, text: 1 } }
+        }
+      }
+    },
 
     externalLinkIcon: true,
 
