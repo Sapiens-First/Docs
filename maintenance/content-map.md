@@ -165,3 +165,16 @@ New editorial drafts: `docs/introduction/index.md` (0), `welcome.md` (0.1), and 
 | `guide/index.md#a-handbook-that-grows-with-us` | `introduction/how-the-handbook-works.md#how-to-suggest-changes` | Contributor path linked; review owner explicitly unresolved. |
 
 No source row is fully reconciled or retired by this batch. `find.md` and audience indexes retain their existing links and anchors until the remaining destinations exist.
+
+## DNA Strategy increment — 2026-10-02
+
+New drafts: `docs/dna/index.md` and `docs/dna/strategy.md`. Existing source editorial dates remain unchanged; these rewritten pages carry 2026-10-02.
+
+| Existing source / fragment | Actual draft destination | Compatibility / disposition state |
+| --- | --- | --- |
+| `strategy/index.md#our-theory-of-change` | `dna/strategy.md#theory-of-change` | Rewritten as organizational belief; old fragment retained. |
+| `strategy/index.md#act-recruit-train`; `practices/index.md#guides-by-stage` | `dna/strategy.md#act`, `#recruit`, `#train` | Explanation split; practical guides remain authoritative existing sources. |
+| `strategy/index.md#how-the-work-fits-together`; tech notes' Big Organizing and flywheel | `dna/strategy.md#how-the-cycle-compounds` | Shared SVG reused; tool labels and growth remain conceptual. Old route retained. |
+| `strategy/index.md` background assumptions; `learning/strategic-hypotheses.md` | `dna/strategy.md#assumptions-and-strategic-choices` | Targets and review decisions remain open; planning guide linked rather than duplicated. |
+
+Story blocks in the old strategy page remain pending 1.1; no old page is retired or fully reconciled.
