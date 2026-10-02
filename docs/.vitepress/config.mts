@@ -134,7 +134,8 @@ export default withMermaid(defineConfig({
           {
             text: 'Download',
             items: [
-              { text: 'HTML', link: `${base}downloads/sapiens-first-handbook.html`, target: '_self', noIcon: true },
+              // VitePress adds the base to .html links itself; a ${base} prefix would double it.
+              { text: 'HTML', link: '/downloads/sapiens-first-handbook.html', target: '_self', noIcon: true },
               { text: 'PDF', link: `${base}downloads/sapiens-first-handbook.pdf`, target: '_self', noIcon: true },
               { text: 'EPUB', link: `${base}downloads/sapiens-first-handbook.epub`, target: '_self', noIcon: true }
             ]
