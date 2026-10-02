@@ -70,6 +70,27 @@
     "section": "Leadership"
   },
   {
+    "id": "leadership-strategic-planning",
+    "number": "2.2",
+    "title": "2.2 Strategic planning",
+    "path": "leadership/strategic-planning.md",
+    "section": "Leadership"
+  },
+  {
+    "id": "leadership-people",
+    "number": "2.3",
+    "title": "2.3 People",
+    "path": "leadership/people.md",
+    "section": "Leadership"
+  },
+  {
+    "id": "leadership-facilitation",
+    "number": "2.4",
+    "title": "2.4 Facilitation",
+    "path": "leadership/facilitation.md",
+    "section": "Leadership"
+  },
+  {
     "id": "staff-expectations",
     "number": "3.1",
     "title": "3.1 Expectations",

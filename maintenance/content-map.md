@@ -222,3 +222,22 @@ Added `docs/leadership/index.md` (2) and `docs/leadership/culture-in-leadership.
 | none (new) | `#conflict-resolution`, `#radical-ownership` | Open callouts; no process adopted. |
 
 No legacy page edited, retired or fully reconciled.
+
+## Leadership 2.2–2.4 increment — 2026-10-02
+
+Added `docs/leadership/strategic-planning.md` (2.2), `people.md` (2.3) and `facilitation.md` (2.4); all draft, October 2 framing. Leadership landing now links 2.1–2.4. No legacy page edited, retired or fully reconciled.
+
+| Existing source / fragment | Actual destination | Compatibility / disposition state |
+| --- | --- | --- |
+| `work/index.md#from-mission-to-work`; `work/projects.md`; `work/weekly-work.md` | `leadership/strategic-planning.md#from-mission-to-objectives`, `#project-execution-and-handoffs` | Definitions retained/linked; work hierarchy vs Atlas schema left open. |
+| `learning/metrics.md`; `learning/reviewing-metrics.md` | `strategic-planning.md#metrics`, `#reviewing-performance-of-the-strategy` | “Metrics and people” principle retained verbatim; review cadence/ownership open. |
+| `learning/strategic-hypotheses.md` | `strategic-planning.md#strategic-hypotheses` | Linked; 1.2 holds durable assumptions. |
+| none (new) | `strategic-planning.md#okrs`, `#project-portfolio-management` | Open callouts; no OKR cadence, allocation or stop criteria adopted. |
+| `practices/organizing-conversations.md#a-simple-conversation` | `leadership/people.md#organizer-conversation` | Five steps retained verbatim; legacy guide linked; Organizer Conversation scope open. |
+| `learning/feedback.md#develop-through-responsibility` (first paragraph) | `people.md#supporting-growth` | Retained verbatim; rubric proposal not moved (3.1). |
+| `organization/roles-and-circles.md#taking-on-or-handing-over-a-role`; `practices/training.md#help-people-practice`; `dna/strategy.md#recruit` | linked from `people.md#right-people-right-roles`, `#recruiting-and-developing-volunteers` | Linked only. |
+| none (new) | `people.md#nature-and-nurture`, fit criteria, volunteer approach | Open callouts; no claims or policy adopted. |
+| `work/meetings-and-updates.md` meeting roles; written updates; agendas-and-notes sentence | `leadership/facilitation.md#what-facilitation-is-for`, `#written-updates-and-follow-through` | Copied verbatim; legacy page remains the practical guide. |
+| `work/meetings-and-updates.md` project check-ins, general meetings; `practices/gatherings.md`; `work/templates.md#project-update` | `facilitation.md#choosing-the-right-meeting`, `#written-updates-and-follow-through` | Linked only. |
+| `organization/decisions.md#when-responsibility-is-unclear`; `dna/structure.md#governance-and-change` | `facilitation.md#governance-meetings` | Linked; governance proposal status retained. |
+| none (new) | `facilitation.md#tactical-meetings`, `#governance-meetings` | Open callouts; formats, constitution, A.2.3/A.2.4 agendas not yet created. |

@@ -24,8 +24,8 @@ A definition of leadership in your own words is still needed. This summary is an
 ## Sections {#sections}
 
 - [2.1 Culture in leadership](culture-in-leadership.md) — Give feedback, handle disagreement, take ownership, and model the culture.
-- **2.2 Strategic planning** — Forthcoming. Until then, use the existing [work guidance](../work/index.md) and [metrics guidance](../learning/metrics.md).
-- **2.3 People** — Forthcoming. Until then, use [organizing conversations](../practices/organizing-conversations.md) and [training](../practices/training.md).
-- **2.4 Facilitation** — Forthcoming. Until then, use [meetings and updates](../work/meetings-and-updates.md).
+- [2.2 Strategic planning](strategic-planning.md) — Connect the mission to objectives, metrics, projects, and review.
+- [2.3 People](people.md) — Hold organizer conversations, fit people to roles, and support growth.
+- [2.4 Facilitation](facilitation.md) — Run tactical and governance meetings and follow through in writing.
 
 Staff status is not a prerequisite for leadership. Current priorities and assignments live in [Atlas](https://sapiensfirst.org/atlas).

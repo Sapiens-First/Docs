@@ -84,3 +84,13 @@ Agents drafted 1.1 Story, 1.4 Structure, 2 Leadership landing and 2.1 Culture in
 Verification: `npm run docs:check` 55 pages, 0 errors/warnings, 2 SVGs valid. All 12 handbook tests pass (run unsandboxed). Production build passes. A.1.1 `leadership-standards` resolves in both 2.1 HTML and raw Markdown. Scoped `git diff --check` is clean. Browser visual check not run for this batch.
 
 Next: 2.2 Strategic planning, 2.3 People, 2.4 Facilitation; 3.0 Beliefs about staff; file-structure audit (roadmap item 5); then resource/citation/glossary pilot.
+
+## October 2 continuation — Leadership 2.2–2.4 and file-structure audit
+
+Published `ca7fdc6` (DNA 1.1–1.4, Leadership 2/2.1, A.1.1). Agents then drafted 2.2 Strategic planning, 2.3 People and 2.4 Facilitation; the Leadership chapter now has all four sections. Registry has 20 numbered pages; landing links updated; one paraphrased facilitation sentence restored to source wording. Ledger rows appended.
+
+Verification: `docs:check` 58 pages, 0 errors/warnings; 12/12 tests pass; production build passes; scoped `git diff --check` clean. Browser check not run.
+
+Roadmap item 5 audit landed in `maintenance/file-structure-audit.md` (proposal only; nothing moved). Key points: build a redirect mechanism first (none exists in `config.mts`); move root planning/history docs to `maintenance/history/`; delete pointer stubs `docs.md` and `Fellowship Handbook [shared].md` after folding pointers into README; move outline/style guide separately with link rewrites; keep `10-2 content additions/` until DNA/Leadership/Staff reconciliation. Its open decisions need the user.
+
+Next: 3.0 Beliefs about staff, 3.2/3.3 drafts with open callouts; audit batch 1 (redirects) once the user confirms the audit's decisions; resource/citation/glossary pilot.
