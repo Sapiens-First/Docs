@@ -178,3 +178,47 @@ New drafts: `docs/dna/index.md` and `docs/dna/strategy.md`. Existing source edit
 | `strategy/index.md` background assumptions; `learning/strategic-hypotheses.md` | `dna/strategy.md#assumptions-and-strategic-choices` | Targets and review decisions remain open; planning guide linked rather than duplicated. |
 
 Story blocks in the old strategy page remain pending 1.1; no old page is retired or fully reconciled.
+
+## DNA Culture increment — 2026-10-02
+
+Added `docs/dna/culture.md` (1.3), retaining core values and operating principles from `organization/values.md` and adding draft daily-work examples. The distinctive-culture question remains open.
+
+| Existing source / fragment | Actual destination | Compatibility / disposition state |
+| --- | --- | --- |
+| `organization/values.md#our-core-values` | `dna/culture.md#core-values` | Wording retained; old route remains during migration. |
+| `organization/values.md#operating-principles` | `dna/culture.md#operating-principles` | Wording retained; old route remains during migration. |
+| `organization/values.md#standards-for-leadership` | `appendices/reference/values-standards.md#standards-for-leadership` | Body moved verbatim to canonical A.1.1; legacy heading embeds that body. |
+| `organization/values.md#red-lines` | `appendices/reference/values-standards.md#red-lines` | Red lines, reporting route, and unresolved-process callout moved verbatim; legacy heading embeds them. |
+| `organization/values.md#political-activity-and-representation` | `appendices/reference/values-standards.md#political-activity-and-representation` | Body moved verbatim; legacy heading embeds it. |
+
+A.1.1 retains the existing adopted status and September 27 source content date; unresolved reporting additions remain explicitly unestablished. Culture carries draft status and its October 2 rewrite date. No legacy page retired, policy added, or reporting process adopted.
+
+## DNA Story and Structure increment — 2026-10-02
+
+Added `docs/dna/story.md` (1.1) and `docs/dna/structure.md` (1.4); both draft, October 2 rewrite date. Founding narrative, concentrated-power argument, claim evidence, Holacracy constitution/adaptations, participation categories and circle/chapter definitions remain open callouts.
+
+| Existing source / fragment | Actual destination | Compatibility / disposition state |
+| --- | --- | --- |
+| `strategy/index.md#the-moment` | `dna/story.md#ai-crisis` | Three concerns retained; evidence open. Old fragment retained. |
+| `strategy/index.md#what-we-stand-for`; mission blockquote | `dna/story.md#future-we-want` | Retained; links 1.2 and Atlas. Old fragment retained. |
+| `supporters/index.md#why-this-matters` | `dna/story.md#why-sapiens-first-exists` | One sentence retained; founding narrative open. |
+| none (new) | `dna/story.md#concentrated-power` | Placeholder callout only; no argument adopted. |
+| `organization/roles-and-circles.md` (Holacracy background) | `dna/structure.md#why-holacracy` | Wording retained; old fragment retained. |
+| `organization/roles-and-circles.md#reading-a-role-in-atlas`, `#see-how-circles-and-work-relate`; `organization/decisions.md#check-the-decision-rights` | `dna/structure.md#roles-circles-decision-rights` | Concepts summarized; tables and handover guidance stay in legacy pages (linked). |
+| `organization/decisions.md` (governance proposal bullet) | `dna/structure.md#governance-and-change` | Proposal status retained; constitution, authority, meetings open. |
+| `organization/participation.md#keep-role-and-participation-separate`, `#ways-to-participate` | `dna/structure.md#participation-responsibility-employment` | Linked; “staff are Leads” conflict flagged, not restated as settled. |
+| `practices/starting-a-circle.md` in-brief bullets | `dna/structure.md#local-circles-and-growth` | Wording retained; guide stays authoritative. |
+| `learning/atlas-and-ai.md` | `dna/structure.md#atlas-and-the-handbook` | Linked, labelled proposed. |
+
+## Leadership landing and Culture in leadership increment — 2026-10-02
+
+Added `docs/leadership/index.md` (2) and `docs/leadership/culture-in-leadership.md` (2.1). 2.2–2.4 are listed as forthcoming without links. Leadership definition, conflict process and radical-ownership limits remain open.
+
+| Existing source / fragment | Actual destination | Compatibility / disposition state |
+| --- | --- | --- |
+| `learning/feedback.md#give-useful-feedback` | `leadership/culture-in-leadership.md#feedback-culture` | Wording retained; legacy guide linked. Development/rubric proposal not moved (2.3.4 / 3.1). |
+| `appendices/reference/values-standards.md` block `leadership-standards` | embedded at `leadership/culture-in-leadership.md#modeling-the-culture` | Include directive; canonical home stays A.1.1. Verified in HTML and Markdown output. |
+| `organization/decisions.md#when-responsibility-is-unclear` | linked from `#conflict-resolution`, `#radical-ownership` | Linked only. |
+| none (new) | `#conflict-resolution`, `#radical-ownership` | Open callouts; no process adopted. |
+
+No legacy page edited, retired or fully reconciled.

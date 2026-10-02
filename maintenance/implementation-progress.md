@@ -35,6 +35,7 @@ Browser-based desktop/mobile visual inspection remains pending. XML and build ch
 2. Continue DNA/Leadership migration using the ledger; Introduction and DNA Strategy drafts are already published. Preserve source dates for unchanged passages and retain old routes until complete reconciliation.
 3. Add resource/citation records and glossary generation after the pilot; verify named external influences before using them as evidence.
 4. Resolve staff review administration, compensation, governance, and tech meeting ownership through user-supplied organizational decisions. Keep independent drafting moving while particular inputs remain open.
+5. **Restructure the repository file layout.** Consolidate redundant and superseded material: root planning docs (`AI-READABILITY-PLAN.md`, `REWRITE-PLAN.md`, `HANDBOOK-REVIEW.md`, `DESIGN-REVIEW.md`, `PROGRESS.md`, `docs.md`, etc.), `archive/`, legacy `docs/` routes once fully reconciled in the ledger, and the `10-2 content additions/` inputs. Target: `docs/` holds only the numbered handbook plus redirects; planning/history moves under `maintenance/` or `archive/`; one README explains the layout. Audit first (keep/move/merge/delete per file, with inbound links and redirects), then move in small verified batches. Do not delete source originals or legacy routes without a recorded disposition and redirect.
 
 Continue recording actual destinations and reconciled blocks in the ledger. Retire old pages only once their complete dispositions and compatibility paths are verified.
 
@@ -65,3 +66,21 @@ The user’s continuing site additions (number styling, search button/search rel
 Final output checks confirm unchanged canonical table text in host raw Markdown and combined exports, correctly based source links, visible draft attribution and registry export order. Homepage now links to Introduction, displays its editorial date and avoids defining staff by a legacy Lead reading path. Existing VitePress 1.6.4 home-content hydration logs a viewport-offset style warning; it originates in `VPHomeContent.vue`, and the default CSS fallback remains in use. This does not block page rendering or search. Resource/citation/glossary pilot and canonical-only search deduplication remain later work.
 
 The fixture test command is `node --test scripts/handbook-*.test.mjs`, wired directly into Pages CI. New unrelated package/dependency edits appeared during integration; `package.json` and `package-lock.json` are left uncommitted together, along with the source-note edits.
+
+## October 2 continuation — DNA Culture and canonical standards
+
+Added 1.3 Culture and A.1.1 Values-related standards, red lines, and reporting; registered both in the ordered TOC (13 numbered pages). Existing leadership standards, red lines/reporting, and representation wording now have one authoring home in A.1.1. Both Culture and the legacy values page include those canonical blocks. Legacy routes and heading anchors remain intact. Existing policy bodies were relocated verbatim, retaining adopted status and September 27 content date; the Culture rewrite remains draft. Reporting gaps and distinctive-culture questions remain visible.
+
+No runtime implementation changed. Existing inclusion tests and validator/build/output checks replace prose-mirroring tests; the registry coverage test count was updated. `npm run docs:check` passed: 51 pages, zero errors/warnings, two valid SVGs. Production build passed. All 12 handbook tests passed with subprocess permissions enabled; sandbox-only integration execution fails with `spawnSync EPERM` and is not counted as a passing run. Verified all three canonical bodies against HEAD, export parity across Culture, legacy values, canonical source and combined Markdown (allowing the established callout normalization), source attribution, dates, and new/legacy HTML anchors. Scoped diff whitespace check passed; an unrelated source-note EOF warning remains untouched.
+
+Local changes remain uncommitted and unpublished. Other ongoing theme, export, dependency, source-note, and CI edits were preserved. Resource/citation/glossary generation and remaining DNA/Leadership migration are still pending.
+
+Browser checks passed at 390px and 1440px for Culture, A.1.1, and legacy values: visible page dates and no horizontal overflow. Manual diff review checked policy-body preservation, registry ordering, legacy anchors, metadata status/date, and unresolved-policy wording; no actionable issue found.
+
+## October 2 continuation — DNA completion and Leadership start
+
+Agents drafted 1.1 Story, 1.4 Structure, 2 Leadership landing and 2.1 Culture in leadership. Registry (17 numbered pages), DNA landing list and registry test count were integrated centrally; ledger rows were appended to `content-map.md`. All pages are draft; open inputs are visible callouts. The DNA chapter now has all four sections. Legacy routes remain unchanged.
+
+Verification: `npm run docs:check` 55 pages, 0 errors/warnings, 2 SVGs valid. All 12 handbook tests pass (run unsandboxed). Production build passes. A.1.1 `leadership-standards` resolves in both 2.1 HTML and raw Markdown. Scoped `git diff --check` is clean. Browser visual check not run for this batch.
+
+Next: 2.2 Strategic planning, 2.3 People, 2.4 Facilitation; 3.0 Beliefs about staff; file-structure audit (roadmap item 5); then resource/citation/glossary pilot.
