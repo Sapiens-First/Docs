@@ -51,7 +51,7 @@ The supplied draft gives no weighting for the DRI dimensions. A combined-score r
 
 **Details to confirm before adoption:** the review owner and process, agreed role scope and expectations, evidence to use, assessment cadence, and how differences between assessments will be discussed. The companion staff guidance should own the common review process; this page owns this role's complete rubric.
 
-For existing coaching practices, see [Feedback and coaching](../../learning/feedback.md). The other role rubrics are:
+For existing coaching practices, see [Feedback and coaching](../../leadership/culture-in-leadership.md#feedback-culture). The other role rubrics are:
 
 - [A.1.2 IC expectations rubric](ic-expectations.md).
 - [A.1.4 PC expectations rubric](player-coach-expectations.md).

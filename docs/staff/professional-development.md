@@ -33,7 +33,7 @@ Performance, promotion and pay are separate questions. How development conversat
 
 ## 3.3.3 Development conversations and opportunities {#development-conversations}
 
-The handbook already describes growth through responsibility: choosing a next step that stretches skills while fitting capacity. That text is at [2.3.4 Supporting growth without assuming rapid transformation](../leadership/people.md#supporting-growth), and the full guidance is in the [feedback and growth guide](../learning/feedback.md#develop-through-responsibility). Feedback culture is at [2.1.1](../leadership/culture-in-leadership.md#feedback-culture).
+The handbook already describes growth through responsibility: choosing a next step that stretches skills while fitting capacity. That text is at [2.3.4 Supporting growth without assuming rapid transformation](../leadership/people.md#supporting-growth). Feedback culture is at [2.1.1](../leadership/culture-in-leadership.md#feedback-culture).
 
 The 10-2 performance notes suggest brief development discussions in regular 1:1s and feedback as events happen; this is a proposal, not an established schedule (see 3.1).
 
@@ -57,7 +57,7 @@ Needed: your intended philosophy, whether the keeper test affects retention at a
 
 ## 3.3.6 Transitions and handoffs {#transitions-and-handoffs}
 
-This section is proposed. Leaving well means the work continues. The existing project guidance on handoff covers sharing finished work and its limitations, organizing files and decisions, recording lessons, naming who maintains what, and updating the work record: see [Finish and hand off](../work/projects.md#finish-and-hand-off). Handing a role over is described in [Roles and circles](../organization/roles-and-circles.md#taking-on-or-handing-over-a-role).
+This section is proposed. Leaving well means the work continues. The existing project guidance on handoff covers sharing finished work and its limitations, organizing files and decisions, recording lessons, naming who maintains what, and updating the work record: see [Finish and hand off](../leadership/strategic-planning.md#finish-and-hand-off). Handing a role over is described in [Roles and circles](../dna/structure.md#taking-on-or-handing-over-a-role).
 
 ::: clarify
 Needed: whether a canonical handoff template exists or is wanted, and what applies specifically when a staff member leaves (for example notice, knowledge transfer or access). No staff-departure process is stated here.

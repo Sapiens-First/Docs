@@ -13,11 +13,13 @@ canonical: /introduction/
 
 ## Summary
 
-This handbook helps people understand Sapiens First and work together. Start with the welcome, then learn where to find guidance and current records. These introductory pages are drafts in the numbered handbook; audience definitions and editorial review responsibilities remain open.
+This handbook helps people understand Sapiens First and work together. Start with the welcome, learn where to find guidance and current records, then choose a way to get involved. These introductory pages are drafts in the numbered handbook; audience definitions and editorial review responsibilities remain open.
 
-<!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, chapter 0; docs/guide/index.md. -->
+<!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, chapter 0; docs/guide/index.md; docs/find.md. -->
 
 - [0.1 Welcome to Sapiens First](welcome.md) — Meet the movement and find a useful starting point.
 - [0.2 How the handbook works](how-the-handbook-works.md) — Understand numbering, status labels, information sources, and suggested changes.
 
-The existing [audience reading paths](../guide/index.md#find-your-starting-point) remain available while the numbered handbook grows.
+- [0.3 Getting involved](getting-involved.md) — Take first steps, find people and work, understand the Fellowship, and choose where to start as an organizer.
+
+Looking for a specific answer? Use [0.2.5 Find anything](how-the-handbook-works.md#find-anything) or the [Glossary](../appendices/glossary.md).

@@ -8,32 +8,29 @@ hero:
   actions:
     - theme: brand
       text: Start here
-      link: /supporters/
+      link: /introduction/welcome
+    - theme: alt
+      text: Get involved
+      link: /introduction/getting-involved
 features:
-  - title: For Supporters
-    details: Understand the AI Crisis, why it matters, and how you can help.
-    link: /supporters/
+  - title: Introduction
+    details: Who we are, how the handbook works, and how to get involved.
+    link: /introduction/
     linkText: Start reading
-  - title: For Members
-    details: Explore our theory of change, shared values, and ways to take action.
-    link: /members/
+  - title: DNA
+    details: Our story, theory of change, values, and how we are organized.
+    link: /dna/
     linkText: Start reading
-  - title: For Organizers
-    details: Reading series for Fellows, Stewards, and Leads on organizing, tools, and working together.
-    link: /organizers/
+  - title: Leadership
+    details: Culture, strategic planning, developing people, and facilitation for Organizers.
+    link: /leadership/
     linkText: Start reading
 ---
 
 ## Find your place
 
-Start with the [numbered Introduction](introduction/index.md) for the new handbook structure. The reading series below remain available during migration.
+Start with the [Introduction](introduction/index.md): [0.1 Welcome](introduction/welcome.md) explains who we are, and [0.3 Getting involved](introduction/getting-involved.md) helps you take a first step, whether you're curious, joining as a member, or ready to organize.
 
-Start with [Intro for Supporters](supporters/index.md) if you're curious about Sapiens First. [Intro for Members](members/index.md) goes deeper into what we're trying to achieve and how you can participate.
+Organizers can follow [0.3.4 Where to start as an organizer](introduction/getting-involved.md#where-to-start-as-an-organizer) through [1 DNA](dna/index.md) and [2 Leadership](leadership/index.md). Field guides, templates, and policies are in [A Reference materials](appendices/index.md), and terms are defined in the [Glossary](appendices/glossary.md).
 
-Ready to organize? Choose your reading series:
-
-- [Intro for Fellows](organizers/fellows.md) — Vision, strategy, organizational structure, the handbook, Atlas, and practical tactics.
-- [Intro for Stewards](organizers/stewards.md) — Deeper governance, supporting a circle, and helping others develop.
-- [Intro for Leads](organizers/leads.md) — Direction, metrics, organizational learning, and compensation. These legacy reading paths do not define paid staff status.
-
-You can read any section and return to individual articles as you need them. [Find anything](find.md) helps you locate a specific answer; [Atlas](https://sapiensfirst.org/atlas) holds current roles, projects, and priorities.
+You can read any section and return to individual articles as you need them. [Find anything](introduction/how-the-handbook-works.md#find-anything) helps you locate a specific answer; [Atlas](https://sapiensfirst.org/atlas) holds current roles, projects, and priorities.

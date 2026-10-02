@@ -11,7 +11,7 @@ import container from 'markdown-it-container'
 // `::: related` wraps the list of related pages at the end of a page.
 const kinds: Record<string, string> = {
   proposal: 'Proposal',
-  clarify: 'To clarify',
+  clarify: 'Under construction',
   example: 'Example',
   roles: 'For role holders',
   background: 'Background',

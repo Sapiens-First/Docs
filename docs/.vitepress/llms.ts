@@ -5,7 +5,7 @@ import { resolveReferences } from '../../scripts/handbook-references.mjs'
 import { getHandbookItems } from '../../scripts/handbook-toc.mjs'
 
 // Generates /llms.txt, /llms-full.md, /llms-full.txt, and a raw-Markdown
-// twin of every page (e.g. dist/learning/metrics.md next to metrics.html),
+// twin of every page (e.g. dist/leadership/strategic-planning.md next to strategic-planning.html),
 // at buildEnd — see docs/.vitepress/config.mts. Reads source Markdown
 // directly rather than depending on gray-matter (not installed here).
 
@@ -22,7 +22,7 @@ const STATUS_VALUES = new Set(['adopted', 'proposal', 'draft', 'experimental', '
 // map (it has its own renderer) but gets the same treatment here.
 const CONTAINER_LABELS: Record<string, string> = {
   proposal: 'Proposal',
-  clarify: 'To clarify',
+  clarify: 'Under construction',
   example: 'Example',
   roles: 'For role holders',
   background: 'Background',
@@ -77,8 +77,8 @@ function firstH1(body: string): string | undefined {
 }
 
 interface PageInfo {
-  relPath: string // e.g. "learning/metrics.md", relative to srcDir
-  canonicalPath: string // e.g. "/learning/metrics" or "/guide/"
+  relPath: string // e.g. "leadership/strategic-planning.md", relative to srcDir
+  canonicalPath: string // e.g. "/leadership/strategic-planning" or "/dna/"
   url: string
   title: string
   description?: string
@@ -247,7 +247,7 @@ function buildLlmsTxt(pages: PageInfo[]): string {
   )
   lines.push(
     `- Each page listed below is also available as raw Markdown at the same path with a \`.md\` suffix, for example ${toAbsoluteUrl(
-      '/learning/metrics'
+      '/leadership/strategic-planning'
     )}.md.`
   )
   lines.push('')
@@ -277,7 +277,7 @@ function buildLlmsFull(pages: PageInfo[]): string {
   lines.push(`- Atlas (${ATLAS_URL}) holds current people, roles, projects, objectives, and metrics.`)
   lines.push('- Where the handbook and Atlas differ about current operational state, prefer Atlas.')
   lines.push('- Pages marked "proposal" or "draft" describe possible future practice, not current Sapiens First policy.')
-  lines.push('- Inside adopted pages, text labelled **Proposal** or **To clarify** is not current policy either.')
+  lines.push('- Inside adopted pages, text labelled **Proposal** or **Under construction** is not current policy either.')
   lines.push('- On the website some labelled blocks are collapsible; here they are flattened into ordinary paragraphs.')
   lines.push('')
 
@@ -307,7 +307,7 @@ export async function generateLlmsFiles(siteConfig: SiteConfig): Promise<void> {
   writeFileSync(join(siteConfig.outDir, 'llms-full.txt'), llmsFull, 'utf8')
 
   // A raw-Markdown twin of every page next to its HTML (e.g.
-  // dist/learning/metrics.md beside metrics.html): same clean-body pass as
+  // dist/leadership/strategic-planning.md beside strategic-planning.html): same clean-body pass as
   // llms-full's per-page text, so a fetcher gets exactly the prose.
   for (const p of pages) {
     const outPath = join(siteConfig.outDir, p.relPath)

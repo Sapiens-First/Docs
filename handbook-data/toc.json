@@ -21,6 +21,13 @@
     "section": "Introduction"
   },
   {
+    "id": "introduction-getting-involved",
+    "number": "0.3",
+    "title": "0.3 Getting involved",
+    "path": "introduction/getting-involved.md",
+    "section": "Introduction"
+  },
+  {
     "id": "dna",
     "number": "1",
     "title": "1 DNA",
@@ -126,6 +133,13 @@
     "section": "Staff"
   },
   {
+    "id": "reference-materials",
+    "number": "A",
+    "title": "A Reference materials",
+    "path": "appendices/index.md",
+    "section": "Reference materials"
+  },
+  {
     "id": "values-standards",
     "number": "A.1.1",
     "title": "A.1.1 Values-related standards, red lines, and reporting",
@@ -154,10 +168,241 @@
     "section": "Reference materials"
   },
   {
+    "id": "compensation-policy",
+    "number": "A.1.5",
+    "title": "A.1.5 Compensation policy",
+    "path": "appendices/reference/compensation-policy.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "fellowship-agreement",
+    "number": "A.1.6",
+    "title": "A.1.6 Volunteer/Fellowship agreement",
+    "path": "appendices/reference/fellowship-agreement.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "other-policies",
+    "number": "A.1.7",
+    "title": "A.1.7 Other policies",
+    "path": "appendices/reference/other-policies.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "planning-templates",
+    "number": "A.2.1",
+    "title": "A.2.1 Planning templates",
+    "path": "appendices/reference/planning-templates.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "outreach-templates",
+    "number": "A.2.2",
+    "title": "A.2.2 Outreach templates and Organizer Conversation aids",
+    "path": "appendices/reference/outreach-templates.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "tactical-meeting-agenda",
+    "number": "A.2.3",
+    "title": "A.2.3 Tactical meeting agenda",
+    "path": "appendices/reference/tactical-meeting-agenda.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "governance-meeting-agenda",
+    "number": "A.2.4",
+    "title": "A.2.4 Governance meeting agenda",
+    "path": "appendices/reference/governance-meeting-agenda.md",
+    "section": "Reference materials"
+  },
+  {
     "id": "tech-team-meeting-agenda",
     "number": "A.2.5",
     "title": "A.2.5 Tech team meeting agenda",
     "path": "appendices/reference/tech-team-meeting-agenda.md",
     "section": "Reference materials"
+  },
+  {
+    "id": "field-guides",
+    "number": "A.2.6",
+    "title": "A.2.6 Organizing field guides",
+    "path": "appendices/reference/field-guides/index.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "field-guides-gatherings",
+    "number": "A.2.6.1",
+    "title": "A.2.6.1 Running gatherings",
+    "path": "appendices/reference/field-guides/gatherings.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "field-guides-actions",
+    "number": "A.2.6.2",
+    "title": "A.2.6.2 Planning peaceful actions",
+    "path": "appendices/reference/field-guides/actions.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "field-guides-starting-a-circle",
+    "number": "A.2.6.3",
+    "title": "A.2.6.3 Starting a local circle",
+    "path": "appendices/reference/field-guides/starting-a-circle.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "field-guides-training",
+    "number": "A.2.6.4",
+    "title": "A.2.6.4 Training organizers",
+    "path": "appendices/reference/field-guides/training.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "field-guides-organizing-conversations",
+    "number": "A.2.6.5",
+    "title": "A.2.6.5 Having organizing conversations",
+    "path": "appendices/reference/field-guides/organizing-conversations.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "project-planning-prompt",
+    "number": "A.3.1",
+    "title": "A.3.1 Project planning prompt",
+    "path": "appendices/reference/project-planning-prompt.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "learning-prompts",
+    "number": "A.3.2",
+    "title": "A.3.2 Learning prompts",
+    "path": "appendices/reference/learning-prompts.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "other-prompts",
+    "number": "A.3.3",
+    "title": "A.3.3 Other prompts",
+    "path": "appendices/reference/other-prompts.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "visual-style-guide",
+    "number": "A.4.1",
+    "title": "A.4.1 Visual style guide",
+    "path": "appendices/reference/visual-style-guide.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "verbal-style-guide",
+    "number": "A.4.2",
+    "title": "A.4.2 Verbal style guide",
+    "path": "appendices/reference/verbal-style-guide.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "website-style-guide",
+    "number": "A.4.3",
+    "title": "A.4.3 Website style guide",
+    "path": "appendices/reference/website-style-guide.md",
+    "section": "Reference materials"
+  },
+  {
+    "id": "further-reading",
+    "number": "B",
+    "title": "B Further Reading",
+    "path": "further-reading/index.md",
+    "section": "Further Reading"
+  },
+  {
+    "id": "further-reading-existential-risk-and-ai-futures",
+    "number": "B.1",
+    "title": "B.1 Existential risk and AI futures",
+    "path": "further-reading/existential-risk-and-ai-futures.md",
+    "section": "Further Reading"
+  },
+  {
+    "id": "further-reading-privacy-and-surveillance",
+    "number": "B.2",
+    "title": "B.2 Privacy and mass surveillance",
+    "path": "further-reading/privacy-and-surveillance.md",
+    "section": "Further Reading"
+  },
+  {
+    "id": "further-reading-historical-movements",
+    "number": "B.3",
+    "title": "B.3 Historical movements",
+    "path": "further-reading/historical-movements.md",
+    "section": "Further Reading"
+  },
+  {
+    "id": "further-reading-movement-best-practices",
+    "number": "B.4",
+    "title": "B.4 Movement best practices",
+    "path": "further-reading/movement-best-practices.md",
+    "section": "Further Reading"
+  },
+  {
+    "id": "further-reading-holacracy-and-facilitation",
+    "number": "B.5",
+    "title": "B.5 Holacracy and facilitation",
+    "path": "further-reading/holacracy-and-facilitation.md",
+    "section": "Further Reading"
+  },
+  {
+    "id": "further-reading-leadership-planning-development",
+    "number": "B.6",
+    "title": "B.6 Leadership, planning, and development",
+    "path": "further-reading/leadership-planning-development.md",
+    "section": "Further Reading"
+  },
+  {
+    "id": "citations",
+    "number": "C",
+    "title": "C Citations",
+    "path": "citations/index.md",
+    "section": "Citations"
+  },
+  {
+    "id": "citations-introduction-sources",
+    "number": "C.0",
+    "title": "C.0 Introduction sources",
+    "path": "citations/introduction-sources.md",
+    "section": "Citations"
+  },
+  {
+    "id": "citations-dna-sources",
+    "number": "C.1",
+    "title": "C.1 DNA sources",
+    "path": "citations/dna-sources.md",
+    "section": "Citations"
+  },
+  {
+    "id": "citations-leadership-sources",
+    "number": "C.2",
+    "title": "C.2 Leadership sources",
+    "path": "citations/leadership-sources.md",
+    "section": "Citations"
+  },
+  {
+    "id": "citations-staff-sources",
+    "number": "C.3",
+    "title": "C.3 Staff sources",
+    "path": "citations/staff-sources.md",
+    "section": "Citations"
+  },
+  {
+    "id": "citations-reference-material-sources",
+    "number": "C.4",
+    "title": "C.4 Reference-material sources",
+    "path": "citations/reference-material-sources.md",
+    "section": "Citations"
+  },
+  {
+    "id": "glossary",
+    "number": "D",
+    "title": "D Glossary",
+    "path": "appendices/glossary.md",
+    "section": "Glossary"
   }
 ]

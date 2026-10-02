@@ -18,8 +18,8 @@ canonical: /changelog
 - The current version is shown in the **More** menu and in the home page footer.
 
 ::: related
-- [How to use this handbook](guide/index.md) — Where to start, and how the handbook relates to Atlas.
-- [Find anything in Sapiens First](find.md) — Common questions routed to the page that answers them.
+- [How to use this handbook](introduction/welcome.md) — Where to start, and how the handbook relates to Atlas.
+- [Find anything in Sapiens First](introduction/how-the-handbook-works.md#find-anything) — Common questions routed to the page that answers them.
 :::
 
 ## Unreleased
@@ -31,6 +31,7 @@ Not yet versioned. These changes are in the working copy and will ship in the ne
 - The full handbook can be downloaded as one HTML page, a PDF or an EPUB from the **More** menu.
 - A reading progress bar shows how far through a page you are, and long pages end with a **Back to top** link.
 - Releases now carry a CalVer version, recorded on this page.
+- The numbered handbook is now the only structure. The older audience pages (For Supporters, For Members, For Organizers and their guides) have been retired; their content lives in the numbered chapters and appendices, and old links redirect to the new pages.
 
 ## 2026.10.0
 

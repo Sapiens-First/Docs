@@ -60,3 +60,13 @@ export function validateHandbookToc(docsRoot = join(ROOT, 'docs'), entries = toc
   }
   return errors
 }
+
+/** Sidebar groups in TOC order: one { text: section, items } per `section` value. */
+export function getHandbookSections(entries = toc) {
+  const groups = new Map()
+  for (const entry of entries) {
+    if (!groups.has(entry.section)) groups.set(entry.section, [])
+    groups.get(entry.section).push(entry)
+  }
+  return [...groups].map(([text, items]) => ({ text, items: getHandbookItems(items) }))
+}

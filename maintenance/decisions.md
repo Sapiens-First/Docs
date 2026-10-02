@@ -53,3 +53,7 @@ The user delegated these choices (“make decisions that seem best according to 
 ### Carried forward from the 2026-09 consolidation log
 
 Summarized from `maintenance/history/PROGRESS.md` before it moved. Atlas remains the source of truth for current governance, assignments, projects, and priorities; the handbook explains stable concepts and practices, documents existing practice, and labels proposals explicitly. Still open from that log: the `::: tip` and `::: info` containers used in some Grow-era pages are not in CONTRIBUTING's block list (convert them or add them); the "5-step hypothesis framework" from the source is not yet written into the strategic-hypotheses page; the external resource library has not had a full factual or link audit.
+
+## Participation terminology — 2026-10-02
+
+User direction: “Organizer” is the supercategory; Fellow, Steward and Lead should no longer be prominent. Mapping (definitions from 3.1 Expectations): Fellows → Individual Contributors; Stewards → domain owners (DRIs); Leads → Player-Coaches. The mapping lives in 1.4 Structure; the glossary keeps the legacy terms as pointers.

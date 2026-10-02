@@ -15,7 +15,7 @@ canonical: /dna/culture
 
 Our core values are Peace, Wisdom, Deliberation, Respect, and Agency. They guide how we take initiative and work together. This draft brings the existing values into the new handbook structure; the linked standards retain their existing status and reporting gaps.
 
-<!-- Source provenance: docs/organization/values.md, last_updated 2026-09-27; maintenance/HANDBOOK-OUTLINE.md, 1.3. Values and operating principles retained verbatim; examples rewritten 2026-10-02. -->
+<!-- Source provenance: docs/organization/values.md, last_updated 2026-09-27 (every block is in 1.3 or embedded from A.1.1 below); maintenance/HANDBOOK-OUTLINE.md, 1.3. Values and operating principles retained verbatim; examples rewritten 2026-10-02. -->
 
 ## 1.3.1 Core values {#core-values}
 
@@ -59,7 +59,7 @@ The following standards have one canonical home in [A.1.1](../appendices/referen
 
 Apply the values to concrete choices. Before an action, consider risks to participants and the public. When a plan is contested, listen to the disagreement and explain the tradeoffs. When work depends on information you hold, share the context so others can act. If you can no longer fulfill a responsibility, arrange a handover rather than letting it become a bottleneck.
 
-These examples explain the existing principles. Check [decision guidance](../organization/decisions.md) before making organizational commitments. Use the existing [feedback and coaching guide](../learning/feedback.md) for practical conversations while section 2.1 is being prepared.
+These examples explain the existing principles. Check [decision rights](structure.md#check-the-decision-rights) before making organizational commitments. For practical conversations, see [2.1.1 Feedback culture](../leadership/culture-in-leadership.md#feedback-culture).
 
 ## 1.3.5 What is distinctive about our culture? {#distinctive-culture}
 
@@ -71,4 +71,4 @@ Which principles should be added, removed, or emphasized remains an editorial qu
 
 ## Further Reading
 
-See the existing [reading list](../strategy/resources.md) while shared resource records and section associations are being developed.
+See the existing [reading list](../further-reading/index.md) while shared resource records and section associations are being developed.

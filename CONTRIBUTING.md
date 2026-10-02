@@ -18,15 +18,13 @@ A handbook page may explain what a project record contains. It should link to th
 
 ## Add pages incrementally
 
-New pages follow [HANDBOOK-OUTLINE.md](maintenance/HANDBOOK-OUTLINE.md), with numbered chapters and Appendices A–D. Existing audience pages retain their URLs while the [migration ledger](maintenance/content-map.md) tracks their disposition. The first pilot adds 3.4 Department-specific guidance and A.2.5 Tech team meeting agenda.
+New pages follow [HANDBOOK-OUTLINE.md](maintenance/HANDBOOK-OUTLINE.md), with numbered chapters and Appendices A–D. The legacy audience pages have been retired; their routes redirect to the numbered pages through `handbook-data/redirects.json` (validated by `npm run docs:check`, with redirect stubs written at build time). The [migration ledger](maintenance/content-map.md) records where each block went. When you move or delete a page, add its old route to `redirects.json`. The first pilot adds 3.4 Department-specific guidance and A.2.5 Tech team meeting agenda.
 
-Use a matching numbered H1 and `title`, `handbook_id` (stable descriptive ID), `handbook_number` (display number), `## Summary`, numbered content headings with stable anchors, and existing status/date/canonical metadata. Chapter section values are `Introduction`, `DNA`, `Leadership`, `Staff`, `Reference materials`, `Further Reading`, `Citations`, and `Glossary`. Legacy audience values remain accepted for unmigrated pages. Do not equate staff with Leads.
+Use a matching numbered H1 and `title`, `handbook_id` (stable descriptive ID), `handbook_number` (display number), `## Summary`, numbered content headings with stable anchors, and existing status/date/canonical metadata. Chapter section values are `Introduction`, `DNA`, `Leadership`, `Staff`, `Reference materials`, `Further Reading`, `Citations`, and `Glossary`. Do not equate staff with Leads.
 
-Add new pages to navigation in `docs/.vitepress/config.mts`. Use relative `.md` links between handbook pages and keep current assignments/priorities in live records. Canonical reusable material lives in Appendix A; use links until the embed pilot is verified. Preserve missing organizational decisions as draft gaps.
+Register new numbered pages in `handbook-data/toc.json`; navigation is generated from it. Use relative `.md` links between handbook pages and keep current assignments/priorities in live records. Canonical reusable material lives in Appendix A; use links until the embed pilot is verified. Preserve missing organizational decisions as draft gaps.
 
 Store published diagrams in `docs/public/diagrams/` as SVG, with Markdown alt text and an adjacent text equivalent. See [diagram conventions](STYLE-GUIDE.md#diagrams-and-visuals). Original 10-2 inputs are helpful source material, not a second handbook to maintain.
-
-The template below remains relevant to legacy pages. New numbered pages use the anatomy above.
 
 ## Write with cascading detail
 
@@ -65,13 +63,13 @@ Each block gets a fixed label, so readers can tell what kind of text it holds. U
 | `::: background` | Background | History, sources, and further reading |
 | `::: optional` | Optional | An extra tool or technique the reader can skip |
 | `::: proposal` | Proposal | See below |
-| `::: clarify` | To clarify | See below |
+| `::: clarify` | Under construction | See below |
 
 Add a title after the block name (`::: background Holacracy and distributed authority`) to make it collapsible. Without a title, it stays open. Keep essential expectations out of collapsed blocks.
 
 End a page with one `::: related` list rather than inline "Read more" links. Use each page's sidebar title as the link text, and follow it with a dash and the page's description.
 
-Use direct, welcoming language and concrete examples. Define unfamiliar terms where they first appear, and add new organizational terms to the [glossary](docs/guide/glossary.md). Prefer a visible definition or a collapsible block to hover-only explanations. Keep links next to the topic they support.
+Use direct, welcoming language and concrete examples. Define unfamiliar terms where they first appear, and add new organizational terms to the [glossary](docs/appendices/glossary.md). Prefer a visible definition or a collapsible block to hover-only explanations. Keep links next to the topic they support.
 
 ## Distinguish practice from proposals
 
@@ -83,7 +81,7 @@ Explain the proposed practice and what still needs to be settled.
 :::
 ```
 
-Proposal and To clarify blocks have a dashed border and a coloured label, so they can't be mistaken for adopted practice. A title makes a proposal collapsible; the label stays visible either way.
+Proposal and Under construction blocks have a dashed border and a coloured label, so they can't be mistaken for adopted practice. A title makes a proposal collapsible; the label stays visible either way.
 
 Use `::: clarify` for a specific unresolved decision. Explain what people should do in the meantime. An editorial rewrite does not itself adopt a policy or change decision rights.
 
@@ -101,18 +99,20 @@ Every content page (everything under `docs/` except `docs/index.md`) carries fro
 
 ```yaml
 ---
-title: How Sapiens First uses metrics   # identical to the page's H1 text
+title: "2.2 Strategic planning"       # identical to the page's H1 text
 description: One sentence saying what the page covers.
-section: For Organizers                  # one of the three sections below
+section: Leadership                      # one of the chapter values above
 status: adopted                          # one of the five statuses below
 last_updated: 2026-09-27                 # YYYY-MM-DD; quote it if you want it to stay a plain string
-canonical: /learning/metrics             # site path, no base, no .md; index pages end in /
+canonical: /leadership/strategic-planning # site path, no base, no .md; index pages end in /
+handbook_id: leadership-strategic-planning # stable ID; never changes when the number does
+handbook_number: "2.2"                   # display number; title and H1 start with it
 tags: [metrics, planning]                # optional
 owner: …                                 # optional; only if the source names one — never invent
 ---
 ```
 
-**Sections:** use the chapter values above for numbered pages; retain `For Supporters`, `For Members`, or `For Organizers` on legacy pages.
+**Sections:** use the chapter values above.
 
 **Status** (fixed list, rendered as a badge near the top of the page): `adopted` · `proposal` · `draft` · `experimental` · `reference`. A page that's mostly current practice but contains `::: proposal` blocks is still `adopted`; say which parts are proposals in `## In brief`. Each page displays one status badge beneath its metadata. Draft or proposal content remains subject to review.
 
@@ -126,7 +126,8 @@ Note that YAML parses an unquoted `2026-09-27` as a date value, not a string —
 
 - `llms.txt` — an index of every page, grouped by section, for LLMs and other tools that support the [llms.txt convention](https://llmstxt.org).
 - `llms-full.md` / `llms-full.txt` — the entire handbook as one Markdown file, headings demoted so the whole document has one hierarchy, `::: kind` blocks spelled out as bold labels, and relative links rewritten to absolute URLs.
-- A raw Markdown twin of every page next to its HTML (e.g. `dist/learning/metrics.md` beside `metrics.html`) — these don't conflict with VitePress's clean URLs, which serve `metrics.html` for `/learning/metrics`.
+- A raw Markdown twin of every page next to its HTML (e.g. `dist/leadership/strategic-planning.md` beside `strategic-planning.html`) — these don't conflict with VitePress's clean URLs, which serve `strategic-planning.html` for `/leadership/strategic-planning`.
+- A redirect stub (meta refresh plus a Markdown twin) for each retired route in `handbook-data/redirects.json`.
 
 Don't hand-edit anything under `.vitepress/dist`; it's regenerated on every build.
 

@@ -1,0 +1,78 @@
+---
+title: "A.2.6.3 Starting a local circle"
+description: "Bring a small local group together and share the work."
+section: Reference materials
+status: adopted
+last_updated: 2026-09-28
+handbook_id: field-guides-starting-a-circle
+handbook_number: "A.2.6.3"
+canonical: /appendices/reference/field-guides/starting-a-circle
+---
+
+# A.2.6.3 Starting a local circle
+
+## Summary
+
+Bring a small local group together, start small, and share the work as it grows.
+
+<!-- Source provenance: moved from docs/practices/starting-a-circle.md (status adopted, last_updated 2026-09-28; legacy canonical /practices/starting-a-circle), migrated 2026-10-02. Body retained verbatim apart from heading numbers and link rewrites. -->
+
+## A.2.6.3.1 In brief {#in-brief}
+
+- Every local group starts as a [circle](../../glossary.md#circle) — a [chapter](../../glossary.md#chapter) is a later stage of local organizing whose thresholds and procedures aren't adopted yet.
+- A local circle gives people a place to connect and act together.
+- Start with a few hours a week and, if possible, two friends who care about the issue. Meet more collaborators along the way.
+- Build around three things: a regular gathering, a repeatable way to recruit, and a concrete campaign.
+- Share responsibilities early: who runs the meeting, who follows up, who stays in touch with the wider movement. Nothing should depend on one founder.
+- Circles, hubs, chapters, and alliances are ideas for organizing growth; the thresholds and procedures still need confirmation before they become rules.
+
+## A.2.6.3.2 When to use this {#when-to-use-this}
+
+Read this page when:
+
+- You want to start a new local circle or reboot one that's stalled.
+- You're deciding how to share responsibilities as your circle grows.
+- You need the first-month starting sequence for a new circle.
+
+Start small, make it welcoming, and share the work.
+
+## A.2.6.3.3 Start with three things {#start-with-three-things}
+
+**A regular gathering.** Choose a time and place people can return to: a library, park, home, or classroom. Help participants feel welcome and invite them to help with the next activity.
+
+**A way to recruit.** Choose a repeatable way to meet people. This might be door-knocking, conversations at an event, or invitations through existing relationships.
+
+**A campaign to work on.** A concrete campaign answers “What do you do?” Use the current [campaign resources](https://sapiensfirst.org/campaigns) and connect with the relevant movement contact.
+
+## A.2.6.3.4 Share responsibilities {#share-responsibilities}
+
+Make clear who will facilitate, arrange the next meeting, follow up with participants, and stay in touch with the wider movement. One person may do more than one of these things at first.
+
+As the group grows, give people manageable responsibilities and the context to do them. Use explicit roles to prevent everything from depending on the founder.
+
+::: roles A first-month starting point
+
+1. Join the movement and find the current contact for supporting local groups.
+2. Bring together a small group and discuss what you want to do.
+3. Choose a first gathering and a relevant campaign activity.
+4. Agree on who will invite people, facilitate, and follow up.
+5. After the event, ask what worked and decide the next step together.
+
+This is a suggested sequence, not a formal recognition or affiliation procedure.
+:::
+
+## A.2.6.3.5 Plan for growth {#plan-for-growth}
+
+The source guide sketches circles, hubs, chapters, and alliances at increasing sizes. These are ideas for organizing growth; the membership thresholds and procedures need confirmation before becoming rules.
+
+A local group and a governance circle are related, but not every use of “circle” means the same formal structure. Confirm how your group connects to the movement and how to record that relationship in Atlas.
+
+::: source
+Atlas holds the current list of local circles, their contacts, and how each one connects to the movement. This page explains how to start and run one.
+:::
+
+::: related
+- [Gatherings](gatherings.md) — Help people connect and take a next step.
+- [Organizing conversations](organizing-conversations.md) — Listen first, then invite people to participate.
+- [Roles and circles](../../../dna/structure.md#roles-circles-decision-rights) — What roles and circles are, and how to read them in Atlas.
+:::

@@ -20,6 +20,8 @@
  *   - frontmatter title text differs from the page's H1 text
  *   - more than one H1
  *   - relative .md links or #fragments that don't resolve
+ *   - handbook-data/redirects.json entries whose source page still exists,
+ *     whose target is missing, or that chain or duplicate
  *
  * WARN (never fails the build):
  *   - no `::: related` block
@@ -33,6 +35,7 @@ import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs'
 import { join, dirname, relative, resolve, posix } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { validateHandbookToc } from './handbook-toc.mjs'
+import { loadRedirects, validateRedirects } from './handbook-redirects.mjs'
 import { resolveReferences } from './handbook-references.mjs'
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
@@ -169,6 +172,7 @@ function checkLinks(errors, file, body, anchorCache) {
 function main() {
   const files = listMarkdownFiles(DOCS).filter((f) => f !== join(DOCS, 'index.md'))
   const errors = validateHandbookToc(DOCS)
+  errors.push(...validateRedirects(listMarkdownFiles(DOCS).map((f) => relative(DOCS, f).split('\\').join('/')), loadRedirects()))
   const home = join(DOCS, 'index.md')
   if (existsSync(home)) {
     const { data, body } = readFrontmatter(readFileSync(home, 'utf8'))

@@ -23,7 +23,7 @@ The tech team builds systems that help people become supporters, members, and or
 
 Start with the people a system serves and the next step it helps them take. The notes describe “big organizing”: volunteers recruit more volunteers, increasing the movement's capacity to act. For the tech team, that means improving the path from an action to further participation and responsibility. Exponential growth is an ambition in these notes, not a measured result or a guaranteed growth rate.
 
-The [movement strategy](../strategy/index.md#act-recruit-train) explains the cycle of act, recruit, and train. The supplied diagram connects that cycle to possible systems and channels:
+The [movement strategy](../dna/strategy.md#act-recruit-train) explains the cycle of act, recruit, and train. The supplied diagram connects that cycle to possible systems and channels:
 
 ![Movement flywheel: act reaches supporters, recruit brings in members, and train develops organizers; a shared company brain connects activity data with insights and strategy.](/diagrams/movement-flywheel.svg)
 
@@ -51,7 +51,7 @@ The notes describe a “company brain” with access to information about the mo
 
 In text: supporter signals include social-media views, website clicks, email engagement, and event attendance. Member signals include account creation, membership sign-ups, Discord activity, and course completion. Organizer signals include actions, events, meetings, and updated governance records. These feed metrics about what happened, insights about what was learned, and strategy about what to do next. They are candidate signals shown in the supplied diagram, not confirmed data integrations or performance measures.
 
-The implementation, ownership, information-access rules, and human decision process for the company brain remain unresolved. The notes' aim to capture information does not by itself authorize access to personal or restricted information. For existing context, read [Atlas and AI](../learning/atlas-and-ai.md).
+The implementation, ownership, information-access rules, and human decision process for the company brain remain unresolved. The notes' aim to capture information does not by itself authorize access to personal or restricted information. For existing context, read [Atlas and AI](../dna/structure.md#atlas-and-ai).
 
 ### Dated focus: 2026 Q4
 
@@ -73,7 +73,7 @@ For tech contributors working as Individual Contributors, the draft role framewo
 
 Use the proposed [tech team meeting agenda](../appendices/reference/tech-team-meeting-agenda.md#proposed-agenda) to review outcomes, learn from prototypes, resolve decisions, and assign next steps. A.2.5 is the single maintained agenda; this section links to it while handbook embedding is deferred.
 
-The tech notes do not specify meeting participants, cadence, duration, facilitator, or record location. Confirm those details before adopting the format. The existing [meetings and updates guidance](../work/meetings-and-updates.md) provides useful general practice; its Fellowship schedule is not automatically the tech team's schedule.
+The tech notes do not specify meeting participants, cadence, duration, facilitator, or record location. Confirm those details before adopting the format. The existing [meetings and updates guidance](../leadership/facilitation.md) provides useful general practice; its Fellowship schedule is not automatically the tech team's schedule.
 
 ## 3.4.3 Other departments {#other-departments}
 

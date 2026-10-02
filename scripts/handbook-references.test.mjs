@@ -17,17 +17,17 @@ function fixture(t, body) {
 const directive = '<!-- handbook:include reference/source.md#pilot -->';
 
 test('source edits propagate to two hosts, with attribution and source-relative URLs', t => {
-  const { root, write } = fixture(t, '<!-- handbook:block pilot -->\n## Shared\n[Link](../guide/page.md#section) ![Image](./asset.png)\n<!-- /handbook:block -->\nExcluded');
-  for (const host of ['dna/page.md', 'work/nested/page.md']) {
+  const { root, write } = fixture(t, '<!-- handbook:block pilot -->\n## Shared\n[Link](../other/page.md#section) ![Image](./asset.png)\n<!-- /handbook:block -->\nExcluded');
+  for (const host of ['dna/page.md', 'chapter/nested/page.md']) {
     const result = resolveReferences(directive, host, root);
     assert.match(result, /Canonical source.*\/reference\/source/);
     assert.match(result, /Status: draft · Updated: 2026-10-02/);
     assert.ok(!result.includes('Excluded'));
-    assert.ok(result.includes(host === 'dna/page.md' ? '../guide/page.md#section' : '../../guide/page.md#section'));
+    assert.ok(result.includes(host === 'dna/page.md' ? '../other/page.md#section' : '../../other/page.md#section'));
     assert.ok(result.includes(host === 'dna/page.md' ? '../reference/asset.png' : '../../reference/asset.png'));
   }
   write('<!-- handbook:block pilot -->\nChanged source\n<!-- /handbook:block -->');
-  for (const host of ['dna/page.md', 'work/page.md']) assert.match(resolveReferences(directive, host, root), /Changed source/);
+  for (const host of ['dna/page.md', 'chapter/page.md']) assert.match(resolveReferences(directive, host, root), /Changed source/);
 });
 
 test('headings and local links are namespaced per inclusion, fences stay literal', t => {

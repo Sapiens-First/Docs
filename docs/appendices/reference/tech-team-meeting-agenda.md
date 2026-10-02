@@ -21,7 +21,7 @@ This proposed agenda translates the October 2 tech strategy notes into a repeata
 
 Use the meeting for questions that benefit from shared context or a decision. Read the [tech strategy primer](../../staff/department-specific-guidance.md#tech-team-strategy) for the draft principles behind the work.
 
-Before the meeting, contributors can share a short update with links to completed work, what they learned, blockers, decisions needed, and proposed next steps. Bring prototype results or other evidence when available. The existing [project update template](../../work/templates.md#project-update) can support preparation.
+Before the meeting, contributors can share a short update with links to completed work, what they learned, blockers, decisions needed, and proposed next steps. Bring prototype results or other evidence when available. The existing [project update template](planning-templates.md#project-update) can support preparation.
 
 **Details to confirm:** participants, meeting owner, facilitator, note-taker, cadence, duration, and the location of agendas and records. The notes' two-week iteration rhythm does not settle these details.
 
@@ -48,4 +48,4 @@ Suggested record:
 | Open question or blocker | What remains unresolved and who will follow up |
 | Next action | Owner and agreed completion or follow-up date |
 
-For general facilitation and update practices, see [Running meetings and writing updates](../../work/meetings-and-updates.md).
+For general facilitation and update practices, see [Running meetings and writing updates](../../leadership/facilitation.md).

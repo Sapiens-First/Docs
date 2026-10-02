@@ -5,8 +5,9 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 import { handbookContainers } from './containers'
 import { headingNumbers } from './heading-numbers'
 import { generateLlmsFiles } from './llms'
-import { getHandbookItems, validateHandbookToc } from '../../scripts/handbook-toc.mjs'
+import { getHandbookSections, validateHandbookToc } from '../../scripts/handbook-toc.mjs'
 import { resolveReferences } from '../../scripts/handbook-references.mjs'
+import { loadRedirects, writeRedirects } from '../../scripts/handbook-redirects.mjs'
 import { VERSION } from './version.mjs'
 
 const base = '/docs/'
@@ -15,7 +16,13 @@ const siteHostname = 'https://sapiens-first.github.io/docs/'
 // One ordered registry supplies navigation and checks authored numbering.
 const tocErrors = validateHandbookToc()
 if (tocErrors.length) throw new Error(tocErrors.join('\n'))
-const pilotItems = getHandbookItems()
+const handbookSections = getHandbookSections()
+
+// Retired legacy routes (handbook-data/redirects.json) still resolve through
+// the redirect stubs written at buildEnd, so links to them (e.g. historic
+// changelog entries) are not dead.
+const redirectedRoutes = new Set(Object.keys(loadRedirects()).map((route) => route.replace(/\/$/, '/index')))
+const isRedirectedLink = (url: string) => redirectedRoutes.has(url.split('#')[0].replace(/\.(?:md|html)$/, ''))
 
 // https://vitepress.dev/reference/site-config
 export default withMermaid(defineConfig({
@@ -25,6 +32,7 @@ export default withMermaid(defineConfig({
   // docs.sapiensfirst.org, set `base` to '/' and add docs/public/CNAME.
   base,
   cleanUrls: true,
+  ignoreDeadLinks: [isRedirectedLink],
   lastUpdated: true,
 
   // Advisory until the site has its own domain: robots.txt only takes
@@ -83,6 +91,8 @@ export default withMermaid(defineConfig({
   // every page (docs/.vitepress/llms.ts) once the static build has run.
   async buildEnd(config) {
     await generateLlmsFiles(config)
+    // Static redirect stubs (and .md twins) for retired legacy routes.
+    writeRedirects(config.outDir, loadRedirects(), { base, siteUrl: siteHostname })
   },
 
   head: [
@@ -103,13 +113,12 @@ export default withMermaid(defineConfig({
 
     nav: [
       {
-        text: 'Handbook pilot',
-        items: pilotItems
+        text: 'Handbook',
+        items: handbookSections
       },
-      { text: 'For Supporters', link: '/supporters/' },
-      { text: 'For Members', link: '/members/' },
-      { text: 'For Organizers', link: '/organizers/' },
-      { text: 'Find anything', link: '/find' },
+      { text: 'Get involved', link: '/introduction/getting-involved' },
+      { text: 'Organizers', link: '/introduction/getting-involved#where-to-start-as-an-organizer' },
+      { text: 'Find anything', link: '/introduction/how-the-handbook-works#find-anything' },
       {
         text: 'More',
         items: [
@@ -123,87 +132,10 @@ export default withMermaid(defineConfig({
       }
     ],
 
-    // Audience paths; existing article URLs remain stable.
+    // Numbered handbook chapters (from handbook-data/toc.json); retired legacy
+    // routes redirect via handbook-data/redirects.json.
     sidebar: [
-      {
-        text: 'Numbered handbook pilot',
-        collapsed: false,
-        items: pilotItems
-      },
-      {
-        text: 'For Supporters',
-        collapsed: false,
-        items: [
-          { text: 'Intro for Supporters', link: '/supporters/' },
-        ]
-      },
-      {
-        text: 'For Members',
-        collapsed: false,
-        items: [
-          { text: 'Intro for Members', link: '/members/' },
-          { text: 'Mission and strategy', link: '/strategy/' },
-          { text: 'Values', link: '/organization/values' },
-          { text: 'First steps', link: '/guide/getting-started' },
-          { text: 'Ways to participate', link: '/organization/participation' },
-          { text: 'Reading list', link: '/strategy/resources' },
-        ]
-      },
-      {
-        text: 'For Organizers',
-        collapsed: false,
-        items: [
-          { text: 'For Organizers', link: '/organizers/' },
-          {
-            text: 'Intro for Fellows',
-            link: '/organizers/fellows',
-            collapsed: true,
-            items: [
-              { text: 'Mission and strategy', link: '/strategy/' },
-              { text: 'Values', link: '/organization/values' },
-              { text: 'The Fellowship', link: '/guide/fellowship' },
-              { text: 'Fellowship agreement', link: '/guide/agreement' },
-              { text: 'How to use this handbook', link: '/guide/' },
-              { text: 'Atlas and AI', link: '/learning/atlas-and-ai' },
-              { text: 'How we\'re organized', link: '/organization/' },
-              { text: 'Roles and circles', link: '/organization/roles-and-circles' },
-              { text: 'Weekly planning', link: '/work/weekly-work' },
-              { text: 'Meetings and updates', link: '/work/meetings-and-updates' },
-              { text: 'Overview of field guides', link: '/practices/' },
-              { text: 'Organizing conversations', link: '/practices/organizing-conversations' },
-              { text: 'Gatherings', link: '/practices/gatherings' },
-              { text: 'Peaceful actions', link: '/practices/actions' },
-              { text: 'Templates', link: '/work/templates' },
-              { text: 'Glossary', link: '/guide/glossary' },
-            ]
-          },
-          {
-            text: 'Intro for Stewards',
-            link: '/organizers/stewards',
-            collapsed: true,
-            items: [
-              { text: 'Decisions', link: '/organization/decisions' },
-              { text: 'Starting a local circle', link: '/practices/starting-a-circle' },
-              { text: 'Projects', link: '/work/projects' },
-              { text: 'Training organizers', link: '/practices/training' },
-              { text: 'Feedback and development', link: '/learning/feedback' },
-            ]
-          },
-          {
-            text: 'Intro for Leads',
-            link: '/organizers/leads',
-            collapsed: true,
-            items: [
-              { text: 'How we manage work', link: '/work/' },
-              { text: 'Measuring and learning', link: '/learning/' },
-              { text: 'Metrics', link: '/learning/metrics' },
-              { text: 'Strategic hypotheses', link: '/learning/strategic-hypotheses' },
-              { text: 'Metric reviews', link: '/learning/reviewing-metrics' },
-              { text: 'Compensation', link: '/organizers/compensation' },
-            ]
-          },
-        ]
-      },
+      ...handbookSections.map(({ text, items }) => ({ text, collapsed: true, items })),
       {
         text: 'About',
         collapsed: true,

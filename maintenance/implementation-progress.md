@@ -36,6 +36,7 @@ Browser-based desktop/mobile visual inspection remains pending. XML and build ch
 3. Add resource/citation records and glossary generation after the pilot; verify named external influences before using them as evidence.
 4. Resolve staff review administration, compensation, governance, and tech meeting ownership through user-supplied organizational decisions. Keep independent drafting moving while particular inputs remain open.
 5. **Restructure the repository file layout.** Consolidate redundant and superseded material: root planning docs (`AI-READABILITY-PLAN.md`, `REWRITE-PLAN.md`, `HANDBOOK-REVIEW.md`, `DESIGN-REVIEW.md`, `PROGRESS.md`, `docs.md`, etc.), `archive/`, legacy `docs/` routes once fully reconciled in the ledger, and the `10-2 content additions/` inputs. Target: `docs/` holds only the numbered handbook plus redirects; planning/history moves under `maintenance/` or `archive/`; one README explains the layout. Audit first (keep/move/merge/delete per file, with inbound links and redirects), then move in small verified batches. Do not delete source originals or legacy routes without a recorded disposition and redirect.
+6. **De-emphasize Fellow / Steward / Lead.** “Organizer” is the supercategory. Map legacy terms once, in 1.4 Structure (`#organizers-and-role-types`): Fellows → Individual Contributors, Stewards → domain owners (DRIs), Leads → Player-Coaches, using the definitions in 3.1 Expectations. Elsewhere use “organizer” and IC/DRI/PC; glossary keeps legacy terms as pointers. Sweep all pages, nav and audience paths before legacy routes retire.
 
 Continue recording actual destinations and reconciled blocks in the ledger. Retire old pages only once their complete dispositions and compatibility paths are verified.
 
@@ -104,3 +105,7 @@ Agents drafted 3.0 Beliefs about staff, 3.2 Compensation and 3.3 Professional de
 Verification: `docs:check` 61 pages, 0 errors/warnings; 12/12 tests; production build passes. Browser check not run.
 
 Next: Appendix A remaining references (A.2.x agendas/templates, A.3 prompts, A.4 style); restructure batch 2 (redirect generator + first legacy-route retirements where ledger rows are complete); resource/citation/glossary pilot (B/C/D).
+
+## October 2 continuation — complete structure and incorporate legacy content (in progress)
+
+User: commit everything; mark anything needing their input as **Under construction** with bullets; ensure existing information is incorporated into the new structure and the structure is set. Committed the versioning/downloads/reading-progress work (`4076a8f`). The `::: clarify` label is renamed “Under construction”. Brief for agents: `maintenance/migration-brief.md`. Five agents are building 0.3 + D glossary, full legacy fold-in for DNA/Leadership, Appendix A references, A.2.6 field guides, and Appendices B and C. Next: integrate the TOC, group the sidebar by section, generate redirect stubs for legacy routes, then retire the legacy pages.

@@ -65,4 +65,4 @@ The founding narrative, its key events, and approved wording have not been suppl
 
 ## Further Reading
 
-See the existing [mission and strategy](../strategy/index.md), [Intro for Supporters](../supporters/index.md), and [reading list](../strategy/resources.md) while shared resource records and section associations are being developed.
+See [1.2 Strategy](strategy.md), the existing [Intro for Supporters](../introduction/getting-involved.md), and [reading list](../further-reading/index.md) while shared resource records and section associations are being developed.

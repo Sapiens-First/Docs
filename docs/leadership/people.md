@@ -15,7 +15,7 @@ canonical: /leadership/people
 
 Leading well means helping the right people take on responsibilities they can grow into. This page covers the conversation that invites people in, how to think about fit and growth, and how volunteers are welcomed and developed. It marks the parts that still need your organization's own philosophy, examples and approved sources. Practical how-to detail stays in the existing guides, which are linked below.
 
-<!-- Source provenance: docs/practices/organizing-conversations.md (adopted, last_updated 2026-09-27), five-step wording retained verbatim; docs/learning/feedback.md#develop-through-responsibility, first paragraph retained verbatim (second paragraph already used at 2.1.4; #give-useful-feedback already at 2.1.1); docs/practices/training.md and docs/organization/roles-and-circles.md linked, not copied; maintenance/HANDBOOK-OUTLINE.md, 2.3. 2.3.2 and 2.3.3 have no source text. Framing written 2026-10-02. -->
+<!-- Source provenance: docs/practices/organizing-conversations.md (adopted, last_updated 2026-09-27), five-step wording retained verbatim; docs/learning/feedback.md#develop-through-responsibility, first paragraph retained verbatim (second paragraph at 2.1.4; #give-useful-feedback at 2.1.1; the rubric proposal moved verbatim to 2.3.4.1); docs/practices/training.md and docs/organization/roles-and-circles.md linked, not copied; maintenance/HANDBOOK-OUTLINE.md, 2.3. 2.3.2 and 2.3.3 have no source text. Framing written 2026-10-02. -->
 
 ## 2.3.1 The Organizer Conversation {#organizer-conversation}
 
@@ -27,7 +27,7 @@ A good conversation moves through five steps, from first contact to a clear next
 4. **Invite.** Offer a concrete next step, such as a gathering or introductory meeting.
 5. **Follow up.** If they want further contact, agree on how and when.
 
-For preparation, the listening reminder and door-knocking, use the existing [organizing conversations guide](../practices/organizing-conversations.md#a-simple-conversation).
+For preparation, the listening reminder and door-knocking, use the existing [organizing conversations guide](../appendices/reference/field-guides/organizing-conversations.md#a-simple-conversation).
 
 ::: clarify
 The source describes this conversation for inviting people into the movement. Still needed: whether the Organizer Conversation is that recruitment conversation, a broader leadership conversation (for example with existing volunteers or colleagues), or both. Until decided, this section covers only the existing recruitment use.
@@ -41,7 +41,7 @@ This section is planned but has no source text. Needed: your organization's beli
 
 ## 2.3.3 The right people in the right roles {#right-people-right-roles}
 
-Roles describe the work; people take them on and hand them over. For what roles and circles are, how to read them in Atlas, and how a role changes hands, use [Roles and circles](../organization/roles-and-circles.md#taking-on-or-handing-over-a-role). Live assignments stay in Atlas.
+Roles describe the work; people take them on and hand them over. For what roles and circles are, how to read them in Atlas, and how a role changes hands, use [1.4.2 Roles, circles, and decision rights](../dna/structure.md#reading-a-role-in-atlas) and [Taking on or handing over a role](../dna/structure.md#taking-on-or-handing-over-a-role). Live assignments stay in Atlas.
 
 ::: clarify
 No source text covers fit. The outline suggests these topics: fit, capabilities, motivation, judgment, capacity, and clear expectations. Still needed: which of these your organization adopts, how they are discussed with the person, who decides on a role assignment, and practical examples of role fit. This draft sets no criteria.
@@ -51,18 +51,31 @@ No source text covers fit. The outline suggests these topics: fit, capabilities,
 
 A next step might be running part of a meeting, completing a project, supporting another Fellow, or coordinating a team. Choose something that stretches your skills while fitting your capacity.
 
-Honest feedback goes with this; see [2.1.1](culture-in-leadership.md#feedback-culture). For the full guidance, use the existing [feedback and growth guide](../learning/feedback.md#develop-through-responsibility).
+Honest feedback goes with this; see [2.1.1](culture-in-leadership.md#feedback-culture). Leadership also includes making it easier for other people to contribute; see [2.1.4](culture-in-leadership.md#modeling-the-culture).
 
 ::: clarify
-Still needed: how coaching works in practice, when and how responsibilities change, and what "without assuming rapid transformation" means for your expectations, which depends on the people philosophy in [2.3.2](#nature-and-nurture). Role-specific development rubrics are only a proposal in the legacy guide; they are not adopted here (see 3.1).
+Still needed: how coaching works in practice, when and how responsibilities change, and what "without assuming rapid transformation" means for your expectations, which depends on the people philosophy in [2.3.2](#nature-and-nurture). Role-specific development rubrics are only a proposal; see [2.3.4.1](#role-specific-development-rubrics). They are not adopted here (see 3.1).
 :::
+
+### 2.3.4.1 Role-specific development rubrics {#role-specific-development-rubrics}
+
+::: proposal Role-specific development rubrics
+
+The notes propose rubrics for Fellows, managers, engineers, and other roles. A useful rubric would define observable expectations for the actual responsibility, with examples of good work and the support available.
+
+Possible dimensions include quality, reliability, judgment, collaboration, and helping others develop. These are starting points for discussion, not a scoring system.
+
+Before adoption, define who reviews whom, what evidence is used, how feedback is discussed, and what decisions the review affects. Separate a project's results from judgments about an individual's contribution: outcomes can depend on resources and circumstances outside their control.
+:::
+
+The draft IC, DRI, and Player-Coach rubrics supplied October 2 are maintained in [3.1 Expectations](../staff/expectations.md); this proposal predates them and has not been reconciled with them.
 
 ## 2.3.5 Recruiting and developing volunteers {#recruiting-and-developing-volunteers}
 
 This section is proposed. Welcoming participants, following up, training, and handing over sustainable responsibility already have practical guides. Link to them rather than restating them here.
 
-- **Recruit.** [Organizing conversations](../practices/organizing-conversations.md) and the [Recruit stage of the organizing cycle](../dna/strategy.md#recruit).
-- **Train.** [Training organizers](../practices/training.md#help-people-practice), which starts from a concrete outcome and lets people practice.
+- **Recruit.** [Organizing conversations](../appendices/reference/field-guides/organizing-conversations.md) and the [Recruit stage of the organizing cycle](../dna/strategy.md#recruit).
+- **Train.** [Training organizers](../appendices/reference/field-guides/training.md#help-people-practice), which starts from a concrete outcome and lets people practice.
 - **Follow up.** The conversation guide notes that recruitment is only the beginning: make sure someone can welcome the people who respond.
 
 ::: clarify
