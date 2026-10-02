@@ -89,6 +89,9 @@ export default withMermaid(defineConfig({
       {
         text: 'Handbook pilot',
         items: [
+          { text: '0 Introduction', link: '/introduction/' },
+          { text: '0.1 Welcome', link: '/introduction/welcome' },
+          { text: '0.2 How the handbook works', link: '/introduction/how-the-handbook-works' },
           { text: '3.1 Expectations', link: '/staff/expectations' },
           { text: '3.4 Department-specific guidance', link: '/staff/department-specific-guidance' },
           { text: 'A.1.2 IC expectations', link: '/appendices/reference/ic-expectations' },
@@ -111,6 +114,9 @@ export default withMermaid(defineConfig({
         text: 'Numbered handbook pilot',
         collapsed: false,
         items: [
+          { text: '0 Introduction', link: '/introduction/' },
+          { text: '0.1 Welcome', link: '/introduction/welcome' },
+          { text: '0.2 How the handbook works', link: '/introduction/how-the-handbook-works' },
           { text: '3.1 Expectations', link: '/staff/expectations' },
           { text: '3.4 Department-specific guidance', link: '/staff/department-specific-guidance' },
           { text: 'A.1.2 IC expectations', link: '/appendices/reference/ic-expectations' },

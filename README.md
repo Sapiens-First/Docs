@@ -6,7 +6,7 @@ Built with [VitePress](https://vitepress.dev) for [GitHub Pages](https://sapiens
 
 ## Incremental handbook implementation
 
-The new structure follows [HANDBOOK-OUTLINE.md](HANDBOOK-OUTLINE.md). See [implementation progress](maintenance/implementation-progress.md), [decisions](maintenance/decisions.md), and [content map](maintenance/content-map.md). Existing pages remain available while numbered Staff and Appendix A pages are introduced. The `10-2 content additions/` directory supplies helpful role rubrics, tech notes, and source diagrams.
+The new structure follows [HANDBOOK-OUTLINE.md](HANDBOOK-OUTLINE.md). See [implementation progress](maintenance/implementation-progress.md), [decisions](maintenance/decisions.md), and [content map](maintenance/content-map.md). Existing pages remain available while numbered Introduction, Staff, and Appendix A drafts are introduced. Start with the [new Introduction](docs/introduction/index.md). The `10-2 content additions/` directory supplies helpful role rubrics, tech notes, and source diagrams.
 
 Published diagrams use SVG under `docs/public/diagrams/`; [STYLE-GUIDE.md](STYLE-GUIDE.md#diagrams-and-visuals) defines the standard. Run `npm run diagrams:check` for asset checks; `npm run docs:check` includes them.
 
@@ -16,7 +16,10 @@ Published diagrams use SVG under `docs/public/diagrams/`; [STYLE-GUIDE.md](STYLE
 docs/                     Published handbook
   index.md                Site home
   find.md                 "Find anything" — common questions routed to their answer
-  guide/                  Welcome, onboarding, Fellowship, agreement
+  introduction/           Numbered orientation drafts
+  staff/                  Numbered expectations and department guidance drafts
+  appendices/reference/   Canonical draft rubrics and agenda
+  guide/                  Legacy onboarding, Fellowship, agreement
   strategy/               Mission, theory of change, learning resources
   organization/           Values, participation, roles, decisions
   work/                   Work structure, project practices, templates

@@ -151,3 +151,17 @@ No root `10-2.txt` exists in this checkout at inventory time; the IDE tab may re
 The baseline contains **38 current published Markdown pages**. Each has a proposed disposition, numbered destination, suggested stable ID, unresolved issue and source date provenance. Root Markdown files and all four 10-2 source files are classified. Newly created chapter/reference pages from concurrent implementation are additions, not old-page migrations; their creation does not retire any baseline source.
 
 Next increments append actual destination paths/anchors, source-to-target fragment compatibility and status transitions as each package lands. Do not mark a row complete because its proposed unit exists: all separately movable blocks and policy gaps must be reconciled. No live-site comparison, link verification, organizational policy approval, migration or archive move is claimed by this inventory.
+
+## Introduction increment — 2026-10-02
+
+New editorial drafts: `docs/introduction/index.md` (0), `welcome.md` (0.1), and `how-the-handbook-works.md` (0.2). They combine orientation from the existing guide, audience indexes, and navigation page. Source dates remain unchanged; the new drafts carry their actual rewrite date, 2026-10-02. Audience definitions, Fellowship status, and editorial/policy review ownership remain open.
+
+| Existing entry / block | New destination | Compatibility / disposition state |
+| --- | --- | --- |
+| `guide/index.md#find-your-starting-point` | `introduction/welcome.md#who-this-handbook-serves` | Draft explanation added; old page and fragment retained pending complete migration. |
+| `guide/index.md#read-it-in-layers` | `introduction/welcome.md#how-to-read-it` | Draft explanation added; old fragment retained. |
+| `guide/index.md#how-the-handbook-fits-together` | `introduction/how-the-handbook-works.md#chapters-sections-and-appendices` | New hierarchy explained; legacy routing retained. |
+| `guide/index.md#the-handbook-and-atlas` | `introduction/how-the-handbook-works.md#where-authoritative-information-lives` | Durable/live boundary retained; old fragment retained. |
+| `guide/index.md#a-handbook-that-grows-with-us` | `introduction/how-the-handbook-works.md#how-to-suggest-changes` | Contributor path linked; review owner explicitly unresolved. |
+
+No source row is fully reconciled or retired by this batch. `find.md` and audience indexes retain their existing links and anchors until the remaining destinations exist.

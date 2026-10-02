@@ -10,6 +10,7 @@ Last updated: 2026-10-02
 | Tech pilot | 3.4 Department-specific guidance; A.2.5 canonical tech agenda | Draft primer; agenda explicitly proposed |
 | Staff expectations | 3.1 Expectations; A.1.2 IC, A.1.3 DRI, A.1.4 PC canonical rubrics | Draft; all 45 evaluative cells preserved from supplied source |
 | Diagram standard | SVG assets, style/contributor rules, responsive frame, accessible descriptions and text equivalents | Implemented; existing Mermaid support retained |
+| Introduction | 0 landing, 0.1 Welcome, 0.2 How the handbook works; navigation and retained-fragment mappings | Draft; audience/Fellowship and reviewer questions visible |
 | Transitional tooling | New navigation, numbered metadata validation, section support in HTML/LLM indexes, exported diagram URLs | Implemented alongside legacy pages |
 
 The 10-2 material is helpful implementation input. Original source files remain intact. The handbook outline remains authoritative for placement; the implemented expectations subsections align with its IC/DRI/PC/mixed-role/evaluation order.
@@ -34,3 +35,7 @@ Browser-based desktop/mobile visual inspection remains pending. XML and build ch
 4. Resolve staff review administration, compensation, governance, and tech meeting ownership through user-supplied organizational decisions. Keep independent drafting moving while particular inputs remain open.
 
 Continue recording actual destinations and reconciled blocks in the ledger. Retire old pages only once their complete dispositions and compatibility paths are verified.
+
+## October 2 continuation — Introduction batch
+
+Added three orientation drafts with stable anchors and source provenance; recorded source-to-destination block mappings without retiring legacy routes. Content-only authoring and static navigation additions use the existing validator/build as replacement verification; no new runtime feature or prose-mirroring tests. Ordered TOC, reference embeds, catalogs and generated glossary remain pending.
