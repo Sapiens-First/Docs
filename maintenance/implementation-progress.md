@@ -106,6 +106,16 @@ Verification: `docs:check` 61 pages, 0 errors/warnings; 12/12 tests; production 
 
 Next: Appendix A remaining references (A.2.x agendas/templates, A.3 prompts, A.4 style); restructure batch 2 (redirect generator + first legacy-route retirements where ledger rows are complete); resource/citation/glossary pilot (B/C/D).
 
-## October 2 continuation — complete structure and incorporate legacy content (in progress)
+## October 2 continuation — complete structure and incorporate legacy content
 
 User: commit everything; mark anything needing their input as **Under construction** with bullets; ensure existing information is incorporated into the new structure and the structure is set. Committed the versioning/downloads/reading-progress work (`4076a8f`). The `::: clarify` label is renamed “Under construction”. Brief for agents: `maintenance/migration-brief.md`. Five agents are building 0.3 + D glossary, full legacy fold-in for DNA/Leadership, Appendix A references, A.2.6 field guides, and Appendices B and C. Next: integrate the TOC, group the sidebar by section, generate redirect stubs for legacy routes, then retire the legacy pages.
+
+Result (`f84c354`): every outline unit has a page; all 37 legacy pages retired after a heading/URL comparison found no missing substance; their routes redirect via `handbook-data/redirects.json` (static stubs generated at build, validated in `docs:check`). Sidebar grouped by chapter; homepage and nav point at the numbered handbook. Fellow/Steward/Lead removed from headings and menus; mapping lives in 1.4.4.
+
+## October 2 continuation — readability flattening and Supplemental chapter
+
+User: no sub-sub-sections; at most three number levels (2.1.1); prefer paragraphs; optimize for skimmability. Rules in `maintenance/flatten-brief.md`. Four agents flattened all pages: numbered H3s became bold lead-ins; appendix pages' H2s are unnumbered; boilerplate “In brief / When to use this” headings folded into Summaries. Field guides renumbered A.2.6–A.2.10 (index page folded into the Appendix A landing). Removed anchors mapped to surviving headings across all links and redirects. Added chapter 4 Supplemental (4.1 Fundraising, 4.2 Interviewing, 4.3 Media, 4.4 Running for office), all Under construction.
+
+Verification: 62 numbered pages, max number depth 3, no 4-level numbers in headings or prose; `docs:check` 63 pages 0 errors/warnings; 19/19 tests; production build passes with redirect stubs. Browser check not run.
+
+Remaining roadmap: user's full review of Under construction items; glossary generation and citation records (B/C/D); possible further merges (1.2.2–1.2.4 Act/Recruit/Train are short separate H2s; 1.4.6 is long); terminology sweep of body prose.

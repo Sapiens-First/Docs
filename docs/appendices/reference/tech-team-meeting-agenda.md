@@ -17,7 +17,7 @@ This proposed agenda translates the October 2 tech strategy notes into a repeata
 
 <!-- Source provenance: repository-local 10-2 content additions/Tech Team Notes.md provides strategy and a two-week prototype/deployment rhythm, but no meeting agenda. The format below is an editorial proposal informed by the published docs/work/meetings-and-updates.md. It is not a record of an existing meeting practice. -->
 
-## A.2.5.1 Purpose and preparation {#purpose-and-preparation}
+## Purpose and preparation {#purpose-and-preparation}
 
 Use the meeting for questions that benefit from shared context or a decision. Read the [tech strategy primer](../../staff/department-specific-guidance.md#tech-team-strategy) for the draft principles behind the work.
 
@@ -25,7 +25,7 @@ Before the meeting, contributors can share a short update with links to complete
 
 **Details to confirm:** participants, meeting owner, facilitator, note-taker, cadence, duration, and the location of agendas and records. The notes' two-week iteration rhythm does not settle these details.
 
-## A.2.5.2 Proposed agenda {#proposed-agenda}
+## Proposed agenda {#proposed-agenda}
 
 1. **Confirm the focus.** State the outcomes and questions for this meeting. Check whether dated priorities still apply.
 2. **Review outcomes and learning.** Show what changed for supporters, members, or organizers. Review prototype results and explain what the evidence suggests. Identify what remains uncertain.
@@ -33,7 +33,7 @@ Before the meeting, contributors can share a short update with links to complete
 4. **Coordinate the next iteration.** Identify dependencies across backend systems, supporter outreach or app work, and course content where those priorities remain relevant. Agree on next steps and owners.
 5. **Close the loop.** Read back decisions, unresolved questions, actions, owners, and agreed dates. Confirm where the record will be shared.
 
-## A.2.5.3 Meeting record {#meeting-record}
+## Meeting record {#meeting-record}
 
 Keep each dated agenda and record with the team's current work records. This handbook page owns the reusable format.
 

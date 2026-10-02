@@ -17,7 +17,7 @@ This page will hold reusable prompts beyond [A.3.1](project-planning-prompt.md) 
 
 <!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, A.3.3. Placeholder created during the structure migration; no source content was supplied. -->
 
-## A.3.3.1 What is needed {#what-is-needed}
+## What is needed {#what-is-needed}
 
 ::: clarify
 - Which other prompts does the team use regularly?

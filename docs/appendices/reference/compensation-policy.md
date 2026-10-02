@@ -17,7 +17,7 @@ This page will hold the maintained compensation policy. None has been adopted. [
 
 <!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, A.1.5. Placeholder created during the structure migration; no source content was supplied. -->
 
-## A.1.5.1 What is needed {#what-is-needed}
+## What is needed {#what-is-needed}
 
 ::: clarify
 - Has a compensation policy been adopted, and where is the authoritative text?

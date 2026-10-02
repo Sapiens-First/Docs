@@ -1,15 +1,15 @@
 ---
-title: "A.2.6.3 Starting a local circle"
+title: "A.2.8 Starting a local circle"
 description: "Bring a small local group together and share the work."
 section: Reference materials
 status: adopted
 last_updated: 2026-09-28
 handbook_id: field-guides-starting-a-circle
-handbook_number: "A.2.6.3"
+handbook_number: "A.2.8"
 canonical: /appendices/reference/field-guides/starting-a-circle
 ---
 
-# A.2.6.3 Starting a local circle
+# A.2.8 Starting a local circle
 
 ## Summary
 
@@ -17,16 +17,12 @@ Bring a small local group together, start small, and share the work as it grows.
 
 <!-- Source provenance: moved from docs/practices/starting-a-circle.md (status adopted, last_updated 2026-09-28; legacy canonical /practices/starting-a-circle), migrated 2026-10-02. Body retained verbatim apart from heading numbers and link rewrites. -->
 
-## A.2.6.3.1 In brief {#in-brief}
-
 - Every local group starts as a [circle](../../glossary.md#circle) — a [chapter](../../glossary.md#chapter) is a later stage of local organizing whose thresholds and procedures aren't adopted yet.
 - A local circle gives people a place to connect and act together.
 - Start with a few hours a week and, if possible, two friends who care about the issue. Meet more collaborators along the way.
 - Build around three things: a regular gathering, a repeatable way to recruit, and a concrete campaign.
 - Share responsibilities early: who runs the meeting, who follows up, who stays in touch with the wider movement. Nothing should depend on one founder.
 - Circles, hubs, chapters, and alliances are ideas for organizing growth; the thresholds and procedures still need confirmation before they become rules.
-
-## A.2.6.3.2 When to use this {#when-to-use-this}
 
 Read this page when:
 
@@ -36,7 +32,7 @@ Read this page when:
 
 Start small, make it welcoming, and share the work.
 
-## A.2.6.3.3 Start with three things {#start-with-three-things}
+## Start with three things {#start-with-three-things}
 
 **A regular gathering.** Choose a time and place people can return to: a library, park, home, or classroom. Help participants feel welcome and invite them to help with the next activity.
 
@@ -44,7 +40,7 @@ Start small, make it welcoming, and share the work.
 
 **A campaign to work on.** A concrete campaign answers “What do you do?” Use the current [campaign resources](https://sapiensfirst.org/campaigns) and connect with the relevant movement contact.
 
-## A.2.6.3.4 Share responsibilities {#share-responsibilities}
+## Share responsibilities {#share-responsibilities}
 
 Make clear who will facilitate, arrange the next meeting, follow up with participants, and stay in touch with the wider movement. One person may do more than one of these things at first.
 
@@ -61,7 +57,7 @@ As the group grows, give people manageable responsibilities and the context to d
 This is a suggested sequence, not a formal recognition or affiliation procedure.
 :::
 
-## A.2.6.3.5 Plan for growth {#plan-for-growth}
+## Plan for growth {#plan-for-growth}
 
 The source guide sketches circles, hubs, chapters, and alliances at increasing sizes. These are ideas for organizing growth; the membership thresholds and procedures need confirmation before becoming rules.
 

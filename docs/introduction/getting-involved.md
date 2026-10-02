@@ -19,7 +19,7 @@ Sapiens First has a role for anyone, whatever time you have to give: stay inform
 
 ## 0.3.1 First steps and finding a useful contribution {#first-steps}
 
-### Why people get involved {#why-people-get-involved}
+**Why people get involved.**
 
 > AI should serve the common good. Sapiens First brings people together to fight for democracy, prosperity, and security in the age of AI.
 
@@ -31,9 +31,7 @@ AI raises questions that reach into ordinary life: how we earn a living, who mak
 
 We call this the **AI Crisis**. We believe these choices are too important to leave only to the people building and owning the technology. Our response is to organize while the future is still open to being shaped. You don't need technical expertise to care about the outcome. Read [1.1 Story](../dna/story.md) for the fuller account.
 
-### What we are trying to do {#what-we-are-trying-to-do}
-
-Sapiens First is a movement for **democratic renewal, common prosperity, and a secure future**. We want technology that uplifts all people. We bring people together, help them learn to organize, and turn shared concerns into peaceful collective action.
+**What we are trying to do.** Sapiens First is a movement for **democratic renewal, common prosperity, and a secure future**. We want technology that uplifts all people. We bring people together, help them learn to organize, and turn shared concerns into peaceful collective action.
 
 Concern alone does not change who has power. Sapiens First brings people into lasting relationships, invites them to participate, and helps them develop the skills to organize others. That growing community can act together for political change. You don't have to become an organizer to be part of that. Staying informed, talking with people you know, and showing up all help build public participation.
 
@@ -41,7 +39,7 @@ Our cycle is **act, recruit, train**: activities bring people in, conversations 
 
 Our core values are **Peace, Wisdom, Deliberation, Respect, and Agency**. We act peacefully, care for ourselves and others, consider different tactics, treat people with respect, and take initiative. Read [1.3 Culture](../dna/culture.md) for what this means in practice, including the boundaries for anyone acting in Sapiens First's name.
 
-### Your first steps {#your-first-steps}
+**Your first steps.**
 
 1. **Get to know the movement.** Read our [story](../dna/story.md), [strategy](../dna/strategy.md) and [culture and values](../dna/culture.md).
 2. **Join us.** Use the [Sapiens First website](https://sapiensfirst.org) to find current ways to join and upcoming events. Explore the [campaigns](https://sapiensfirst.org/campaigns) and choose an activity you can support.
@@ -61,9 +59,7 @@ Start with a commitment you can keep. Let people know if your availability chang
 Fellows should also follow the Fellowship pathway in [0.3.2](#volunteer-and-fellowship-pathways).
 :::
 
-### Ways to take part {#ways-to-take-part}
-
-If you want to take ongoing responsibility for organizing, continue to [0.3.4 Where to start as an organizer](#where-to-start-as-an-organizer). [1.4.4 Participation, responsibility, and employment](../dna/structure.md#participation-responsibility-employment) explains the different levels of involvement: supporter, member, and organizer.
+**Ways to take part.** If you want to take ongoing responsibility for organizing, continue to [0.3.4 Where to start as an organizer](#where-to-start-as-an-organizer). [1.4.4 Participation, responsibility, and employment](../dna/structure.md#participation-responsibility-employment) explains the different levels of involvement: supporter, member, and organizer.
 
 ## 0.3.2 Volunteer and Fellowship pathways {#volunteer-and-fellowship-pathways}
 
@@ -77,9 +73,7 @@ The Fellowship is a structured way to contribute to Sapiens First. Each Fellow t
 - Where should the Fellowship agreement and the volunteer/employment distinction be linked once Appendix A.1.6 exists?
 :::
 
-### What to expect {#what-to-expect}
-
-Fellows aim to contribute **5–10 hours a week** during their program. The Fellowship is a volunteer program, not employment. Let your contact know if your availability changes.
+**What to expect.** Fellows aim to contribute **5–10 hours a week** during their program. The Fellowship is a volunteer program, not employment. Let your contact know if your availability changes.
 
 The existing Fellowship practice includes:
 
@@ -94,7 +88,7 @@ As the program grows, support may be assigned to other role holders. Check your 
 Atlas holds current Fellowship assignments and support contacts. This page explains what the program involves.
 :::
 
-### Your first weeks {#your-first-weeks}
+**Your first weeks.**
 
 | Stage | What to do | What you should have afterward |
 | --- | --- | --- |
@@ -114,13 +108,9 @@ Bring your interests, available time, and questions. Discuss who will use the re
 If you're unsure how the project helps the mission, ask. Understanding the purpose makes good decisions easier as the work develops.
 :::
 
-### Keep people in the loop {#keep-people-in-the-loop}
+**Keep people in the loop.** If you can't complete an action item, attend a meeting, or need time away, let your team know. Share blockers while there's still time to help. A useful update says what changed, what you learned, and what you need next. See [2.4.5 Written updates and follow-through](../leadership/facilitation.md#written-updates-and-follow-through) and [2.2.6 Project execution and handoffs](../leadership/strategic-planning.md#project-execution-and-handoffs).
 
-If you can't complete an action item, attend a meeting, or need time away, let your team know. Share blockers while there's still time to help. A useful update says what changed, what you learned, and what you need next. See [2.4.5 Written updates and follow-through](../leadership/facilitation.md#written-updates-and-follow-through) and [2.2.6 Project execution and handoffs](../leadership/strategic-planning.md#project-execution-and-handoffs).
-
-### After the Fellowship {#after-the-fellowship}
-
-You might continue as a Fellow, take on a coordination or leadership role, or use what you learned elsewhere. Discuss the next step with your contact and arrange a handoff if you're leaving a project.
+**After the Fellowship.** You might continue as a Fellow, take on a coordination or leadership role, or use what you learned elsewhere. Discuss the next step with your contact and arrange a handoff if you're leaving a project.
 
 Atlas describes Stewards as a possible next engagement level after three months and graduation. A role with “Steward” in its title is separate from that engagement level. Confirm the current progression process with the Fellowship contact.
 
@@ -131,9 +121,7 @@ Atlas describes Stewards as a possible next engagement level after three months 
 
 ## 0.3.3 Finding current people, projects, and contacts {#finding-current-people-and-projects}
 
-### Find people and work {#find-people-and-work}
-
-Atlas is where you find who's responsible for the work you care about. It has views for roles, domains of work, and people: look up the work that interests you, then find the linked [role](../appendices/glossary.md#role) or [circle](../appendices/glossary.md#circle). That gives you a starting point for asking questions.
+**Find people and work.** Atlas is where you find who's responsible for the work you care about. It has views for roles, domains of work, and people: look up the work that interests you, then find the linked [role](../appendices/glossary.md#role) or [circle](../appendices/glossary.md#circle). That gives you a starting point for asking questions.
 
 If nobody is listed, ask for help finding an owner. A missing assignment doesn't grant authority to commit the organization.
 
@@ -143,9 +131,7 @@ Atlas holds current roles, circles, and work assignments. Use it to find who's r
 
 The handbook explains how we work; Atlas records current roles, projects, and responsibilities. See [0.2.3 Where authoritative information lives](how-the-handbook-works.md#where-authoritative-information-lives).
 
-### Stay in touch {#stay-in-touch}
-
-Use whichever channel your group has agreed on. Groups agree their own communication channel; the Fellowship uses Discord for day-to-day communication and coordination, and some groups also use Signal. The website helps people find events and ways to participate. Email keeps supporters informed.
+**Stay in touch.** Use whichever channel your group has agreed on. Groups agree their own communication channel; the Fellowship uses Discord for day-to-day communication and coordination, and some groups also use Signal. The website helps people find events and ways to participate. Email keeps supporters informed.
 
 Keep project decisions and useful work somewhere others can find them, and link to them from the relevant work record. Protect passwords, member data, donor information, and private conversations. See [2.4 Facilitation](../leadership/facilitation.md) for check-ins, written updates, and general meetings.
 
@@ -155,7 +141,7 @@ Keep project decisions and useful work somewhere others can find them, and link 
 
 An **organizer** is anyone taking ongoing responsibility for organizing. These lists replace the former separate series for Fellows, Stewards, and Leads. Read the earlier material when you need the foundation; you can also jump to the article that answers today's question. These reading paths organize the material, rather than defining new permissions or graduation requirements. Current assignments and decision rights are recorded in Atlas.
 
-The older reading series used the titles Fellow, Steward, and Lead. Those terms are legacy: Fellows correspond to Individual Contributors, Stewards to domain owners (Directly Responsible Individuals), and Leads to Player-Coaches. See [1.4.4.3 Organizers and role types](../dna/structure.md#organizers-and-role-types) and [3.1 Expectations](../staff/expectations.md).
+The older reading series used the titles Fellow, Steward, and Lead. Those terms are legacy: Fellows correspond to Individual Contributors, Stewards to domain owners (Directly Responsible Individuals), and Leads to Player-Coaches. See [1.4.4 Participation, responsibility, and employment](../dna/structure.md#participation-responsibility-employment) and [3.1 Expectations](../staff/expectations.md).
 
 ::: clarify
 - The old Lead series stated that "staff are Leads" and that staff belong in the Lead reading path; this conflicts with the IC/DRI/Player-Coach model. How should staff be described here?
@@ -163,54 +149,52 @@ The older reading series used the titles Fellow, Steward, and Lead. Those terms 
 - Should reading paths remain as lists, or move to each chapter's landing page?
 :::
 
-### Understand the vision and strategy {#start-vision-and-strategy}
+**Understand the vision and strategy.**
 
 1. [1.1 Story](../dna/story.md)
 2. [1.2 Strategy](../dna/strategy.md)
 3. [1.3 Culture](../dna/culture.md)
 4. [The Fellowship](#volunteer-and-fellowship-pathways) and the [Fellowship agreement](../appendices/reference/fellowship-agreement.md)
 
-### Learn how we organize {#start-how-we-organize}
+**Learn how we organize.**
 
 5. [0.2 How the handbook works](how-the-handbook-works.md)
 6. [1.4.6 Atlas and the handbook](../dna/structure.md#atlas-and-the-handbook)
 7. [1.4 Structure](../dna/structure.md)
 8. [1.4.2 Roles, circles, accountabilities, and decision rights](../dna/structure.md#roles-circles-decision-rights)
 
-### Put it into practice {#start-practice}
+**Put it into practice.**
 
 9. [Weekly planning and project execution](../leadership/strategic-planning.md#project-execution-and-handoffs)
 10. [2.4 Facilitation: meetings and updates](../leadership/facilitation.md)
-11. [Overview of field guides](../appendices/reference/field-guides/index.md)
+11. [Overview of field guides](../appendices/index.md#templates-agendas-and-guides)
 12. [The Organizer Conversation](../leadership/people.md#organizer-conversation)
 13. [Gatherings](../appendices/reference/field-guides/gatherings.md)
 14. [Peaceful actions](../appendices/reference/field-guides/actions.md)
 15. [Templates](../appendices/reference/planning-templates.md)
 16. [Glossary](../appendices/glossary.md)
 
-### Govern and share authority {#start-governance}
+**Govern and share authority.** Revisit [1.4.2 Roles, circles, accountabilities, and decision rights](../dna/structure.md#roles-circles-decision-rights), then study [1.4.3 Governance and changing the structure](../dna/structure.md#governance-and-change). These explain the existing approach to distributed authority.
 
-Revisit [1.4.2 Roles, circles, accountabilities, and decision rights](../dna/structure.md#roles-circles-decision-rights), then study [1.4.3 Governance and changing the structure](../dna/structure.md#governance-and-change). These explain the existing approach to distributed authority.
-
-### Support a circle {#start-support-a-circle}
+**Support a circle.**
 
 1. [Starting a local circle](../appendices/reference/field-guides/starting-a-circle.md)
 2. [Projects](../leadership/strategic-planning.md#project-portfolio-management)
 
-### Help people grow {#start-help-people-grow}
+**Help people grow.**
 
 1. [Training organizers](../appendices/reference/field-guides/training.md)
 2. [Recruiting and developing volunteers](../leadership/people.md#recruiting-and-developing-volunteers)
 3. [Feedback and development](../leadership/people.md#supporting-growth)
 
-### Direct the work and help the organization learn {#start-direct-and-learn}
+**Direct the work and help the organization learn.**
 
 1. [From mission to objectives](../leadership/strategic-planning.md#from-mission-to-objectives)
 2. [Metrics](../leadership/strategic-planning.md#metrics)
 3. [Strategic decisions and hypotheses](../leadership/strategic-planning.md#strategic-hypotheses)
 4. [Reviewing performance of the strategy](../leadership/strategic-planning.md#reviewing-performance-of-the-strategy)
 
-### Staff and compensation {#start-staff-and-compensation}
+**Staff and compensation.**
 
 1. [3.1 Expectations](../staff/expectations.md)
 2. [3.2 Compensation](../staff/compensation.md)

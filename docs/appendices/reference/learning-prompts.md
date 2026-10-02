@@ -17,7 +17,7 @@ You don't need to read everything first. Give an LLM the title, link, or text of
 
 <!-- Source provenance: moved from the "Explore with an LLM" section of docs/strategy/resources.md (last updated 2026-09-29). The reading list itself belongs in Further Reading and Citations. -->
 
-## A.3.2.1 Explore with an LLM {#explore-with-an-llm}
+## Explore with an LLM {#explore-with-an-llm}
 
 Give an LLM the title, link, or text and ask:
 
@@ -31,7 +31,7 @@ Treat the LLM as a sparring partner, not just a summarizer.
 
 These resources offer perspectives to discuss and evaluate. Including a resource doesn't mean adopting every claim or tactic in it.
 
-## A.3.2.2 Additional prompts {#additional-prompts}
+## Additional prompts {#additional-prompts}
 
 ::: clarify
 - Are there other approved learning prompts (for example for training sessions)?

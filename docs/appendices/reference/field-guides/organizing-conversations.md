@@ -1,15 +1,15 @@
 ---
-title: "A.2.6.5 Having organizing conversations"
+title: "A.2.10 Having organizing conversations"
 description: "Listen first, then invite people to participate."
 section: Reference materials
 status: adopted
 last_updated: 2026-09-27
 handbook_id: field-guides-organizing-conversations
-handbook_number: "A.2.6.5"
+handbook_number: "A.2.10"
 canonical: /appendices/reference/field-guides/organizing-conversations
 ---
 
-# A.2.6.5 Having organizing conversations
+# A.2.10 Having organizing conversations
 
 ## Summary
 
@@ -17,15 +17,11 @@ One-on-one conversations are a core way to invite people into the movement, and 
 
 <!-- Source provenance: moved from docs/practices/organizing-conversations.md (status adopted, last_updated 2026-09-27; legacy canonical /practices/organizing-conversations), migrated 2026-10-02. Body retained verbatim apart from heading numbers and link rewrites. -->
 
-## A.2.6.5.1 In brief {#in-brief}
-
 - People are more likely to participate when they feel heard and can see a meaningful place for themselves.
 - A good conversation moves through five steps: connect, listen, find common ground, invite, and follow up.
 - Listen roughly 80% of the time — a reminder to listen, not a quota to track live.
 - Door-knocking is one way to meet people outside your existing network; always respect a person's decision to end the conversation.
 - Recruitment is only the beginning — make sure someone can welcome the people who respond.
-
-## A.2.6.5.2 When to use this {#when-to-use-this}
 
 Read this page when:
 
@@ -35,7 +31,7 @@ Read this page when:
 
 One-on-one conversations are a core way to invite people into the movement. Start by listening. People are more likely to participate when they feel heard and can see a meaningful place for themselves.
 
-## A.2.6.5.3 A simple conversation {#a-simple-conversation}
+## A simple conversation {#a-simple-conversation}
 
 A good conversation moves through five steps, from first contact to a clear next step.
 
@@ -55,7 +51,7 @@ flowchart TB
 
 The original door-knocking guidance suggests listening most of the time—roughly 80%. Use that as a reminder to listen, rather than a quota to track during the conversation.
 
-## A.2.6.5.4 Try door-knocking {#try-door-knocking}
+## Try door-knocking {#try-door-knocking}
 
 Door-knocking is one way to meet people outside your existing network. It creates opportunities to hear concerns directly and invite people into local activity.
 

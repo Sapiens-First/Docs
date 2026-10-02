@@ -34,7 +34,19 @@ Reference materials hold reusable policy text, rubrics, templates, agendas, prom
 - [A.2.3 Tactical meeting agenda](reference/tactical-meeting-agenda.md)
 - [A.2.4 Governance meeting agenda](reference/governance-meeting-agenda.md)
 - [A.2.5 Tech team meeting agenda](reference/tech-team-meeting-agenda.md)
-- [A.2.6 Organizing field guides](reference/field-guides/index.md)
+- [A.2.6 Running gatherings](reference/field-guides/gatherings.md)
+- [A.2.7 Planning peaceful actions](reference/field-guides/actions.md)
+- [A.2.8 Starting a local circle](reference/field-guides/starting-a-circle.md)
+- [A.2.9 Training organizers](reference/field-guides/training.md)
+- [A.2.10 Having organizing conversations](reference/field-guides/organizing-conversations.md)
+
+**Organizing field guides by stage.** A.2.6 to A.2.10 are repeatable, practical guides for organizing locally, grouped by the [act, recruit, train](../dna/strategy.md) cycle: act together, recruit new people, and train others to lead. Start with one activity you can do well, invite others to help, learn from the experience, and share what worked.
+
+- **Act: bring people together.** [A.2.6 Gatherings](reference/field-guides/gatherings.md) help people connect and take a next step; [A.2.7 Peaceful actions](reference/field-guides/actions.md) help you choose and plan an action that serves the campaign.
+- **Recruit: invite people in.** [A.2.10 Organizing conversations](reference/field-guides/organizing-conversations.md) listen first, then invite people to participate; [A.2.8 Starting a local circle](reference/field-guides/starting-a-circle.md) brings a small local group together to share the work.
+- **Train: help others lead.** [A.2.9 Training organizers](reference/field-guides/training.md) helps people learn through practice.
+
+Whatever you're doing, follow our [values and red lines](reference/values-standards.md) and use the current campaign resources and decision rights for your work. Atlas holds current campaigns, circles, and decision rights; the guides explain how to organize, so check Atlas for what's current. For the mission and strategy behind them, see [Sapiens First's mission and strategy](../dna/strategy.md) and [Decisions](../dna/structure.md#roles-circles-decision-rights).
 
 ## A.3 Prompts {#prompts}
 

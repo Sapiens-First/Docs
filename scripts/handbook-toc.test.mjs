@@ -21,7 +21,7 @@ function fixture(t, entries = [first, second]) {
 
 test('current handbook registry matches all numbered pages', () => {
   assert.deepEqual(validateHandbookToc(), [])
-  assert.equal(getHandbookItems().length, 58)
+  assert.equal(getHandbookItems().length, 62)
 })
 
 test('navigation follows registry order and handles landing paths', () => {

@@ -13,7 +13,7 @@ const SITE_ORIGIN = 'https://sapiens-first.github.io'
 const BASE_PATH = '/docs'
 const ATLAS_URL = 'https://sapiensfirst.org/atlas'
 
-const SECTION_ORDER = ['Introduction', 'DNA', 'Leadership', 'Staff', 'Reference materials', 'Further Reading', 'Citations', 'Glossary', 'For Supporters', 'For Members', 'For Organizers']
+const SECTION_ORDER = ['Introduction', 'DNA', 'Leadership', 'Staff', 'Supplemental', 'Reference materials', 'Further Reading', 'Citations', 'Glossary', 'For Supporters', 'For Members', 'For Organizers']
 
 const STATUS_VALUES = new Set(['adopted', 'proposal', 'draft', 'experimental', 'reference'])
 

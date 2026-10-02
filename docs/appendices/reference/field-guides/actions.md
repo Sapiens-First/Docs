@@ -1,15 +1,15 @@
 ---
-title: "A.2.6.2 Planning peaceful actions"
+title: "A.2.7 Planning peaceful actions"
 description: "Choose and plan a peaceful action that serves the campaign."
 section: Reference materials
 status: adopted
 last_updated: 2026-09-27
 handbook_id: field-guides-actions
-handbook_number: "A.2.6.2"
+handbook_number: "A.2.7"
 canonical: /appendices/reference/field-guides/actions
 ---
 
-# A.2.6.2 Planning peaceful actions
+# A.2.7 Planning peaceful actions
 
 ## Summary
 
@@ -17,15 +17,11 @@ Actions help people participate, draw attention to an issue, and build support f
 
 <!-- Source provenance: moved from docs/practices/actions.md (status adopted, last_updated 2026-09-27; legacy canonical /practices/actions), migrated 2026-10-02. Body retained verbatim apart from heading numbers and link rewrites. -->
 
-## A.2.6.2.1 In brief {#in-brief}
-
 - Choose an action because it serves a purpose you can explain: the audience, the message, and the next step you want.
 - All actions taken in the name of Sapiens First must follow the [values and red lines](../values-standards.md), with no exception.
 - Check current campaign guidance and your decision rights before making public commitments.
 - Agree responsibilities for preparation, participation, communication, and follow-up before the action happens.
 - The original green/yellow/red categories are brainstorming ideas, not a formal approval process or a safety guarantee.
-
-## A.2.6.2.2 When to use this {#when-to-use-this}
 
 Read this page when:
 
@@ -37,13 +33,13 @@ Actions help people participate, draw attention to an issue, and build support f
 
 All actions taken in the name of Sapiens First must follow our [values and red lines](../values-standards.md). Check the current campaign guidance and your decision rights before making public commitments.
 
-## A.2.6.2.3 Start with the purpose {#start-with-the-purpose}
+## Start with the purpose {#start-with-the-purpose}
 
 Be clear about the audience, the message, and what you want people to do next. Consider who you need, the preparation it takes, and how the action connects to ongoing organizing.
 
 The original guide suggests using humor, drama, or visible commitment to communicate a message. A small action can be effective when the purpose is clear and people can participate meaningfully.
 
-## A.2.6.2.4 Plan together {#plan-together}
+## Plan together {#plan-together}
 
 Agree on responsibilities for preparation, participation, communication, and follow-up. Decide how you will explain the action to others and how you'll handle photography or media involvement.
 

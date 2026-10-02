@@ -13,7 +13,7 @@ canonical: /further-reading/
 
 ## Summary
 
-Recommended "go deeper" resources, mostly links, useful but not required. You don't need to work through them before you can participate. Including a resource here doesn't mean adopting every claim or tactic in it. Citations (sources behind handbook claims) are separate: see [C Citations](../citations/index.md).
+Recommended "go deeper" resources, mostly links, useful but not required. You don't need to work through them before you can participate. Including a resource here doesn't mean adopting every claim or tactic in it. Citations (sources behind handbook claims) are separate: see [C Citations](../citations/index.md). The list covers our position, technology and society, movements, organizational culture, and measurement; current policy recommendations and campaigns live on the Sapiens First website. Read it when you want background on our strategy, movement-organizing books referenced elsewhere in the handbook, the sources behind our approach to measurement, or videos and short reads on technology, movement strategy, or how organizations distribute authority. Start with the question you're trying to answer.
 
 <!-- Source provenance: docs/strategy/resources.md (status reference, last_updated 2026-09-29), resource records retained verbatim; maintenance/HANDBOOK-OUTLINE.md, Appendix B. Items marked MISSING or RESEARCH in the outline are Under construction bullets. No new recommendations were added. -->
 
@@ -23,24 +23,6 @@ Recommended "go deeper" resources, mostly links, useful but not required. You do
 - [B.4 Movement best practices](movement-best-practices.md)
 - [B.5 Holacracy and facilitation](holacracy-and-facilitation.md)
 - [B.6 Leadership, planning, and development](leadership-planning-development.md)
-
-## In brief {#in-brief}
-
-- You don't need to work through this list before you can participate.
-- It covers our position, technology and society, movements, organizational culture, and measurement.
-- Current policy recommendations and campaigns live on the Sapiens First website, not in this list.
-- Including a resource here doesn't mean adopting every claim or tactic in it.
-
-## When to use this {#when-to-use}
-
-Read this page when:
-
-- You want background reading on our strategy or position.
-- You're looking for movement-organizing books referenced elsewhere in the handbook.
-- You want the sources behind our approach to measurement.
-- You want videos or short reads on technology, movement strategy, or how organizations distribute authority.
-
-Start with the question you're trying to answer.
 
 ## Understand our position {#understand-our-position}
 
@@ -55,8 +37,6 @@ Carried from the legacy reading list; these point to the Sapiens First website r
 You don't need to read everything first. Give an LLM the title, link, or text and ask the questions in the learning prompts, and treat the LLM as a sparring partner, not just a summarizer. The prompts are maintained at [A.3.2 Learning prompts](../appendices/reference/learning-prompts.md).
 
 These resources offer perspectives to discuss and evaluate. Including a resource doesn't mean adopting every claim or tactic in it.
-
-## Catalog decisions {#catalog-decisions}
 
 ::: clarify
 - Should one resource record appear in several sections, with stable IDs, tags, and explicit section associations, as the outline proposes?

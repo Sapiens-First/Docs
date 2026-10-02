@@ -13,26 +13,11 @@ canonical: /appendices/reference/planning-templates
 
 ## Summary
 
-Copyable starting points for a project scope, plan, update, weekly plan, and handoff. Each is a starting point, not a form to fill out without discussion.
+Copyable starting points for a project scope, plan, update, weekly plan, and handoff. Each is a starting point, not a form to fill out without discussion: keep what helps, adapt the examples, and leave out sections that don't serve the work. Use them when you're scoping, planning, updating on, or handing off a project and want the fields a good scope or plan should cover. Store completed records with the project and link them from Atlas rather than in the handbook.
 
 <!-- Source provenance: moved from docs/work/templates.md (status reference, last updated 2026-09-27). Legacy heading anchors are preserved so existing links keep working. The AI planning prompt moved to A.3.1. -->
 
-## A.2.1.1 In brief {#in-brief}
-
-- Each template below is a starting point, not a form to fill out without discussion.
-- Keep what helps, adapt the examples, and leave out sections that don't serve the work.
-- Store completed records with the project and link them from Atlas rather than in the handbook.
-
-## A.2.1.2 When to use this {#when-to-use-this}
-
-Read this page when:
-
-- You're scoping, planning, updating on, or handing off a project and want a copyable outline.
-- You want the fields a good project scope or plan should cover.
-
-Use these as starting points for the documents your project needs — a scope, a plan, an update, a weekly plan, or a handoff. Keep what helps, adapt the examples, and leave out sections that don't serve the work. Store completed records with the project and link them from Atlas.
-
-## A.2.1.3 Project scope {#project-scope}
+## Project scope {#project-scope}
 
 Based on the Fellowship's scope template.
 
@@ -83,7 +68,7 @@ Milestones:
 This is an illustrative scope, not a current assigned project.
 :::
 
-## A.2.1.4 Project plan {#project-plan}
+## Project plan {#project-plan}
 
 ```text
 Objective:
@@ -105,7 +90,7 @@ Completion and handoff:
 - [ ] Confirm who receives or maintains the work.
 ```
 
-## A.2.1.5 Project update {#project-update}
+## Project update {#project-update}
 
 ```text
 Project / period:
@@ -116,9 +101,9 @@ Next steps:
 Changes to scope, timing, or capacity:
 ```
 
-## A.2.1.6 Weekly plan {#weekly-plan}
+## Weekly plan {#weekly-plan}
 
-This supports the proposed [weekly review](../../leadership/strategic-planning.md#weekly-planning).
+This supports the proposed [weekly review](../../leadership/strategic-planning.md#project-execution-and-handoffs).
 
 ```text
 Available time:
@@ -128,7 +113,7 @@ Waiting on:
 Help or decisions needed:
 ```
 
-## A.2.1.7 Handoff {#handoff}
+## Handoff {#handoff}
 
 ```text
 What is finished:
@@ -140,12 +125,12 @@ Receiving owner or contact:
 Access or transfer still needed:
 ```
 
-## A.2.1.8 AI planning prompt {#use-an-ai-assistant-to-help-plan}
+## AI planning prompt {#use-an-ai-assistant-to-help-plan}
 
 An AI assistant can help turn a project scope into a plan. The reusable prompt is maintained at [A.3.1 Project planning prompt](project-planning-prompt.md).
 
 ::: related
 - [Projects](../../leadership/strategic-planning.md#project-execution-and-handoffs) — Scope, plan, test, and hand off a project.
-- [Weekly planning](../../leadership/strategic-planning.md#weekly-planning) — A simple weekly review and tasks you can act on.
+- [Weekly planning](../../leadership/strategic-planning.md#project-execution-and-handoffs) — A simple weekly review and tasks you can act on.
 - [Meetings and updates](../../leadership/facilitation.md) — Check-ins, written updates, and general meetings.
 :::

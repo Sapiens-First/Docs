@@ -17,7 +17,7 @@ This page will hold guidance for the public website.
 
 <!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, A.4.3. Placeholder created during the structure migration; no source content was supplied. -->
 
-## A.4.3.1 What is needed {#what-is-needed}
+## What is needed {#what-is-needed}
 
 ::: clarify
 - Who owns the website and its style guidance?

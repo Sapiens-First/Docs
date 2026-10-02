@@ -179,6 +179,15 @@ Source: `docs/learning/feedback.md`; Netflix reference in `docs/strategy/resourc
 - **3.4.2 Tech team: meeting format.** [NEW] Purpose, agenda, participants, cadence, and outputs. Embed A.2.5; link to 2.4 where applicable. [MISSING: current format and adaptations.]
 - **3.4.3 Other departments.** [PROPOSED, optional] [MISSING: which departments warrant guidance? Do not create empty departments by assumption.]
 
+## 4. Supplemental [UNDER CONSTRUCTION]
+
+Practical topics outside the core chapters, added at the user's request on 2026-10-02. All placeholders.
+
+- **4.1 Fundraising.** [MISSING]
+- **4.2 Interviewing.** [MISSING: scope — hiring/selection, media, or both]
+- **4.3 Media.** [MISSING]
+- **4.4 Running for office.** [MISSING]
+
 ## Appendix A. Reference materials
 
 Group by **type of thing**. Each policy, template, prompt, guide, or asset has one canonical home here. Main chapters explain application and embed or link to that material. Repository contributor instructions remain contributor documentation rather than becoming duplicate public policies.
@@ -200,7 +209,7 @@ Group by **type of thing**. Each policy, template, prompt, guide, or asset has o
 - **A.2.3 Tactical meeting agenda.** [MISSING]
 - **A.2.4 Governance meeting agenda.** [MISSING]
 - **A.2.5 Tech team meeting agenda.** [DRAFT IMPLEMENTED] `docs/appendices/reference/tech-team-meeting-agenda.md` is an editorial proposal; no existing agenda was supplied. Adoption, ownership, participants, and cadence remain unresolved.
-- **A.2.6 Organizing field guides.** [EXISTING/PROPOSED] Gatherings, peaceful actions, starting a local circle, and training sessions. Preserve useful practical detail only where it serves the new handbook.
+- **A.2.6–A.2.10 Organizing field guides.** [MIGRATED] One page each: A.2.6 Gatherings, A.2.7 Peaceful actions, A.2.8 Starting a local circle, A.2.9 Training, A.2.10 Organizing conversations.
 
 ### A.3 LLM prompts
 

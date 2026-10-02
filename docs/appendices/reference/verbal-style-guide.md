@@ -17,7 +17,7 @@ This page will hold voice and writing guidance. The handbook's own writing conve
 
 <!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, A.4.2. Placeholder created during the structure migration; no source content was supplied. -->
 
-## A.4.2.1 What is needed {#what-is-needed}
+## What is needed {#what-is-needed}
 
 ::: clarify
 - Should the handbook voice become the organization-wide voice?

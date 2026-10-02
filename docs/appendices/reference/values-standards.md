@@ -17,7 +17,7 @@ These existing standards apply to people acting in Sapiens First's name and peop
 
 <!-- Source provenance: docs/organization/values.md, adopted, last_updated 2026-09-27. Bodies below relocated verbatim on 2026-10-02; source content date retained. No new policy adopted. -->
 
-## A.1.1.1 Leadership standards {#standards-for-leadership}
+## Leadership standards {#standards-for-leadership}
 
 <!-- handbook:block leadership-standards -->
 
@@ -32,7 +32,7 @@ People accepting formal responsibilities, including Fellows and staff, are expec
 
 <!-- /handbook:block -->
 
-## A.1.1.2 Red lines and reporting {#red-lines}
+## Red lines and reporting {#red-lines}
 
 <!-- handbook:block red-lines -->
 
@@ -54,7 +54,7 @@ The future reporting process needs a route for cases involving the usual contact
 
 <!-- /handbook:block -->
 
-## A.1.1.3 Political activity and representation {#political-activity-and-representation}
+## Political activity and representation {#political-activity-and-representation}
 
 <!-- handbook:block representation -->
 

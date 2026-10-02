@@ -57,7 +57,7 @@ Needed: your intended philosophy, whether the keeper test affects retention at a
 
 ## 3.3.6 Transitions and handoffs {#transitions-and-handoffs}
 
-This section is proposed. Leaving well means the work continues. The existing project guidance on handoff covers sharing finished work and its limitations, organizing files and decisions, recording lessons, naming who maintains what, and updating the work record: see [Finish and hand off](../leadership/strategic-planning.md#finish-and-hand-off). Handing a role over is described in [Roles and circles](../dna/structure.md#taking-on-or-handing-over-a-role).
+This section is proposed. Leaving well means the work continues. The existing project guidance on handoff covers sharing finished work and its limitations, organizing files and decisions, recording lessons, naming who maintains what, and updating the work record: see [Finish and hand off](../leadership/strategic-planning.md#project-execution-and-handoffs). Handing a role over is described in [Roles and circles](../dna/structure.md#roles-circles-decision-rights).
 
 ::: clarify
 Needed: whether a canonical handoff template exists or is wanted, and what applies specifically when a staff member leaves (for example notice, knowledge transfer or access). No staff-departure process is stated here.

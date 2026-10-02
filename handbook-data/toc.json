@@ -133,6 +133,41 @@
     "section": "Staff"
   },
   {
+    "id": "supplemental",
+    "number": "4",
+    "title": "4 Supplemental",
+    "path": "supplemental/index.md",
+    "section": "Supplemental"
+  },
+  {
+    "id": "supplemental-fundraising",
+    "number": "4.1",
+    "title": "4.1 Fundraising",
+    "path": "supplemental/fundraising.md",
+    "section": "Supplemental"
+  },
+  {
+    "id": "supplemental-interviewing",
+    "number": "4.2",
+    "title": "4.2 Interviewing",
+    "path": "supplemental/interviewing.md",
+    "section": "Supplemental"
+  },
+  {
+    "id": "supplemental-media",
+    "number": "4.3",
+    "title": "4.3 Media",
+    "path": "supplemental/media.md",
+    "section": "Supplemental"
+  },
+  {
+    "id": "supplemental-running-for-office",
+    "number": "4.4",
+    "title": "4.4 Running for office",
+    "path": "supplemental/running-for-office.md",
+    "section": "Supplemental"
+  },
+  {
     "id": "reference-materials",
     "number": "A",
     "title": "A Reference materials",
@@ -224,44 +259,37 @@
     "section": "Reference materials"
   },
   {
-    "id": "field-guides",
-    "number": "A.2.6",
-    "title": "A.2.6 Organizing field guides",
-    "path": "appendices/reference/field-guides/index.md",
-    "section": "Reference materials"
-  },
-  {
     "id": "field-guides-gatherings",
-    "number": "A.2.6.1",
-    "title": "A.2.6.1 Running gatherings",
+    "number": "A.2.6",
+    "title": "A.2.6 Running gatherings",
     "path": "appendices/reference/field-guides/gatherings.md",
     "section": "Reference materials"
   },
   {
     "id": "field-guides-actions",
-    "number": "A.2.6.2",
-    "title": "A.2.6.2 Planning peaceful actions",
+    "number": "A.2.7",
+    "title": "A.2.7 Planning peaceful actions",
     "path": "appendices/reference/field-guides/actions.md",
     "section": "Reference materials"
   },
   {
     "id": "field-guides-starting-a-circle",
-    "number": "A.2.6.3",
-    "title": "A.2.6.3 Starting a local circle",
+    "number": "A.2.8",
+    "title": "A.2.8 Starting a local circle",
     "path": "appendices/reference/field-guides/starting-a-circle.md",
     "section": "Reference materials"
   },
   {
     "id": "field-guides-training",
-    "number": "A.2.6.4",
-    "title": "A.2.6.4 Training organizers",
+    "number": "A.2.9",
+    "title": "A.2.9 Training organizers",
     "path": "appendices/reference/field-guides/training.md",
     "section": "Reference materials"
   },
   {
     "id": "field-guides-organizing-conversations",
-    "number": "A.2.6.5",
-    "title": "A.2.6.5 Having organizing conversations",
+    "number": "A.2.10",
+    "title": "A.2.10 Having organizing conversations",
     "path": "appendices/reference/field-guides/organizing-conversations.md",
     "section": "Reference materials"
   },

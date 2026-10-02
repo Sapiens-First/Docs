@@ -17,7 +17,7 @@ This page will list further policies that belong in the handbook. No policies ar
 
 <!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, A.1.7. Placeholder created during the structure migration; no source content was supplied. -->
 
-## A.1.7.1 What is needed {#what-is-needed}
+## What is needed {#what-is-needed}
 
 ::: clarify
 - Which existing policies should be inventoried here (for example conduct, privacy, expenses, communications)?

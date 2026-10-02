@@ -17,7 +17,7 @@ This page will hold the organization's visual identity guidance. The handbook's 
 
 <!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, A.4.1. Placeholder created during the structure migration; no source content was supplied. -->
 
-## A.4.1.1 What is needed {#what-is-needed}
+## What is needed {#what-is-needed}
 
 ::: clarify
 - Is there an approved logo, color, and typography guide? Where does it live?

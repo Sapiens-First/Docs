@@ -55,13 +55,9 @@ Someone might spend most of their week building a membership system as an IC, ow
 
 ## 3.1.5 Performance evaluation {#guiding-beliefs}
 
-### Set expectations before evaluating performance
+**Set expectations before evaluating performance.** People should know what excellent performance looks like before being evaluated against it. Clear expectations direct attention and make feedback coaching against a shared standard. Share the relevant rubric during hiring and onboarding, discuss it in 1:1s, and use it consistently when assessing performance. These are recommendations from the supplied framework, pending adoption.
 
-People should know what excellent performance looks like before being evaluated against it. Clear expectations direct attention and make feedback coaching against a shared standard. Share the relevant rubric during hiring and onboarding, discuss it in 1:1s, and use it consistently when assessing performance. These are recommendations from the supplied framework, pending adoption.
-
-### Evaluate outcomes and observable behavior
-
-Hours worked, messages sent, tickets closed, lines of code, and meetings attended can increase without producing value. Instead, consider evidence about the contribution:
+**Evaluate outcomes and observable behavior.** Hours worked, messages sent, tickets closed, lines of code, and meetings attended can increase without producing value. Instead, consider evidence about the contribution:
 
 - What actually got accomplished?
 - Did someone else need to take ownership to make it happen?
@@ -71,23 +67,15 @@ Hours worked, messages sent, tickets closed, lines of code, and meetings attende
 
 The rubric is not a checklist to maximize mechanically. Ratings describe the overall pattern of contribution and its supporting evidence.
 
-### A 3 is successful performance
+**A 3 is successful performance.** 3 means fully meeting expectations. Someone consistently performing at 3 is doing their job well. Ratings of 4 and especially 5 describe meaningfully greater contribution, scope, or impact; reliable delivery of the expected job should not require a higher rating to count as success.
 
-**3 means fully meeting expectations.** Someone consistently performing at 3 is doing their job well. Ratings of 4 and especially 5 describe meaningfully greater contribution, scope, or impact; reliable delivery of the expected job should not require a higher rating to count as success.
-
-### Discuss performance continuously
-
-Formal assessments should mostly summarize feedback already discussed. The source proposes feedback as events happen, brief development discussions in regular 1:1s, and more structured assessments approximately quarterly. It also proposes independently completing self-assessment and manager assessment before comparing them, to make differences in expectations, evidence, and interpretation visible.
+**Discuss performance continuously.** Formal assessments should mostly summarize feedback already discussed. The source proposes feedback as events happen, brief development discussions in regular 1:1s, and more structured assessments approximately quarterly. It also proposes independently completing self-assessment and manager assessment before comparing them, to make differences in expectations, evidence, and interpretation visible.
 
 This is a proposed approach, not an established review schedule. The appropriate assessor for each role, assessment timing, and treatment of disagreements need agreement before implementation.
 
-### Separate performance from promotion
+**Separate performance from promotion.** Performance asks how well someone fulfills their current roles. Promotion asks whether they consistently operate at greater scope, complexity, or impact. Excellent performance does not automatically require promotion; expanded responsibility should generally follow demonstrated ability to fulfill it. The supplied framework does not define a promotion process or compensation formula.
 
-Performance asks how well someone fulfills their current roles. Promotion asks whether they consistently operate at greater scope, complexity, or impact. Excellent performance does not automatically require promotion; expanded responsibility should generally follow demonstrated ability to fulfill it. The supplied framework does not define a promotion process or compensation formula.
-
-### Define roles around work
-
-Roles describe accountabilities rather than mutually exclusive positions. One person can produce work as an Individual Contributor, own a cross-functional outcome as a DRI, and develop another contributor as a Player-Coach. Evaluate the roles actually held rather than placing everyone on a single hierarchical ladder.
+**Define roles around work.** Roles describe accountabilities rather than mutually exclusive positions. One person can produce work as an Individual Contributor, own a cross-functional outcome as a DRI, and develop another contributor as a Player-Coach. Evaluate the roles actually held rather than placing everyone on a single hierarchical ladder.
 
 ## Further Reading
 

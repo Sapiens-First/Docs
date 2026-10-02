@@ -75,14 +75,14 @@ Who reviews handbook changes, who approves policy changes, and how those decisio
 
 Common questions, routed to the page, or the [Atlas](https://sapiensfirst.org/atlas) record, that answers them. The handbook explains how things work; Atlas holds who is doing what right now. Can't find your question? Try the search box or the [Glossary](../appendices/glossary.md).
 
-### Choose a starting point {#choose-a-starting-point}
+**Choose a starting point.**
 
 - [0.1 Welcome to Sapiens First](welcome.md) — What Sapiens First is and who the handbook serves.
 - [1.1 Story](../dna/story.md) — What Sapiens First is and why the AI Crisis matters.
 - [1.2 Strategy](../dna/strategy.md) and [1.3 Culture](../dna/culture.md) — Theory of change, values, and pathways to action.
 - [0.3 Getting involved](getting-involved.md) — First steps, the Fellowship, and where to start as an organizer.
 
-### I want to know… {#i-want-to-know}
+**I want to know…**
 
 **Where staff should start**
 → [3.1 Expectations](../staff/expectations.md) and [3.0 Beliefs about staff](../staff/beliefs-about-staff.md).
@@ -100,7 +100,7 @@ Common questions, routed to the page, or the [Atlas](https://sapiensfirst.org/at
 → [1.4.4 Participation, responsibility, and employment](../dna/structure.md#participation-responsibility-employment)
 
 **How the Fellowship works, and how many hours it takes**
-→ [What to expect](getting-involved.md#what-to-expect) — Fellows aim for 5–10 hours a week.
+→ [What to expect](getting-involved.md#volunteer-and-fellowship-pathways) — Fellows aim for 5–10 hours a week.
 
 **What the Fellowship agreement says**
 → [Sapiens First Fellowship Agreement](../appendices/reference/fellowship-agreement.md)

@@ -15,7 +15,7 @@ canonical: /leadership/people
 
 Leading well means helping the right people take on responsibilities they can grow into. This page covers the conversation that invites people in, how to think about fit and growth, and how volunteers are welcomed and developed. It marks the parts that still need your organization's own philosophy, examples and approved sources. Practical how-to detail stays in the existing guides, which are linked below.
 
-<!-- Source provenance: docs/practices/organizing-conversations.md (adopted, last_updated 2026-09-27), five-step wording retained verbatim; docs/learning/feedback.md#develop-through-responsibility, first paragraph retained verbatim (second paragraph at 2.1.4; #give-useful-feedback at 2.1.1; the rubric proposal moved verbatim to 2.3.4.1); docs/practices/training.md and docs/organization/roles-and-circles.md linked, not copied; maintenance/HANDBOOK-OUTLINE.md, 2.3. 2.3.2 and 2.3.3 have no source text. Framing written 2026-10-02. -->
+<!-- Source provenance: docs/practices/organizing-conversations.md (adopted, last_updated 2026-09-27), five-step wording retained verbatim; docs/learning/feedback.md#develop-through-responsibility, first paragraph retained verbatim (second paragraph at 2.1.4; #give-useful-feedback at 2.1.1; the rubric proposal moved verbatim to 2.3.4); docs/practices/training.md and docs/organization/roles-and-circles.md linked, not copied; maintenance/HANDBOOK-OUTLINE.md, 2.3. 2.3.2 and 2.3.3 have no source text. Framing written 2026-10-02. -->
 
 ## 2.3.1 The Organizer Conversation {#organizer-conversation}
 
@@ -41,7 +41,7 @@ This section is planned but has no source text. Needed: your organization's beli
 
 ## 2.3.3 The right people in the right roles {#right-people-right-roles}
 
-Roles describe the work; people take them on and hand them over. For what roles and circles are, how to read them in Atlas, and how a role changes hands, use [1.4.2 Roles, circles, and decision rights](../dna/structure.md#reading-a-role-in-atlas) and [Taking on or handing over a role](../dna/structure.md#taking-on-or-handing-over-a-role). Live assignments stay in Atlas.
+Roles describe the work; people take them on and hand them over. For what roles and circles are, how to read them in Atlas, and how a role changes hands, use [1.4.2 Roles, circles, and decision rights](../dna/structure.md#roles-circles-decision-rights) and [Taking on or handing over a role](../dna/structure.md#roles-circles-decision-rights). Live assignments stay in Atlas.
 
 ::: clarify
 No source text covers fit. The outline suggests these topics: fit, capabilities, motivation, judgment, capacity, and clear expectations. Still needed: which of these your organization adopts, how they are discussed with the person, who decides on a role assignment, and practical examples of role fit. This draft sets no criteria.
@@ -54,10 +54,8 @@ A next step might be running part of a meeting, completing a project, supporting
 Honest feedback goes with this; see [2.1.1](culture-in-leadership.md#feedback-culture). Leadership also includes making it easier for other people to contribute; see [2.1.4](culture-in-leadership.md#modeling-the-culture).
 
 ::: clarify
-Still needed: how coaching works in practice, when and how responsibilities change, and what "without assuming rapid transformation" means for your expectations, which depends on the people philosophy in [2.3.2](#nature-and-nurture). Role-specific development rubrics are only a proposal; see [2.3.4.1](#role-specific-development-rubrics). They are not adopted here (see 3.1).
+Still needed: how coaching works in practice, when and how responsibilities change, and what "without assuming rapid transformation" means for your expectations, which depends on the people philosophy in [2.3.2](#nature-and-nurture). Role-specific development rubrics are only a proposal; see [2.3.4](#supporting-growth). They are not adopted here (see 3.1).
 :::
-
-### 2.3.4.1 Role-specific development rubrics {#role-specific-development-rubrics}
 
 ::: proposal Role-specific development rubrics
 

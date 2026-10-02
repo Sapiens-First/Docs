@@ -43,15 +43,15 @@ Our core values are Peace, Wisdom, Deliberation, Respect, and Agency. They guide
 
 The following standards have one canonical home in [A.1.1](../appendices/reference/values-standards.md). They apply alongside the values above. Read the reporting limitation before relying on the current route.
 
-### Leadership standards
+**Leadership standards**
 
 <!-- handbook:include appendices/reference/values-standards.md#leadership-standards -->
 
-### Red lines and reporting
+**Red lines and reporting**
 
 <!-- handbook:include appendices/reference/values-standards.md#red-lines -->
 
-### Political activity and representation
+**Political activity and representation**
 
 <!-- handbook:include appendices/reference/values-standards.md#representation -->
 
@@ -59,7 +59,7 @@ The following standards have one canonical home in [A.1.1](../appendices/referen
 
 Apply the values to concrete choices. Before an action, consider risks to participants and the public. When a plan is contested, listen to the disagreement and explain the tradeoffs. When work depends on information you hold, share the context so others can act. If you can no longer fulfill a responsibility, arrange a handover rather than letting it become a bottleneck.
 
-These examples explain the existing principles. Check [decision rights](structure.md#check-the-decision-rights) before making organizational commitments. For practical conversations, see [2.1.1 Feedback culture](../leadership/culture-in-leadership.md#feedback-culture).
+These examples explain the existing principles. Check [decision rights](structure.md#roles-circles-decision-rights) before making organizational commitments. For practical conversations, see [2.1.1 Feedback culture](../leadership/culture-in-leadership.md#feedback-culture).
 
 ## 1.3.5 What is distinctive about our culture? {#distinctive-culture}
 

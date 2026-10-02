@@ -17,7 +17,7 @@ This page will hold the reusable tactical meeting agenda. [2.4 Facilitation](../
 
 <!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, A.2.3. Placeholder created during the structure migration; no source content was supplied. -->
 
-## A.2.3.1 What is needed {#what-is-needed}
+## What is needed {#what-is-needed}
 
 ::: clarify
 - Is the Holacracy tactical meeting format adopted, or a Sapiens First adaptation?

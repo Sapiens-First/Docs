@@ -1,15 +1,15 @@
 ---
-title: "A.2.6.4 Training organizers"
+title: "A.2.9 Training organizers"
 description: "Help people learn through practice."
 section: Reference materials
 status: adopted
 last_updated: 2026-09-27
 handbook_id: field-guides-training
-handbook_number: "A.2.6.4"
+handbook_number: "A.2.9"
 canonical: /appendices/reference/field-guides/training
 ---
 
-# A.2.6.4 Training organizers
+# A.2.9 Training organizers
 
 ## Summary
 
@@ -17,15 +17,11 @@ Training should help people do something they couldn't do before.
 
 <!-- Source provenance: moved from docs/practices/training.md (status adopted, last_updated 2026-09-27; legacy canonical /practices/training), migrated 2026-10-02. Body retained verbatim apart from heading numbers and link rewrites. -->
 
-## A.2.6.4.1 In brief {#in-brief}
-
 - Start with a concrete outcome, such as facilitating a meeting, having an organizing conversation, or scoping a project.
 - Explain the idea, show an example, let people try it, and make time to reflect.
 - Keep material relevant: an approachable introduction for new members, more detail for people taking on a project.
 - A proposed flipped-classroom format shares reading or a video beforehand and uses session time for practice and feedback.
 - Current schedules and assigned facilitators live in the program records, not this page.
-
-## A.2.6.4.2 When to use this {#when-to-use-this}
 
 Read this page when:
 
@@ -35,7 +31,7 @@ Read this page when:
 
 Training should help people do something they couldn't do before. Start with a concrete outcome, such as facilitating a meeting, having an organizing conversation, or scoping a project.
 
-## A.2.6.4.3 Help people practice {#help-people-practice}
+## Help people practice {#help-people-practice}
 
 Explain the idea, show an example, let people try it, and make time to reflect. Ask what they would do differently next time.
 
@@ -48,7 +44,7 @@ The notes propose using a flipped classroom: share a short reading or video befo
 Keep the preparation manageable. Give enough context in the session that someone who missed the reading can still participate. Link the materials next to the skill they support in the handbook.
 :::
 
-## A.2.6.4.4 Improve the training {#improve-the-training}
+## Improve the training {#improve-the-training}
 
 Ask whether participants can use what they learned. Their questions and difficulties can reveal where the instructions need work.
 

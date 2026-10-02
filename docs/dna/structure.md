@@ -15,9 +15,9 @@ canonical: /dna/structure
 
 Sapiens First organizes through roles and circles so people can act with context and purpose without depending on one leader. Atlas records the current structure; this page explains the concepts. The source material does not establish an adopted Holacracy constitution, a process for changing the structure, or settled definitions for chapters and hubs, and this draft does not supply them.
 
-<!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, 1.4; docs/organization/roles-and-circles.md (2026-09-27); docs/organization/decisions.md (2026-09-28); docs/organization/participation.md (2026-09-29); docs/practices/starting-a-circle.md (2026-09-28); docs/learning/atlas-and-ai.md (proposal, 2026-09-27); docs/organization/index.md (2026-09-29). Tables, Atlas role fields, handover guidance, decision-rights steps, participation and movement-architecture tables, and the Atlas and AI proposal are carried in from those pages with their wording retained; framing rewritten 2026-10-02. Legacy Fellow/Steward/Lead terms are mapped to IC/DRI/Player-Coach in 1.4.4.3. -->
+<!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, 1.4; docs/organization/roles-and-circles.md (2026-09-27); docs/organization/decisions.md (2026-09-28); docs/organization/participation.md (2026-09-29); docs/practices/starting-a-circle.md (2026-09-28); docs/learning/atlas-and-ai.md (proposal, 2026-09-27); docs/organization/index.md (2026-09-29). Tables, Atlas role fields, handover guidance, decision-rights steps, participation and movement-architecture tables, and the Atlas and AI proposal are carried in from those pages with their wording retained; framing rewritten 2026-10-02. Legacy Fellow/Steward/Lead terms are mapped to IC/DRI/Player-Coach in 1.4.4. -->
 
-This chapter answers three questions. **What do we stand for?** Our values set the boundaries for acting in the name of Sapiens First; see [1.3 Culture](culture.md). **Where do you fit?** Everyone starts somewhere, and responsibility grows as you take it on; see [1.4.4](#participation-responsibility-employment) and [1.4.2](#roles-circles-decision-rights). **How do decisions get made?** Know what you can decide, when to consult, and when to ask; see [1.4.2.4](#check-the-decision-rights).
+This chapter answers three questions. **What do we stand for?** Our values set the boundaries for acting in the name of Sapiens First; see [1.3 Culture](culture.md). **Where do you fit?** Everyone starts somewhere, and responsibility grows as you take it on; see [1.4.4](#participation-responsibility-employment) and [1.4.2](#roles-circles-decision-rights). **How do decisions get made?** Know what you can decide, when to consult, and when to ask; see [1.4.2](#roles-circles-decision-rights).
 
 Find current roles, circles, and assignments in [Atlas](https://sapiensfirst.org/atlas).
 
@@ -39,11 +39,9 @@ The source material does not establish a complete adopted constitution or decisi
 
 **Decision rights.** Every scope should mark choices as Decide (you choose alone), Consult (seek input, then decide), or Approve (someone else decides). The decision holder for a role or project should be recorded in Atlas.
 
-Atlas holds current purposes, accountabilities, scopes, assignments, and linked work. The subsections below explain how to read a role in Atlas, how circles and work relate, how a role changes hands, and how to work through a decision.
+Atlas holds current purposes, accountabilities, scopes, assignments, and linked work. The paragraphs below explain how to read a role in Atlas, how circles and work relate, how a role changes hands, and how to work through a decision.
 
-### 1.4.2.1 Reading a role in Atlas {#reading-a-role-in-atlas}
-
-Clear roles help people act without asking one person for everything. People may hold multiple roles, and the person filling a role can change. The responsibility should remain understandable when that happens. Atlas records each role through these fields:
+**Reading a role in Atlas.** Clear roles help people act without asking one person for everything. People may hold multiple roles, and the person filling a role can change. The responsibility should remain understandable when that happens. Atlas records each role through these fields:
 
 | Field | What it tells you |
 | --- | --- |
@@ -61,21 +59,15 @@ Missing access details mean they haven't been documented. Linked work records re
 Atlas holds the current roles, circles, and who fills each one. This page explains what a role and a circle are and how to read them.
 :::
 
-### 1.4.2.2 How circles and work relate {#circles-and-work}
+**How circles and work relate.** Atlas holds two related views: how responsibilities are organized, and how work contributes to the mission. A circle is a group of roles, while a program or product is an area of work. The two can be linked without being the same thing.
 
-Atlas holds two related views: how responsibilities are organized, and how work contributes to the mission. A circle is a group of roles, while a program or product is an area of work. The two can be linked without being the same thing.
+This distinction helps when responsibilities change. A product can continue even when its owner or supporting circle changes. For the kinds of work records Atlas uses, see [2.2.1 From mission to work](../leadership/strategic-planning.md#from-mission-to-objectives).
 
-This distinction helps when responsibilities change. A product can continue even when its owner or supporting circle changes. For the kinds of work records Atlas uses, see [2.2.1.1 From mission to work](../leadership/strategic-planning.md#from-mission-to-work).
+**Taking on or handing over a role.** Review the purpose, responsibilities, linked work, access needs, and available capacity with the person coordinating the assignment. Make sure Atlas reflects the current assignment.
 
-### 1.4.2.3 Taking on or handing over a role {#taking-on-or-handing-over-a-role}
+When handing over, leave the next person the relevant files, context, open decisions, and next steps. Explain what needs attention soon. For what to leave behind when a project changes hands, see [Finish and hand off](../leadership/strategic-planning.md#project-execution-and-handoffs).
 
-Review the purpose, responsibilities, linked work, access needs, and available capacity with the person coordinating the assignment. Make sure Atlas reflects the current assignment.
-
-When handing over, leave the next person the relevant files, context, open decisions, and next steps. Explain what needs attention soon. For what to leave behind when a project changes hands, see [Finish and hand off](../leadership/strategic-planning.md#finish-and-hand-off).
-
-### 1.4.2.4 Checking decision rights {#check-the-decision-rights}
-
-Before starting work, agree on what you can decide, what needs consultation, and what needs approval. People need room to act and clarity about when to involve others. Your role and project scope are the starting points. Here's how to work through a decision:
+**Checking decision rights.** Before starting work, agree on what you can decide, what needs consultation, and what needs approval. People need room to act and clarity about when to involve others. Your role and project scope are the starting points. Here's how to work through a decision:
 
 ```mermaid
 flowchart LR
@@ -102,9 +94,7 @@ Authority over a project is set in its scope, which names the owner and records 
 Atlas records the current decision holder for each role and project. This page explains how to check and use decision rights.
 :::
 
-### 1.4.2.5 Current practice for project decisions {#follow-current-fellowship-practice}
-
-Fellows (individual contributors; see [1.4.4.3](#organizers-and-role-types)) review project scope and plans with Rohan. The existing planning guidance also calls for discussing these with him where approval or a decision is needed: spending, public communications, external commitments, major scope or deadline changes, and important blockers.
+**Current practice for project decisions.** Fellows (individual contributors; see [1.4.4](#participation-responsibility-employment)) review project scope and plans with Rohan. The existing planning guidance also calls for discussing these with him where approval or a decision is needed: spending, public communications, external commitments, major scope or deadline changes, and important blockers.
 
 As we distribute responsibility, record the actual decision holder in the role or project records. A change in the handbook's wording alone doesn't transfer authority.
 
@@ -116,9 +106,7 @@ A repeatable governance process for changing roles and circle responsibilities i
 Unresolved: the adopted Holacracy constitution and version, any local adaptations, who can change roles or policies, and meeting formats. This draft establishes no governance process and no authority to change the structure.
 :::
 
-### 1.4.3.1 When responsibility is unclear {#when-responsibility-is-unclear}
-
-Describe the problem, the work it affects, and the decision you need. Raise it with the relevant role holder or circle contact. Keep a short record of the agreed resolution where others doing the work can find it.
+**When responsibility is unclear.** Describe the problem, the work it affects, and the decision you need. Raise it with the relevant role holder or circle contact. Keep a short record of the agreed resolution where others doing the work can find it.
 
 If you can't identify the right person, ask your onboarding or Fellowship contact to help find them.
 
@@ -137,23 +125,19 @@ You can contribute in different ways at different points in your life; choose a 
 
 **Employment.** Staff status is a separate concept from participation level and governance role. See [3.1 Expectations](../staff/expectations.md).
 
-### 1.4.4.1 Ways to participate {#ways-to-participate}
-
-There are three main ways to participate: Supporter, Member, and Organizer.
+**Ways to participate.** There are three main ways to participate: Supporter, Member, and Organizer.
 
 | Way to participate | What it involves |
 | --- | --- |
 | Supporter | Stay informed and join activities when you can |
 | Member | Participate in the community, help with events, and build connections |
-| Organizer | Take responsibility for work, from a project to leading other people; see [1.4.4.3](#organizers-and-role-types) for the role types |
+| Organizer | Take responsibility for work, from a project to leading other people; see [1.4.4](#participation-responsibility-employment) for the role types |
 
 Check the current joining process for membership terms, dues, and eligibility. The handbook isn't a record of current prices or program dates.
 
 Start with the Supporter introduction, go deeper with the Member introduction, or choose the organizer reading series; these now live in [0.3 Getting involved](../introduction/getting-involved.md).
 
-### 1.4.4.2 Movement architecture {#movement-architecture}
-
-The movement architecture is a product roadmap for growing the movement. Each rung of the ladder of engagement has a definition, subcategories, and systems that recruit people onto it and keep them on it. Understanding it helps explain how we prioritize work: we build the systems that move people up the ladder.
+**Movement architecture.** The movement architecture is a product roadmap for growing the movement. Each rung of the ladder of engagement has a definition, subcategories, and systems that recruit people onto it and keep them on it. Understanding it helps explain how we prioritize work: we build the systems that move people up the ladder.
 
 | | Supporter | Member | Organizer |
 | --- | --- | --- | --- |
@@ -169,9 +153,7 @@ The ladder groups the ways to participate above. Atlas holds the current state o
 Atlas holds current membership terms, role assignments, and engagement levels. This page explains what each way of participating means.
 :::
 
-### 1.4.4.3 Organizers and role types {#organizers-and-role-types}
-
-"Organizer" is the umbrella term for people who take responsibility for work. Earlier guidance divided organizers into Fellows, Stewards, and Leads. Those terms are retired from prominent use and map to the role types used in [3.1 Expectations](../staff/expectations.md):
+**Organizers and role types.** "Organizer" is the umbrella term for people who take responsibility for work. Earlier guidance divided organizers into Fellows, Stewards, and Leads. Those terms are retired from prominent use and map to the role types used in [3.1 Expectations](../staff/expectations.md):
 
 | Legacy term | Role type | Where it is defined |
 | --- | --- | --- |
@@ -186,9 +168,7 @@ Role types are not mutually exclusive positions or a managerial ladder: one pers
 - Do the older conditions for the Steward engagement level (three months and graduation) still apply to DRIs?
 :::
 
-### 1.4.4.4 Keep role and participation separate {#keep-role-and-participation-separate}
-
-Participation and role are different things. Similarly, leading a team is a responsibility, not a requirement that everyone must progress toward. Continuing as an individual contributor can be a valuable choice.
+**Keep role and participation separate.** Participation and role are different things. Similarly, leading a team is a responsibility, not a requirement that everyone must progress toward. Continuing as an individual contributor can be a valuable choice.
 
 ::: roles Taking on a role
 
@@ -209,11 +189,9 @@ Adopted definitions of circle, hub, chapter, and alliance, and any recognition t
 
 The handbook explains concepts; [Atlas](https://sapiensfirst.org/atlas) holds the live structure, including roles, circles, and assignments. Where the two differ, check Atlas for current assignments and raise the mismatch.
 
-Atlas and AI tooling beyond recording current structure is proposed, not current. Everything in 1.4.6.1 to 1.4.6.6 describes a direction and is not a feature or requirement.
+Atlas and AI tooling beyond recording current structure is proposed, not current. Everything in this section describes a direction and is not a feature or requirement.
 
-### 1.4.6.1 Atlas and AI: the proposed shared data system {#atlas-and-ai}
-
-Where we're heading: Atlas giving everyone a shared, current picture, and AI helping us notice what needs attention. Atlas today records mission, work structure, roles, circles, and assignments; nothing described further down this section yet exists.
+**Atlas and AI: the proposed shared data system.** Where we're heading: Atlas giving everyone a shared, current picture, and AI helping us notice what needs attention. Atlas today records mission, work structure, roles, circles, and assignments; nothing described further down this section yet exists.
 
 As we grow, keeping everyone informed gets harder. More chapters and projects usually mean more meetings, more reports, and more people whose main job is passing information along. We want to grow without that overhead growing at the same rate.
 
@@ -225,7 +203,7 @@ Our aim is for [Atlas](https://sapiensfirst.org/atlas) to give everyone a shared
 Atlas records what currently exists: mission, work structure, roles, circles, and assignments. This section describes a proposed future, not Atlas's current features.
 :::
 
-### 1.4.6.2 The questions Atlas should answer {#the-questions-atlas-should-answer}
+**The questions Atlas should answer.**
 
 - What are we trying to achieve?
 - Who is responsible for it?
@@ -244,17 +222,13 @@ Answering these needs four connected kinds of records:
 
 When these are linked, responsibility is clear without anyone having to piece it together from documents. A key result links to a metric, the metric to the circle responsible for it, and the circle to the projects working on it.
 
-### 1.4.6.3 Get metrics from the work itself {#get-metrics-from-the-work-itself}
-
-We want metrics to come from the ordinary records of doing the work, not from extra reporting. When someone signs up, attends an orientation, or joins a chapter, that step is already recorded somewhere. So is a project finishing or a role being filled. Atlas can calculate recruitment, retention, and project results from those records, so nobody has to count by hand.
+**Get metrics from the work itself.** We want metrics to come from the ordinary records of doing the work, not from extra reporting. When someone signs up, attends an orientation, or joins a chapter, that step is already recorded somewhere. So is a project finishing or a role being filled. Atlas can calculate recruitment, retention, and project results from those records, so nobody has to count by hand.
 
 These are records of organizational steps that people already expect us to keep. They aren't a way of tracking anyone's personal activity.
 
 This also lets Atlas keep each metric's history. With a history, we can see trends instead of isolated numbers.
 
-### 1.4.6.4 From a signal to a decision {#from-a-signal-to-a-decision}
-
-Once Atlas knows what we're aiming for, who's responsible, and how the numbers are moving, AI can help us notice what needs attention sooner. Here's how that loop should work:
+**From a signal to a decision.** Once Atlas knows what we're aiming for, who's responsible, and how the numbers are moving, AI can help us notice what needs attention sooner. Here's how that loop should work:
 
 ```mermaid
 flowchart TB
@@ -278,9 +252,7 @@ That's more useful than a red number on a dashboard. It points to a cause, a res
 
 Recording tensions, decisions, and their results also builds a memory of what works. Over time, we can learn which approaches actually help.
 
-### 1.4.6.5 Helping organizers do more {#helping-organizers-do-more}
-
-The purpose of AI here is to give organizers more time for the work only people can do: conversations, relationships, and leadership. It can help by:
+**Helping organizers do more.** The purpose of AI here is to give organizers more time for the work only people can do: conversations, relationships, and leadership. It can help by:
 
 - Taking on routine follow-up people have agreed to hand over, like reminding a new sign-up to choose an orientation time.
 - Preparing a summary of the metrics and open tensions before a circle's review.
@@ -289,10 +261,10 @@ The purpose of AI here is to give organizers more time for the work only people 
 
 We'll start with suggestions that people approve. Routine, low-risk tasks can move to automatic handling once we trust them. Decisions about people, priorities, and resources stay with people.
 
-### 1.4.6.6 Know the limits {#know-the-limits}
+**Know the limits.**
 
 - AI helps us notice and understand. People make consequential decisions, especially about roles, commitments, and anyone's contribution.
-- Atlas shouldn't produce performance scores for individuals. A declining number prompts a check-in, as described in [Metrics and people](../leadership/strategic-planning.md#metrics-and-people).
+- Atlas shouldn't produce performance scores for individuals. A declining number prompts a check-in, as described in [Metrics and people](../leadership/strategic-planning.md#reviewing-performance-of-the-strategy).
 - We only record what we need for the work, and we aim to be clear about what's recorded and why.
 - Private organizational information stays out of tools that aren't authorized for it.
 

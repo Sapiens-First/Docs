@@ -13,18 +13,11 @@ canonical: /appendices/reference/fellowship-agreement
 
 ## Summary
 
-The agreement every Fellow accepts before starting the Fellowship. It is a volunteer agreement, not an employment policy. The wording is preserved from the original Fellowship handbook.
+The agreement every Fellow accepts before starting the Fellowship. It is a volunteer agreement, not an employment policy. The wording is preserved from the original Fellowship handbook. Fellows aim to spend 5–10 hours per week on their Fellowship project, stay in touch with their Department, join required check-ins, and uphold the Core Values and Red Lines. The agreement text below is reproduced exactly; [Getting involved](../../introduction/getting-involved.md) explains how the program works.
 
 <!-- Source provenance: moved verbatim from docs/guide/agreement.md (status adopted, last updated 2026-09-27). Heading anchors preserved. -->
 
-## A.1.6.1 In brief {#in-brief}
-
-- Every Fellow accepts this agreement before their Fellowship starts.
-- Fellows aim to spend 5–10 hours per week on their Fellowship project during the program.
-- Fellows stay in touch with their Department, join required check-ins, and uphold the Core Values and Red Lines.
-- The agreement text below is reproduced exactly; [Getting involved](../../introduction/getting-involved.md) explains how the program works.
-
-## A.1.6.2 The agreement {#the-agreement}
+## The agreement {#the-agreement}
 
 As a Sapiens First Fellow, I agree to:
 
@@ -38,7 +31,7 @@ As a Sapiens First Fellow, I agree to:
 
 I understand that the Fellowship is a **volunteer program**, not employment. I will not receive wages for my participation, and either I or Sapiens First may end my participation at any time.
 
-## A.1.6.3 Acceptance {#acceptance}
+## Acceptance {#acceptance}
 
 I understand that I may accept this agreement electronically. By replying to the Fellowship offer email with **“I agree”** or other words clearly indicating my acceptance, I intend to agree to and be bound by this Fellowship Agreement.
 

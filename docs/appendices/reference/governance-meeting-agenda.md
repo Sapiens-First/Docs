@@ -17,7 +17,7 @@ This page will hold the reusable governance meeting agenda. [2.4 Facilitation](.
 
 <!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, A.2.4. Placeholder created during the structure migration; no source content was supplied. -->
 
-## A.2.4.1 What is needed {#what-is-needed}
+## What is needed {#what-is-needed}
 
 ::: clarify
 - Which Holacracy constitution and version, if any, is adopted?

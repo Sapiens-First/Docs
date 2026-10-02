@@ -17,7 +17,7 @@ A reusable prompt for turning a [project scope](planning-templates.md#project-sc
 
 <!-- Source provenance: prompt moved verbatim from docs/work/templates.md (last updated 2026-09-27). The fuller original in archive/sources/Fellowship Handbook [shared].md ("Project Plan LLM Prompt") was compared and not adopted; see the Under construction note. -->
 
-## A.3.1.1 The prompt {#the-prompt}
+## The prompt {#the-prompt}
 
 ```text
 Help me turn the project scope below into a realistic plan.
@@ -40,11 +40,11 @@ Available time and deadline: [fill in]
 Agreed check-in / update schedule: [fill in]
 ```
 
-## A.3.1.2 Using the result {#using-the-result}
+## Using the result {#using-the-result}
 
 Review the result yourself and with the relevant project contact. An AI-generated plan doesn't establish priorities or grant approval. Keep private organizational information out of tools unless their use is authorized.
 
-## A.3.1.3 Open choices {#open-choices}
+## Open choices {#open-choices}
 
 ::: clarify
 - Keep this shorter reusable prompt, or restore the fuller original (cohort dates, 6–8 milestones with 4–8 checklist items each, "Talk to ... about" items, biweekly update milestones, and a worked treehouse example)?

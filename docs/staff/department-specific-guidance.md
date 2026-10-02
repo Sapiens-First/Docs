@@ -19,11 +19,9 @@ The tech team builds systems that help people become supporters, members, and or
 
 ## 3.4.1 Tech team: strategy primer {#tech-team-strategy}
 
-### Users and outcomes
+**Users and outcomes.** Start with the people a system serves and the next step it helps them take. The notes describe “big organizing”: volunteers recruit more volunteers, increasing the movement's capacity to act. For the tech team, that means improving the path from an action to further participation and responsibility. Exponential growth is an ambition in these notes, not a measured result or a guaranteed growth rate.
 
-Start with the people a system serves and the next step it helps them take. The notes describe “big organizing”: volunteers recruit more volunteers, increasing the movement's capacity to act. For the tech team, that means improving the path from an action to further participation and responsibility. Exponential growth is an ambition in these notes, not a measured result or a guaranteed growth rate.
-
-The [movement strategy](../dna/strategy.md#act-recruit-train) explains the cycle of act, recruit, and train. The supplied diagram connects that cycle to possible systems and channels:
+The [movement strategy](../dna/strategy.md#how-the-cycle-compounds) explains the cycle of act, recruit, and train. The supplied diagram connects that cycle to possible systems and channels:
 
 ![Movement flywheel: act reaches supporters, recruit brings in members, and train develops organizers; a shared company brain connects activity data with insights and strategy.](/diagrams/movement-flywheel.svg)
 
@@ -31,9 +29,7 @@ The [movement strategy](../dna/strategy.md#act-recruit-train) explains the cycle
 
 In text: actions such as outreach, events, and protests reach supporters. Invitations and follow-up help people become members. Training and support help people become organizers who can lead the next actions. Activity from each stage informs shared learning and strategy. The diagram includes ideas such as a member portal, dues, Discord, courses, and a phone app; it does not establish that each system or program is available or adopted.
 
-### Prioritization and technology choices
-
-The notes propose three principles:
+**Prioritization and technology choices.** The notes propose three principles:
 
 - **Scalability even over speed.** Consider how a system would serve thousands of new people each month. Treat that scale as a design scenario rather than a forecast.
 - **AI-native over familiarity.** Choose systems whose information is machine-readable and whose work can be captured and understood by AI.
@@ -41,9 +37,7 @@ The notes propose three principles:
 
 These principles require judgment together. A prototype should answer a useful question, and a system choice should help the movement achieve an outcome. Record the reason for consequential tradeoffs so other contributors can understand the decision.
 
-### Shared information: the company brain
-
-The notes describe a “company brain” with access to information about the movement. Its purpose is to connect activity, metrics, insights, and strategy so AI can suggest next steps and people can focus on work requiring human judgment.
+**Shared information: the company brain.** The notes describe a “company brain” with access to information about the movement. Its purpose is to connect activity, metrics, insights, and strategy so AI can suggest next steps and people can focus on work requiring human judgment.
 
 ![Company brain: activity from supporters, members, and organizers feeds metrics, which inform insights and strategy.](/diagrams/company-brain.svg)
 
@@ -51,11 +45,9 @@ The notes describe a “company brain” with access to information about the mo
 
 In text: supporter signals include social-media views, website clicks, email engagement, and event attendance. Member signals include account creation, membership sign-ups, Discord activity, and course completion. Organizer signals include actions, events, meetings, and updated governance records. These feed metrics about what happened, insights about what was learned, and strategy about what to do next. They are candidate signals shown in the supplied diagram, not confirmed data integrations or performance measures.
 
-The implementation, ownership, information-access rules, and human decision process for the company brain remain unresolved. The notes' aim to capture information does not by itself authorize access to personal or restricted information. For existing context, read [Atlas and AI](../dna/structure.md#atlas-and-ai).
+The implementation, ownership, information-access rules, and human decision process for the company brain remain unresolved. The notes' aim to capture information does not by itself authorize access to personal or restricted information. For existing context, read [Atlas and AI](../dna/structure.md#atlas-and-the-handbook).
 
-### Dated focus: 2026 Q4
-
-The October 2 notes name the following priorities. They belong to this quarter's planning context and need confirmation before being treated as current assignments.
+**Dated focus: 2026 Q4.** The October 2 notes name the following priorities. They belong to this quarter's planning context and need confirmation before being treated as current assignments.
 
 | Focus | Named responsibility in the notes |
 | --- | --- |

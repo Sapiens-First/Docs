@@ -44,7 +44,7 @@ const warnOnly = process.argv.includes('--warn-only')
 
 const ALLOWED_STATUS = ['adopted', 'proposal', 'draft', 'experimental', 'reference']
 const ALLOWED_SECTIONS = ['For Supporters', 'For Members', 'For Organizers']
-const HANDBOOK_SECTIONS = ['Introduction', 'DNA', 'Leadership', 'Staff', 'Reference materials', 'Further Reading', 'Citations', 'Glossary']
+const HANDBOOK_SECTIONS = ['Introduction', 'DNA', 'Leadership', 'Staff', 'Supplemental', 'Reference materials', 'Further Reading', 'Citations', 'Glossary']
 const HANDBOOK_NUMBER = /^(?:\d+|[A-D])(?:\.\d+)*$/
 
 function isCalendarDate(value) {

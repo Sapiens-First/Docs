@@ -33,7 +33,7 @@ Atlas records the current mission structure, campaign priorities, and who owns t
 
 Gatherings, outreach, campaigns, and peaceful actions give people something meaningful to do together. Choose an activity with a clear purpose and a useful next step for participants. The October 2 tech notes emphasize activities that could help volunteers recruit more volunteers; that is a growth ambition to test in practice.
 
-Use the existing [gatherings guide](../appendices/reference/field-guides/gatherings.md) and [peaceful actions guide](../appendices/reference/field-guides/actions.md) for practical preparation. Follow the [values and red lines](culture.md#behavioral-commitments-and-red-lines) and [decision rights](structure.md#check-the-decision-rights) when choosing and carrying out work.
+Use the existing [gatherings guide](../appendices/reference/field-guides/gatherings.md) and [peaceful actions guide](../appendices/reference/field-guides/actions.md) for practical preparation. Follow the [values and red lines](culture.md#behavioral-commitments-and-red-lines) and [decision rights](structure.md#roles-circles-decision-rights) when choosing and carrying out work.
 
 ## 1.2.3 Recruit {#recruit}
 
@@ -55,9 +55,7 @@ Use the existing [training guide](../appendices/reference/field-guides/training.
 
 In text: actions reach supporters; invitations and follow-up help people become members; training and support help people become organizers. Those organizers can lead further actions and invite others into the cycle. Shared activity data can inform learning and strategy. The diagram's proposed channels and systems, including an app, courses, dues, and a company brain, do not establish that those tools or programs are available or adopted.
 
-### 1.2.5.1 Act, recruit, train {#act-recruit-train}
-
-Our approach is a cycle. Each activity feeds the next, so every turn brings in more people who can lead.
+**Act, recruit, train.** Our approach is a cycle. Each activity feeds the next, so every turn brings in more people who can lead.
 
 ```mermaid
 flowchart TB
@@ -74,9 +72,7 @@ flowchart TB
 
 Here's how it looks for one person. They come to an event and meet people. They take on a small responsibility. Soon they're helping the next person get involved.
 
-### 1.2.5.2 How the work fits together {#how-the-work-fits-together}
-
-Three kinds of work build on each other:
+**How the work fits together.** Three kinds of work build on each other:
 
 - **Community** builds participation and lasting relationships.
 - **Empowerment** gives people the knowledge and confidence to lead.

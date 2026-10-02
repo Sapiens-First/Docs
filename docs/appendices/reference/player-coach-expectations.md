@@ -17,7 +17,7 @@ A **Player-Coach (PC)** combines craft with developing other people. They contin
 
 <!-- Source provenance: repository-local 10-2 content additions/10-2.txt, Performance Framework, Player-Coach section, supplied October 2, 2026. The complete table below is preserved verbatim. Attribution claims in the source remain pending citation verification. -->
 
-## A.1.4.1 Role and scope {#role-and-scope}
+## Role and scope {#role-and-scope}
 
 The core question is:
 
@@ -27,7 +27,7 @@ This rubric evaluates how a player-coach gives direction, develops people, and i
 
 Roles can overlap. Evaluate the roles a person actually held during the review period; IC, DRI, and PC do not form a required promotion ladder.
 
-## A.1.4.2 Expectations rubric {#expectations-rubric}
+## Expectations rubric {#expectations-rubric}
 
 The three dimensions are **Direction, Enablement, and Systems**. Ratings describe the overall pattern of contribution and supporting evidence, rather than a checklist to maximize mechanically. A 4 or 5 represents meaningfully greater contribution, scope, or leverage than reliably fulfilling the expected role.
 
@@ -43,7 +43,7 @@ The three dimensions are **Direction, Enablement, and Systems**. Ratings describ
 
 <!-- /handbook:block -->
 
-## A.1.4.3 Applying the draft {#applying-the-draft}
+## Applying the draft {#applying-the-draft}
 
 Share expectations before evaluating performance. Discuss observable outcomes and behavior, using examples from the review period. Hours worked, messages sent, tickets closed, lines of code, and meetings attended do not by themselves establish contribution.
 

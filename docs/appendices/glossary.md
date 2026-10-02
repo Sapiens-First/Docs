@@ -55,7 +55,7 @@ What a role or project owner can **decide** alone, where they should **consult**
 
 ### Domain
 
-An area of related work that Atlas groups roles and projects under, alongside its views for roles and people. See [First steps for new members](../introduction/getting-involved.md#find-people-and-work).
+An area of related work that Atlas groups roles and projects under, alongside its views for roles and people. See [First steps for new members](../introduction/getting-involved.md#finding-current-people-and-projects).
 
 ### Directly Responsible Individual (DRI)
 
@@ -95,7 +95,7 @@ A change we want to achieve — it names the outcome we want. See [Outcomes and 
 
 ### Organizer
 
-Someone taking ongoing responsibility for organizing: turning shared concerns into collective action, with clear responsibilities and support from one another. Organizer is the umbrella term for the role types Individual Contributor, Directly Responsible Individual, and Player-Coach; the older titles Fellow, Steward, and Lead are legacy terms. See [Organizers and role types](../dna/structure.md#organizers-and-role-types) and [Where to start as an organizer](../introduction/getting-involved.md#where-to-start-as-an-organizer).
+Someone taking ongoing responsibility for organizing: turning shared concerns into collective action, with clear responsibilities and support from one another. Organizer is the umbrella term for the role types Individual Contributor, Directly Responsible Individual, and Player-Coach; the older titles Fellow, Steward, and Lead are legacy terms. See [Organizers and role types](../dna/structure.md#participation-responsibility-employment) and [Where to start as an organizer](../introduction/getting-involved.md#where-to-start-as-an-organizer).
 
 ### Output and outcome
 
