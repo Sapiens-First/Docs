@@ -11,7 +11,7 @@ import SearchButton from './SearchButton.vue'
     <SearchButton />
     <p class="sf-404__links">
       <a :href="withBase('/')">Home</a>
-      <a :href="withBase('/introduction/how-the-handbook-works#find-anything')">Find anything</a>
+      <a :href="withBase('/introduction/')">Start here</a>
     </p>
   </div>
 </template>
