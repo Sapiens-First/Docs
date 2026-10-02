@@ -8,6 +8,21 @@ import { generateLlmsFiles } from './llms'
 const base = '/docs/'
 const siteHostname = 'https://sapiens-first.github.io/docs/'
 
+// Numbered handbook pilot pages, shared by the nav dropdown and the sidebar.
+const pilotItems = [
+  { text: '0 Introduction', link: '/introduction/' },
+  { text: '0.1 Welcome', link: '/introduction/welcome' },
+  { text: '0.2 How the handbook works', link: '/introduction/how-the-handbook-works' },
+  { text: '1 DNA', link: '/dna/' },
+  { text: '1.2 Strategy', link: '/dna/strategy' },
+  { text: '3.1 Expectations', link: '/staff/expectations' },
+  { text: '3.4 Department-specific guidance', link: '/staff/department-specific-guidance' },
+  { text: 'A.1.2 IC expectations', link: '/appendices/reference/ic-expectations' },
+  { text: 'A.1.3 DRI expectations', link: '/appendices/reference/dri-expectations' },
+  { text: 'A.1.4 Player-Coach expectations', link: '/appendices/reference/player-coach-expectations' },
+  { text: 'A.2.5 Tech team meeting agenda', link: '/appendices/reference/tech-team-meeting-agenda' }
+]
+
 // https://vitepress.dev/reference/site-config
 export default withMermaid(defineConfig({
   title: 'Sapiens First Handbook',
@@ -88,26 +103,19 @@ export default withMermaid(defineConfig({
     nav: [
       {
         text: 'Handbook pilot',
-        items: [
-          { text: '0 Introduction', link: '/introduction/' },
-          { text: '0.1 Welcome', link: '/introduction/welcome' },
-          { text: '0.2 How the handbook works', link: '/introduction/how-the-handbook-works' },
-          { text: '1 DNA', link: '/dna/' },
-          { text: '1.2 Strategy', link: '/dna/strategy' },
-          { text: '3.1 Expectations', link: '/staff/expectations' },
-          { text: '3.4 Department-specific guidance', link: '/staff/department-specific-guidance' },
-          { text: 'A.1.2 IC expectations', link: '/appendices/reference/ic-expectations' },
-          { text: 'A.1.3 DRI expectations', link: '/appendices/reference/dri-expectations' },
-          { text: 'A.1.4 Player-Coach expectations', link: '/appendices/reference/player-coach-expectations' },
-          { text: 'A.2.5 Tech team meeting agenda', link: '/appendices/reference/tech-team-meeting-agenda' }
-        ]
+        items: pilotItems
       },
       { text: 'For Supporters', link: '/supporters/' },
       { text: 'For Members', link: '/members/' },
       { text: 'For Organizers', link: '/organizers/' },
       { text: 'Find anything', link: '/find' },
-      { text: 'Atlas', link: 'https://sapiensfirst.org/atlas' },
-      { text: 'Website', link: 'https://sapiensfirst.org' }
+      {
+        text: 'More',
+        items: [
+          { text: 'Atlas', link: 'https://sapiensfirst.org/atlas' },
+          { text: 'Website', link: 'https://sapiensfirst.org' }
+        ]
+      }
     ],
 
     // Audience paths; existing article URLs remain stable.
@@ -115,19 +123,7 @@ export default withMermaid(defineConfig({
       {
         text: 'Numbered handbook pilot',
         collapsed: false,
-        items: [
-          { text: '0 Introduction', link: '/introduction/' },
-          { text: '0.1 Welcome', link: '/introduction/welcome' },
-          { text: '0.2 How the handbook works', link: '/introduction/how-the-handbook-works' },
-          { text: '1 DNA', link: '/dna/' },
-          { text: '1.2 Strategy', link: '/dna/strategy' },
-          { text: '3.1 Expectations', link: '/staff/expectations' },
-          { text: '3.4 Department-specific guidance', link: '/staff/department-specific-guidance' },
-          { text: 'A.1.2 IC expectations', link: '/appendices/reference/ic-expectations' },
-          { text: 'A.1.3 DRI expectations', link: '/appendices/reference/dri-expectations' },
-          { text: 'A.1.4 Player-Coach expectations', link: '/appendices/reference/player-coach-expectations' },
-          { text: 'A.2.5 Tech team meeting agenda', link: '/appendices/reference/tech-team-meeting-agenda' }
-        ]
+        items: pilotItems
       },
       {
         text: 'For Supporters',

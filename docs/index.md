@@ -8,29 +8,19 @@ hero:
     - theme: brand
       text: Start here
       link: /supporters/
-    - theme: alt
-      text: Find anything
-      link: /find
-paths:
-  - who: For Supporters
-    text: What is Sapiens First?
-    link: /supporters/
-  - who: For Members
-    text: Go deeper
-    link: /members/
-  - who: For Organizers
-    text: Be an activist
-    link: /organizers/
 features:
   - title: For Supporters
     details: Understand the AI Crisis, why it matters, and how you can help.
     link: /supporters/
+    linkText: Start reading
   - title: For Members
     details: Explore our theory of change, shared values, and ways to take action.
     link: /members/
+    linkText: Start reading
   - title: For Organizers
     details: Reading series for Fellows, Stewards, and Leads on organizing, tools, and working together.
     link: /organizers/
+    linkText: Start reading
 ---
 
 ## Find your place

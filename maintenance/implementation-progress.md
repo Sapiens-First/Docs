@@ -48,3 +48,7 @@ Batch checks: `npm run docs:check` passed (46 pages, zero errors/warnings; 2 SVG
 Added a chapter landing and strategy draft from existing movement guidance and October 2 tech notes. Kept strategy as belief, growth as ambition, and tool labels as conceptual. Practical guides stay linked at their existing routes. No new runtime logic; existing validation/build and generated-output inspection provide verification. Structural TOC/embed pilot remains the next technical increment.
 
 DNA batch verification: `npm run docs:check` passed (48 pages, zero errors/warnings; 2 SVGs valid); production build passed. Checked all five new pages’ anchors, linked fragments, HTML date/status, Markdown prose exports and flywheel `/docs/` URL. Code review: lite correctness review completed without actionable findings for both batches. User edits to `10-2 content additions/10-2.txt` during this run are excluded from commits.
+
+## October 2 continuation — site cleanup
+
+User authorized including the pre-existing site changes: shared pilot navigation, compact More menu, homepage reading cards, consolidated status badge, dark-mode card colors and responsive typography. Removed HomePaths component and its matching configuration/styles. Local docs checks (48 pages) and production build pass; independent correctness review found no actionable regressions. Browser checks remain pending. The cleanup hides the metadata date on narrow screens; the structural pilot will restore date visibility to meet the handbook date requirement. Source-note edits remain excluded.

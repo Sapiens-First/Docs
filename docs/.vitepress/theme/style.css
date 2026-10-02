@@ -237,6 +237,23 @@
   .VPNavBar .VPNavBarTitle .title .sf-title-tag { display: none; }
   .VPNavBar .VPNavBarTitle .title { margin-right: 0; }
 }
+/* mid widths: tighten so every nav item, the theme toggle and GitHub stay on screen */
+@media (min-width: 960px) and (max-width: 1439px) {
+  .VPNavBar .VPNavBarTitle .title .sf-title-tag { display: none; }
+  .VPNavBar .VPNavBarTitle .title { margin-right: 0; }
+  .VPNavBarMenuLink, .VPNavBarMenuGroup .button { font-size: 12.5px !important; letter-spacing: 0; padding-left: 6px !important; padding-right: 6px !important; }
+  .VPNavBar .VPNavBarSearch { padding-left: 0 !important; }
+  .VPNavBarSearch .DocSearch-Button { min-width: 0; width: 40px; padding: 0 !important; justify-content: center; }
+  .VPNavBarSearch .DocSearch-Button-Placeholder, .VPNavBarSearch .DocSearch-Button-Keys { display: none !important; }
+  .VPNavBarSearch .DocSearch-Button-Container { margin: 0 !important; }
+  .VPNavBar .VPNavBarMenu { margin-left: 4px; }
+}
+@media (min-width: 960px) and (max-width: 1119px) {
+  .VPNavBarMenuLink, .VPNavBarMenuGroup .button { font-size: 11.5px !important; padding-left: 4px !important; padding-right: 4px !important; }
+  .VPNavBar .VPNavBarTitle .title { font-size: 16px; padding: 6px 8px; gap: 6px; }
+  .VPNavBar .VPNavBarMenu { margin-left: 0; }
+  .VPNavBar .content-body { padding-right: 0 !important; }
+}
 /* carry the 2px nav rule across the sidebar column too */
 @media (min-width: 960px) {
   .VPNavBar.has-sidebar .container > .title { border-bottom: var(--sf-border); }
@@ -251,7 +268,9 @@
   isolation: isolate;
   font-size: 14px !important;
   font-weight: 700 !important;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
   text-transform: uppercase;
   color: var(--vp-c-text-1) !important;
 }
@@ -299,15 +318,12 @@
   color: var(--vp-c-text-1) !important;
   font-weight: 700;
 }
-.VPSidebarItem.is-active > .item .link > .text::before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  inset: 55% -4px 6% -4px;
-  background: var(--sf-coral);
-  opacity: 0.75;
-  transform: rotate(-1deg);
-  clip-path: var(--sf-scribble);
+.VPSidebarItem.is-active > .item .link > .text {
+  text-decoration: underline;
+  text-decoration-color: var(--sf-coral);
+  text-decoration-thickness: 4px;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 3px;
 }
 .VPSidebarItem .indicator { display: none; }
 .VPSidebarItem .link:hover .text { color: var(--vp-c-text-1) !important; }
@@ -432,7 +448,17 @@
   line-height: 1.55 !important;
   color: rgba(17, 17, 17, 0.84) !important;
 }
-.VPFeature .link-text-value { color: #111111 !important; font-weight: 900 !important; text-transform: uppercase; }
+.VPFeature .link-text-value { color: #111111 !important; font-weight: 900 !important; text-transform: uppercase; letter-spacing: 0.06em; font-size: 13px; }
+.VPFeature .link-text { padding-top: 14px; margin-top: auto; }
+.VPFeature .details { flex-grow: 1; }
+
+/* dark mode: muted tints, light text (all >= 4.5:1) */
+.dark .VPFeatures .item:nth-child(3n + 1) .VPFeature { background: #4a2724; }
+.dark .VPFeatures .item:nth-child(3n + 2) .VPFeature { background: #1f3350; }
+.dark .VPFeatures .item:nth-child(3n + 3) .VPFeature { background: #453a0c; }
+.dark .VPFeature .title,
+.dark .VPFeature .link-text-value { color: #f3ece1 !important; }
+.dark .VPFeature .details { color: rgba(243, 236, 225, 0.86) !important; }
 
 /* ─── FOOTER ───────────────────────────── */
 .VPFooter {
@@ -594,8 +620,10 @@
   width: 100%;
   border-collapse: collapse;
   border: var(--sf-border);
-  font-size: 15.5px;
+  font-size: 16px;
 }
+.vp-doc td { color: var(--vp-c-text-1); }
+.vp-doc td a { white-space: nowrap; }
 .vp-doc tr { border-top: 1px solid var(--vp-c-divider); background: transparent; }
 .vp-doc tr:nth-child(2n) { background: var(--vp-c-bg-soft); }
 .vp-doc th {
@@ -651,6 +679,7 @@
   white-space: nowrap;
 }
 .vp-doc .sf-block { color: var(--vp-c-text-1); }
+.vp-doc details.sf-block { border: 2px solid var(--sf-ink); }
 .vp-doc .sf-block .sf-block-head { margin: 0 0 6px; }
 .vp-doc .sf-block > summary {
   display: flex;
@@ -687,7 +716,7 @@
 
 .vp-doc .sf-proposal { background: #fff6cc; border: 2px dashed var(--sf-ink); }
 .vp-doc .sf-proposal .sf-chip { background: var(--sf-yellow); color: #111111; }
-.vp-doc .sf-clarify { background: #e3eeff; border: 2px dashed var(--sf-ink); }
+.vp-doc .sf-clarify { background: transparent; border: 1px dashed var(--sf-ink); }
 .vp-doc .sf-clarify .sf-chip { background: var(--sf-sky); color: #111111; }
 .vp-doc .sf-example { background: var(--vp-c-bg-soft); border-left: 6px solid var(--sf-coral); }
 .vp-doc .sf-example .sf-chip { background: var(--sf-coral-chip); color: #111111; }
@@ -702,7 +731,7 @@
 .vp-doc .sf-source .sf-chip { background: var(--sf-ink); color: var(--vp-c-bg); }
 
 .dark .vp-doc .sf-proposal { background: rgba(255, 214, 10, 0.1); }
-.dark .vp-doc .sf-clarify { background: rgba(58, 134, 255, 0.14); }
+.dark .vp-doc .sf-clarify { background: transparent; }
 .dark .vp-doc .sf-roles .sf-chip { color: #111111; }
 
 /* Related pages: a scannable list at the end of the page */
@@ -719,9 +748,9 @@
   text-transform: uppercase;
 }
 .vp-doc .sf-related ul { list-style: none; padding: 0; margin: 0; }
-.vp-doc .sf-related li { margin: 0; padding: 10px 0; line-height: 1.55; border-bottom: 1px solid var(--vp-c-divider); color: var(--vp-c-text-2); }
+.vp-doc .sf-related li { margin: 0; padding: 10px 0; line-height: 1.55; border-bottom: 1px solid var(--vp-c-divider); font-size: 14.5px; color: var(--vp-c-text-2); }
 .vp-doc .sf-related li + li { margin: 0; }
-.vp-doc .sf-related li a { font-weight: 700; }
+.vp-doc .sf-related li a { display: block; font-size: 17.5px; font-weight: 700; color: var(--vp-c-text-1); }
 
 /* ─── PAGE EYEBROW (PageMeta.vue) ──────── */
 .sf-page-meta {
@@ -738,13 +767,15 @@
 .sf-page-meta > span + span::before { content: '·'; margin: 0 10px; }
 .sf-page-meta .sf-audience { color: var(--vp-c-text-1); }
 
-/* ─── STATUS BADGE + CALLOUT (PageMeta.vue) ────
+/* ─── STATUS BADGE (PageMeta.vue) ────
    Badge sits inline in the eyebrow row; the callout (proposal, draft,
    experimental) renders just below it, before the H1, so a reader hits the
    caveat before the content. Adopted pages get a one-line note instead of a
    full callout — a badge alone already tells that story. */
+.sf-status-line { margin: 0 0 14px; }
 .sf-status-badge {
   display: inline-block;
+  max-width: 100%;
   padding: 2px 8px;
   border: 2px solid var(--sf-ink);
   background: var(--sf-soft);
@@ -766,72 +797,15 @@
 .dark .sf-status-badge.sf-status-experimental { background: rgba(255, 120, 112, 0.28); color: var(--vp-c-text-1); }
 .dark .sf-status-badge.sf-status-reference { background: var(--sf-soft); color: var(--vp-c-text-1); }
 
-.sf-status-note {
-  margin: 0 0 24px;
-  font-size: 13.5px;
-  line-height: 1.5;
-  color: var(--vp-c-text-2);
+@media (max-width: 640px) {
+  .sf-page-meta .sf-updated { display: none; }
+  .sf-status-badge { white-space: normal; }
 }
 
-.sf-status-callout {
-  margin: 0 0 28px;
-  padding: 12px 16px 10px;
-  border: 2px dashed var(--sf-ink);
-  font-size: 15.5px;
-  line-height: 1.6;
-}
-.sf-status-callout p { margin: 0; }
-.sf-status-callout.sf-status-proposal { background: #fff6cc; }
-.sf-status-callout.sf-status-draft { background: #e3eeff; }
-.sf-status-callout.sf-status-experimental { background: var(--sf-coral-chip); }
-.dark .sf-status-callout.sf-status-proposal { background: rgba(255, 214, 10, 0.1); }
-.dark .sf-status-callout.sf-status-draft { background: rgba(58, 134, 255, 0.14); }
-.dark .sf-status-callout.sf-status-experimental { background: rgba(255, 120, 112, 0.14); }
-
-/* ─── HOME: STARTING POINTS (HomePaths.vue) */
-/* The panel lives in the hero image slot; undo the slot's fixed image box
-   and put it after the title on narrow screens. */
-.VPHome .VPHero.has-image .container { text-align: left; }
-.VPHome .VPHero .image { order: 3; margin: 40px 0 0; }
-.VPHome .VPHero .image-container { width: auto; height: auto; transform: none; }
-.VPHome .VPHero .image-bg { display: none; }
-.VPHome .VPHero.has-image .name,
-.VPHome .VPHero.has-image .text,
-.VPHome .VPHero.has-image .tagline { margin-left: 0; margin-right: 0; }
-.VPHome .VPHero.has-image .actions { justify-content: flex-start; }
-@media (min-width: 960px) {
-  .VPHome .VPHero .image { order: 2; margin: 0 0 0 48px; align-self: center; }
-  .VPHome .VPHero .image-container { display: block; }
-}
-.sf-paths {
-  width: 100%;
-  max-width: 460px;
-  border: var(--sf-border);
-  background: var(--sf-white);
-  box-shadow: 6px 6px 0 var(--sf-shadow);
-}
-.dark .sf-paths { background: var(--vp-c-bg-soft); }
-.sf-paths-title {
-  margin: 0;
-  padding: 10px 16px;
-  background: var(--sf-ink);
-  color: var(--vp-c-bg);
-  font-size: 12px;
-  font-weight: 900;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-.sf-paths ul { list-style: none; margin: 0; padding: 0; }
-.sf-paths li + li { border-top: 1px solid var(--vp-c-divider); }
-.sf-paths a {
-  display: block;
-  padding: 12px 16px;
-  color: var(--vp-c-text-1);
-  transition: background-color 0.15s ease;
-}
-.sf-paths a:hover { background: var(--vp-c-brand-soft); }
-.sf-paths-who { display: block; font-size: 14px; color: var(--vp-c-text-2); }
-.sf-paths-where { display: block; font-size: 17px; font-weight: 700; line-height: 1.35; }
+/* ─── HOME: CONTENT BELOW THE CARDS ───── */
+.VPHome .vp-doc { padding-top: 24px; }
+.VPHome .vp-doc > div { border-top: 2px solid var(--sf-ink); padding-top: 8px; }
+.VPHome .vp-doc h2 { border-top: 0; margin-top: 24px; padding-top: 0; }
 
 /* ─── DOC FOOTER / PAGER ───────────────── */
 .VPDocFooter .edit-link-button {
@@ -845,10 +819,10 @@
 .VPDocFooter .pager-link {
   border: var(--sf-border) !important;
   border-radius: 0 !important;
-  box-shadow: 4px 4px 0 var(--sf-shadow);
+  box-shadow: 2px 2px 0 var(--sf-shadow);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-.VPDocFooter .pager-link:hover { transform: translateY(-2px); box-shadow: 6px 6px 0 var(--sf-shadow); }
+.VPDocFooter .pager-link:hover { transform: translateY(-2px); box-shadow: 3px 3px 0 var(--sf-shadow); }
 .VPDocFooter .pager-link .desc {
   font-size: 11px;
   font-weight: 900;
