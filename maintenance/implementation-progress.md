@@ -39,3 +39,5 @@ Continue recording actual destinations and reconciled blocks in the ledger. Reti
 ## October 2 continuation — Introduction batch
 
 Added three orientation drafts with stable anchors and source provenance; recorded source-to-destination block mappings without retiring legacy routes. Content-only authoring and static navigation additions use the existing validator/build as replacement verification; no new runtime feature or prose-mirroring tests. Ordered TOC, reference embeds, catalogs and generated glossary remain pending.
+
+Batch checks: `npm run docs:check` passed (46 pages, zero errors/warnings; 2 SVGs valid); `npm run docs:build` passed. Built HTML anchors, dates/status and raw/combined prose exports checked. Raw twins omit frontmatter under existing exporter behavior; metadata parity remains part of the pending structural pilot. Browser visual inspection remains pending.
