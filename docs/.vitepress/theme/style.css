@@ -884,6 +884,16 @@
   text-align: center;
 }
 .vp-doc .sf-diagram svg { max-width: 100%; height: auto; }
+/* Published SVG images share the diagram frame and scale to the text column. */
+.vp-doc img[src*="/diagrams/"] {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 28px auto;
+  background: white;
+  border: var(--sf-border);
+  box-shadow: 4px 4px 0 var(--sf-shadow);
+}
 .vp-doc .sf-diagram .node rect,
 .vp-doc .sf-diagram .node polygon,
 .vp-doc .sf-diagram .node circle { stroke-width: 2px !important; }

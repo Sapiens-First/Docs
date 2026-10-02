@@ -16,15 +16,17 @@ Read the [style guide](STYLE-GUIDE.md) before you write. It covers naming, frami
 
 A handbook page may explain what a project record contains. It should link to the current records rather than maintaining a second project register. Examples should be clearly illustrative.
 
-## Organize pages by audience
+## Add pages incrementally
 
-The handbook has three sections: **For Supporters**, **For Members**, and **For Organizers**. Supporters need a clear introduction to Sapiens First and the AI Crisis. Members go deeper into theory of change, values, and participation. Organizers have ordered reading series for **Fellows**, **Stewards**, and **Leads**. Staff are Leads; metrics and compensation belong in the Lead series.
+New pages follow [HANDBOOK-OUTLINE.md](HANDBOOK-OUTLINE.md), with numbered chapters and Appendices A–D. Existing audience pages retain their URLs while the [migration ledger](maintenance/content-map.md) tracks their disposition. The first pilot adds 3.4 Department-specific guidance and A.2.5 Tech team meeting agenda.
 
-Use one of the three section names in frontmatter. Organizer pages may add `audience: Fellows`, `audience: Stewards`, or `audience: Leads`. Place them under the appropriate nested series in the sidebar. Preserve existing article URLs; the audience hierarchy does not require moving older files.
+Use a matching numbered H1 and `title`, `handbook_id` (stable descriptive ID), `handbook_number` (display number), `## Summary`, numbered content headings with stable anchors, and existing status/date/canonical metadata. Chapter section values are `Introduction`, `DNA`, `Leadership`, `Staff`, `Reference materials`, `Further Reading`, `Citations`, and `Glossary`. Legacy audience values remain accepted for unmigrated pages. Do not equate staff with Leads.
 
-Create a page when a reader would reasonably look for that topic on its own. Keep related details together; avoid a deep folder tree or a separate file for every paragraph. Store shared images in `docs/public/`.
+Add new pages to navigation in `docs/.vitepress/config.mts`. Use relative `.md` links between handbook pages and keep current assignments/priorities in live records. Canonical reusable material lives in Appendix A; use links until the embed pilot is verified. Preserve missing organizational decisions as draft gaps.
 
-Add each new page to the sidebar in `docs/.vitepress/config.mts`, under the group matching its `section`, and link it from the relevant overview or from [`/find`](docs/find.md). A page's **H1 is a self-describing title** (meaningful with no other context, e.g. "How Sapiens First manages work"), while its **sidebar label stays short** (e.g. "How we manage work") — see [Names](STYLE-GUIDE.md#names) in the style guide. Use the H1 or the sidebar label consistently wherever you link to it; `scripts/check-rewrite.py` checks that list-style link text (as in Related blocks and overviews) matches one of the two. Never use "Overview" alone as a sidebar label. If you add or rename a section, update the homepage's routing too (`docs/index.md`). Use relative `.md` links in Markdown so readers can navigate the repository as well as the site. Keep the `/docs/` base path in the site configuration rather than hard-coding it into content links.
+Store published diagrams in `docs/public/diagrams/` as SVG, with Markdown alt text and an adjacent text equivalent. See [diagram conventions](STYLE-GUIDE.md#diagrams-and-visuals). Original 10-2 inputs are helpful source material, not a second handbook to maintain.
+
+The template below remains relevant to legacy pages. New numbered pages use the anatomy above.
 
 ## Write with cascading detail
 
@@ -110,7 +112,7 @@ owner: …                                 # optional; only if the source names 
 ---
 ```
 
-**Sections** (fixed list, used by the sidebar and generated `llms.txt`): `For Supporters` · `For Members` · `For Organizers`.
+**Sections:** use the chapter values above for numbered pages; retain `For Supporters`, `For Members`, or `For Organizers` on legacy pages.
 
 **Status** (fixed list, rendered as a badge near the top of the page): `adopted` · `proposal` · `draft` · `experimental` · `reference`. A page that's mostly current practice but contains `::: proposal` blocks is still `adopted`; say which parts are proposals in `## In brief`. Proposal, draft, and experimental pages also get a short callout under the eyebrow ("Proposal: this describes a possible future practice…"); adopted pages get a one-line note instead.
 
@@ -130,7 +132,7 @@ Don't hand-edit anything under `.vitepress/dist`; it's regenerated on every buil
 
 ## Check before publishing
 
-Diagrams go in fenced `mermaid` blocks; see the style guide for when to use one.
+New published diagrams use SVG. Run `npm run diagrams:check`; see the style guide for asset and accessibility rules. Existing Mermaid blocks remain supported during migration.
 
 Run `npm run docs:build`. VitePress checks Markdown compilation and internal page links. Also check new fragment links, navigation entries, expandable sections, and the page at narrow widths when browser testing is available.
 

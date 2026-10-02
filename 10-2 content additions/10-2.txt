@@ -1,0 +1,167 @@
+# Performance Framework
+
+## Guiding beliefs
+
+### 1. Expectations should be explicit before performance is evaluated
+
+People should know what excellent performance looks like **before** they are judged against it. Clear expectations direct attention, reduce ambiguity, and make feedback feel like coaching against a shared standard rather than retrospective judgment.
+
+Goal-setting research from Locke and Latham finds that specific, challenging goals generally outperform vague instructions such as “do your best,” in part because they focus attention, increase persistence, and encourage strategy development. Feedback is also necessary so people can adjust along the way.
+
+The rubric should therefore be shared during hiring and onboarding, referenced during 1:1s, and used consistently during performance reviews.
+
+### 2. Evaluate outcomes and observable behaviors, not activity
+
+Metrics such as hours worked, messages sent, tickets closed, lines of code, or number of meetings are easy to optimize without producing value.
+
+Instead, evaluate observable patterns such as:
+
+- What actually got accomplished?
+- Was ownership required from someone else to make it happen?
+- Were good decisions made under ambiguity?
+- Did communication reduce or increase coordination costs?
+- Did the person increase the future capability of the organization?
+
+The rubric is therefore **not a checklist to maximize mechanically**. Ratings reflect the overall pattern of contribution and supporting evidence.
+
+### 3. A 3 is successful performance
+
+**3 means fully meeting expectations.**
+
+Someone consistently performing at 3 is doing their job well. Ratings of 4 and especially 5 should represent meaningfully greater contribution, scope, or leverage—not merely doing the expected job reliably.
+
+This avoids the common failure mode where everyone learns that “3” secretly means underperformance.
+
+### 4. Performance should be discussed continuously, not saved for reviews
+
+Formal evaluations should mostly summarize feedback that has already occurred.
+
+A useful cadence is:
+
+- Continuous feedback as events happen
+- Brief performance/development discussion during regular 1:1s
+- More structured assessment approximately quarterly
+- Self-assessment and manager assessment completed independently before comparing them
+
+The independent assessments help reduce anchoring and make disagreements informative: they often reveal unclear expectations, unseen work, or different interpretations of performance.
+
+### 5. Performance and promotion are different questions
+
+**Performance:** How well are you fulfilling your current roles?
+
+**Promotion:** Are you consistently operating at greater scope, complexity, or leverage?
+
+Exceptional performance should not automatically require a promotion. Conversely, someone should generally demonstrate the characteristics of the expanded role before formally receiving it.
+
+### 6. The organization is role-based, not title-based
+
+The role categories here come from Block's **From Hierarchy to Intelligence** framework: **Individual Contributors, Directly Responsible Individuals, and Player-Coaches.** Block describes ICs as specialists who build and operate capabilities, DRIs as owners of cross-cutting problems or outcomes, and player-coaches as practitioners who both build and develop other people.
+
+These should be treated as **roles rather than mutually exclusive positions**.
+
+A single person might simultaneously:
+
+- act as an **IC** while building the membership system,
+- act as **DRI** for increasing member activation,
+- and act as a **Player-Coach** while mentoring another builder.
+
+This is compatible with Holacracy's distinction between people and roles: organizational roles are defined around work, and one person can fill multiple roles across different domains.
+
+Performance should therefore be evaluated against the roles a person actually holds, rather than forcing everyone into a single hierarchical level.
+
+---
+
+# Individual Contributor
+
+An **Individual Contributor** directly creates value through their craft.
+
+The core question is:
+
+> **How effectively do you produce excellent work?**
+
+The three dimensions are **Output, Communication, and Judgment.**
+
+| Rating | **Output** | **Communication** | **Judgment** |
+|---|---|---|---|
+| **5 — Extraordinary** | Repeatedly delivers major, high-quality systems or products that materially expand organizational capability. Creates tools or automation that multiply future output and handles highly ambiguous technical problems independently. | Creates exceptional clarity with very little overhead. Anticipates information needs, surfaces risks early, documents consequential decisions, and substantially reduces coordination costs. | Consistently identifies important problems or opportunities before they are assigned. Reframes problems, finds substantially higher-leverage solutions, and makes excellent product and technical tradeoffs under uncertainty. |
+| **4 — Exceeds expectations** | Consistently ships high-quality work faster or at greater scope than expected. Owns substantial projects end-to-end, improves underlying systems, and creates reusable leverage. | Proactively communicates progress, reasoning, blockers, results, and next steps. Anticipates questions, closes loops, and raises issues before they become problems. | Frequently improves the proposed approach. Prioritizes effectively, challenges weak assumptions, simplifies systems, and notices important downstream consequences. |
+| **3 — Fully meets expectations** | Reliably delivers agreed work at the expected pace and quality. Tests and debugs their own work, finishes projects, follows through on commitments, and independently owns scoped projects. | Clearly and proactively communicates what they are doing, why, current status, blockers, important decisions, results, and what comes next. Others generally do not need to chase them for information. | Understands organizational and user goals, prioritizes accordingly, makes sound product and technical tradeoffs, and independently handles most decisions within their domain. |
+| **2 — Developing** | Produces useful work, but speed, quality, or reliability is inconsistent. Work sometimes requires substantial rework, follow-up, or additional direction. | Communicates when prompted, but updates may be late or incomplete. Blockers sometimes surface too late, or activity is reported without enough explanation of outcomes or next steps. | Handles clearly defined decisions but struggles with ambiguity, prioritization, or system-level consequences. Frequently needs guidance when comparing alternatives. |
+| **1 — Below expectations** | Frequently misses commitments or produces incomplete, unreliable, or low-value work. Requires substantial supervision or repeated follow-up. | Progress is difficult to understand without asking. Important blockers, changes, or failures surface late and create uncertainty for others. | Frequently works on the wrong things, requires step-by-step direction, or makes avoidable product or technical decisions that are misaligned with organizational goals. |
+
+**Suggested weighting:** 50% Output · 25% Communication · 25% Judgment
+
+---
+
+# Directly Responsible Individual
+
+A **DRI owns an outcome**, especially one that crosses functions, systems, or contributors.
+
+Block describes DRIs as responsible for specific cross-cutting problems, opportunities, or customer outcomes, with enough authority to pull together the resources needed to solve them.
+
+The core question is:
+
+> **Did you make the outcome happen?**
+
+The three dimensions are **Outcome, Ownership, and Judgment.**
+
+| Rating | **Outcome** | **Ownership** | **Judgment** |
+|---|---|---|---|
+| **5 — Extraordinary** | Repeatedly achieves outcomes that materially exceed the original objective or unlock substantial new organizational capacity. Finds ways to succeed despite major ambiguity or constraints. | Operates as the unquestioned owner of the domain. Anticipates dependencies, coordinates contributors, resolves ambiguity, escalates intelligently, and creates systems that make future delivery easier. Requires very little executive attention. | Consistently identifies the highest-leverage problems, reframes goals when necessary, and makes excellent decisions under substantial uncertainty. Insights from the domain improve broader organizational strategy. |
+| **4 — Exceeds expectations** | Consistently delivers the intended outcome at high quality and often improves meaningfully on the original objective. | Proactively drives planning, coordination, risks, dependencies, and follow-through. Ensures nothing important falls through the cracks and brings problems with proposed solutions. | Frequently improves priorities or approaches. Makes strong independent decisions, understands downstream consequences, challenges weak assumptions, and knows when to decide versus escalate. |
+| **3 — Fully meets expectations** | Reliably achieves the agreed outcome with appropriate quality and timing. Changes tactics when needed rather than mechanically completing the original task list. | Clearly owns the project or domain from beginning to end. Defines next actions, coordinates contributors, tracks progress, surfaces blockers early, and closes loops without reminders. | Understands the objective and constraints, prioritizes appropriately, considers reasonable alternatives, and makes sound day-to-day decisions independently. |
+| **2 — Developing** | Produces useful work, but achieving the actual outcome is inconsistent or sometimes depends heavily on intervention from others. | Owns assigned pieces but does not consistently drive the whole outcome. Dependencies, follow-ups, or risks sometimes require manager intervention. | Makes reasonable decisions in straightforward situations but struggles with ambiguity or tradeoffs and escalates decisions that should fall within their authority. |
+| **1 — Below expectations** | Activity occurs, but intended outcomes are frequently not achieved. | Behaves primarily as a recipient of tasks rather than an owner of the result. Work stalls without supervision and dependencies or unresolved problems are allowed to sit. | Requires substantial direction for routine decisions or repeatedly makes decisions that optimize the immediate task rather than the overall outcome. |
+
+A DRI should also have a clearly defined **purpose, domain, accountabilities, and decision authority**. Accountability without corresponding authority creates responsibility without ownership.
+
+---
+
+# Player-Coach
+
+A **Player-Coach combines craft with developing other people**.
+
+Block distinguishes this from traditional middle management: the player-coach continues doing substantive work while investing in the skills, judgment, and effectiveness of people around them.
+
+This also aligns with Andy Grove's concept of managerial leverage: a manager's contribution is not primarily their personal activity but the output generated by the people and teams they influence.
+
+The core question is:
+
+> **Are people and systems becoming more capable because of you?**
+
+The three dimensions are **Direction, Enablement, and Systems.**
+
+| Rating | **Direction** | **Enablement** | **Systems** |
+|---|---|---|---|
+| **5 — Extraordinary** | Creates exceptional clarity despite major ambiguity. People deeply understand goals, constraints, priorities, and success criteria and can independently make excellent tradeoffs. | People around them rapidly increase in capability, judgment, ownership, and autonomy. Gives exceptionally useful feedback and creates high standards while making disagreement, mistakes, and bad news safe to surface. | Builds operating and technical systems that materially multiply team output. Anticipates bottlenecks, redesigns systems before they fail, allocates talent exceptionally well, and makes the organization less dependent on themselves. |
+| **4 — Exceeds expectations** | Consistently establishes clear goals, priorities, owners, and definitions of success. Explains why priorities matter, resolves conflicts quickly, and protects focus. | Gives frequent, specific, timely feedback; delegates meaningful ownership; removes blockers; adapts support to the individual; and makes people noticeably more capable and independent over time. | Identifies recurring problems and fixes root causes. Creates useful processes without bureaucracy, matches people to work well, and continuously improves how the team operates. |
+| **3 — Fully meets expectations** | People generally know what they own, what matters now, why it matters, and what successful completion looks like. Conflicting priorities are resolved reasonably quickly. | Holds useful 1:1s, provides timely feedback, recognizes good work, addresses problems, gives appropriate autonomy, and helps people develop their skills and judgment. | Provides adequate tools, information, processes, and staffing. Delegates appropriately and fixes obvious recurring coordination problems. |
+| **2 — Developing** | Priorities or ownership are sometimes unclear. Too many things are simultaneously important, definitions of success are vague, or direction changes without enough explanation. | Feedback is irregular, vague, or late. Alternates between micromanagement and insufficient support. Solves too many problems personally and people are not clearly becoming more autonomous. | Often handles recurring problems as isolated incidents. Processes are missing, cumbersome, or inconsistent, and delegation or resource allocation creates avoidable bottlenecks. |
+| **1 — Below expectations** | People frequently do not know what to prioritize, who owns what, or what success means. Conflicting instructions and delayed decisions cause substantial wasted work. | Important feedback is avoided or delivered too late. People are blocked, overly controlled, or unsupported. Speaking up, disagreeing, or reporting mistakes feels risky. | The player-coach becomes a major bottleneck. Problems repeatedly recur, responsibilities are confused, resources are missing, and team effectiveness depends on constant intervention. |
+
+**Suggested weighting:** 35% Direction · 35% Enablement · 30% Systems
+
+---
+
+# Putting the roles together
+
+The distinction is essentially one of **what you are accountable for**:
+
+| Role | Core accountability | Rubric |
+|---|---|---|
+| **Individual Contributor** | **Produce excellent work.** | Output · Communication · Judgment |
+| **DRI** | **Make an outcome happen.** | Outcome · Ownership · Judgment |
+| **Player-Coach** | **Make people and systems more capable.** | Direction · Enablement · Systems |
+
+These roles can overlap.
+
+Someone might spend most of their week as an **IC**, be the **DRI** for one strategic project, and simultaneously act as a **Player-Coach** for another builder. Performance evaluation should reflect the mix of roles they actually held during the period rather than treating IC → DRI → Player-Coach as a conventional managerial ladder.
+
+That makes the system closer to **Holacracy plus Block's AI-native organizational model**: authority attaches to clearly defined roles and outcomes rather than permanently attaching to someone's place in a hierarchy.
+
+## Main references
+
+- **Block / Jack Dorsey & Roelof Botha — *From Hierarchy to Intelligence*.** Source of the IC / DRI / Player-Coach role architecture and the broader argument for replacing information-routing hierarchy with distributed context and ownership.
+- **Locke & Latham — Goal-Setting Theory.** Specific, challenging expectations plus feedback improve attention, effort, persistence, and strategy formation relative to vague expectations.
+- **Andy Grove — *High Output Management*.** Managerial effectiveness should ultimately be understood through the output and capability of the organization a manager influences, rather than the manager's personal activity.
+- **Holacracy — Organizational Structure.** Roles belong to the work rather than permanently to individual people; one individual can fill multiple roles, each with a purpose, accountabilities, and potentially domains and authorities.

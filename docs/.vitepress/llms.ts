@@ -11,7 +11,7 @@ const SITE_ORIGIN = 'https://sapiens-first.github.io'
 const BASE_PATH = '/docs'
 const ATLAS_URL = 'https://sapiensfirst.org/atlas'
 
-const SECTION_ORDER = ['For Supporters', 'For Members', 'For Organizers']
+const SECTION_ORDER = ['Introduction', 'DNA', 'Leadership', 'Staff', 'Reference materials', 'Further Reading', 'Citations', 'Glossary', 'For Supporters', 'For Members', 'For Organizers']
 
 const STATUS_VALUES = new Set(['adopted', 'proposal', 'draft', 'experimental', 'reference'])
 
@@ -129,6 +129,11 @@ function resolveMdLink(sourceRelPath: string, target: string): string | undefine
   }
   const [pathPart, hash] = target.split('#')
   if (!pathPart) return undefined
+  // Public diagram assets must also resolve in downloaded Markdown exports.
+  if (pathPart.startsWith('/diagrams/') && pathPart.endsWith('.svg')) {
+    const url = toAbsoluteUrl(pathPart)
+    return hash ? `${url}#${hash}` : url
+  }
   const resolvedRel = pathPart.startsWith('/')
     ? pathPart.slice(1)
     : posix.normalize(posix.join(posix.dirname(sourceRelPath), pathPart))

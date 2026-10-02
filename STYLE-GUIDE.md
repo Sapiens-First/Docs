@@ -12,49 +12,15 @@ This guide sets out how we do that. It covers **framing, wording, and visuals**,
 
 **Make every word work.** Cut what the reader doesn't need. Vary the rhythm so the words that remain are a pleasure to read.
 
-## One pattern at every level
+## Page structure and names
 
-The handbook is fractal. The same three-part shape repeats at every scale, and at the topic-page level it's now a fixed anatomy: a self-describing **H1**, a one-sentence **summary** (the `>` line directly under the H1), **`## In brief`** (3–5 bullets), **`## When to use this`**, the main content, then **`## Related`**. That anatomy *is* hook / three things / next step, made literal so both people and tools can rely on it:
+The new handbook follows [HANDBOOK-OUTLINE.md](HANDBOOK-OUTLINE.md): **0 Introduction, 1 DNA, 2 Leadership, 3 Staff, and Appendices A–D**. Existing audience pages remain available during incremental migration; their template is transitional.
 
-1. **Hook.** The summary line and `## In brief` — why should the reader care, and what's the gist if they read no further?
-2. **Three things.** `## When to use this` plus the main `##` sections — the core ideas, steps, or choices, grouped so they stick.
-3. **Next step.** The `::: related` block at the end.
+New section pages have a numbered, descriptive H1 matching frontmatter `title`, a `## Summary`, and numbered, named content subsections with explicit stable anchors. Use `handbook_id` for stable identity and `handbook_number` for the current display number. Summary, Further Reading, and Citations are unnumbered page furniture. Metadata supplies the visible status and calendar date. Omit empty reading/citation lists until the catalog pilot supplies assigned entries.
 
-```mermaid
-flowchart TB
-  H["<b>Hook</b> · summary + In brief"] --> T["<b>Three things</b> · When to use this + sections"] --> N["<b>Next step</b> · Related"]
-  classDef accent fill:#ffd60a,stroke:#111,stroke-width:2px
-  class T accent
-```
+Keep sidebar labels short and include the display number. Follow the outline's actual structure rather than forcing every topic into three parts. Staff status is separate from volunteer pathways and governance roles; do not define staff as Leads.
 
-| Level | Hook | Three things | Next step |
-| --- | --- | --- | --- |
-| Homepage | Hero tagline | Audience routing cards (For Supporters / For Members / For Organizers) | "Start here" and "Find anything" buttons |
-| Section overview | Summary + `## In brief` | Pages grouped under bold headings | Related block or first page |
-| Topic page | Summary + `## In brief` | `## When to use this` plus two to four more `##` sections | Related block |
-| Section of a page | First sentence under the heading | Bold lead-ins or a three-item list | A link or an action |
-| Paragraph | Bold lead-in | Up to three supporting sentences | — |
-
-Work top-down. Fix the homepage and overviews first, then the openings of topic pages, then paragraphs. A strong frame makes every lower level easier to write. The audience structure in [CONTRIBUTING.md](CONTRIBUTING.md) governs navigation.
-
-## Names
-
-**Use [CONTRIBUTING.md](CONTRIBUTING.md) for the current audience structure.** A page title (H1) is no longer capped at three words — it's a short, self-describing sentence a reader (or an AI, or a search engine) can understand out of context, with no page around it: "How Sapiens First uses metrics", not "Metrics". Frontmatter `title:` repeats the H1 exactly. The old three-word H1 rule and "name the thing, not the activity" still guide the **sidebar label**, which stays short (see below); it's the H1 that changed.
-
-| Level | Form | Examples |
-| --- | --- | --- |
-| Section (sidebar group) | A reader audience | For Supporters, For Members, For Organizers |
-| Page title (H1) | A self-describing sentence, meaningful out of context | "How Sapiens First manages work", "The Sapiens First Fellowship" |
-| Sidebar label | A short noun phrase, three words or fewer | First steps, Projects, Starting a local circle |
-| Heading (`##`) | An action or a promise | Start with a scope, Offer a next step |
-
-On the site, a page's section still shows as the small label above its title, but the sidebar itself groups pages by these audiences rather than by the six verbs. A page's sidebar label is what appears in the navigation tree and in Related blocks; its H1 is what appears at the top of the page, in `llms.txt`, and in a search result.
-
-### Sections are subject categories
-
-The sidebar has three main sections, in order: **For Supporters · For Members · For Organizers**. Organizer articles are nested under **Intro for Fellows**, **Intro for Stewards**, and **Intro for Leads**. Staff are Leads. Match the introductory depth to the reader; put operational material in the organizer series and metrics in the Lead series.
-
-Existing article folders and URLs stay stable. See [CONTRIBUTING.md](CONTRIBUTING.md) for metadata and placement rules.
+Each reusable policy, rubric, agenda, or template has one canonical Appendix A home. Link to it beside the explanation until build-time embedding and export parity are verified. Keep missing approvals visible in drafts.
 
 ## The rule of three
 
@@ -111,39 +77,31 @@ Gary Provost's advice in *100 Ways to Improve Your Writing* is the model: vary s
 
 ## Diagrams and visuals
 
-A picture earns its place when it shows a shape that prose hides.
+**SVG is the standard published format for handbook diagrams.** It keeps lines and labels sharp when enlarged, can be edited as text, and can be reused outside the site. Use diagrams for cycles, branching workflows, systems, and hierarchies; use tables for comparisons and numbered lists for simple sequences. Photos and screenshots retain appropriate raster formats.
 
-| Shape in the content | Use |
-| --- | --- |
-| Steps that repeat (a cycle) | Mermaid flowchart with an arrow back to the start |
-| A sequence of three or more steps with branches or hand-offs | Mermaid flowchart |
-| A hierarchy (mission → project) | Mermaid flowchart, top to bottom |
-| A comparison across the same attributes | Table |
-| A lookup ("if you are… start here") | Table |
-| A simple sequence without branches | Numbered list |
+Store canonical diagram assets in `docs/public/diagrams/` with descriptive, lowercase, hyphenated names. Embed them with Markdown image syntax; VitePress adjusts the site's base path:
 
-Write diagrams as fenced `mermaid` blocks. The site draws them in the handbook's palette and frames them like our cards.
-
-````md
-```mermaid
-flowchart TB
-  A[Act] --> R[Recruit] --> T[Train] --> A
-  classDef accent fill:#ffd60a,stroke:#111,stroke-width:2px
-  class A accent
+```md
+![Act, Recruit, and Train form a repeating movement-building cycle.](/diagrams/movement-flywheel.svg)
 ```
-````
 
-- **Keep it small.** Three to seven boxes, with labels of four words or fewer. Draw top to bottom (`flowchart TB`); a sideways row shrinks to nothing on a phone. The exception is a decision that fans out into several branches: draw it left to right (`flowchart LR`) so the branches stack.
-- **Highlight one thing.** Use the yellow `accent` class on at most one box: the start, or the step the page is about.
-- **Say it in words too.** Introduce every diagram with a sentence and keep the essential information in the text. Screen readers and search can't read the picture.
+- **Keep the SVG editable.** Include `xmlns`, a `viewBox`, a meaningful `<title>` and `<desc>`, and real `<text>` labels. Use local/system fonts, self-contained shapes, and no scripts, event handlers, external resources, embedded raster images, or `foreignObject` content.
+- **Keep it readable.** Use a clear hierarchy, ample spacing, and contrasting text and arrows. The default handbook palette is yellow `#ffd60a`, dark ink `#111`, and white. Secondary colors can distinguish systems when labels also explain the distinction. Supplied diagrams retain their source palette until a visual redesign is reviewed. Do not rely on color alone. Check the rendered page at a narrow phone width; simplify or split a diagram whose labels require zooming, and provide a link to the full-size SVG.
+- **Say it in words too.** Supply meaningful Markdown alt text and adjacent prose describing the relationships and any important limits. `<title>` and `<desc>` help when the SVG is opened directly; they do not replace the embedding image's alt text. Text equivalents also keep Markdown and LLM exports useful.
 
-One diagram per page is usually right. Put it where the reader first needs the big picture.
+Mermaid may be used as an authoring tool. Export a reviewed SVG before publishing a new diagram; if retaining the Mermaid source, put it under `maintenance/diagram-sources/` and document the regeneration command beside it. The SVG is the published output, not a separately edited competing diagram. Existing Mermaid blocks remain supported and migrate incrementally when their pages are rewritten.
+
+The imported `company-brain.svg` and `movement-flywheel.svg` come from `10-2 content additions/`. Originals stay intact as source inputs; published copies live in the asset directory. They illustrate a proposed systems model, not proof of exponential growth or approval of autonomous AI decisions.
+
+Run `npm run diagrams:check` to validate the published SVG conventions, then inspect the diagram in the built page. Automated validation does not establish visual legibility or the accuracy of the model.
+
+References: [VitePress asset handling](https://vitepress.dev/guide/asset-handling), [SVG title and description](https://www.w3.org/TR/SVG/struct.html).
 
 ## Page recipes
 
-**Section overview.** One- or two-sentence hook. A diagram if the section describes a flow. Then the section's pages grouped under three bold lead-ins, each link followed by a dash and its description.
+**Chapter overview.** A short Summary followed by links to numbered sections. Add a diagram only when it explains a useful relationship.
 
-**Topic page.** An opening paragraph that says what the page helps with and why it matters. Two to four `##` sections whose headings are actions or promises. Essential expectations in plain text; depth in labelled blocks. End with a Related block.
+**Section page.** Summary, numbered named subsections, and links to canonical references beside their explanation. Keep essential expectations visible; use labelled blocks for optional depth or unresolved proposals.
 
 **Glossary entry.** The term in bold, a one-sentence definition, and a link to where it's explained.
 

@@ -12,8 +12,9 @@
  * ERROR (fails the build in strict mode):
  *   - missing title / description / section / status / last_updated
  *   - status not in the controlled vocabulary
- *   - section not in the three allowed sections
- *   - last_updated not YYYY-MM-DD
+ *   - section not in the legacy or numbered handbook sections
+ *   - last_updated not a real YYYY-MM-DD calendar date
+ *   - numbered pages missing stable identity or matching display number
  *   - duplicate canonical path across pages
  *   - canonical not matching the file's own path
  *   - frontmatter title text differs from the page's H1 text
@@ -38,6 +39,14 @@ const warnOnly = process.argv.includes('--warn-only')
 
 const ALLOWED_STATUS = ['adopted', 'proposal', 'draft', 'experimental', 'reference']
 const ALLOWED_SECTIONS = ['For Supporters', 'For Members', 'For Organizers']
+const HANDBOOK_SECTIONS = ['Introduction', 'DNA', 'Leadership', 'Staff', 'Reference materials', 'Further Reading', 'Citations', 'Glossary']
+const HANDBOOK_NUMBER = /^(?:\d+|[A-D])(?:\.\d+)*$/
+
+function isCalendarDate(value) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) return false
+  const date = new Date(`${value}T00:00:00Z`)
+  return !Number.isNaN(date.getTime()) && date.toISOString().slice(0, 10) === value
+}
 
 /** Same slug algorithm as VitePress / scripts/check-rewrite.py's `slugify`. */
 function slugify(s) {
@@ -159,6 +168,8 @@ function main() {
   const errors = []
   const warnings = []
   const canonicalOwners = new Map() // canonical path -> [files]
+  const handbookIds = new Map()
+  const handbookNumbers = new Map()
   const anchorCache = new Map()
 
   for (const file of files) {
@@ -174,11 +185,11 @@ function main() {
     if (data.status && !ALLOWED_STATUS.includes(data.status)) {
       errors.push(`${relPath}: status "${data.status}" not in [${ALLOWED_STATUS.join(', ')}]`)
     }
-    if (data.section && !ALLOWED_SECTIONS.includes(data.section)) {
-      errors.push(`${relPath}: section "${data.section}" not one of the three allowed sections`)
+    if (data.section && ![...ALLOWED_SECTIONS, ...HANDBOOK_SECTIONS].includes(data.section)) {
+      errors.push(`${relPath}: section "${data.section}" is not an allowed handbook section`)
     }
-    if (data.last_updated && !/^\d{4}-\d{2}-\d{2}$/.test(data.last_updated)) {
-      errors.push(`${relPath}: last_updated "${data.last_updated}" is not YYYY-MM-DD`)
+    if (data.last_updated && !isCalendarDate(data.last_updated)) {
+      errors.push(`${relPath}: last_updated "${data.last_updated}" is not a real YYYY-MM-DD calendar date`)
     }
 
     const expectedCanonical = toCanonicalPath(relToDocs)
@@ -193,6 +204,25 @@ function main() {
     }
 
     const h1s = headings(body).filter((h) => h.level === 1)
+    const numbered = HANDBOOK_SECTIONS.includes(data.section) || Boolean(data.handbook_id || data.handbook_number)
+    if (numbered) {
+      if (!data.handbook_id || !/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/.test(data.handbook_id)) {
+        errors.push(`${relPath}: handbook_id must be a stable lowercase kebab-case string`)
+      }
+      if (!data.handbook_number || !HANDBOOK_NUMBER.test(data.handbook_number)) {
+        errors.push(`${relPath}: handbook_number must be a chapter, section, or appendix number`)
+      } else {
+        const prefix = `${data.handbook_number} `
+        if (!data.title?.startsWith(prefix) || h1s.length !== 1 || !h1s[0].text.startsWith(prefix)) {
+          errors.push(`${relPath}: title and H1 must start with handbook_number "${data.handbook_number}" followed by a space`)
+        }
+      }
+      for (const [key, owners] of [['handbook_id', handbookIds], ['handbook_number', handbookNumbers]]) {
+        if (!data[key]) continue
+        if (!owners.has(data[key])) owners.set(data[key], [])
+        owners.get(data[key]).push(relPath)
+      }
+    }
     if (h1s.length > 1) errors.push(`${relPath}: more than one H1 (${h1s.length})`)
     if (data.title && h1s.length >= 1 && data.title.trim() !== h1s[0].text.trim()) {
       errors.push(`${relPath}: frontmatter title "${data.title}" does not match the H1 "${h1s[0].text}"`)
@@ -200,6 +230,10 @@ function main() {
 
     checkLinks(errors, file, body, anchorCache)
 
+    if (numbered) {
+      if (!/^## Summary\s*$/m.test(body)) warnings.push(`${relPath}: no "## Summary" section`)
+      continue
+    }
     if (!/^::: ?related\b/m.test(body)) warnings.push(`${relPath}: no ::: related block`)
     if (!/^## In brief\s*$/m.test(body)) warnings.push(`${relPath}: no "## In brief" section`)
     const afterH1 = body.replace(/^[\s\S]*?^# .+$/m, '').trimStart()
@@ -211,6 +245,11 @@ function main() {
   for (const [canonical, owners] of canonicalOwners) {
     if (owners.length > 1) {
       errors.push(`Duplicate canonical "${canonical}" used by: ${owners.join(', ')}`)
+    }
+  }
+  for (const [key, values] of [['handbook_id', handbookIds], ['handbook_number', handbookNumbers]]) {
+    for (const [value, owners] of values) {
+      if (owners.length > 1) errors.push(`Duplicate ${key} "${value}" used by: ${owners.join(', ')}`)
     }
   }
 

@@ -86,6 +86,17 @@ export default withMermaid(defineConfig({
     siteTitle: 'Sapiens First',
 
     nav: [
+      {
+        text: 'Handbook pilot',
+        items: [
+          { text: '3.1 Expectations', link: '/staff/expectations' },
+          { text: '3.4 Department-specific guidance', link: '/staff/department-specific-guidance' },
+          { text: 'A.1.2 IC expectations', link: '/appendices/reference/ic-expectations' },
+          { text: 'A.1.3 DRI expectations', link: '/appendices/reference/dri-expectations' },
+          { text: 'A.1.4 Player-Coach expectations', link: '/appendices/reference/player-coach-expectations' },
+          { text: 'A.2.5 Tech team meeting agenda', link: '/appendices/reference/tech-team-meeting-agenda' }
+        ]
+      },
       { text: 'For Supporters', link: '/supporters/' },
       { text: 'For Members', link: '/members/' },
       { text: 'For Organizers', link: '/organizers/' },
@@ -96,6 +107,18 @@ export default withMermaid(defineConfig({
 
     // Audience paths; existing article URLs remain stable.
     sidebar: [
+      {
+        text: 'Numbered handbook pilot',
+        collapsed: false,
+        items: [
+          { text: '3.1 Expectations', link: '/staff/expectations' },
+          { text: '3.4 Department-specific guidance', link: '/staff/department-specific-guidance' },
+          { text: 'A.1.2 IC expectations', link: '/appendices/reference/ic-expectations' },
+          { text: 'A.1.3 DRI expectations', link: '/appendices/reference/dri-expectations' },
+          { text: 'A.1.4 Player-Coach expectations', link: '/appendices/reference/player-coach-expectations' },
+          { text: 'A.2.5 Tech team meeting agenda', link: '/appendices/reference/tech-team-meeting-agenda' }
+        ]
+      },
       {
         text: 'For Supporters',
         collapsed: false,

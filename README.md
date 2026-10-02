@@ -4,6 +4,12 @@ The shared handbook for members, organizers, Fellows, staff, and people curious 
 
 Built with [VitePress](https://vitepress.dev) for [GitHub Pages](https://sapiens-first.github.io/docs/). [Atlas](https://sapiensfirst.org/atlas) holds current governance, projects, priorities, and owners; the handbook explains the concepts and practices behind them.
 
+## Incremental handbook implementation
+
+The new structure follows [HANDBOOK-OUTLINE.md](HANDBOOK-OUTLINE.md). See [implementation progress](maintenance/implementation-progress.md), [decisions](maintenance/decisions.md), and [content map](maintenance/content-map.md). Existing pages remain available while numbered Staff and Appendix A pages are introduced. The `10-2 content additions/` directory supplies helpful role rubrics, tech notes, and source diagrams.
+
+Published diagrams use SVG under `docs/public/diagrams/`; [STYLE-GUIDE.md](STYLE-GUIDE.md#diagrams-and-visuals) defines the standard. Run `npm run diagrams:check` for asset checks; `npm run docs:check` includes them.
+
 ## Repository layout
 
 ```text
@@ -26,6 +32,8 @@ CONTRIBUTING.md           Writing conventions and maintenance guidance
 The two original root-level filenames now point to the consolidated handbook. Their complete contents are preserved in the archive, including embedded images and dated material. See [the content map](archive/README.md) for where material moved and what still needs clarification.
 
 ## Local development
+
+Use Node.js and Python 3 (for SVG validation).
 
 ```sh
 npm ci
