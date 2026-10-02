@@ -13,38 +13,20 @@ canonical: /introduction/getting-involved
 
 ## Summary
 
-Sapiens First has a role for anyone, whatever time you have to give: stay informed, join an event, bring people together, or take responsibility for ongoing work. Start with a commitment you can keep, find the people already working on what you care about, and tell them if your availability changes. This page brings together the former supporter, member, first-steps, Fellowship, and organizer introductions; roles, membership terms, and the Fellowship's status remain subject to organizational confirmation.
+Sapiens First has a role for anyone, whatever time you have to give: stay informed, join an event, bring people together, or take responsibility for ongoing work. Start with a commitment you can keep, find the people already working on what you care about, and tell them if your availability changes.
 
 <!-- Source provenance: docs/guide/getting-started.md (adopted, 2026-09-28); docs/guide/fellowship.md (adopted, 2026-09-27); docs/members/index.md, docs/supporters/index.md, docs/organizers/index.md, fellows.md, stewards.md, leads.md (reference, 2026-09-29); maintenance/HANDBOOK-OUTLINE.md, 0.3. Source wording retained with light edits for flow and links; reading paths now point to the numbered handbook. -->
 
 ## 0.3.1 First steps and finding a useful contribution {#first-steps}
 
-**Why people get involved.**
-
-> AI should serve the common good. Sapiens First brings people together to fight for democracy, prosperity, and security in the age of AI.
-
-AI raises questions that reach into ordinary life: how we earn a living, who makes decisions about us, and how we keep our communities safe. Sapiens First is organizing around three concerns:
-
-- **Our livelihoods.** AI's benefits could concentrate among a wealthy few instead of improving life for everyone.
-- **Our freedom.** AI could give governments and companies greater power to surveil people and concentrate control.
-- **Our safety.** Misuse of powerful AI, or losing control of it, could cause serious harm.
-
-We call this the **AI Crisis**. We believe these choices are too important to leave only to the people building and owning the technology. Our response is to organize while the future is still open to being shaped. You don't need technical expertise to care about the outcome. Read [1.1 Story](../dna/story.md) for the fuller account.
-
-**What we are trying to do.** Sapiens First is a movement for **democratic renewal, common prosperity, and a secure future**. We want technology that uplifts all people. We bring people together, help them learn to organize, and turn shared concerns into peaceful collective action.
-
-Concern alone does not change who has power. Sapiens First brings people into lasting relationships, invites them to participate, and helps them develop the skills to organize others. That growing community can act together for political change. You don't have to become an organizer to be part of that. Staying informed, talking with people you know, and showing up all help build public participation.
-
-Our cycle is **act, recruit, train**: activities bring people in, conversations invite a next step, and training helps more people lead the next activity. Read [1.2 Strategy](../dna/strategy.md) for the fuller theory of change and the assumptions behind it.
-
-Our core values are **Peace, Wisdom, Deliberation, Respect, and Agency**. We act peacefully, care for ourselves and others, consider different tactics, treat people with respect, and take initiative. Read [1.3 Culture](../dna/culture.md) for what this means in practice, including the boundaries for anyone acting in Sapiens First's name.
+**Why people get involved.** AI raises questions that reach into ordinary life: how we earn a living, who makes decisions about us, and how we keep our communities safe. We call this the **AI Crisis**, and we believe these choices are too important to leave only to the people building and owning the technology. You don't need technical expertise to care about the outcome, and you don't have to become an organizer to be part of the response: staying informed, talking with people you know, and showing up all help. The first step below points to the full account.
 
 **Your first steps.**
 
-1. **Get to know the movement.** Read our [story](../dna/story.md), [strategy](../dna/strategy.md) and [culture and values](../dna/culture.md).
+1. **Get to know the movement.** Read our [story](../dna/story.md) (the AI Crisis and the future we want), [strategy](../dna/strategy.md) (how we seek change) and [culture](../dna/culture.md) (our values and red lines).
 2. **Join us.** Use the [Sapiens First website](https://sapiensfirst.org) to find current ways to join and upcoming events. Explore the [campaigns](https://sapiensfirst.org/campaigns) and choose an activity you can support.
 3. **Meet other people.** Introduce yourself in the community space you're invited to. Share where you're based, what you care about, and how you'd like to contribute.
-4. **Choose a next step.** Attend a gathering (often something simple, like a picnic or a town hall discussion, with room to get to know people; see [1.2.2 Act](../dna/strategy.md#act)), help with an activity, invite someone you know to get involved, explore the Fellowship ([0.3.2](#volunteer-and-fellowship-pathways)), or talk to a [role holder](../appendices/glossary.md#role-holder) about work listed in [Atlas](https://sapiensfirst.org/atlas).
+4. **Choose a next step.** Attend a gathering (often something simple, like a picnic or a town hall discussion, with room to get to know people; see [A.2.6 Running gatherings](../appendices/reference/field-guides/gatherings.md)), help with an activity, invite someone you know to get involved, explore the Fellowship ([0.3.2](#volunteer-and-fellowship-pathways)), or talk to a [role holder](../appendices/glossary.md#role-holder) about work listed in [Atlas](https://sapiensfirst.org/atlas).
 
 Start with a commitment you can keep. Let people know if your availability changes.
 
@@ -59,7 +41,7 @@ Start with a commitment you can keep. Let people know if your availability chang
 Fellows should also follow the Fellowship pathway in [0.3.2](#volunteer-and-fellowship-pathways).
 :::
 
-**Ways to take part.** If you want to take ongoing responsibility for organizing, continue to [0.3.4 Where to start as an organizer](#where-to-start-as-an-organizer). [1.4.4 Participation, responsibility, and employment](../dna/structure.md#participation-responsibility-employment) explains the different levels of involvement: supporter, member, and organizer.
+**Ways to take part.** If you want to take ongoing responsibility for organizing, continue to [0.3.4 Where to start as an organizer](#where-to-start-as-an-organizer). [1.4.4 Participation, responsibility, and employment](../dna/structure.md#participation-responsibility-employment) explains the ways to participate: supporter, member, and organizer.
 
 ## 0.3.2 Volunteer and Fellowship pathways {#volunteer-and-fellowship-pathways}
 
@@ -67,15 +49,9 @@ Fellows should also follow the Fellowship pathway in [0.3.2](#volunteer-and-fell
 
 The Fellowship is a structured way to contribute to Sapiens First. Each Fellow takes responsibility for a project that helps the movement, with support from people working on related priorities. You'll build skills in strategic analysis, planning, and leadership. You'll meet people working on AI and politics, help create something others can use, and have fun along the way. Every Fellow accepts the [Fellowship agreement](../appendices/reference/fellowship-agreement.md) before starting.
 
-::: clarify
-- Does the Fellowship remain a distinct program in the new structure?
-- Are the 5-10 hours a week, weekly 1-1 and biweekly update still current?
-- Where should the Fellowship agreement and the volunteer/employment distinction be linked once Appendix A.1.6 exists?
-:::
-
 **What to expect.** Fellows aim to contribute **5–10 hours a week** during their program. The Fellowship is a volunteer program, not employment. Let your contact know if your availability changes.
 
-The existing Fellowship practice includes:
+Fellowship practice includes:
 
 - Discord for communication and coordination.
 - A standing weekly 1–1 with Rohan.
@@ -99,7 +75,7 @@ Atlas holds current Fellowship assignments and support contacts. This page expla
 | Test and improve | Learn from users, colleagues, or other relevant evidence | A better result and clearer understanding of what works |
 | Finish and hand off | Check success criteria, organize the work, and explain what comes next | Work another person can use or continue |
 
-Projects differ. Research, organizing, and software projects won't follow an identical calendar. Use your cohort schedule and agreed plan for actual dates.
+Projects differ. Research, organizing, and software projects won't follow an identical calendar. Use your cohort schedule and agreed plan for actual dates. Each stage is explained in [2.2.6 Project execution and handoffs](../leadership/strategic-planning.md#project-execution-and-handoffs).
 
 ::: roles Preparing for your first project conversation
 
@@ -112,12 +88,7 @@ If you're unsure how the project helps the mission, ask. Understanding the purpo
 
 **After the Fellowship.** You might continue as a Fellow, take on a coordination or leadership role, or use what you learned elsewhere. Discuss the next step with your contact and arrange a handoff if you're leaving a project.
 
-Atlas describes Stewards as a possible next engagement level after three months and graduation. A role with “Steward” in its title is separate from that engagement level. Confirm the current progression process with the Fellowship contact.
-
-::: clarify
-- How does the Atlas "Steward" engagement level map onto the Individual Contributor, DRI and Player-Coach role types?
-- Who confirms the current progression process after the Fellowship?
-:::
+Atlas describes a further engagement level for Fellows after three months and graduation; see [1.4.4](../dna/structure.md#participation-responsibility-employment) for how organizer role types fit together. Confirm the current progression process with your Fellowship contact.
 
 ## 0.3.3 Finding current people, projects, and contacts {#finding-current-people-and-projects}
 
@@ -139,15 +110,9 @@ Keep project decisions and useful work somewhere others can find them, and link 
 
 > Organizers turn shared concerns into collective action, with clear responsibilities and support from one another.
 
-An **organizer** is anyone taking ongoing responsibility for organizing. These lists replace the former separate series for Fellows, Stewards, and Leads. Read the earlier material when you need the foundation; you can also jump to the article that answers today's question. These reading paths organize the material, rather than defining new permissions or graduation requirements. Current assignments and decision rights are recorded in Atlas.
+An **organizer** is anyone taking ongoing responsibility for organizing. The lists below suggest a reading order: work through the earlier material when you need the foundation, or jump to the article that answers today's question. They don't define permissions or graduation requirements; current assignments and decision rights are recorded in Atlas.
 
-The older reading series used the titles Fellow, Steward, and Lead. Those terms are legacy: Fellows correspond to Individual Contributors, Stewards to domain owners (Directly Responsible Individuals), and Leads to Player-Coaches. See [1.4.4 Participation, responsibility, and employment](../dna/structure.md#participation-responsibility-employment) and [3.1 Expectations](../staff/expectations.md).
-
-::: clarify
-- The old Lead series stated that "staff are Leads" and that staff belong in the Lead reading path; this conflicts with the IC/DRI/Player-Coach model. How should staff be described here?
-- Which further articles on advanced Holacracy and distributed authority should be added from the organizer notebook? This space does not establish additional governance rules.
-- Should reading paths remain as lists, or move to each chapter's landing page?
-:::
+Organizers hold one or more role types: Individual Contributor, Directly Responsible Individual, and Player-Coach. See [1.4.4 Participation, responsibility, and employment](../dna/structure.md#participation-responsibility-employment) and [3.1 Expectations](../staff/expectations.md).
 
 **Understand the vision and strategy.**
 
@@ -167,14 +132,14 @@ The older reading series used the titles Fellow, Steward, and Lead. Those terms 
 
 9. [Weekly planning and project execution](../leadership/strategic-planning.md#project-execution-and-handoffs)
 10. [2.4 Facilitation: meetings and updates](../leadership/facilitation.md)
-11. [Overview of field guides](../appendices/index.md#templates-agendas-and-guides)
+11. [Field guides overview](../appendices/index.md#templates-agendas-and-guides)
 12. [The Organizer Conversation](../leadership/people.md#organizer-conversation)
 13. [Gatherings](../appendices/reference/field-guides/gatherings.md)
 14. [Peaceful actions](../appendices/reference/field-guides/actions.md)
 15. [Templates](../appendices/reference/planning-templates.md)
 16. [Glossary](../appendices/glossary.md)
 
-**Govern and share authority.** Revisit [1.4.2 Roles, circles, accountabilities, and decision rights](../dna/structure.md#roles-circles-decision-rights), then study [1.4.3 Governance and changing the structure](../dna/structure.md#governance-and-change). These explain the existing approach to distributed authority.
+**Govern and share authority.** Revisit [1.4.2 Roles, circles, accountabilities, and decision rights](../dna/structure.md#roles-circles-decision-rights), then study [1.4.3 Governance and changing the structure](../dna/structure.md#governance-and-change). These explain how we share authority today.
 
 **Support a circle.**
 

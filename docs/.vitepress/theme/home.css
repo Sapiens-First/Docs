@@ -1,0 +1,242 @@
+/* ─── Home page chapter map (theme/components/ChapterMap.vue) ──────────────
+   A printed-book table of contents in the site's paper-and-ink brand: each
+   chapter is a row with a boxed number, its short label set big in Barlow
+   Condensed, a one-line description, and its pages in an aligned number
+   column. Fine ink rules separate chapters; appendices sit below, quieter.
+──────────────────────────────────────────────────────────────────────────── */
+
+.sf-map {
+  --sf-map-num: 3.25rem;      /* chapter number box */
+  --sf-map-row-num: 2.6rem;   /* page number column: 2.1, A.2, III.4 */
+  --sf-map-gap: 1.25rem;
+  --sf-map-mark: rgba(255, 214, 10, 0.75);
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 8px 24px 0;
+  font-variant-numeric: tabular-nums;
+}
+.dark .sf-map { --sf-map-mark: rgba(255, 214, 10, 0.28); }
+@media (min-width: 640px) { .sf-map { padding: 16px 48px 0; } }
+@media (min-width: 960px) { .sf-map { padding: 24px 64px 0; } }
+
+.sf-map ol, .sf-map ul { list-style: none; margin: 0; padding: 0; }
+.sf-map a { color: inherit; text-decoration: none; }
+.sf-map a:focus-visible,
+.sf-map summary:focus-visible {
+  outline: 2px solid var(--sf-ink);
+  outline-offset: 3px;
+}
+
+.sf-map__title {
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--vp-c-text-2);
+}
+
+/* ── main chapters ── */
+.sf-map__chapters { border-top: var(--sf-border); }
+.sf-chapter {
+  display: grid;
+  gap: 14px var(--sf-map-gap);
+  padding: 22px 0 24px;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+.sf-chapter:last-child { border-bottom: var(--sf-border); }
+@media (min-width: 768px) {
+  .sf-chapter {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    align-items: start;
+    padding: 28px 0 30px;
+  }
+}
+
+.sf-chapter__head {
+  display: grid;
+  grid-template-columns: var(--sf-map-num) minmax(0, 1fr);
+  gap: var(--sf-map-gap);
+  align-items: start;
+}
+.sf-chapter__num {
+  display: grid;
+  place-items: center;
+  width: var(--sf-map-num);
+  height: var(--sf-map-num);
+  border: var(--sf-border);
+  background: var(--vp-c-bg);
+  box-shadow: 3px 3px 0 var(--sf-shadow);
+  font-family: var(--sf-font-display);
+  font-size: 1.9rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--vp-c-text-1);
+  transition: background-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+.sf-chapter:first-child .sf-chapter__num { background: var(--sf-yellow); color: #111111; }
+.sf-chapter__text { display: flex; flex-direction: column; min-width: 0; }
+.sf-chapter__eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--vp-c-text-3);
+}
+.sf-chapter__label {
+  align-self: flex-start;
+  margin-top: 2px;
+  font-family: var(--sf-font-display);
+  font-size: clamp(2.1rem, 5vw, 2.75rem);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.005em;
+  text-transform: uppercase;
+  color: var(--vp-c-text-1);
+  background-image: linear-gradient(var(--sf-coral), var(--sf-coral));
+  background-repeat: no-repeat;
+  background-position: 0 92%;
+  background-size: 0 0.14em;
+  transition: background-size 0.2s ease;
+}
+.sf-chapter__blurb {
+  margin-top: 8px;
+  max-width: 40ch;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--vp-c-text-2);
+}
+.sf-chapter__head:hover .sf-chapter__num,
+.sf-chapter__head:focus-visible .sf-chapter__num {
+  background: var(--sf-yellow);
+  color: #111111;
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0 var(--sf-shadow);
+}
+.sf-chapter__head:hover .sf-chapter__label,
+.sf-chapter__head:focus-visible .sf-chapter__label { background-size: 100% 0.14em; }
+
+/* pages: hang under the label on small screens, own column on wide ones */
+.sf-chapter__pages { padding-left: calc(var(--sf-map-num) + var(--sf-map-gap)) !important; }
+@media (min-width: 768px) {
+  .sf-chapter__pages { padding: 4px 0 0 !important; }
+}
+
+/* ── shared TOC row: number column + hang-indented title ── */
+.sf-toc-row {
+  display: grid;
+  grid-template-columns: var(--sf-map-row-num) minmax(0, 1fr);
+  align-items: baseline;
+  padding: 5px 0;
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--vp-c-text-1);
+}
+.sf-toc-row + .sf-toc-row,
+li + li > .sf-toc-row { border-top: 1px dotted var(--vp-c-divider); }
+.sf-toc-row__num {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--vp-c-text-3);
+  white-space: nowrap;
+}
+.sf-toc-row__title { min-width: 0; }
+a.sf-toc-row .sf-toc-row__title {
+  background-image: linear-gradient(transparent 58%, var(--sf-map-mark) 58%, var(--sf-map-mark) 92%, transparent 92%);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.2s ease;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  justify-self: start;
+}
+a.sf-toc-row:hover .sf-toc-row__title,
+a.sf-toc-row:focus-visible .sf-toc-row__title { background-size: 100% 100%; }
+a.sf-toc-row:hover .sf-toc-row__num { color: var(--vp-c-text-1); }
+
+/* ── appendices: a labelled divider, then quieter compact entries ── */
+.sf-map__appendices { margin-top: 40px; }
+.sf-map__divider {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0 0 4px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--vp-c-text-2);
+}
+.sf-map__divider::after { content: ''; flex: 1; border-top: 1px solid var(--vp-c-divider); }
+
+.sf-appendix-list { display: grid; }
+@media (min-width: 768px) {
+  .sf-appendix-list { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 48px; }
+}
+.sf-appendix {
+  padding: 16px 0 14px;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+.sf-appendix__head {
+  display: grid;
+  grid-template-columns: var(--sf-map-row-num) minmax(0, 1fr);
+  align-items: baseline;
+}
+.sf-appendix__num {
+  font-family: var(--sf-font-display);
+  font-size: 1.35rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--vp-c-text-3);
+}
+.sf-appendix__text { display: flex; flex-direction: column; min-width: 0; }
+.sf-appendix__label {
+  align-self: flex-start;
+  font-family: var(--sf-font-display);
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.05;
+  text-transform: uppercase;
+  color: var(--vp-c-text-1);
+  text-decoration: underline 2px transparent;
+  text-underline-offset: 4px;
+  transition: text-decoration-color 0.15s ease;
+}
+.sf-appendix__blurb { margin-top: 3px; font-size: 14.5px; line-height: 1.45; color: var(--vp-c-text-2); }
+.sf-appendix__head:hover .sf-appendix__label,
+.sf-appendix__head:focus-visible .sf-appendix__label { text-decoration-color: var(--sf-coral); }
+.sf-appendix__head:hover .sf-appendix__num { color: var(--vp-c-text-1); }
+
+/* collapsible sub-groups and page lists, indented under the label */
+.sf-appendix__groups { margin: 8px 0 0 var(--sf-map-row-num); }
+.sf-fold > summary {
+  cursor: pointer;
+  list-style: none;
+  font-size: 14.5px;
+  font-weight: 600;
+  padding: 4px 0;
+}
+.sf-fold > summary::-webkit-details-marker { display: none; }
+.sf-fold > summary .sf-toc-row__title::after {
+  content: '';
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  margin: 0 0 0.15em 0.55em;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform 0.15s ease;
+  opacity: 0.6;
+}
+.sf-fold[open] > summary .sf-toc-row__title::after { transform: rotate(45deg); }
+.sf-fold > summary:hover .sf-toc-row__title { text-decoration: underline 2px var(--sf-coral); text-underline-offset: 3px; }
+.sf-fold + .sf-fold > summary { border-top: 1px dotted var(--vp-c-divider); }
+.sf-fold__pages { padding: 0 0 6px var(--sf-map-row-num) !important; }
+.sf-fold__pages .sf-toc-row { grid-template-columns: 2rem minmax(0, 1fr); font-size: 14.5px; padding: 3px 0; }
+.sf-fold__pages .sf-toc-row__num { font-size: 12.5px; }
+/* a fold with no group number (Further reading, Citations) */
+.sf-fold > summary .sf-toc-row__num:empty { display: none; }
+.sf-fold > summary:has(.sf-toc-row__num:empty) { grid-template-columns: minmax(0, 1fr); }
+.sf-fold:has(> summary .sf-toc-row__num:empty) > .sf-fold__pages { padding-left: 0 !important; }
+.sf-fold:has(> summary .sf-toc-row__num:empty) > .sf-fold__pages .sf-toc-row { grid-template-columns: var(--sf-map-row-num) minmax(0, 1fr); }

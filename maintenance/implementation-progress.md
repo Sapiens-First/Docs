@@ -119,3 +119,23 @@ User: no sub-sub-sections; at most three number levels (2.1.1); prefer paragraph
 Verification: 62 numbered pages, max number depth 3, no 4-level numbers in headings or prose; `docs:check` 63 pages 0 errors/warnings; 19/19 tests; production build passes with redirect stubs. Browser check not run.
 
 Remaining roadmap: user's full review of Under construction items; glossary generation and citation records (B/C/D); possible further merges (1.2.2–1.2.4 Act/Recruit/Train are short separate H2s; 1.4.6 is long); terminology sweep of body prose.
+
+## 2026-10-02: Navigation, readability, and publishability pass
+
+Done:
+
+- **Chapter navigation replaces role-based routing.** The supporter, member, and organizer entry points are gone. The navbar reads Start here · DNA · Lead · Staff · More. The home page is a contents map built from `toc.json` by `ChapterMap.vue`. Labels live in `CHAPTER_LABELS` and `SHORT_TITLES` in `scripts/handbook-toc.mjs`.
+- **Sidebar.** Chapter headers are bold "N. Title" links, with no duplicated index item. Numbers sit in an aligned column. A separate "Appendices" block holds A–D, and Appendix A is grouped into A.1–A.4.
+- **Readability.** Table type and mobile scrolling, heading rhythm, list spacing, the mobile eyebrow, and the "On this page" outline are fixed. The noisy "Draft" badge is removed.
+- **Under construction.** Frontmatter `status: under-construction` plus `construction_note` renders a banner at the top of the page through `PageMeta.vue`. The validator accepts the status.
+- **Content cleanup.** All 97 visible `::: clarify` editor notes and other meta sentences are removed from pages and preserved in `maintenance/open-questions.md`. Duplicated definitions are condensed. Incomplete pages are flagged as under construction.
+- **A.2.5 Tech team meeting agenda** is rewritten from `10-2 content additions/Tech Team Notes(1).md`. It covers the full two-week cycle: Sprint Planning, Governance, 1:1, Sprint Check, All-Hands, and Demo Day, and is cross-linked with A.2.3, A.2.4, 2.4, and 3.4.
+
+Next:
+
+1. **Merge the Introduction into one page.** Fold 0.1 Welcome and 0.3 Getting involved into `/introduction/` and retire 0.2 How the handbook works. Update `toc.json`, add redirects for the retired routes, and repoint inbound links. Known inbound links: the glossary, fellowship-agreement, dna/story, dna/structure, changelog, and 10 entries in `redirects.json`. The anchors include `#find-anything`, `#where-to-start-as-an-organizer`, `#volunteer-and-fellowship-pathways`, `#finding-current-people-and-projects`, and `#where-authoritative-information-lives`.
+2. **Renumber appendices with Roman numerals.** A→I, B→II, C→III, D→IV across `toc.json`, headings, `handbook_number`, and in-text references. Widen `HANDBOOK_NUMBER` in `scripts/validate-docs.mjs`. The nav, sidebar, and home code already derive numbers from `toc.json`.
+3. **Remaining de-duplication.** Repeated Atlas source callouts, the 0.3.2 first-weeks table, "source guide" phrasing in A.2.6–A.2.9, adoption caveats on A.1.2–A.1.4, and repeated "Unverified" lines in citations.
+4. **Changelog and version.** Add a changelog entry and bump the version for this pass.
+5. **Visual check.** Inspect the under-construction banner and the restyled tables in a browser at 390px and 1440px, in light and dark modes. The banner has been checked only as far as building successfully.
+6. **Decisions needed.** Whether the tech sprint cycle (A.2.5) is adopted. Whether the Fellow rubric and attendance rule from the tech notes become policy.

@@ -2,7 +2,8 @@
 title: "C.3 Staff sources"
 description: "Sources behind the Staff chapter."
 section: Citations
-status: draft
+status: under-construction
+construction_note: "Several Staff sources are missing and the listed ones have not been checked against specific passages."
 last_updated: 2026-10-02
 handbook_id: citations-staff-sources
 handbook_number: "C.3"
@@ -21,10 +22,6 @@ Sources behind the Staff chapter.
 
 - Peter Drucker, *The Effective Executive*: named in the outline as the source to check for the proactive-hiring claim in [3.0](../staff/beliefs-about-staff.md). Unverified: bibliographic details, relevant passages, and the claims it supports have not been checked.
 
-::: clarify
-- Which passage supports proactive hiring?
-:::
-
 ## C.3.1 Expectations (3.1) {#expectations}
 
 Named in the October 2 performance notes ("Main references") and cited from [3.1](../staff/expectations.md). Unverified: bibliographic details, relevant passages, and the claims it supports have not been checked.
@@ -34,31 +31,16 @@ Named in the October 2 performance notes ("Main references") and cited from [3.1
 - Andy Grove, *High Output Management*: managerial effectiveness should be understood through the output and capability of the organization a manager influences, rather than the manager's personal activity.
 - Holacracy, Organizational Structure: roles belong to the work rather than permanently to individual people; one individual can fill multiple roles, each with a purpose, accountabilities, and potentially domains and authorities.
 
-::: clarify
-- What exact Amazon performance-management sources, if any, are used, and what did they inform?
-:::
-
 ## C.3.2 Compensation (3.2) {#compensation}
 
-::: clarify
-- Which benchmark sources underlie [3.2](../staff/compensation.md)?
-- What is the provenance of the compensation policy?
-:::
+Nothing is listed here yet.
 
 ## C.3.3 Development (3.3) {#development}
 
 - [Netflix Culture Memo](https://jobs.netflix.com/culture): referenced in [3.3.5](../staff/professional-development.md#netflix-and-keeper-test) as an example of a high-autonomy culture. Unverified: bibliographic details, relevant passages, and the claims it supports have not been checked.
 
-::: clarify
-- Which exact version of the Netflix Culture Code or memo, and which passages on the keeper test, apply?
-- What is the source of the mastery, autonomy, and purpose framing, if one is intended?
-:::
-
 ## C.3.4 Department guidance (3.4) {#department-guidance}
 
-::: clarify
-- Which tech primer and meeting-format influences apply to [3.4](../staff/department-specific-guidance.md)?
-:::
-
+Nothing is listed here yet.
 
 Back to [C Citations](index.md).

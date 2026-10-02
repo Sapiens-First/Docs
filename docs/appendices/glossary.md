@@ -17,12 +17,6 @@ This page defines the words the handbook uses, in alphabetical order, each linki
 
 <!-- Source provenance: docs/guide/glossary.md (reference, 2026-09-29), definitions retained verbatim with links updated to the numbered handbook; Organizer, Individual Contributor, Directly Responsible Individual, and Player-Coach entries added 2026-10-02 from docs/organizers/index.md and docs/staff/expectations.md. -->
 
-::: clarify
-- Appendix D is meant to be generated automatically from term records; generation is pending, so this page is still hand-maintained.
-- Where should each canonical definition live (recommended: alongside the section that explains it), and which terms need aliases?
-- Should the legacy terms Fellow, Steward, Lead, and Staff be retired once the role-type model is adopted?
-:::
-
 ::: source
 Atlas holds current roles, role holders, circles, projects, and priorities. This page defines the words the handbook uses for them.
 :::
@@ -55,7 +49,7 @@ What a role or project owner can **decide** alone, where they should **consult**
 
 ### Domain
 
-An area of related work that Atlas groups roles and projects under, alongside its views for roles and people. See [First steps for new members](../introduction/getting-involved.md#finding-current-people-and-projects).
+An area of related work that Atlas groups roles and projects under, alongside its views for roles and people. See [Finding current people, projects, and contacts](../introduction/getting-involved.md#finding-current-people-and-projects).
 
 ### Directly Responsible Individual (DRI)
 
@@ -135,11 +129,11 @@ What a project includes and excludes, with its objective, success criteria, cons
 
 ### Staff
 
-**Legacy wording.** A Lead working in an assigned staff capacity, with expectations set by the relevant role and their employment arrangement. See [Ways to participate](../dna/structure.md#participation-responsibility-employment).
+People paid to work for Sapiens First. Staff status is separate from participation level, governance role, and performance role. See [3.0.4 What counts as staff?](../staff/beliefs-about-staff.md#what-counts-as-staff)
 
 ### Lead
 
-**Legacy term**; the closest role type is the [Player-Coach](#player-coach-pc). An organizer taking on leadership responsibilities. Staff are Leads. See [Compensation](../staff/compensation.md).
+**Legacy term**; the closest role type is the [Player-Coach](#player-coach-pc). An organizer taking on leadership responsibilities. See [Organizers and role types](../dna/structure.md#participation-responsibility-employment).
 
 ### Steward
 
@@ -161,7 +155,7 @@ A possible future practice that hasn't been adopted, shown in a box with a dashe
 
 ### Under construction
 
-A decision we still need to make, shown in a box with a blue **Under construction** label that explains what to do in the meantime.
+A page that is still being written, shown with a banner at the top that says what is missing.
 
 ### For role holders
 

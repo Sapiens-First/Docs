@@ -38,11 +38,6 @@ You don't need to read everything first. Give an LLM the title, link, or text an
 
 These resources offer perspectives to discuss and evaluate. Including a resource doesn't mean adopting every claim or tactic in it.
 
-::: clarify
-- Should one resource record appear in several sections, with stable IDs, tags, and explicit section associations, as the outline proposes?
-- What counts as "recommended" versus "cited only" (Appendix C)?
-:::
-
 ::: related
 - [Training organizers](../appendices/reference/field-guides/training.md) — Help people learn through practice.
 - [Metrics](../leadership/strategic-planning.md) — Why we measure, and how to define a useful metric.

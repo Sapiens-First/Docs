@@ -2,7 +2,8 @@
 title: "B.3 Historical movements"
 description: "Histories and case studies of past movements."
 section: Further Reading
-status: draft
+status: under-construction
+construction_note: "No movement histories or case studies have been selected yet."
 last_updated: 2026-10-02
 handbook_id: further-reading-historical-movements
 handbook_number: "B.3"
@@ -19,16 +20,8 @@ Histories and case studies of past movements.
 
 ## B.3.1 Movement histories and case studies {#movement-histories-and-case-studies}
 
-::: clarify
-- Which movement histories are preferred?
-- What selection criteria apply?
-:::
+Nothing is listed here yet.
 
 ## B.3.2 Lessons and limits of comparison {#lessons-and-limits-of-comparison}
-
-::: clarify
-- Proposed: what context should accompany historical examples applied today?
-:::
-
 
 Back to [B Further Reading](index.md).

@@ -208,7 +208,7 @@ Group by **type of thing**. Each policy, template, prompt, guide, or asset has o
 - **A.2.2 Outreach templates and Organizer Conversation aids.** [PARTLY EXISTING] Conversation guide exists; [MISSING: approved outreach copy and templates.]
 - **A.2.3 Tactical meeting agenda.** [MISSING]
 - **A.2.4 Governance meeting agenda.** [MISSING]
-- **A.2.5 Tech team meeting agenda.** [DRAFT IMPLEMENTED] `docs/appendices/reference/tech-team-meeting-agenda.md` is an editorial proposal; no existing agenda was supplied. Adoption, ownership, participants, and cadence remain unresolved.
+- **A.2.5 Tech team meeting agenda.** [DRAFT IMPLEMENTED] `docs/appendices/reference/tech-team-meeting-agenda.md` holds the tech team's two-week sprint cycle (six meetings) from `10-2 content additions/Tech Team Notes(1).md`. Participants and record location remain unconfirmed.
 - **A.2.6–A.2.10 Organizing field guides.** [MIGRATED] One page each: A.2.6 Gatherings, A.2.7 Peaceful actions, A.2.8 Starting a local circle, A.2.9 Training, A.2.10 Organizing conversations.
 
 ### A.3 LLM prompts

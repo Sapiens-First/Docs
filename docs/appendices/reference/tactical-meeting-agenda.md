@@ -1,8 +1,9 @@
 ---
 title: "A.2.3 Tactical meeting agenda"
-description: "Placeholder for the canonical tactical meeting agenda."
+description: "The reusable agenda for a circle's regular tactical meeting, with the tech team's version as a working example."
 section: Reference materials
-status: draft
+status: under-construction
+construction_note: "The general tactical meeting format, agenda, cadence and record location have not been agreed; only the tech team's variant (A.2.5) exists so far."
 last_updated: 2026-10-02
 handbook_id: tactical-meeting-agenda
 handbook_number: "A.2.3"
@@ -13,15 +14,15 @@ canonical: /appendices/reference/tactical-meeting-agenda
 
 ## Summary
 
-This page will hold the reusable tactical meeting agenda. [2.4 Facilitation](../../leadership/facilitation.md) explains when to use it.
+This page will hold the reusable tactical meeting agenda: a regular meeting where a circle coordinates its current work. [2.4.2 Tactical meetings](../../leadership/facilitation.md#tactical-meetings) explains what tactical meetings are for. Until a general format is agreed, the tech team's version is a working example.
 
 <!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, A.2.3. Placeholder created during the structure migration; no source content was supplied. -->
 
-## What is needed {#what-is-needed}
+## What this page will cover {#what-is-needed}
 
-::: clarify
-- Is the Holacracy tactical meeting format adopted, or a Sapiens First adaptation?
-- What is the agenda, in order, with timings?
-- Which meetings use it, who facilitates, and what is the cadence?
-- Where are outputs recorded?
-:::
+- Whether we use the Holacracy tactical format as published or adapt it.
+- The agenda, in order, with timings.
+- Which circles hold one, who facilitates, and how often.
+- Where outputs are recorded.
+
+**A working example.** The tech team runs two tactical meetings in each two-week sprint: [sprint planning](tech-team-meeting-agenda.md#tactical-sprint-planning) and a [sprint check](tech-team-meeting-agenda.md#sprint-check). See [A.2.5 Tech team meeting agenda](tech-team-meeting-agenda.md).

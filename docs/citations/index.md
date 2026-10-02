@@ -26,8 +26,3 @@ Sources that informed the handbook, whether or not we recommend reading them. En
 ## Citation status {#citation-status}
 
 All entries are **unverified**. They are named influences from supplied notes, not verified support for particular claims. Entry links to precise claims or passages are still needed.
-
-::: clarify
-- What citation format should entries follow?
-- Who verifies passages, and by when?
-:::

@@ -70,3 +70,149 @@ export function getHandbookSections(entries = toc) {
   }
   return [...groups].map(([text, items]) => ({ text, items: getHandbookItems(items) }))
 }
+
+/**
+ * Reader-facing chapter labels, keyed by TOC `section`. The single source for
+ * the short names used in the navbar, sidebar group headings and home page
+ * chapter map ("Start here" → 0 Introduction, "Lead" → 2 Leadership, …).
+ */
+export const CHAPTER_LABELS = {
+  Introduction: { label: 'Start here', blurb: 'Who we are, how this handbook works, and how to take a first step.' },
+  DNA: { label: 'DNA', blurb: 'Our story, theory of change, values, and how we are organized.' },
+  Leadership: { label: 'Lead', blurb: 'Leading well in any role: culture, planning, people, and facilitation.' },
+  Staff: { label: 'Staff', blurb: 'Why we have staff, what we expect, and how we pay and develop people.' },
+  Supplemental: { label: 'Supplemental', blurb: 'Practical topics beyond the core chapters, from fundraising to media.' },
+  'Reference materials': {
+    label: 'Reference',
+    blurb: 'Policies, rubrics, templates, field guides, prompts, and style guides.',
+    // Sub-group headings for three-part page numbers, keyed by their middle
+    // part (x.1.1 … → 1), matching the headings and anchors on
+    // docs/appendices/index.md. Keyed this way so they survive renumbering.
+    groups: {
+      1: { title: 'Policies and rubrics', anchor: 'policies-and-rubrics' },
+      2: { title: 'Templates, agendas, and guides', anchor: 'templates-agendas-and-guides' },
+      3: { title: 'Prompts', anchor: 'prompts' },
+      4: { title: 'Style guides', anchor: 'style-guides' },
+    },
+  },
+  'Further Reading': { label: 'Further reading', blurb: 'Books and resources to go deeper.' },
+  Citations: { label: 'Citations', blurb: 'Sources behind each chapter.' },
+  Glossary: { label: 'Glossary', blurb: 'Terms used across the handbook.' },
+}
+
+/**
+ * Navigation-only short titles, keyed by TOC `id`, for page titles too long to
+ * sit on one line in the sidebar and chapter map. Page titles are unchanged.
+ */
+export const SHORT_TITLES = {
+  'values-standards': 'Values, red lines & reporting',
+  'fellowship-agreement': 'Fellowship agreement',
+  'outreach-templates': 'Outreach templates',
+  'field-guides-organizing-conversations': 'Organizing conversations',
+  'further-reading-leadership-planning-development': 'Leadership & development',
+}
+
+const escapeHtml = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
+
+const linkFor = entry => getHandbookItems([entry])[0].link
+
+/** Split "2.1 Culture in leadership" into its number and (navigation) title. */
+function splitTitle(entry) {
+  return { number: entry.number, title: SHORT_TITLES[entry.id] ?? entry.title.slice(entry.number.length).trim() }
+}
+
+/** "A.2" for "A.2.10" (any prefix); undefined for two-part numbers such as "2.1". */
+const groupNumber = number => number.split('.').length > 2 ? number.split('.').slice(0, 2).join('.') : undefined
+
+/**
+ * Pages whose numbers have three parts (A.1.1 …) are gathered under their
+ * two-part prefix, e.g. { number: 'A.1', title: 'Policies and rubrics', pages }.
+ * Returns undefined for chapters without such numbers.
+ */
+function pageGroups(section, pages, landing) {
+  if (!pages.some(page => groupNumber(page.number))) return undefined
+  const names = CHAPTER_LABELS[section]?.groups ?? {}
+  const groups = new Map()
+  for (const page of pages) {
+    const number = groupNumber(page.number) ?? page.number
+    if (!groups.has(number)) {
+      const { title = number, anchor } = names[number.split('.')[1]] ?? {}
+      groups.set(number, { number, title, link: anchor ? `${landing}#${anchor}` : landing, pages: [] })
+    }
+    groups.get(number).pages.push({ ...page, shortNumber: page.number.slice(number.length) || page.number })
+  }
+  return [...groups.values()]
+}
+
+/**
+ * One record per chapter (TOC `section`), in TOC order: its friendly label,
+ * chapter number and title, landing link, and pages. A chapter's root entry
+ * (the one numbered without a dot, e.g. "2") is its landing page and is not
+ * repeated in `pages`; a chapter without one (Staff) lands on its first page.
+ */
+export function getHandbookChapters(entries = toc) {
+  const groups = new Map()
+  for (const entry of entries) {
+    if (!groups.has(entry.section)) groups.set(entry.section, [])
+    groups.get(entry.section).push(entry)
+  }
+  return [...groups].map(([section, items]) => {
+    const root = items.find(entry => !entry.number.includes('.'))
+    const number = root?.number ?? items[0].number.split('.')[0]
+    const title = root ? splitTitle(root).title : section
+    const { label = title, blurb = '' } = CHAPTER_LABELS[section] ?? {}
+    const link = linkFor(root ?? items[0])
+    const pages = items.filter(entry => entry !== root).map(entry => ({ ...splitTitle(entry), link: linkFor(entry) }))
+    return {
+      section,
+      label,
+      number,
+      title,
+      blurb,
+      // Appendices are numbered with letters or numerals rather than digits.
+      appendix: !/^\d/.test(number),
+      link,
+      pages,
+      groups: pageGroups(section, pages, link),
+    }
+  })
+}
+
+/**
+ * Sidebar groups for VitePress. Each chapter heading reads "<number>. <Title>"
+ * and links to the chapter's landing page, so the landing page is not repeated
+ * as an item; a chapter without one (Staff) has an unlinked heading and keeps
+ * its first page as an item. A chapter with no other pages (Glossary) is a
+ * plain heading link with no items. Headings and page titles are split into a
+ * number column and a title so they align like a printed table of contents
+ * (styled in docs/.vitepress/theme/nav.css); `plainText` keeps a tag-free
+ * form for consumers such as scripts/build-book.mjs.
+ */
+export function getSidebarGroups(entries = toc) {
+  const cell = (number, body) => `<span class="sf-toc-num">${escapeHtml(number)}</span><span class="sf-toc-title">${body}</span>`
+  const pageItem = (page, number = page.number) => ({
+    text: cell(number, escapeHtml(page.title)),
+    plainText: `${page.number} ${page.title}`,
+    link: page.link,
+  })
+  return getHandbookChapters(entries).map(chapter => {
+    const hasLanding = entries.some(entry => entry.section === chapter.section && !entry.number.includes('.'))
+    const items = chapter.groups
+      ? chapter.groups.map(group => ({
+          text: cell(group.number, escapeHtml(group.title)),
+          plainText: `${group.number} ${group.title}`,
+          collapsed: true,
+          items: group.pages.map(page => pageItem(page, page.shortNumber)),
+        }))
+      : chapter.pages.map(page => pageItem(page))
+    return {
+      text: cell(`${chapter.number}.`, `<strong class="sf-toc-label">${escapeHtml(chapter.title)}</strong>`),
+      plainText: `${chapter.number}. ${chapter.title}`,
+      appendix: chapter.appendix,
+      ...(hasLanding ? { link: chapter.link } : {}),
+      // `items: []` keeps a page-less chapter its own top-level group (VitePress
+      // folds item-less entries into the previous group) without a caret.
+      ...(items.length ? { items, collapsed: true } : { items: [] }),
+    }
+  })
+}

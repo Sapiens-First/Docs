@@ -30,10 +30,3 @@ Give an LLM the title, link, or text and ask:
 Treat the LLM as a sparring partner, not just a summarizer.
 
 These resources offer perspectives to discuss and evaluate. Including a resource doesn't mean adopting every claim or tactic in it.
-
-## Additional prompts {#additional-prompts}
-
-::: clarify
-- Are there other approved learning prompts (for example for training sessions)?
-- Should prompts note that private organizational information stays out of tools unless authorized?
-:::

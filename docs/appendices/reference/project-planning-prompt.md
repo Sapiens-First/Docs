@@ -15,7 +15,7 @@ canonical: /appendices/reference/project-planning-prompt
 
 A reusable prompt for turning a [project scope](planning-templates.md#project-scope) into a realistic plan with an AI assistant. It keeps the main constraints of the original Fellowship planning prompt without tying them to one cohort's dates.
 
-<!-- Source provenance: prompt moved verbatim from docs/work/templates.md (last updated 2026-09-27). The fuller original in archive/sources/Fellowship Handbook [shared].md ("Project Plan LLM Prompt") was compared and not adopted; see the Under construction note. -->
+<!-- Source provenance: prompt moved verbatim from docs/work/templates.md (last updated 2026-09-27). The fuller original in archive/sources/Fellowship Handbook [shared].md ("Project Plan LLM Prompt") was compared and not adopted; see maintenance/open-questions.md. -->
 
 ## The prompt {#the-prompt}
 
@@ -43,10 +43,3 @@ Agreed check-in / update schedule: [fill in]
 ## Using the result {#using-the-result}
 
 Review the result yourself and with the relevant project contact. An AI-generated plan doesn't establish priorities or grant approval. Keep private organizational information out of tools unless their use is authorized.
-
-## Open choices {#open-choices}
-
-::: clarify
-- Keep this shorter reusable prompt, or restore the fuller original (cohort dates, 6–8 milestones with 4–8 checklist items each, "Talk to ... about" items, biweekly update milestones, and a worked treehouse example)?
-- If restored, which parts should be generalized, and who is named for approvals?
-:::

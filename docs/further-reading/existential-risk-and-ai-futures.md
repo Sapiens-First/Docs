@@ -2,7 +2,8 @@
 title: "B.1 Existential risk and AI futures"
 description: "Reading on AI scenarios, timelines, catastrophic risk, and AI governance."
 section: Further Reading
-status: draft
+status: under-construction
+construction_note: "Recommended sources on AI scenarios and timelines, and a reviewed list on catastrophic risk and AI governance, are still being chosen."
 last_updated: 2026-10-02
 handbook_id: further-reading-existential-risk-and-ai-futures
 handbook_number: "B.1"
@@ -19,10 +20,7 @@ Reading on AI scenarios, timelines, catastrophic risk, and AI governance.
 
 ## B.1.1 AI scenarios and timelines {#ai-scenarios-and-timelines}
 
-::: clarify
-- AI-2040: what is the exact title, author, and URL? (Do not substitute AI 2027.)
-- Which other scenario or timeline sources, if any, are recommended?
-:::
+Nothing is listed here yet.
 
 ## B.1.2 Catastrophic risk and AI governance {#catastrophic-risk-and-ai-governance}
 
@@ -32,11 +30,5 @@ The original guide also recommended *The AI Revolution* by Tim Urban, *AI 2027*,
 
 Specific research claims and reading links should be checked before they're used in training or public materials. When sharing a source, explain the question it helps answer and any assumptions that matter.
 :::
-
-::: clarify
-- Which of these older AI reading suggestions are recommended after review?
-- What links and exact titles apply for the citizens' assemblies and international AI governance resources?
-:::
-
 
 Back to [B Further Reading](index.md).

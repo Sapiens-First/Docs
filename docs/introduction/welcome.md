@@ -29,7 +29,7 @@ The handbook is for supporters, members, volunteers, organizers, leaders, and pa
 
 Start with the row that matches your situation:
 
-| If you are… | Start here |
+| If you're… | Start here |
 | --- | --- |
 | Curious about Sapiens First and the AI Crisis | [1.1 Story](../dna/story.md) and [0.3.1 First steps](getting-involved.md#first-steps) |
 | Ready to go deeper into our approach and values | [1.2 Strategy](../dna/strategy.md) and [1.3 Culture](../dna/culture.md) |
@@ -37,11 +37,6 @@ Start with the row that matches your situation:
 | Supporting others and taking deeper responsibility | [1.4 Structure](../dna/structure.md) and [2 Leadership](../leadership/index.md) |
 | Staff, or considering paid work | [3.1 Expectations](../staff/expectations.md) |
 | Looking for a specific answer | [0.2.5 Find anything](how-the-handbook-works.md#find-anything) |
-
-::: clarify
-- Preferred definitions of these audiences (supporters, members, volunteers, organizers, leaders, paid staff), and whether the Fellowship remains a distinct program, need confirmation.
-- The legacy Fellow, Steward, and Lead reading series are now organized under "Organizers" in [0.3.4](getting-involved.md#where-to-start-as-an-organizer). The old statement that staff are Leads conflicts with the Individual Contributor, DRI, and Player-Coach model and is not carried forward; how should staff be described?
-:::
 
 ## 0.1.3 How to read it {#how-to-read-it}
 

@@ -1,8 +1,9 @@
 ---
 title: "A.2.4 Governance meeting agenda"
-description: "Placeholder for the canonical governance meeting agenda."
+description: "The reusable agenda for a circle's governance meeting, with the tech team's version as a working example."
 section: Reference materials
-status: draft
+status: under-construction
+construction_note: "No governance constitution, agenda, or decision authority has been adopted yet; only the tech team's variant (A.2.5) exists so far."
 last_updated: 2026-10-02
 handbook_id: governance-meeting-agenda
 handbook_number: "A.2.4"
@@ -13,15 +14,14 @@ canonical: /appendices/reference/governance-meeting-agenda
 
 ## Summary
 
-This page will hold the reusable governance meeting agenda. [2.4 Facilitation](../../leadership/facilitation.md) explains when to use it.
+This page will hold the reusable governance meeting agenda: where a circle processes tensions and changes its roles and policies. [2.4.3 Governance meetings](../../leadership/facilitation.md#governance-meetings) explains what governance meetings are for. Until a general format is agreed, the tech team's version is a working example.
 
 <!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, A.2.4. Placeholder created during the structure migration; no source content was supplied. -->
 
-## What is needed {#what-is-needed}
+## What this page will cover {#what-is-needed}
 
-::: clarify
-- Which Holacracy constitution and version, if any, is adopted?
-- What local adaptations apply to the governance process?
-- What is the agenda, and who can change roles or policies through it?
-- Where are governance records kept?
-:::
+- Which Holacracy constitution and version we use, and any local adaptations.
+- The agenda, and who can change roles or policies through it.
+- Where governance records are kept.
+
+**A working example.** The tech team holds a [roles and responsibilities governance meeting](tech-team-meeting-agenda.md#governance) once in each two-week sprint. See [A.2.5 Tech team meeting agenda](tech-team-meeting-agenda.md).

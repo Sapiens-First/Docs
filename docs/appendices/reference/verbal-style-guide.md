@@ -2,7 +2,8 @@
 title: "A.4.2 Verbal style guide"
 description: "Voice and writing guidance."
 section: Reference materials
-status: draft
+status: under-construction
+construction_note: "Voice and writing guidance for public communications has not been written yet."
 last_updated: 2026-10-02
 handbook_id: verbal-style-guide
 handbook_number: "A.4.2"
@@ -17,9 +18,6 @@ This page will hold voice and writing guidance. The handbook's own writing conve
 
 <!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, A.4.2. Placeholder created during the structure migration; no source content was supplied. -->
 
-## What is needed {#what-is-needed}
+## What this page will cover {#what-is-needed}
 
-::: clarify
-- Should the handbook voice become the organization-wide voice?
-- What tone, terms, and wording are approved for public communications?
-:::
+This page is still being written; the note at the top says what it is waiting for.

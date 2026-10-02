@@ -4,7 +4,10 @@ import PageMeta from './components/PageMeta.vue'
 import SearchButton from './components/SearchButton.vue'
 import NotFound from './components/NotFound.vue'
 import ReadingProgress from './components/ReadingProgress.vue'
+import ChapterMap from './components/ChapterMap.vue'
 import './style.css'
+import './nav.css'
+import './home.css'
 
 let toastTimer: number | undefined
 function toast(msg: string) {
@@ -34,6 +37,9 @@ function onAnchorClick(e: MouseEvent) {
 
 export default {
   extends: DefaultTheme,
+  enhanceApp({ app }) {
+    app.component('ChapterMap', ChapterMap)
+  },
   Layout: {
     setup() {
       onMounted(() => document.addEventListener('click', onAnchorClick))

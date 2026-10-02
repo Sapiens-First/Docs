@@ -34,7 +34,7 @@ const DIST = join(DOCS, '.vitepress/dist')
 const OUT = join(DIST, 'downloads')
 const FILE = 'sapiens-first-handbook'
 const TITLE = 'Sapiens First Handbook'
-const TAGLINE = 'For supporters, members, and organizers.'
+const TAGLINE = 'Understand the AI crisis. Find your community. Learn to organize.'
 const BUILT = new Date()
 const BUILD_DATE = BUILT.toISOString().slice(0, 10)
 
@@ -71,7 +71,9 @@ async function sidebarOrder() {
     }
   }
   for (const g of sidebar) {
-    const group = { text: g.text, pages: [] }
+    // Sidebar headings are HTML (number and label columns); `plainText` is
+    // their tag-free form from scripts/handbook-toc.mjs.
+    const group = { text: g.plainText ?? g.text, pages: [] }
     walk([g], group)
     if (group.pages.length) groups.push(group)
   }

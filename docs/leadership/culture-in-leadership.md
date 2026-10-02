@@ -2,7 +2,8 @@
 title: "2.1 Culture in leadership"
 description: "Feedback, disagreement, ownership, and modeling the culture in day-to-day leadership."
 section: Leadership
-status: draft
+status: under-construction
+construction_note: "No conflict resolution process (mediation, escalation, an alternative reporting contact, appeals) has been agreed yet, and radical ownership (2.1.3) is not yet defined."
 last_updated: 2026-10-02
 handbook_id: leadership-culture
 handbook_number: "2.1"
@@ -13,7 +14,7 @@ canonical: /leadership/culture-in-leadership
 
 ## Summary
 
-Shared values become real in how leaders give feedback, handle disagreement, own their work, and set an example. This page covers the practices that exist today and marks the ones that still need an approved process. [1.3 Culture](../dna/culture.md) holds the beliefs; the standards themselves live in [A.1.1](../appendices/reference/values-standards.md).
+Shared values become real in how leaders give feedback, handle disagreement, own their work, and set an example. This page covers the practices that exist today. [1.3 Culture](../dna/culture.md) holds the beliefs; the standards themselves live in [A.1.1](../appendices/reference/values-standards.md).
 
 <!-- Source provenance: docs/learning/feedback.md, adopted, last_updated 2026-09-27; docs/organization/values.md leadership standards via A.1.1; maintenance/HANDBOOK-OUTLINE.md, 2.1. Feedback wording and the leadership-standards summary retained verbatim; rubric proposal at 2.3.4; framing rewritten 2026-10-02. 2.1.2 and 2.1.3 have no source text. -->
 
@@ -31,23 +32,15 @@ You learn through practice, support, and honest feedback. We want you to take re
 
 Disagreement is part of Deliberation: we "disagree openly and incorporate feedback" ([1.3.1](../dna/culture.md#core-values)). When a disagreement stays stuck, or a concern involves the person you would normally go to, you need a clear route.
 
-For now, use the existing guidance on [unclear responsibility](../dna/structure.md#governance-and-change) and the reporting route in [A.1.1](../appendices/reference/values-standards.md#red-lines) for conduct that crosses a red line.
-
-::: clarify
-No approved conflict resolution process exists in the source documents. Still needed: how mediation works and who mediates; the steps for escalation; an alternative reporting contact when a concern involves the usual contact; who handles reports; and how review or appeal works. This draft establishes none of these.
-:::
+For now, use the guidance on [unclear responsibility](../dna/structure.md#governance-and-change) and the reporting route in [A.1.1](../appendices/reference/values-standards.md#red-lines) for conduct that crosses a red line.
 
 ## 2.1.3 Radical ownership {#radical-ownership}
 
-::: clarify
-This concept is planned but not yet defined. The intended meaning is still needed, along with its boundaries relative to actual role authority. Themes suggested for discussion: taking responsibility, making constraints visible, asking for help, and handing work over. They are not an adopted standard.
-:::
-
-Until then, the leadership standards in [2.1.4](#modeling-the-culture) already set expectations for taking responsibility and handing work over. Check [decision rights](../dna/structure.md#roles-circles-decision-rights) before committing the organization; a change in this handbook's wording does not transfer authority.
+This section is still being written. In the meantime, the leadership standards in [2.1.4](#modeling-the-culture) set expectations for taking responsibility and handing work over. Check [decision rights](../dna/structure.md#roles-circles-decision-rights) before committing the organization; a change in this handbook's wording does not transfer authority.
 
 ## 2.1.4 Modeling the culture {#modeling-the-culture}
 
-Leaders set the pattern others follow. The standards set expectations for reliability, openness to feedback, care, judgment, information sharing, and responsible handoffs. These existing standards apply to people accepting formal responsibilities, and they have one canonical home in [A.1.1](../appendices/reference/values-standards.md).
+Leaders set the pattern others follow. The standards set expectations for reliability, openness to feedback, care, judgment, information sharing, and responsible handoffs. These standards apply to people accepting formal responsibilities, and they have one canonical home in [A.1.1](../appendices/reference/values-standards.md).
 
 <!-- handbook:include appendices/reference/values-standards.md#leadership-standards -->
 

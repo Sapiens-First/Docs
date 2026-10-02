@@ -1,6 +1,6 @@
 # Sapiens First Handbook
 
-The shared handbook for members, organizers, Fellows, staff, and people curious about the movement. Start with the [Introduction](docs/introduction/index.md), [Getting involved](docs/introduction/getting-involved.md), or [Where to start as an organizer](docs/introduction/getting-involved.md#where-to-start-as-an-organizer).
+The shared handbook for members, organizers, Fellows, staff, and people curious about the movement. Start with the [Introduction](docs/introduction/index.md), then read on chapter by chapter: DNA, Leadership, Staff, and Supplemental, with appendices for reference.
 
 Built with [VitePress](https://vitepress.dev) for [GitHub Pages](https://sapiens-first.github.io/docs/). [Atlas](https://sapiensfirst.org/atlas) holds current governance, projects, priorities, and owners; the handbook explains the concepts and practices behind them.
 
@@ -58,7 +58,7 @@ The build also writes `llms.txt`, `llms-full.md`, `llms-full.txt`, a `sitemap.xm
 
 ## Editing
 
-Edit Markdown under `docs/`. Use lowercase, hyphenated filenames and relative `.md` links so content is navigable in both GitHub and VitePress. Register new numbered pages in `handbook-data/toc.json`; the sidebar and Handbook menu are generated from it, grouped by chapter (see [CONTRIBUTING.md](CONTRIBUTING.md)). Link new pages from their chapter landing page or from [0.2.5 Find anything](docs/introduction/how-the-handbook-works.md#find-anything). When you move or retire a page, add its old route to `handbook-data/redirects.json`.
+Edit Markdown under `docs/`. Use lowercase, hyphenated filenames and relative `.md` links so content is navigable in both GitHub and VitePress. Register new numbered pages in `handbook-data/toc.json`; the sidebar, navbar and home page chapter map are generated from it, grouped by chapter; the short reader-facing chapter labels ("Start here", "Lead", …) live in `CHAPTER_LABELS` in `scripts/handbook-toc.mjs` (see [CONTRIBUTING.md](CONTRIBUTING.md)). Link new pages from their chapter landing page or from [0.2.5 Find anything](docs/introduction/how-the-handbook-works.md#find-anything). When you move or retire a page, add its old route to `handbook-data/redirects.json`.
 
 ## Deployment
 

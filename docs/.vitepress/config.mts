@@ -5,7 +5,7 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 import { handbookContainers } from './containers'
 import { headingNumbers } from './heading-numbers'
 import { generateLlmsFiles } from './llms'
-import { getHandbookSections, validateHandbookToc } from '../../scripts/handbook-toc.mjs'
+import { getHandbookChapters, getSidebarGroups, validateHandbookToc } from '../../scripts/handbook-toc.mjs'
 import { resolveReferences } from '../../scripts/handbook-references.mjs'
 import { loadRedirects, writeRedirects } from '../../scripts/handbook-redirects.mjs'
 import { VERSION } from './version.mjs'
@@ -16,7 +16,15 @@ const siteHostname = 'https://sapiens-first.github.io/docs/'
 // One ordered registry supplies navigation and checks authored numbering.
 const tocErrors = validateHandbookToc()
 if (tocErrors.length) throw new Error(tocErrors.join('\n'))
-const handbookSections = getHandbookSections()
+// Chapters carry the reader-facing labels ("Start here", "DNA", "Lead", …)
+// from CHAPTER_LABELS in scripts/handbook-toc.mjs; nav, sidebar and the home
+// page chapter map all read from here.
+const handbookChapters = getHandbookChapters()
+const chapter = (section: string) => handbookChapters.find((c) => c.section === section)!
+const chapterLink = (section: string) => ({ text: chapter(section).label, link: chapter(section).link })
+const activeMatch = (section: string) => `^/${chapter(section).link.split('/')[1]}/`
+// Chapters with their own navbar link; the rest go under "More".
+const navChapters = ['Introduction', 'DNA', 'Leadership', 'Staff']
 
 // Retired legacy routes (handbook-data/redirects.json) still resolve through
 // the redirect stubs written at buildEnd, so links to them (e.g. historic
@@ -27,7 +35,7 @@ const isRedirectedLink = (url: string) => redirectedRoutes.has(url.split('#')[0]
 // https://vitepress.dev/reference/site-config
 export default withMermaid(defineConfig({
   title: 'Sapiens First Handbook',
-  description: 'The Sapiens First handbook for supporters, members, and organizers.',
+  description: 'The Sapiens First handbook: our story, how we lead, and how to get involved, chapter by chapter.',
   // Served from https://sapiens-first.github.io/docs/. When the site moves to
   // docs.sapiensfirst.org, set `base` to '/' and add docs/public/CNAME.
   base,
@@ -111,33 +119,54 @@ export default withMermaid(defineConfig({
     logo: '/logo.png',
     siteTitle: 'Sapiens First',
 
+    // Chapters by their short labels; everything else lives under "More".
     nav: [
-      {
-        text: 'Handbook',
-        items: handbookSections
-      },
-      { text: 'Get involved', link: '/introduction/getting-involved' },
-      { text: 'Organizers', link: '/introduction/getting-involved#where-to-start-as-an-organizer' },
-      { text: 'Find anything', link: '/introduction/how-the-handbook-works#find-anything' },
+      ...navChapters.map((section) => ({ ...chapterLink(section), activeMatch: activeMatch(section) })),
       {
         text: 'More',
         items: [
-          { text: 'Download (HTML)', link: `${base}downloads/sapiens-first-handbook.html`, target: '_self', noIcon: true },
-          { text: 'Download (PDF)', link: `${base}downloads/sapiens-first-handbook.pdf`, target: '_self', noIcon: true },
-          { text: 'Download (EPUB)', link: `${base}downloads/sapiens-first-handbook.epub`, target: '_self', noIcon: true },
-          { text: `Version log (v${VERSION})`, link: '/changelog' },
-          { text: 'Atlas', link: 'https://sapiensfirst.org/atlas' },
-          { text: 'Website', link: 'https://sapiensfirst.org' }
+          {
+            text: 'More chapters',
+            items: handbookChapters
+              .filter((c) => !navChapters.includes(c.section))
+              .map((c) => ({ text: `${c.number} · ${c.label}`, link: c.link }))
+          },
+          {
+            text: 'Download',
+            items: [
+              { text: 'HTML', link: `${base}downloads/sapiens-first-handbook.html`, target: '_self', noIcon: true },
+              { text: 'PDF', link: `${base}downloads/sapiens-first-handbook.pdf`, target: '_self', noIcon: true },
+              { text: 'EPUB', link: `${base}downloads/sapiens-first-handbook.epub`, target: '_self', noIcon: true }
+            ]
+          },
+          {
+            text: 'About',
+            items: [
+              { text: `Version log (v${VERSION})`, link: '/changelog' },
+              { text: 'Atlas', link: 'https://sapiensfirst.org/atlas' },
+              { text: 'Website', link: 'https://sapiensfirst.org' }
+            ]
+          }
         ]
       }
     ],
 
-    // Numbered handbook chapters (from handbook-data/toc.json); retired legacy
-    // routes redirect via handbook-data/redirects.json.
+    // Read by the home page chapter map (theme/components/ChapterMap.vue).
+    handbookChapters,
+
+    // Numbered handbook chapters (from handbook-data/toc.json), headed
+    // "1. DNA" and linked to their landing pages; the group holding the
+    // current page opens automatically.
+    // Retired legacy routes redirect via handbook-data/redirects.json.
     sidebar: [
-      ...handbookSections.map(({ text, items }) => ({ text, collapsed: true, items })),
+      ...getSidebarGroups().flatMap(({ appendix, ...group }, i, groups) => [
+        // a quiet "Appendices" divider above the first appendix
+        ...(appendix && !groups[i - 1]?.appendix ? [{ text: '<span class="sf-toc-divider">Appendices</span>', plainText: 'Appendices', items: [] }] : []),
+        group
+      ]),
       {
         text: 'About',
+        plainText: 'About',
         collapsed: true,
         items: [
           { text: 'Version log', link: '/changelog' },

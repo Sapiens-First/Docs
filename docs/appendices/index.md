@@ -13,7 +13,7 @@ canonical: /appendices/
 
 ## Summary
 
-Reference materials hold reusable policy text, rubrics, templates, agendas, prompts, and style guides. Each item has one canonical home here; the main chapters explain how to apply it and link back. Pages marked draft or under construction are placeholders until the owners supply the missing decisions.
+Reference materials hold reusable policy text, rubrics, templates, agendas, prompts, and style guides. Each item has one canonical home here; the main chapters explain how to apply it and link back. Pages marked under construction say at the top what they're still missing.
 
 <!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, Appendix A; maintenance/migration-brief.md. -->
 
@@ -46,7 +46,7 @@ Reference materials hold reusable policy text, rubrics, templates, agendas, prom
 - **Recruit: invite people in.** [A.2.10 Organizing conversations](reference/field-guides/organizing-conversations.md) listen first, then invite people to participate; [A.2.8 Starting a local circle](reference/field-guides/starting-a-circle.md) brings a small local group together to share the work.
 - **Train: help others lead.** [A.2.9 Training organizers](reference/field-guides/training.md) helps people learn through practice.
 
-Whatever you're doing, follow our [values and red lines](reference/values-standards.md) and use the current campaign resources and decision rights for your work. Atlas holds current campaigns, circles, and decision rights; the guides explain how to organize, so check Atlas for what's current. For the mission and strategy behind them, see [Sapiens First's mission and strategy](../dna/strategy.md) and [Decisions](../dna/structure.md#roles-circles-decision-rights).
+Whatever you're doing, follow our [values and red lines](reference/values-standards.md) and use the current campaign resources and decision rights for your work. Atlas holds current campaigns, circles, and decision rights. For the strategy behind them, see [1.2 Strategy](../dna/strategy.md) and [1.4.2 Roles, circles, accountabilities, and decision rights](../dna/structure.md#roles-circles-decision-rights).
 
 ## A.3 Prompts {#prompts}
 

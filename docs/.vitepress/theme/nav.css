@@ -1,0 +1,131 @@
+/* ─── Sidebar as a book-style table of contents ───────────────────────────
+   Group headings and page titles arrive as
+     <span class="sf-toc-num">2.1</span><span class="sf-toc-title">…</span>
+   (getSidebarGroups in scripts/handbook-toc.mjs). Each row is a two-column
+   grid: a muted, fixed-width tabular number column, then the title, so titles
+   line up and wrapped lines hang under the title rather than the number.
+   Loaded after style.css; selectors carry .VPSidebar to outrank VitePress's
+   scoped sidebar styles.
+──────────────────────────────────────────────────────────────────────────── */
+
+.VPSidebar {
+  --sf-toc-num-0: 1.6rem;    /* chapter numbers: 0 … 4, A … IV */
+  --sf-toc-num-1: 2.3rem;    /* page numbers: 2.1, A.2, III.4 */
+  --sf-toc-num-2: 1.9rem;    /* nested page numbers: .1 … .10 */
+  --sf-toc-active-bg: rgba(255, 214, 10, 0.5);
+}
+.dark .VPSidebar { --sf-toc-active-bg: rgba(255, 214, 10, 0.16); }
+
+/* rows: number column + title column */
+.VPSidebar .VPSidebarItem .text:has(> .sf-toc-num) {
+  display: grid;
+  grid-template-columns: var(--sf-toc-num-1) minmax(0, 1fr);
+  align-items: baseline;
+  padding: 3px 0;
+  font-size: 14.5px;
+  line-height: 1.4;
+  font-variant-numeric: tabular-nums;
+  text-decoration: none !important;
+}
+.VPSidebar .sf-toc-num {
+  color: var(--vp-c-text-3);
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+.VPSidebar .sf-toc-title { min-width: 0; }
+
+/* ── level 0: chapter headings, "1.  DNA", linked to the chapter landing ── */
+.VPSidebar .VPSidebarItem.level-0 { padding-bottom: 12px; }
+.VPSidebar .group + .group { margin-top: 4px; padding-top: 12px; }
+.VPSidebar .VPSidebarItem.level-0 > .item .text:has(> .sf-toc-num) {
+  grid-template-columns: var(--sf-toc-num-0) minmax(0, 1fr);
+  padding: 5px 0;
+  font-family: var(--vp-font-family-base);
+  line-height: 1.2;
+}
+.VPSidebar .VPSidebarItem.level-0 > .item .text > .sf-toc-num {
+  font-family: var(--sf-font-display);
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--vp-c-text-3);
+}
+.VPSidebar .sf-toc-label {
+  font-family: var(--sf-font-display);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: var(--vp-c-text-1);
+}
+.VPSidebar .VPSidebarItem.level-0.has-active > .item .text > .sf-toc-num,
+.VPSidebar .VPSidebarItem.level-0.is-active > .item .text > .sf-toc-num { color: var(--vp-c-text-1); }
+.VPSidebar .VPSidebarItem.level-0 > .item:hover .sf-toc-label { text-decoration: underline 2px var(--sf-coral); text-underline-offset: 4px; }
+.VPSidebar .VPSidebarItem.level-0.is-active > .item .sf-toc-label { text-decoration: none; }
+
+/* pages sit under the chapter title column */
+.VPSidebar .VPSidebarItem.level-0 > .items {
+  padding-left: var(--sf-toc-num-0);
+  margin-left: 0;
+}
+
+/* ── level 1: pages and appendix sub-groups ── */
+.VPSidebar .VPSidebarItem.level-1 .text:has(> .sf-toc-num) { color: var(--vp-c-text-2); font-weight: 500; }
+.VPSidebar .VPSidebarItem.level-1.collapsible > .item > .text:has(> .sf-toc-num) {
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+}
+.VPSidebar .VPSidebarItem.level-1 > .item .caret { width: 26px; height: 26px; margin-right: -4px; }
+
+/* ── level 2: pages inside a sub-group. Their short numbers (.1 … .10) sit
+   right-aligned in the same column as the sub-group's number, so titles stay
+   flush with the sub-group title and keep the full column width. ── */
+.VPSidebar .VPSidebarItem.level-1 > .items {
+  border-left: 0 !important;
+  padding-left: 0 !important;
+}
+.VPSidebar .VPSidebarItem.level-2 .text:has(> .sf-toc-num) { font-size: 14px; }
+.VPSidebar .VPSidebarItem.level-2 .sf-toc-num { text-align: right; padding-right: 0.9em; }
+
+/* hover and active rows */
+.VPSidebar .VPSidebarItem.is-link > .item > .link { border-radius: 2px; }
+.VPSidebar .VPSidebarItem.is-link > .item > .link:hover .sf-toc-title { color: var(--vp-c-text-1); }
+.VPSidebar .VPSidebarItem.is-active > .item > .link {
+  margin: 0 -8px;
+  padding: 0 8px;
+  background: var(--sf-toc-active-bg);
+  box-shadow: inset 3px 0 0 var(--sf-ink);
+}
+.VPSidebar .VPSidebarItem.is-active > .item > .link > .text,
+.VPSidebar .VPSidebarItem.is-active > .item > .link > .text .sf-toc-title {
+  color: var(--vp-c-text-1) !important;
+  font-weight: 700;
+}
+.VPSidebar .VPSidebarItem.is-active > .item > .link > .text .sf-toc-num { color: var(--vp-c-text-1); }
+.VPSidebar .VPSidebarItem .link:focus-visible {
+  outline: 2px solid var(--sf-ink);
+  outline-offset: 1px;
+}
+
+/* "Appendices" divider between the main chapters and A–D */
+.VPSidebar .sf-toc-divider {
+  display: block;
+  padding-top: 6px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--vp-c-text-3);
+}
+.VPSidebar .VPSidebarItem.level-0:has(.sf-toc-divider) { padding-bottom: 0; }
+/* appendix chapters: quieter headings than the main chapters */
+.VPSidebar .group:has(.sf-toc-divider) ~ .group .VPSidebarItem.level-0 > .item .sf-toc-label { font-size: 17px; }
+.VPSidebar .group:has(.sf-toc-divider) ~ .group .VPSidebarItem.level-0 > .item > .text > .sf-toc-num { font-size: 17px; }
+
+/* other places VitePress shows sidebar text inline (previous / next page) */
+.VPDocFooter .sf-toc-num { margin-right: 0.4em; color: var(--vp-c-text-3); font-variant-numeric: tabular-nums; }
+
+/* ─── Navbar "More" menu: chapter group heading ─────────────────────────── */
+.VPMenu .VPMenuGroup .title { font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; font-size: 11.5px; }

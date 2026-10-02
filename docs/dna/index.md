@@ -13,7 +13,7 @@ canonical: /dna/
 
 ## Summary
 
-DNA explains why Sapiens First exists, how we seek change, and how we work together. This chapter is being assembled from existing guidance and supplied notes. Its draft pages explain beliefs and proposals without adopting unresolved organizational policies.
+DNA explains why Sapiens First exists, how we seek change, and how we work together.
 
 <!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, chapter 1; docs/strategy/index.md; docs/organization/roles-and-circles.md; maintenance/decisions.md. -->
 

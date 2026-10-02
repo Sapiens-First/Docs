@@ -2,7 +2,8 @@
 title: "C.2 Leadership sources"
 description: "Sources behind the Leadership chapter."
 section: Citations
-status: draft
+status: under-construction
+construction_note: "Most Leadership sources have not been listed, and the listed ones have not been checked against specific passages."
 last_updated: 2026-10-02
 handbook_id: citations-leadership-sources
 handbook_number: "C.2"
@@ -19,9 +20,7 @@ Sources behind the Leadership chapter.
 
 ## C.2.1 Culture (2.1) {#culture}
 
-::: clarify
-- Which feedback, conflict resolution, and ownership influences apply to [2.1](../leadership/culture-in-leadership.md)?
-:::
+Nothing is listed here yet.
 
 ## C.2.2 Strategic planning (2.2) {#strategic-planning}
 
@@ -30,22 +29,10 @@ Sources behind the Leadership chapter.
 
 Applied in [2.2](../leadership/strategic-planning.md).
 
-::: clarify
-- Which passages support the OKR and measurement claims?
-- Which other sources apply?
-:::
-
 ## C.2.3 People (2.3) {#people}
 
-::: clarify
-- Which sources support the people and role-fit claims in [2.3](../leadership/people.md)?
-:::
+Nothing is listed here yet.
 
 ## C.2.4 Facilitation (2.4) {#facilitation}
-
-::: clarify
-- Which official tactical and governance procedures are cited by [2.4](../leadership/facilitation.md)?
-:::
-
 
 Back to [C Citations](index.md).

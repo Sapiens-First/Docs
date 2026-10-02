@@ -24,18 +24,9 @@ Reading on strategy, measurement, people, and development. Proposed section.
 
 See [Metrics](../leadership/strategic-planning.md) for how we apply these ideas.
 
-::: clarify
-- Is *High Output Management* (and the other old recommendations) recommended after evaluation?
-:::
-
 ## B.6.2 People and development {#people-and-development}
 
 - [Netflix Culture Memo](https://jobs.netflix.com/culture): a high-autonomy culture built around strong talent, context-sharing, candid feedback, and fewer unnecessary rules.
 - [*From Hierarchy to Intelligence*](https://block.xyz/inside/from-hierarchy-to-intelligence), by Jack Dorsey and Roelof Botha: a model centered on individual contributors, directly responsible individuals, and player-coaches instead of traditional management layers. It argues AI can take on much of the information routing that management layers exist for.
-
-::: clarify
-- Which influences are genuinely recommended reading, rather than citation-only? (The outline sends Netflix and Amazon performance-management influences to [C](../citations/index.md) by default.)
-:::
-
 
 Back to [B Further Reading](index.md).

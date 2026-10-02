@@ -13,7 +13,7 @@ canonical: /dna/culture
 
 ## Summary
 
-Our core values are Peace, Wisdom, Deliberation, Respect, and Agency. They guide how we take initiative and work together. This draft brings the existing values into the new handbook structure; the linked standards retain their existing status and reporting gaps.
+Our core values are Peace, Wisdom, Deliberation, Respect, and Agency. They guide how we take initiative and work together.
 
 <!-- Source provenance: docs/organization/values.md, last_updated 2026-09-27 (every block is in 1.3 or embedded from A.1.1 below); maintenance/HANDBOOK-OUTLINE.md, 1.3. Values and operating principles retained verbatim; examples rewritten 2026-10-02. -->
 
@@ -41,7 +41,7 @@ Our core values are Peace, Wisdom, Deliberation, Respect, and Agency. They guide
 
 ## 1.3.3 Behavioral commitments and red lines {#behavioral-commitments-and-red-lines}
 
-The following standards have one canonical home in [A.1.1](../appendices/reference/values-standards.md). They apply alongside the values above. Read the reporting limitation before relying on the current route.
+The following standards have one canonical home in [A.1.1](../appendices/reference/values-standards.md). They apply alongside the values above.
 
 **Leadership standards**
 
@@ -59,16 +59,12 @@ The following standards have one canonical home in [A.1.1](../appendices/referen
 
 Apply the values to concrete choices. Before an action, consider risks to participants and the public. When a plan is contested, listen to the disagreement and explain the tradeoffs. When work depends on information you hold, share the context so others can act. If you can no longer fulfill a responsibility, arrange a handover rather than letting it become a bottleneck.
 
-These examples explain the existing principles. Check [decision rights](structure.md#roles-circles-decision-rights) before making organizational commitments. For practical conversations, see [2.1.1 Feedback culture](../leadership/culture-in-leadership.md#feedback-culture).
+These examples explain the principles. Check [decision rights](structure.md#roles-circles-decision-rights) before making organizational commitments. For practical conversations, see [2.1.1 Feedback culture](../leadership/culture-in-leadership.md#feedback-culture).
 
 ## 1.3.5 What is distinctive about our culture? {#distinctive-culture}
 
-The existing guidance pairs room for initiative with shared values, clear responsibilities, and collective learning. This draft preserves those commitments without treating them as a complete account of what makes the organization distinctive.
-
-::: clarify
-Which principles should be added, removed, or emphasized remains an editorial question. A reporting route for concerns involving the usual contact, report-handling responsibilities, and review or appeal procedures also remain unresolved. No new process is established by this draft.
-:::
+Our culture pairs room for initiative with shared values, clear responsibilities, and collective learning.
 
 ## Further Reading
 
-See the existing [reading list](../further-reading/index.md) while shared resource records and section associations are being developed.
+See [B Further Reading](../further-reading/index.md).

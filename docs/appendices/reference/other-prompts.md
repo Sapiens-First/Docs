@@ -1,8 +1,9 @@
 ---
 title: "A.3.3 Other prompts"
-description: "Placeholder for further reusable AI prompts."
+description: "Further reusable AI prompts."
 section: Reference materials
-status: draft
+status: under-construction
+construction_note: "No further reusable prompts have been collected yet."
 last_updated: 2026-10-02
 handbook_id: other-prompts
 handbook_number: "A.3.3"
@@ -17,9 +18,6 @@ This page will hold reusable prompts beyond [A.3.1](project-planning-prompt.md) 
 
 <!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, A.3.3. Placeholder created during the structure migration; no source content was supplied. -->
 
-## What is needed {#what-is-needed}
+## What this page will cover {#what-is-needed}
 
-::: clarify
-- Which other prompts does the team use regularly?
-- Who maintains them and checks they respect confidentiality?
-:::
+This page is still being written; the note at the top says what it is waiting for.

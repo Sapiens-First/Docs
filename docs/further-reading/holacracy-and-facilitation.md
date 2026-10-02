@@ -2,7 +2,8 @@
 title: "B.5 Holacracy and facilitation"
 description: "Reading on Holacracy fundamentals and meeting practice."
 section: Further Reading
-status: draft
+status: under-construction
+construction_note: "Deeper Holacracy sources and the official meeting guides for the constitution we adopt are still to be chosen."
 last_updated: 2026-10-02
 handbook_id: further-reading-holacracy-and-facilitation
 handbook_number: "B.5"
@@ -21,16 +22,8 @@ Reading on Holacracy fundamentals and meeting practice.
 
 - [*Holacracy*](https://www.holacracy.org/): a model for distributed authority using explicit roles, clear ownership, and less traditional hierarchy.
 
-::: clarify
-- Which deeper sources besides the official introduction are recommended?
-- Which sections should this be associated with (outline suggests 1.4 and relevant 2.4 units)?
-:::
-
 ## B.5.2 Tactical and governance meeting practice {#tactical-and-governance-meeting-practice}
 
-::: clarify
-- Which official tactical and governance guides match the chosen constitution and version?
-:::
-
+Nothing is listed here yet.
 
 Back to [B Further Reading](index.md).

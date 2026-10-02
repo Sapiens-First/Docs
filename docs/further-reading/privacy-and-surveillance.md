@@ -21,18 +21,8 @@ Reading and viewing on privacy, surveillance, and autonomous weapons.
 
 - [*Why Privacy Matters*](https://www.youtube.com/watch?v=pcSlowAhvUk), by Glenn Greenwald (video): why privacy matters even with "nothing to hide," and how surveillance can change behavior and constrain freedom.
 
-::: clarify
-- Are there campaign-linked resources to add here?
-:::
-
 ## B.2.2 AI-enabled surveillance and weapons {#ai-enabled-surveillance-and-weapons}
 
 - [*Slaughterbots*](https://www.youtube.com/watch?v=9rDo1QxI260), by the Future of Life Institute (short film): a fictional look at the potential consequences of cheap, autonomous lethal weapons.
-
-::: clarify
-- Is *Slaughterbots* suitable, and with what context, as a recommendation?
-- Which other sources on AI-enabled surveillance belong here?
-:::
-
 
 Back to [B Further Reading](index.md).

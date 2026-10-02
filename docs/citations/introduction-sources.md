@@ -2,7 +2,8 @@
 title: "C.0 Introduction sources"
 description: "Where claims about the organization originated."
 section: Citations
-status: draft
+status: under-construction
+construction_note: "Source documents for the Introduction have not been listed yet."
 last_updated: 2026-10-02
 handbook_id: citations-introduction-sources
 handbook_number: "C.0"
@@ -19,9 +20,6 @@ Where claims about the organization originated.
 
 ## C.0.1 Organizational and historical source documents {#organizational-and-historical-source-documents}
 
-::: clarify
-- Which source documents back the organizational claims in chapter 0?
-:::
-
+Nothing is listed here yet.
 
 Back to [C Citations](index.md).

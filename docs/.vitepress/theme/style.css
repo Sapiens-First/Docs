@@ -351,19 +351,32 @@
   background-color: var(--sf-coral) !important;
   border-radius: 0 !important;
 }
+/* reads like a table of contents: section (H2) entries semibold, subsections
+   (H3) indented and lighter beneath them; numbers in tabular figures so the
+   titles of sibling entries line up; wrapped lines hang under the title */
+.VPDocAsideOutline .outline-title { margin-bottom: 4px; }
 .VPDocOutlineItem .outline-link {
   display: block;
-  /* wrap long titles with a hanging indent instead of truncating */
   overflow: visible;
   white-space: normal;
   text-overflow: clip;
-  padding: 3px 0 3px 1.1em;
+  padding: 4px 0 4px 1.1em;
   text-indent: -1.1em;
   font-size: 14px;
   line-height: 1.4;
   font-variant-numeric: tabular-nums;
+  color: var(--vp-c-text-2);
 }
-.VPDocOutlineItem .VPDocOutlineItem { padding-left: 14px; }
+.VPDocOutlineItem.root > li > .outline-link { font-weight: 600; }
+.VPDocOutlineItem.nested { padding-left: 14px; }
+.VPDocOutlineItem.nested .outline-link {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 13.5px;
+  font-weight: 400;
+}
+.VPDocOutlineItem.nested > li:last-child { padding-bottom: 4px; }
+.VPDocOutlineItem .outline-link:hover { color: var(--vp-c-text-1); }
 .VPDocOutlineItem .outline-link.active { color: var(--vp-c-text-1); font-weight: 700; }
 
 /* ─── BUTTONS ──────────────────────────── */
@@ -496,16 +509,17 @@
 .VPFooter .copyright { color: rgba(255, 255, 255, 0.8) !important; }
 
 /* ─── READING PAGES ────────────────────── */
-/* Calm and legible: ~17.5px body, 1.75 leading, ~68ch column. */
+/* Calm and legible: ~17.5px body, 1.7 leading, ~70ch column. */
 .vp-doc {
   font-size: 17.5px;
-  line-height: 1.75;
+  line-height: 1.7;
 }
 .vp-doc p,
-.vp-doc li { line-height: 1.75; }
+.vp-doc li { line-height: 1.7; }
 .vp-doc p { margin: 18px 0; }
-.vp-doc li + li { margin-top: 6px; }
-.vp-doc li:has(> p, > ul, > ol) + li { margin-top: 10px; }
+/* items need a visible gap, or wrapped items blur into one block */
+.vp-doc li + li { margin-top: 8px; }
+.vp-doc li:has(> p, > ul, > ol) + li { margin-top: 12px; }
 .vp-doc li > p { margin: 8px 0; }
 .vp-doc li > :is(ul, ol) { margin: 6px 0 2px; }
 .vp-doc ul, .vp-doc ol { padding-left: 1.4em; }
@@ -545,7 +559,7 @@
 /* only the page title is set in caps; section headings stay in sentence case
    and rely on size and space, not a rule, so short pages don't fragment */
 .vp-doc h2 {
-  margin: 48px 0 14px;
+  margin: 56px 0 14px;
   padding-top: 0;
   border-top: none;
   font-size: 2.15rem;
@@ -556,7 +570,7 @@
 /* H3 switches to the body face and a much smaller size so page structure
    (big condensed H2, quiet bold H3) is obvious while scrolling */
 .vp-doc h3 {
-  margin: 32px 0 8px;
+  margin: 36px 0 8px;
   font-family: var(--vp-font-family-base);
   font-size: 1.18rem;
   font-weight: 700;
@@ -581,6 +595,14 @@
   font-weight: 900;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+}
+.vp-doc h4 + :is(p, ul, ol) { margin-top: 4px; }
+/* space above a heading is generous, space below is small, so each heading
+   reads as the start of the text under it rather than floating between two */
+.vp-doc :is(h2, h3) + :is(p, ul, ol) { margin-top: 0; }
+@media (max-width: 640px) {
+  .vp-doc h2 { margin-top: 48px; font-size: 1.85rem; }
+  .vp-doc h3 { margin-top: 32px; }
 }
 .vp-doc .header-anchor { color: var(--sf-red-dark); font-weight: 700; }
 .dark .vp-doc .header-anchor { color: var(--sf-coral); }
@@ -636,7 +658,7 @@
    click (buttons, pager, cards) so they still read as interactive. */
 .vp-doc .custom-block {
   margin: 24px 0;
-  padding: 16px 20px 12px;
+  padding: 16px 20px 14px;
   border: 2px solid transparent;
   border-radius: 0;
   box-shadow: none;
@@ -654,16 +676,15 @@
 }
 .vp-doc .custom-block a { color: inherit; }
 
-/* tables */
+/* tables: body-sized cell text (VitePress defaults to 14px), top-aligned so
+   multi-line rows scan left to right */
 .vp-doc table {
   display: table;
   width: 100%;
+  margin: 24px 0;
   border-collapse: collapse;
   border: var(--sf-border);
-  font-size: 16px;
 }
-.vp-doc td { color: var(--vp-c-text-1); }
-.vp-doc td a { white-space: nowrap; }
 .vp-doc tr { border-top: 1px solid var(--vp-c-divider); background: transparent; }
 .vp-doc tr:nth-child(2n) { background: var(--vp-c-bg-soft); }
 .vp-doc th {
@@ -671,15 +692,30 @@
   color: var(--vp-c-bg);
   font-size: 12px;
   font-weight: 900;
+  line-height: 1.4;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   text-align: left;
+  vertical-align: bottom;
   border: none;
 }
-.vp-doc td { border: none; border-top: 1px solid var(--vp-c-divider); }
-.vp-doc th, .vp-doc td { padding: 10px 16px; }
+.vp-doc td {
+  border: none;
+  border-top: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-1);
+  font-size: 15.5px;
+  line-height: 1.55;
+  vertical-align: top;
+}
+.vp-doc td a { white-space: nowrap; }
+.vp-doc th, .vp-doc td { padding: 11px 14px; }
+/* phones: tables scroll sideways inside their frame instead of squeezing
+   every column to a word per line */
 @media (max-width: 640px) {
-  .vp-doc table { display: block; overflow-x: auto; }
+  .vp-doc table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .vp-doc th, .vp-doc td { padding: 9px 10px; }
+  .vp-doc td { min-width: 8.5em; font-size: 15px; }
+  .vp-doc td a { white-space: normal; }
 }
 
 /* code */
@@ -733,7 +769,7 @@
 .vp-doc h2:is(#summary, #in-brief) + :is(p, ul, ol):not(:has(+ :is(p, ul, ol)))
 { padding-bottom: 14px; }
 .vp-doc h2:is(#summary, #in-brief) + :is(p, ul, ol) + :is(p, ul, ol) { padding-top: 0; }
-.vp-doc h2:is(#summary, #in-brief) + * + :is(h2, h3, hr) { margin-top: 44px; }
+.vp-doc h2:is(#summary, #in-brief) + * + :is(h2, h3, hr) { margin-top: 52px; }
 
 /* ─── HANDBOOK BLOCKS (containers.ts) ──── */
 /* Every block opens with a label chip from a fixed set, so status (proposal,
@@ -840,6 +876,45 @@
 }
 .sf-page-meta > span + span::before { content: '·'; margin: 0 10px; }
 .sf-page-meta .sf-audience { color: var(--vp-c-text-1); }
+/* phones: the row wraps, so drop the dots that would start a line */
+@media (max-width: 640px) {
+  .sf-page-meta { gap: 4px 14px; }
+  .sf-page-meta > span + span::before { content: none; }
+}
+
+/* ─── UNDER CONSTRUCTION BANNER (PageMeta.vue) ─── */
+.sf-construction {
+  --sf-construction-mark: var(--sf-yellow);
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 0 0 28px;
+  padding: 14px 18px;
+  border: var(--sf-border);
+  background: var(--sf-yellow);
+  box-shadow: 3px 3px 0 var(--sf-shadow);
+  color: #111111;
+}
+.sf-construction__icon { flex: none; margin-top: 1px; color: #111111; }
+.sf-construction__body { min-width: 0; }
+.sf-construction p { margin: 0; }
+.sf-construction__label {
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.6;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.sf-construction__text { margin-top: 2px !important; font-size: 16px; line-height: 1.55; }
+.dark .sf-construction {
+  --sf-construction-mark: #1d1a10;
+  border-color: var(--sf-yellow);
+  background: #2b2610;
+  box-shadow: none;
+  color: var(--vp-c-text-1);
+}
+.dark .sf-construction__icon { color: var(--sf-yellow); }
+.dark .sf-construction__label { color: var(--sf-yellow); }
 
 /* ─── STATUS BADGE (PageMeta.vue) ────
    Badge sits inline in the eyebrow row; the callout (proposal, draft,

@@ -2,7 +2,8 @@
 title: "A.4.1 Visual style guide"
 description: "Visual identity guidance for Sapiens First materials."
 section: Reference materials
-status: draft
+status: under-construction
+construction_note: "The organization's visual identity guidance (logo, color, typography) has not been written yet."
 last_updated: 2026-10-02
 handbook_id: visual-style-guide
 handbook_number: "A.4.1"
@@ -17,9 +18,6 @@ This page will hold the organization's visual identity guidance. The handbook's 
 
 <!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, A.4.1. Placeholder created during the structure migration; no source content was supplied. -->
 
-## What is needed {#what-is-needed}
+## What this page will cover {#what-is-needed}
 
-::: clarify
-- Is there an approved logo, color, and typography guide? Where does it live?
-- Does the handbook's visual style apply to other materials?
-:::
+This page is still being written; the note at the top says what it is waiting for.

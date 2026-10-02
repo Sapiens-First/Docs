@@ -3,7 +3,7 @@ title: "A.1.1 Values-related standards, red lines, and reporting"
 description: "Canonical existing leadership standards, red lines, reporting guidance, and representation boundaries."
 section: Reference materials
 status: adopted
-last_updated: 2026-09-27
+last_updated: 2026-10-02
 handbook_id: values-standards
 handbook_number: "A.1.1"
 canonical: /appendices/reference/values-standards
@@ -13,7 +13,7 @@ canonical: /appendices/reference/values-standards
 
 ## Summary
 
-These existing standards apply to people acting in Sapiens First's name and people accepting formal responsibilities. The reporting route is retained from the existing guidance; the fuller reporting process remains unresolved.
+These standards apply to people acting in Sapiens First's name and people accepting formal responsibilities. A fuller reporting process, including a route for concerns that involve the usual contact, is still being developed.
 
 <!-- Source provenance: docs/organization/values.md, adopted, last_updated 2026-09-27. Bodies below relocated verbatim on 2026-10-02; source content date retained. No new policy adopted. -->
 
@@ -46,11 +46,7 @@ People acting in the name of Sapiens First must not:
 
 People who cross these lines may be asked to leave an event or step down from a role. They may also be asked to stop acting in the name of Sapiens First.
 
-The existing reporting route is [rohan@sapiensfirst.org](mailto:rohan@sapiensfirst.org). Following a report, leadership interviews the parties involved and other relevant members before deciding next steps.
-
-::: clarify
-The future reporting process needs a route for cases involving the usual contact, clear responsibility for handling reports, and an explanation of review or appeal. Those additions are not yet established in the source documents.
-:::
+To report a concern, email [rohan@sapiensfirst.org](mailto:rohan@sapiensfirst.org). Following a report, leadership interviews the parties involved and other relevant members before deciding next steps.
 
 <!-- /handbook:block -->
 
@@ -60,6 +56,6 @@ The future reporting process needs a route for cases involving the usual contact
 
 Members can hold different political views, participate in other organizations, attend outside events, and sign petitions in their personal capacity.
 
-The source guide states that Sapiens First does not currently issue official candidate endorsements or coalition statements. It describes democratic chapter endorsements as a future possibility. Confirm any change in policy before representing an endorsement as official.
+Sapiens First does not currently issue official candidate endorsements or coalition statements. Democratic chapter endorsements are a future possibility. Confirm any change in policy before representing an endorsement as official.
 
 <!-- /handbook:block -->

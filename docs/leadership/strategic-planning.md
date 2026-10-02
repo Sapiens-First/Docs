@@ -13,11 +13,11 @@ canonical: /leadership/strategic-planning
 
 ## Summary
 
-Strategic planning connects the mission to the work people do this quarter and to the evidence that tells us whether it is working. This page carries the concepts and the practical methods: the mission-to-work records, objectives and metrics, strategic hypotheses, how projects are scoped, planned and handed off, a proposed weekly routine, and regular metric review. Copyable templates live in [A.2.1](../appendices/reference/planning-templates.md). It does not adopt a planning cadence, owners, or a work hierarchy; those are marked where they are still needed. [1.2 Strategy](../dna/strategy.md) holds the durable strategy and its assumptions.
+Strategic planning connects the mission to the work people do this quarter and to the evidence that tells us whether it is working. This page carries the concepts and the practical methods: the mission-to-work records, objectives and metrics, strategic hypotheses, how projects are scoped, planned and handed off, a proposed weekly routine, and regular metric review. Copyable templates live in [A.2.1](../appendices/reference/planning-templates.md). [1.2 Strategy](../dna/strategy.md) holds the durable strategy and its assumptions.
 
 <!-- Source provenance: docs/work/index.md (adopted, 2026-09-28), docs/work/projects.md (adopted, 2026-09-28), docs/work/weekly-work.md (proposal, 2026-09-27), docs/learning/index.md (adopted, 2026-09-27), docs/learning/metrics.md (adopted, 2026-09-28), docs/learning/reviewing-metrics.md (adopted, 2026-09-27), docs/learning/strategic-hypotheses.md (adopted, 2026-09-27); docs/work/templates.md via A.2.1; maintenance/HANDBOOK-OUTLINE.md, 2.2. Practical content carried in with wording retained (tables, examples, diagrams, proposals); Atlas and AI is at 1.4.6; framing written 2026-10-02. -->
 
-Good work starts with a clear purpose. Before you take on a task, know three things: **who it helps, what should change, and how it moves the mission forward.** Learning runs as a loop: define what matters, observe what happens, reflect together, and change the next attempt ([2.2.7](#reviewing-performance-of-the-strategy)). The handbook explains the approach; [Atlas](https://sapiensfirst.org/atlas) holds the current numbers, and Atlas doesn't yet store metric definitions or results. Evaluation rubrics are still being developed; treat proposals on this page as proposals that need to be discussed and adopted before they become requirements.
+Good work starts with a clear purpose. Before you take on a task, know three things: **who it helps, what should change, and how it moves the mission forward.** Learning runs as a loop: define what matters, observe what happens, reflect together, and change the next attempt ([2.2.7](#reviewing-performance-of-the-strategy)). The handbook explains the approach; [Atlas](https://sapiensfirst.org/atlas) holds current work records. Proposals on this page need to be discussed and adopted before they become requirements.
 
 ## 2.2.1 From mission to objectives {#from-mission-to-objectives}
 
@@ -53,11 +53,9 @@ A product or service can need several projects over its life. Finishing a projec
 
 Each key result should point to a defined metric, so everyone reads it the same way. Track the outcome, and also the inputs a role can directly influence; [2.2.3](#metrics) explains how.
 
-These match the terms in [Inputs and outcomes](#metrics): an objective names the outcome we want, a key result is the measure that shows that outcome happened, and an output is what we produce along the way. Metrics adds inputs: the early measures of effort.
-
 ::: proposal Connecting objectives, products, and tasks
 
-The working notes propose connecting high-level priorities to products, milestones, tasks, and subtasks. Atlas already has a mission, pillar, program, product/service, and project structure. We should clarify the relationship between these before treating them as a single fixed hierarchy.
+One proposal connects high-level priorities to products, milestones, tasks, and subtasks. Atlas already has a mission, pillar, program, product/service, and project structure. We should clarify the relationship between these before treating them as a single fixed hierarchy.
 
 A useful starting proposal is:
 
@@ -69,10 +67,6 @@ A useful starting proposal is:
 - Roles and circles hold responsibility for work and review the results.
 
 Objectives may apply at more than one level. Whether they become separate Atlas records, fields, or linked records remains to be decided. Likewise, this proposal does not mean Atlas already supports task assignment or metric tracking.
-:::
-
-::: clarify
-The working notes propose connecting high-level priorities to products, milestones, tasks, and subtasks, while Atlas already uses mission, pillar, program, product/service, and project records. How these fit together has not been reconciled with Atlas, so this draft specifies no fixed hierarchy or schema.
 :::
 
 **Choose a useful next step.** Work moves in a loop. Plan, act, review, and adjust the next round.
@@ -94,9 +88,7 @@ flowchart TB
 
 ## 2.2.2 Objectives and key results (OKRs) {#okrs}
 
-An **objective** describes a change; an **output** is a thing you create; a **key result** is the proof that the change happened ([2.2.1](#from-mission-to-objectives)).
-
-**Start from objectives.** An **objective** describes a change we want to achieve. **Key results** tell us how we'll recognize progress. Each key result should point to a clearly defined **metric**, with a starting point, a target, and a date.
+**Start from objectives.** An **objective** describes a change we want to achieve; **key results** tell us how we'll recognize progress ([2.2.1](#from-mission-to-objectives) defines the terms). Each key result should point to a clearly defined **metric**, with a starting point, a target, and a date.
 
 ::: example
 **Objective:** Build a strong Berkeley chapter.
@@ -109,13 +101,9 @@ An **objective** describes a change; an **output** is a thing you create; a **ke
 
 "Active member" and "30-day retention" need agreed definitions before the key results mean anything. Two people reading the same number should understand the same thing.
 
-This matches [2.2.1](#from-mission-to-objectives): an objective names the outcome we want, and a key result is the measure that shows that outcome happened, usually an outcome metric, paired with the inputs that show where to act.
-
 Start with the outcome you care about. Then ask what you can observe, how you'll collect it, and what you would do differently after seeing the result. If no result would change a decision, you probably don't need the metric.
 
-::: clarify
-No adopted OKR practice is established in the source documents. Still needed: whether OKRs are the organization's method; the planning cadence; how baselines, targets, and dates are set; who owns each objective and key result; and who is responsible for reviewing them.
-:::
+Treat this as guidance rather than an adopted OKR process: the planning cadence, and who owns and reviews each objective, are not settled yet.
 
 ## 2.2.3 Metrics {#metrics}
 
@@ -196,15 +184,11 @@ When someone's work shows up in a metric, the purpose is to notice where support
 
 ::: proposal Models of movement growth
 
-The working notes suggest modeling how recruitment, coaching capacity, active organizers, and chapters affect one another. A model could help us compare possible investments and identify constraints.
+We could model how recruitment, coaching capacity, active organizers, and chapters affect one another. A model could help us compare possible investments and identify constraints.
 
 For example, more recruits may not lead to more active organizers if nobody has time to welcome and support them. More trained leaders may not produce more chapters without members and ongoing support.
 
-Define each variable, the time period, the assumptions, and the evidence behind it. Compare the model's predictions with actual results and revise it. The notes' “R0” idea is an exploratory analogy, not an established metric or a guarantee of exponential growth.
-:::
-
-::: clarify
-Citations in the metrics guide still need verification, and the local cadence for setting and revising metrics is unconfirmed. Specific metrics and targets are not adopted by this draft.
+Define each variable, the time period, the assumptions, and the evidence behind it. Compare the model's predictions with actual results and revise it. An “R0” for movement growth is an exploratory analogy, not an established metric or a guarantee of exponential growth.
 :::
 
 ## 2.2.4 Strategic decisions and hypotheses {#strategic-hypotheses}
@@ -236,23 +220,11 @@ What still needs to be settled: which circles adopt this as a standing habit, ho
 
 Working backwards asks a question before you build a metric at all: what outcome are we chasing? Everything in [2.2.3 Metrics](#metrics) and [2.2.7](#reviewing-performance-of-the-strategy) follows from a good answer to that.
 
-::: clarify
-Formalizing this as a standing habit is a proposal. Still needed: who adopts it, how often hypotheses are reviewed, where they are recorded (including whether in Atlas), and which organizational assumptions the owners endorse.
-:::
-
 ## 2.2.5 Project portfolio management {#project-portfolio-management}
 
-Projects are bounded efforts to create or change something. A [project](../appendices/glossary.md#project) has a scope, a plan, and a defined hand-off; [2.2.6](#project-execution-and-handoffs) explains how to scope and plan one. Selecting, sequencing, resourcing, pausing, and stopping projects across the whole portfolio is not yet described in the source documents.
+Projects are bounded efforts to create or change something. A [project](../appendices/glossary.md#project) has a scope, a plan, and a defined hand-off; [2.2.6](#project-execution-and-handoffs) explains how to scope and plan one. Guidance on selecting, sequencing, resourcing, pausing, and stopping projects across the whole portfolio is still being written; in the meantime, check [decision rights](../dna/structure.md#roles-circles-decision-rights) before committing the organization.
 
-**Propose a new project.** To propose a new project, write a scope using the [project scope template](../appendices/reference/planning-templates.md#project-scope), and check who holds decision rights for the area in [Checking decision rights](../dna/structure.md#roles-circles-decision-rights). Discuss the proposal with the relevant circle or role holder before investing heavily in an approach. Once it's agreed, record the project in Atlas.
-
-::: clarify
-Who approves a new project, and what a proposal needs to include beyond the scope template, isn't defined yet. In the meantime, discuss your idea with the relevant role holder or circle contact and use the project scope template as your starting point.
-:::
-
-::: clarify
-Not established for the portfolio as a whole: criteria for selecting and sequencing projects; how people and budget are allocated; criteria for pausing or stopping; who has authority to decide; and how often the portfolio is reviewed. Check [decision rights](../dna/structure.md#roles-circles-decision-rights) before committing the organization; this draft transfers no authority.
-:::
+**Propose a new project.** To propose a new project, write a scope using the [project scope template](../appendices/reference/planning-templates.md#project-scope), and check who holds decision rights for the area in [Checking decision rights](../dna/structure.md#roles-circles-decision-rights). Discuss the proposal with the relevant circle or role holder before investing heavily in an approach; who approves new projects isn't formally defined yet. Once it's agreed, record the project in Atlas.
 
 ## 2.2.6 Project execution and handoffs {#project-execution-and-handoffs}
 
@@ -266,7 +238,7 @@ flowchart TB
   class S accent
 ```
 
-Planning stages (discovery, strategy, a first useful version, testing, iteration, handoff) can overlap and adapt to the project. Copyable scope, plan, update, weekly plan, and handoff templates are in [A.2.1 Planning templates](../appendices/reference/planning-templates.md).
+Copyable scope, plan, update, weekly plan, and handoff templates are in [A.2.1 Planning templates](../appendices/reference/planning-templates.md).
 
 **Start with a scope.** Write down the intended outcome, audience, outputs, success criteria, boundaries, constraints, and decision rights. Be explicit about what you're leaving out.
 
@@ -286,7 +258,7 @@ Plan around your real capacity and dependencies. Leave time for feedback, revisi
 
 ::: roles Adapt the process to the project
 
-The Fellowship uses discovery, strategy, a first useful version, testing, iteration, and handoff as planning stages. They may overlap. A research project might test a draft argument with readers; an organizing project might pilot one event; a software project might test a prototype.
+The Fellowship uses discovery, strategy, a first useful version, testing, iteration, and handoff as planning stages. They may overlap and adapt to the project. A research project might test a draft argument with readers; an organizing project might pilot one event; a software project might test a prototype.
 
 Bring changes to major outputs or deadlines to the person who holds that decision. Make the tradeoff visible while there is still time to adjust.
 :::
@@ -308,10 +280,10 @@ Milestones are checkpoints, not automatically additional documents to submit. Ke
 **Weekly planning.**
 
 ::: proposal
-This is a suggested shared practice. It does not establish a new reporting requirement or mean that Atlas already assigns weekly tasks.
+The weekly review and task-writing guidance below are a suggested shared practice, not a new reporting requirement. Atlas does not yet assign weekly tasks.
 :::
 
-A useful weekly plan connects your available time to the next important result. You should be able to tell what to do next and why it matters. The existing Fellowship practice uses project plans, check-ins, and updates. The routine below is a proposed way to make that work easier as more people join. The five-step weekly review and the task-writing guidance are a proposed routine, not an adopted requirement. Atlas does not yet assign weekly tasks. For a one-page plan, see the [weekly plan template](../appendices/reference/planning-templates.md#weekly-plan).
+A useful weekly plan connects your available time to the next important result. You should be able to tell what to do next and why it matters. The Fellowship uses project plans, check-ins, and updates; the routine below makes that work easier as more people join. For a one-page plan, see the [weekly plan template](../appendices/reference/planning-templates.md#weekly-plan).
 
 **A simple weekly review**
 
@@ -331,13 +303,9 @@ Include the responsible person and a date when timing matters.
 
 ::: background Getting Things Done
 
-The notes propose drawing on Getting Things Done (GTD). The useful habit here is to capture commitments, clarify the next action, keep track of what you're waiting for, and review regularly.
+We draw on Getting Things Done (GTD). The useful habit here is to capture commitments, clarify the next action, keep track of what you're waiting for, and review regularly.
 
 Choose tools that support that habit. The handbook does not require a particular task app or a full GTD system.
-:::
-
-::: clarify
-The weekly review cadence is unconfirmed, and no automated task system is established. Milestone conventions and the handoff responsibility for continuing maintenance still need an owner.
 :::
 
 ## 2.2.7 Reviewing performance of the strategy {#reviewing-performance-of-the-strategy}
@@ -418,10 +386,6 @@ Use metrics to see where help is needed. Use conversations and [feedback](cultur
 - **Too many metrics.** A handful that people actually review beats dozens nobody reads.
 - **Reporting for its own sake.** If nobody makes a decision with a number, stop collecting it.
 - **Treating completion as success.** Finishing a project isn't the same as achieving its outcome.
-
-::: clarify
-Who reviews, how often, and with what authority to change course are not established. Any new performance framework should be compared with the Metrics and people principle rather than silently replacing it.
-:::
 
 ::: related
 - [Planning templates (A.2.1)](../appendices/reference/planning-templates.md) — Copyable templates for scopes, plans, updates, and handoffs.

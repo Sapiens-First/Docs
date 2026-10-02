@@ -13,13 +13,9 @@ canonical: /leadership/
 
 ## Summary
 
-Leadership is a practice, not a job title. People in paid and volunteer roles lead when they take responsibility, help others contribute, and keep work moving toward the mission. This chapter turns the shared culture into everyday habits. Its draft pages explain existing guidance and mark unresolved proposals without adopting new policy.
+Leadership is a practice, not a job title. People in paid and volunteer roles lead when they take responsibility, help others contribute, and keep work moving toward the mission. This chapter turns the shared culture into everyday habits.
 
 <!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, chapter 2; maintenance/content-map.md. Chapter framing is a proposal; the organizational definition of leadership is not yet supplied. -->
-
-::: clarify
-A definition of leadership in your own words is still needed. This summary is an editorial proposal, not an adopted definition.
-:::
 
 ## Sections {#sections}
 
