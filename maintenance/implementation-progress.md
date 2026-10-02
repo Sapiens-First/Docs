@@ -93,4 +93,14 @@ Verification: `docs:check` 58 pages, 0 errors/warnings; 12/12 tests pass; produc
 
 Roadmap item 5 audit landed in `maintenance/file-structure-audit.md` (proposal only; nothing moved). Key points: build a redirect mechanism first (none exists in `config.mts`); move root planning/history docs to `maintenance/history/`; delete pointer stubs `docs.md` and `Fellowship Handbook [shared].md` after folding pointers into README; move outline/style guide separately with link rewrites; keep `10-2 content additions/` until DNA/Leadership/Staff reconciliation. Its open decisions need the user.
 
-Next: 3.0 Beliefs about staff, 3.2/3.3 drafts with open callouts; audit batch 1 (redirects) once the user confirms the audit's decisions; resource/citation/glossary pilot.
+Superseded by the next section.
+
+## October 2 continuation — Staff chapter drafts and restructure batch 1
+
+User delegated the file-structure decisions; recorded in `decisions.md` (“File-structure decisions”). Restructure batch 1 done: root history docs moved to `maintenance/history/`; outline and implementation plan moved to `maintenance/` with inbound links rewritten; pointer stubs and unused `scripts/check-rewrite.py` deleted; README gained a repository-layout section; `.aws/`, `.agents/`, `.codex/` ignored. Redirect stubs deferred to the first legacy-route retirement.
+
+Agents drafted 3.0 Beliefs about staff, 3.2 Compensation and 3.3 Professional development (mostly open callouts). Staff chapter now has 3.0–3.4. Registry: 23 numbered pages.
+
+Verification: `docs:check` 61 pages, 0 errors/warnings; 12/12 tests; production build passes. Browser check not run.
+
+Next: Appendix A remaining references (A.2.x agendas/templates, A.3 prompts, A.4 style); restructure batch 2 (redirect generator + first legacy-route retirements where ledger rows are complete); resource/citation/glossary pilot (B/C/D).

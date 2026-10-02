@@ -15,7 +15,7 @@ canonical: /dna/story
 
 Powerful AI may arrive soon, and we are organizing to shape its development before its effects become hard to reverse. We call our concerns the AI Crisis: concentrated economic gains, weakened democracy, and serious security risks. We want democratic renewal, common prosperity, and a secure future. The founding story and the argument about concentrated technology power are not yet approved for this page.
 
-<!-- Source provenance: HANDBOOK-OUTLINE.md, 1.1; docs/strategy/index.md ("The moment", "What we stand for"), last_updated 2026-09-29; docs/supporters/index.md, last_updated 2026-09-29. Concern and future statements retained from the sources; framing rewritten 2026-10-02. These are organizational concerns and aims, not independently verified empirical claims. -->
+<!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, 1.1; docs/strategy/index.md ("The moment", "What we stand for"), last_updated 2026-09-29; docs/supporters/index.md, last_updated 2026-09-29. Concern and future statements retained from the sources; framing rewritten 2026-10-02. These are organizational concerns and aims, not independently verified empirical claims. -->
 
 ## 1.1.1 The AI Crisis {#ai-crisis}
 

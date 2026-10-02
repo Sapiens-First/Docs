@@ -10,7 +10,7 @@ Reorganize the handbook around Introduction, DNA, Leadership, Staff, and Appendi
 
 The outline is authoritative for placement and editorial scope. This plan owns execution order and technical proposals. Canonical handbook pages own their guidance; canonical policies own policy wording; Atlas and other live systems continue to own current state. Plans, archives, redirects, rendered embeds, and generated exports must not become independently maintained alternatives.
 
-**Current authorization:** the user explicitly requested agent-directed incremental implementation on 2026-10-02. Begin bounded local increments using the outline and helpful `10-2 content additions/` inputs. Record provisional technical choices and remaining policy questions in [maintenance/decisions.md](maintenance/decisions.md). The original checkpoints still govern unresolved organizational policy and publication; implementation permission is not policy adoption.
+**Current authorization:** the user explicitly requested agent-directed incremental implementation on 2026-10-02. Begin bounded local increments using the outline and helpful `10-2 content additions/` inputs. Record provisional technical choices and remaining policy questions in [maintenance/decisions.md](decisions.md). The original checkpoints still govern unresolved organizational policy and publication; implementation permission is not policy adoption.
 
 ## 2. Findings and limits of the first pass
 
@@ -271,6 +271,6 @@ Execution-stage checks; no production checks or migration were run during this p
 
 ## 6. Handoff state
 
-Incremental implementation has begun with user authorization. See [maintenance/decisions.md](maintenance/decisions.md) and [maintenance/implementation-progress.md](maintenance/implementation-progress.md) for completed units, provisional choices, and pending decisions. Confidence is high that much of DNA and Leadership can reuse existing material, but low on the completeness of Staff policy inputs and exact Holacracy adoption. The embedding/export approach requires a pilot; it is a proposal grounded in the existing stack, not verified implementation.
+Incremental implementation has begun with user authorization. See [maintenance/decisions.md](decisions.md) and [maintenance/implementation-progress.md](implementation-progress.md) for completed units, provisional choices, and pending decisions. Confidence is high that much of DNA and Leadership can reuse existing material, but low on the completeness of Staff policy inputs and exact Holacracy adoption. The embedding/export approach requires a pilot; it is a proposal grounded in the existing stack, not verified implementation.
 
 Next actions follow the incremental progress record. Continue independent drafting and structural work from supplied inputs; leave unresolved policy visible as drafts. Do not infer policy adoption or publishing authorization from these editorial increments.

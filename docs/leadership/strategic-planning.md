@@ -15,7 +15,7 @@ canonical: /leadership/strategic-planning
 
 Strategic planning connects the mission to the work people do this quarter and to the evidence that tells us whether it is working. This page sets out the concepts and points to the existing practical guides for methods and templates. It does not adopt a planning cadence, owners, or a work hierarchy; those are marked where they are still needed. [1.2 Strategy](../dna/strategy.md) holds the durable strategy and its assumptions.
 
-<!-- Source provenance: docs/work/index.md, docs/work/projects.md, docs/work/weekly-work.md, docs/learning/metrics.md, docs/learning/reviewing-metrics.md, docs/learning/strategic-hypotheses.md (all adopted/proposed as marked on the legacy pages, last_updated 2026-09-27 to 2026-09-28); docs/work/templates.md via A.2.1; HANDBOOK-OUTLINE.md, 2.2. Short definitions and the "Metrics and people" principle retained verbatim; framing written 2026-10-02. Legacy guides are linked, not duplicated. -->
+<!-- Source provenance: docs/work/index.md, docs/work/projects.md, docs/work/weekly-work.md, docs/learning/metrics.md, docs/learning/reviewing-metrics.md, docs/learning/strategic-hypotheses.md (all adopted/proposed as marked on the legacy pages, last_updated 2026-09-27 to 2026-09-28); docs/work/templates.md via A.2.1; maintenance/HANDBOOK-OUTLINE.md, 2.2. Short definitions and the "Metrics and people" principle retained verbatim; framing written 2026-10-02. Legacy guides are linked, not duplicated. -->
 
 ## 2.2.1 From mission to objectives {#from-mission-to-objectives}
 

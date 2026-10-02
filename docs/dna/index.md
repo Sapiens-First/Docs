@@ -15,7 +15,7 @@ canonical: /dna/
 
 DNA explains why Sapiens First exists, how we seek change, and how we work together. This chapter is being assembled from existing guidance and supplied notes. Its draft pages explain beliefs and proposals without adopting unresolved organizational policies.
 
-<!-- Source provenance: HANDBOOK-OUTLINE.md, chapter 1; docs/strategy/index.md; docs/organization/roles-and-circles.md; maintenance/decisions.md. -->
+<!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, chapter 1; docs/strategy/index.md; docs/organization/roles-and-circles.md; maintenance/decisions.md. -->
 
 - [1.1 Story](story.md) — See the AI Crisis, the future we want, and why we organize.
 - [1.2 Strategy](strategy.md) — Understand the act, recruit, train cycle and the assumptions behind it.

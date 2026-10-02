@@ -35,3 +35,21 @@ Organizational adoption of the performance framework, evaluation owners/cadence/
 The ordered JSON TOC supplies numbered navigation and export ordering; validators enforce coverage and metadata agreement. Explicit Markdown comment directives select named bodies from canonical Appendix A pages. The same synchronous resolver runs before HTML parsing and in exports/validation. Source status/date remain independent of the host date. Nested includes/blocks are rejected rather than recursively expanded, preventing circular inclusion. Source markers are authoring metadata, not separately maintained policy copies.
 
 IC criteria appear in both expectations and tech guidance; DRI/PC criteria appear beside their role explanations. Raw Markdown twins now carry source/status/date. These are provisional technical implementations, not policy adoption. Resource/citation/glossary generation, full numbering generation and canonical-only search indexing remain pending. Existing local search may index both sources and receiving explanations.
+
+## File-structure decisions — 2026-10-02
+
+The user delegated these choices (“make decisions that seem best according to first principles”). Principle: the repo root holds only entry points; `docs/` holds only published handbook content; everything about *making* the handbook lives in `maintenance/`; nothing published or externally linkable breaks.
+
+1. **Root contents:** keep `README.md`, `CONTRIBUTING.md`, `STYLE-GUIDE.md` (conventional contributor entry points) and `archive/`. Move `HANDBOOK-OUTLINE.md` and `HANDBOOK-IMPLEMENTATION-PLAN.md` to `maintenance/`, rewriting inbound links; they are planning artifacts, not entry points.
+2. **Old URLs:** assume external inbound links exist (the site is public). Every retired legacy route gets a redirect. GitHub Pages has no server redirects, so use generated static stub pages (meta refresh + canonical link + visible link) from a single `handbook-data/redirects.json`. Build this in the same batch as the first route retirement, not before; no route is retired yet.
+3. **`archive/sources/`:** stays at its current path. It is not served by the site, but GitHub URLs may be cited elsewhere, and moving it buys nothing.
+4. **`scripts/check-rewrite.py`:** delete. Nothing runs it; git history preserves it.
+5. **Root history docs** (`PROGRESS.md`, `AI-READABILITY-PLAN.md`, `REWRITE-PLAN.md`, `HANDBOOK-REVIEW.md`, `DESIGN-REVIEW.md`): move to `maintenance/history/` unchanged, for cheap provenance. Unique still-live decisions get summarized into this file first.
+6. **Pointer stubs** (`docs.md`, `Fellowship Handbook [shared].md`): delete after their pointers are in README; originals remain in `archive/sources/`.
+7. **`.aws/`, `.agents/`, `.codex/`:** add to `.gitignore` (local tool state; `.aws` may hold credentials).
+8. **`10-2 content additions/`:** stays until DNA, Leadership and Staff ledger rows are reconciled; then move to `archive/sources/2026-10-02/`. Published SVG copies in `docs/public/diagrams/` are the live versions.
+9. **`values-standards.md`** is numbered handbook content (A.1.1), not legacy.
+
+### Carried forward from the 2026-09 consolidation log
+
+Summarized from `maintenance/history/PROGRESS.md` before it moved. Atlas remains the source of truth for current governance, assignments, projects, and priorities; the handbook explains stable concepts and practices, documents existing practice, and labels proposals explicitly. Still open from that log: the `::: tip` and `::: info` containers used in some Grow-era pages are not in CONTRIBUTING's block list (convert them or add them); the "5-step hypothesis framework" from the source is not yet written into the strategic-hypotheses page; the external resource library has not had a full factual or link audit.

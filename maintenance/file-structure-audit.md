@@ -97,3 +97,11 @@ Common verification: `node --test scripts/handbook-*.test.mjs`, `npm run docs:ch
 6. Are `.agents`, `.codex`, `.aws` intentionally tracked or local only (gitignore)?
 7. Is `docs/appendices/reference/values-standards.md` meant to be in the numbered handbook or legacy?
 8. Delete `PROGRESS.md` after merging, or keep it in `history/` for provenance?
+
+## Batch 1 status — done 2026-10-02
+
+- Done: `PROGRESS.md`, `AI-READABILITY-PLAN.md`, `REWRITE-PLAN.md`, `HANDBOOK-REVIEW.md`, `DESIGN-REVIEW.md` moved to `maintenance/history/` (live decisions from PROGRESS summarized in `decisions.md`).
+- Done: `docs.md` and `Fellowship Handbook [shared].md` stubs deleted; pointers folded into the README "Repository layout" section.
+- Done: `scripts/check-rewrite.py` deleted; comments in `scripts/validate-docs.mjs` fixed.
+- Done: `HANDBOOK-OUTLINE.md` and `HANDBOOK-IMPLEMENTATION-PLAN.md` moved to `maintenance/`; inbound links rewritten in README, STYLE-GUIDE, content-map and provenance comments in `docs/`. `CONTRIBUTING.md` line 21 still links `HANDBOOK-OUTLINE.md` and needs `maintenance/` added (left untouched: user work in progress).
+- Not yet: redirect mechanism, `STYLE-GUIDE.md` move (kept at root per decision 1), archive relocation, 10-2 inputs move, legacy route retirement.

@@ -91,10 +91,31 @@
     "section": "Leadership"
   },
   {
+    "id": "staff-beliefs",
+    "number": "3.0",
+    "title": "3.0 Beliefs about staff",
+    "path": "staff/beliefs-about-staff.md",
+    "section": "Staff"
+  },
+  {
     "id": "staff-expectations",
     "number": "3.1",
     "title": "3.1 Expectations",
     "path": "staff/expectations.md",
+    "section": "Staff"
+  },
+  {
+    "id": "staff-compensation",
+    "number": "3.2",
+    "title": "3.2 Compensation",
+    "path": "staff/compensation.md",
+    "section": "Staff"
+  },
+  {
+    "id": "staff-professional-development",
+    "number": "3.3",
+    "title": "3.3 Professional development",
+    "path": "staff/professional-development.md",
     "section": "Staff"
   },
   {

@@ -15,7 +15,7 @@ canonical: /dna/culture
 
 Our core values are Peace, Wisdom, Deliberation, Respect, and Agency. They guide how we take initiative and work together. This draft brings the existing values into the new handbook structure; the linked standards retain their existing status and reporting gaps.
 
-<!-- Source provenance: docs/organization/values.md, last_updated 2026-09-27; HANDBOOK-OUTLINE.md, 1.3. Values and operating principles retained verbatim; examples rewritten 2026-10-02. -->
+<!-- Source provenance: docs/organization/values.md, last_updated 2026-09-27; maintenance/HANDBOOK-OUTLINE.md, 1.3. Values and operating principles retained verbatim; examples rewritten 2026-10-02. -->
 
 ## 1.3.1 Core values {#core-values}
 

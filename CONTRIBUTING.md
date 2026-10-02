@@ -18,7 +18,7 @@ A handbook page may explain what a project record contains. It should link to th
 
 ## Add pages incrementally
 
-New pages follow [HANDBOOK-OUTLINE.md](HANDBOOK-OUTLINE.md), with numbered chapters and Appendices A–D. Existing audience pages retain their URLs while the [migration ledger](maintenance/content-map.md) tracks their disposition. The first pilot adds 3.4 Department-specific guidance and A.2.5 Tech team meeting agenda.
+New pages follow [HANDBOOK-OUTLINE.md](maintenance/HANDBOOK-OUTLINE.md), with numbered chapters and Appendices A–D. Existing audience pages retain their URLs while the [migration ledger](maintenance/content-map.md) tracks their disposition. The first pilot adds 3.4 Department-specific guidance and A.2.5 Tech team meeting agenda.
 
 Use a matching numbered H1 and `title`, `handbook_id` (stable descriptive ID), `handbook_number` (display number), `## Summary`, numbered content headings with stable anchors, and existing status/date/canonical metadata. Chapter section values are `Introduction`, `DNA`, `Leadership`, `Staff`, `Reference materials`, `Further Reading`, `Citations`, and `Glossary`. Legacy audience values remain accepted for unmigrated pages. Do not equate staff with Leads.
 

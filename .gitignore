@@ -3,3 +3,8 @@ docs/.vitepress/dist/
 docs/.vitepress/cache/
 .DS_Store
 docs/.vitepress/.temp/
+
+# Local tool state
+.aws/
+.agents/
+.codex/

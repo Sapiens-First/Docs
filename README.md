@@ -6,7 +6,7 @@ Built with [VitePress](https://vitepress.dev) for [GitHub Pages](https://sapiens
 
 ## Incremental handbook implementation
 
-The new structure follows [HANDBOOK-OUTLINE.md](HANDBOOK-OUTLINE.md). See [implementation progress](maintenance/implementation-progress.md), [decisions](maintenance/decisions.md), and [content map](maintenance/content-map.md). Existing pages remain available while numbered Introduction, DNA, Staff, and Appendix A drafts are introduced. Start with the [new Introduction](docs/introduction/index.md). The `10-2 content additions/` directory supplies helpful role rubrics, tech notes, and source diagrams.
+The new structure follows [HANDBOOK-OUTLINE.md](maintenance/HANDBOOK-OUTLINE.md). See [implementation progress](maintenance/implementation-progress.md), [decisions](maintenance/decisions.md), and [content map](maintenance/content-map.md). Existing pages remain available while numbered Introduction, DNA, Staff, and Appendix A drafts are introduced. Start with the [new Introduction](docs/introduction/index.md). The `10-2 content additions/` directory supplies helpful role rubrics, tech notes, and source diagrams.
 
 Published diagrams use SVG under `docs/public/diagrams/`; [STYLE-GUIDE.md](STYLE-GUIDE.md#diagrams-and-visuals) defines the standard. Run `npm run diagrams:check` for asset checks; `npm run docs:check` includes them. Run `node --test scripts/handbook-*.test.mjs` for TOC/reference fixtures; CI includes both checks. The ordered contents live in `handbook-data/toc.json`; canonical rubric blocks are included in HTML and Markdown exports. See CONTRIBUTING for the authoring syntax.
 
@@ -33,7 +33,16 @@ archive/sources/          Unchanged input documents; not built into the site
 CONTRIBUTING.md           Writing conventions and maintenance guidance
 ```
 
-The two original root-level filenames now point to the consolidated handbook. Their complete contents are preserved in the archive, including embedded images and dated material. See [the content map](archive/README.md) for where material moved and what still needs clarification.
+Top-level directories:
+
+- Root: `README.md`, `CONTRIBUTING.md`, `STYLE-GUIDE.md` and build configuration only.
+- `docs/`: published handbook content, and nothing else.
+- `handbook-data/`: the ordered table of contents (`toc.json`) and other data the build reads.
+- `scripts/`: validators, TOC/reference tooling and their tests, and the book builder.
+- `maintenance/`: how the handbook is made: `HANDBOOK-OUTLINE.md`, `HANDBOOK-IMPLEMENTATION-PLAN.md`, decisions, the content map, implementation progress and the file-structure audit.
+- `maintenance/history/`: superseded plans and reviews kept for provenance, unchanged.
+- `archive/`: unchanged original input documents (`archive/sources/`, including the original movement guide and Fellowship handbook with embedded images and dated material). See [the content map](archive/README.md) for where material moved and what still needs clarification.
+- `10-2 content additions/`: October 2 input notes, rubrics and source diagrams, kept until reconciled with the handbook; published diagram copies live in `docs/public/diagrams/`.
 
 ## Local development
 

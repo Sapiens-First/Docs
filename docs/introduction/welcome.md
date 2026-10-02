@@ -15,7 +15,7 @@ canonical: /introduction/welcome
 
 Sapiens First brings people together to fight for democracy, prosperity, and security in the age of AI. This handbook explains the movement and helps people participate and work together. You can start with a short reading path or open the section that answers your question.
 
-<!-- Source provenance: docs/guide/index.md; docs/supporters/index.md; docs/members/index.md; docs/organizers/index.md; HANDBOOK-OUTLINE.md, 0.1. Existing audience paths are retained as reading aids, not adopted role definitions. -->
+<!-- Source provenance: docs/guide/index.md; docs/supporters/index.md; docs/members/index.md; docs/organizers/index.md; maintenance/HANDBOOK-OUTLINE.md, 0.1. Existing audience paths are retained as reading aids, not adopted role definitions. -->
 
 ## 0.1.1 Who we are and why this handbook exists {#who-we-are}
 

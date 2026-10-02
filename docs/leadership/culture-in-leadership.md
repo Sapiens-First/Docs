@@ -15,7 +15,7 @@ canonical: /leadership/culture-in-leadership
 
 Shared values become real in how leaders give feedback, handle disagreement, own their work, and set an example. This page covers the practices that exist today and marks the ones that still need an approved process. [1.3 Culture](../dna/culture.md) holds the beliefs; the standards themselves live in [A.1.1](../appendices/reference/values-standards.md).
 
-<!-- Source provenance: docs/learning/feedback.md, adopted, last_updated 2026-09-27; docs/organization/values.md leadership standards via A.1.1; HANDBOOK-OUTLINE.md, 2.1. Feedback wording retained verbatim; framing rewritten 2026-10-02. 2.1.2 and 2.1.3 have no source text. -->
+<!-- Source provenance: docs/learning/feedback.md, adopted, last_updated 2026-09-27; docs/organization/values.md leadership standards via A.1.1; maintenance/HANDBOOK-OUTLINE.md, 2.1. Feedback wording retained verbatim; framing rewritten 2026-10-02. 2.1.2 and 2.1.3 have no source text. -->
 
 ## 2.1.1 Feedback culture {#feedback-culture}
 

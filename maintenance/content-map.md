@@ -6,7 +6,7 @@ Scope: every current published Markdown page in `docs/` outside theme/generated 
 
 ## How to use this ledger
 
-Section numbers below refer to [the outline](../HANDBOOK-OUTLINE.md). Suggested stable IDs are descriptive identifiers independent of future numbering/URLs; they are not registered IDs or implemented destinations. Each source row is `inventoried / proposed`; completion requires the actual new path and anchor, compatibility mapping, verified content, and editorial date to be added. Dispositions are `retain`, `rewrite`, `merge`, `split`, `archive`, or `remove`; `archive` is a proposed future disposition, not a deletion instruction.
+Section numbers below refer to [the outline](HANDBOOK-OUTLINE.md). Suggested stable IDs are descriptive identifiers independent of future numbering/URLs; they are not registered IDs or implemented destinations. Each source row is `inventoried / proposed`; completion requires the actual new path and anchor, compatibility mapping, verified content, and editorial date to be added. Dispositions are `retain`, `rewrite`, `merge`, `split`, `archive`, or `remove`; `archive` is a proposed future disposition, not a deletion instruction.
 
 Date provenance is the source's authored `last_updated`, not a policy effective date or verification date. Preserve source dates for unchanged copies; new editorial work receives its actual edit date. Sources without an authored date are explicitly unknown; neither filesystem timestamps nor a filename establish publication/adoption dates.
 
@@ -82,15 +82,15 @@ Every root Markdown file is classified here. Repository operations and historica
 | `README.md` | Repository entry; root | rewrite | Update folder/command map as increments become real. | No explicit date |
 | `CONTRIBUTING.md` | Contributor mechanics; root | rewrite | Align with actual pilot/schema and SVG authoring rules; retain one authoritative rule per topic. | No explicit date |
 | `STYLE-GUIDE.md` | Handbook editorial/visual conventions; root; reference from A.4.2–A.4.3 | rewrite | SVG diagram standard belongs here. This does not supply a complete approved organization-wide brand guide. | No explicit date before current increment |
-| `HANDBOOK-OUTLINE.md` | Editorial source of truth; root | retain | New hierarchy and missing-input markers; incorporate 10-2 provenance without treating policy as adopted. | Created/updated 2026-10-02 |
-| `HANDBOOK-IMPLEMENTATION-PLAN.md` | Execution sequence; root | rewrite | Record authorization for incremental local implementation and concrete first increments. | Created/updated 2026-10-02 |
-| `HANDBOOK-REVIEW.md` | Historical management-coaching assessment; proposed `archive/previous-plans/` | archive | Recommendations are proposals; preserve useful unresolved questions. | Reviewed 2026-09-27 |
-| `DESIGN-REVIEW.md` | Historical design review; proposed `archive/previous-plans/` | archive | Retain evidence of prior review; reassess after new hierarchy. | Started 2026-09-27 |
-| `REWRITE-PLAN.md` | Superseded readability execution plan; proposed `archive/previous-plans/` | archive | Naming/page anatomy must defer to new outline, not older verb navigation. | No explicit calendar date |
-| `AI-READABILITY-PLAN.md` | Prior implementation history; proposed `archive/previous-plans/` | archive | Preserve export/search rationale; old page anatomy is not the new schema. | Started 2026-09-27 |
-| `PROGRESS.md` | Prior consolidation record; proposed `archive/previous-plans/` | archive | Preserve original authority boundaries and decisions as history; new progress belongs in current plan/log. | Updated 2026-09-27 |
-| `docs.md` | Root pointer to consolidated guide and archive | retain | Not original full source. Update links after migration; remove only if all inbound references are reconciled. | No explicit date |
-| `Fellowship Handbook [shared].md` | Root pointer to consolidated Fellowship and archive | retain | Not original full source; must not overwrite archived agreement/history. | No explicit date |
+| `maintenance/HANDBOOK-OUTLINE.md` | Editorial source of truth; moved from root 2026-10-02 | retain | New hierarchy and missing-input markers; incorporate 10-2 provenance without treating policy as adopted. | Created/updated 2026-10-02 |
+| `maintenance/HANDBOOK-IMPLEMENTATION-PLAN.md` | Execution sequence; moved from root 2026-10-02 | rewrite | Record authorization for incremental local implementation and concrete first increments. | Created/updated 2026-10-02 |
+| `HANDBOOK-REVIEW.md` | Historical management-coaching assessment; moved to `maintenance/history/` | archive | Recommendations are proposals; preserve useful unresolved questions. | Reviewed 2026-09-27 |
+| `DESIGN-REVIEW.md` | Historical design review; moved to `maintenance/history/` | archive | Retain evidence of prior review; reassess after new hierarchy. | Started 2026-09-27 |
+| `REWRITE-PLAN.md` | Superseded readability execution plan; moved to `maintenance/history/` | archive | Naming/page anatomy must defer to new outline, not older verb navigation. | No explicit calendar date |
+| `AI-READABILITY-PLAN.md` | Prior implementation history; moved to `maintenance/history/` | archive | Preserve export/search rationale; old page anatomy is not the new schema. | Started 2026-09-27 |
+| `PROGRESS.md` | Prior consolidation record; moved to `maintenance/history/` | archive | Preserve original authority boundaries and decisions as history; new progress belongs in current plan/log. | Updated 2026-09-27 |
+| `docs.md` | Root pointer (deleted 2026-10-02; folded into README) | delete | Not original full source. Update links after migration; remove only if all inbound references are reconciled. | No explicit date |
+| `Fellowship Handbook [shared].md` | Root pointer (deleted 2026-10-02; folded into README) | delete | Not original full source; must not overwrite archived agreement/history. | No explicit date |
 | `archive/README.md` | Historical archive index | rewrite | Keep previous consolidation map and explain new archived files if moved. | Atlas inspection recorded 2026-09-27; no separate editorial date |
 | `archive/sources/docs.md` | Immutable original movement guide | retain | Evidence for 1.1–1.4, A.1.1, A.2.6 and B/C. Preserve license/name-logo restrictions; dated claims need research. | Original authored date not established |
 | `archive/sources/Fellowship Handbook [shared].md` | Immutable original Fellowship source | retain | Evidence for 0.3.2, 1.1–1.2, 2.2, 2.4, A.1.6 and A.3.1; cohort schedules, past priorities and meeting logs stay historical. | Includes dated cohort/meeting records; these are not a document update date |
@@ -241,3 +241,16 @@ Added `docs/leadership/strategic-planning.md` (2.2), `people.md` (2.3) and `faci
 | `work/meetings-and-updates.md` project check-ins, general meetings; `practices/gatherings.md`; `work/templates.md#project-update` | `facilitation.md#choosing-the-right-meeting`, `#written-updates-and-follow-through` | Linked only. |
 | `organization/decisions.md#when-responsibility-is-unclear`; `dna/structure.md#governance-and-change` | `facilitation.md#governance-meetings` | Linked; governance proposal status retained. |
 | none (new) | `facilitation.md#tactical-meetings`, `#governance-meetings` | Open callouts; formats, constitution, A.2.3/A.2.4 agendas not yet created. |
+
+## Staff 3.0, 3.2, 3.3 increment — 2026-10-02
+
+Added `docs/staff/beliefs-about-staff.md` (3.0), `compensation.md` (3.2) and `professional-development.md` (3.3); all draft. Almost all policy content is open: these pages are structured prompts with visible callouts, not adopted policy. A.1.5 compensation reference is not created.
+
+| Existing source / fragment | Actual destination | Compatibility / disposition state |
+| --- | --- | --- |
+| Outline 3.0.1–3.0.4 (no source text) | `staff/beliefs-about-staff.md` | Callouts only; no rationale or hiring policy invented. *Effective Executive* named as unverified lead. |
+| Outline structural decision on staff terminology; `organization/participation.md` “staff are Leads”; `organizers/leads.md` | `beliefs-about-staff.md#what-counts-as-staff` | Participation, governance role, employment and IC/DRI/PC kept distinct; legacy wording flagged, not restated. |
+| Outline 3.2 / A.1.5; `organizers/compensation.md` (placeholder) | `staff/compensation.md` #location, #role, #performance, #worked-example, #review-and-administration | Only principles supported by 3.1 stated; no numbers or formula. Legacy placeholder untouched. |
+| Outline 3.3.1, 3.3.4, 3.3.5 | `staff/professional-development.md` | Callouts only; keeper test not described or adopted; Netflix linked as influence. |
+| `learning/feedback.md#develop-through-responsibility`; 10-2 cadence note | `professional-development.md#development-conversations` | Linked; cadence sentence flagged as proposal. |
+| `work/projects.md#finish-and-hand-off`; `organization/roles-and-circles.md` handover | `professional-development.md#transitions-and-handoffs` | Linked only. |

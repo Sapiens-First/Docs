@@ -15,7 +15,7 @@ canonical: /introduction/how-the-handbook-works
 
 The handbook explains durable concepts and guidance; live records hold current responsibilities and work. Numbered sections help you locate a topic, and status labels show whether material is adopted, proposed, or still being drafted. Editing or publishing a page does not adopt a policy.
 
-<!-- Source provenance: HANDBOOK-OUTLINE.md, 0.2 and numbering convention; docs/guide/index.md; docs/find.md; CONTRIBUTING.md; maintenance/decisions.md. Information boundaries and review authority remain subject to organizational confirmation. -->
+<!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, 0.2 and numbering convention; docs/guide/index.md; docs/find.md; CONTRIBUTING.md; maintenance/decisions.md. Information boundaries and review authority remain subject to organizational confirmation. -->
 
 ## 0.2.1 Chapters, sections, subsections, and appendices {#chapters-sections-and-appendices}
 

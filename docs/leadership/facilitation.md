@@ -15,7 +15,7 @@ canonical: /leadership/facilitation
 
 A good meeting has a purpose, a facilitator, and a clear record of what was decided. This page covers the facilitation practices that exist today and marks the Holacracy tactical and governance formats as still undecided. [1.4 Structure](../dna/structure.md) holds the beliefs about distributed authority; the practical meeting guide stays in [Running meetings and writing updates](../work/meetings-and-updates.md).
 
-<!-- Source provenance: docs/work/meetings-and-updates.md, adopted, last_updated 2026-09-27 (running-a-useful-meeting list and written-update list retained verbatim); docs/organization/decisions.md#when-responsibility-is-unclear (proposal status only); docs/organizers/stewards.md (routing only); HANDBOOK-OUTLINE.md, 2.4; maintenance/content-map.md, Unresolved inputs for 1.4 and 2.4. Framing written 2026-10-02. 2.4.2 and 2.4.3 have no source text; A.2.3 and A.2.4 do not exist yet. -->
+<!-- Source provenance: docs/work/meetings-and-updates.md, adopted, last_updated 2026-09-27 (running-a-useful-meeting list and written-update list retained verbatim); docs/organization/decisions.md#when-responsibility-is-unclear (proposal status only); docs/organizers/stewards.md (routing only); maintenance/HANDBOOK-OUTLINE.md, 2.4; maintenance/content-map.md, Unresolved inputs for 1.4 and 2.4. Framing written 2026-10-02. 2.4.2 and 2.4.3 have no source text; A.2.3 and A.2.4 do not exist yet. -->
 
 ## 2.4.1 What facilitation is for {#what-facilitation-is-for}
 

@@ -15,7 +15,7 @@ canonical: /dna/structure
 
 Sapiens First organizes through roles and circles so people can act with context and purpose without depending on one leader. Atlas records the current structure; this page explains the concepts. The source material does not establish an adopted Holacracy constitution, a process for changing the structure, or settled definitions for chapters and hubs, and this draft does not supply them.
 
-<!-- Source provenance: HANDBOOK-OUTLINE.md, 1.4; docs/organization/roles-and-circles.md (2026-09-27); docs/organization/decisions.md (2026-09-28); docs/organization/participation.md (2026-09-29); docs/practices/starting-a-circle.md (2026-09-28); docs/learning/atlas-and-ai.md (proposal, 2026-09-27). Source wording retained where quoted; framing rewritten 2026-10-02. -->
+<!-- Source provenance: maintenance/HANDBOOK-OUTLINE.md, 1.4; docs/organization/roles-and-circles.md (2026-09-27); docs/organization/decisions.md (2026-09-28); docs/organization/participation.md (2026-09-29); docs/practices/starting-a-circle.md (2026-09-28); docs/learning/atlas-and-ai.md (proposal, 2026-09-27). Source wording retained where quoted; framing rewritten 2026-10-02. -->
 
 ## 1.4.1 Why Holacracy and distributed authority {#why-holacracy}
 

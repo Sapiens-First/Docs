@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Validates handbook frontmatter and internal links against the schema in
- * AI-READABILITY-PLAN.md.
+ * maintenance/history/AI-READABILITY-PLAN.md.
  *
  *   node scripts/validate-docs.mjs               # strict: exits 1 on ERROR
  *   node scripts/validate-docs.mjs --warn-only    # prints everything, always exits 0
@@ -26,8 +26,8 @@
  *   - no `## In brief` section
  *   - no one-sentence `>` summary directly under the H1
  *
- * This is a companion to scripts/check-rewrite.py, which guards protected
- * wording and link text rather than frontmatter/schema.
+ * Wording and link-text guardrails from the retired readability rewrite live
+ * in git history; this script checks frontmatter and schema only.
  */
 import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs'
 import { join, dirname, relative, resolve, posix } from 'node:path'
@@ -50,7 +50,7 @@ function isCalendarDate(value) {
   return !Number.isNaN(date.getTime()) && date.toISOString().slice(0, 10) === value
 }
 
-/** Same slug algorithm as VitePress / scripts/check-rewrite.py's `slugify`. */
+/** Same slug algorithm as VitePress heading anchors. */
 function slugify(s) {
   s = s.normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
   s = s.replace(/[\s~`!@#$%^&*()\-_+=[\]{}|\\;:"'“”‘’<>,.?/]+/g, '-')

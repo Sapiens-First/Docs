@@ -15,7 +15,7 @@ canonical: /leadership/people
 
 Leading well means helping the right people take on responsibilities they can grow into. This page covers the conversation that invites people in, how to think about fit and growth, and how volunteers are welcomed and developed. It marks the parts that still need your organization's own philosophy, examples and approved sources. Practical how-to detail stays in the existing guides, which are linked below.
 
-<!-- Source provenance: docs/practices/organizing-conversations.md (adopted, last_updated 2026-09-27), five-step wording retained verbatim; docs/learning/feedback.md#develop-through-responsibility, first paragraph retained verbatim (second paragraph already used at 2.1.4; #give-useful-feedback already at 2.1.1); docs/practices/training.md and docs/organization/roles-and-circles.md linked, not copied; HANDBOOK-OUTLINE.md, 2.3. 2.3.2 and 2.3.3 have no source text. Framing written 2026-10-02. -->
+<!-- Source provenance: docs/practices/organizing-conversations.md (adopted, last_updated 2026-09-27), five-step wording retained verbatim; docs/learning/feedback.md#develop-through-responsibility, first paragraph retained verbatim (second paragraph already used at 2.1.4; #give-useful-feedback already at 2.1.1); docs/practices/training.md and docs/organization/roles-and-circles.md linked, not copied; maintenance/HANDBOOK-OUTLINE.md, 2.3. 2.3.2 and 2.3.3 have no source text. Framing written 2026-10-02. -->
 
 ## 2.3.1 The Organizer Conversation {#organizer-conversation}
 
