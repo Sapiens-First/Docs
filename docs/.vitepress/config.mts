@@ -7,6 +7,7 @@ import { headingNumbers } from './heading-numbers'
 import { generateLlmsFiles } from './llms'
 import { getHandbookItems, validateHandbookToc } from '../../scripts/handbook-toc.mjs'
 import { resolveReferences } from '../../scripts/handbook-references.mjs'
+import { VERSION } from './version.mjs'
 
 const base = '/docs/'
 const siteHostname = 'https://sapiens-first.github.io/docs/'
@@ -112,6 +113,10 @@ export default withMermaid(defineConfig({
       {
         text: 'More',
         items: [
+          { text: 'Download (HTML)', link: `${base}downloads/sapiens-first-handbook.html`, target: '_self', noIcon: true },
+          { text: 'Download (PDF)', link: `${base}downloads/sapiens-first-handbook.pdf`, target: '_self', noIcon: true },
+          { text: 'Download (EPUB)', link: `${base}downloads/sapiens-first-handbook.epub`, target: '_self', noIcon: true },
+          { text: `Version log (v${VERSION})`, link: '/changelog' },
           { text: 'Atlas', link: 'https://sapiensfirst.org/atlas' },
           { text: 'Website', link: 'https://sapiensfirst.org' }
         ]
@@ -199,6 +204,13 @@ export default withMermaid(defineConfig({
           },
         ]
       },
+      {
+        text: 'About',
+        collapsed: true,
+        items: [
+          { text: 'Version log', link: '/changelog' },
+        ]
+      },
     ],
 
     search: {
@@ -232,7 +244,7 @@ export default withMermaid(defineConfig({
     },
 
     footer: {
-      message: 'Learn · Organize · Act',
+      message: `Handbook v${VERSION} · <a href="${base}changelog">Version log</a>`,
       copyright: 'Sapiens First'
     }
   },

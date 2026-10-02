@@ -1068,3 +1068,45 @@
   .vp-doc h2:is(#summary, #in-brief) { color: #000; }
   details.custom-block:not([open]) > *:not(summary) { display: none; }
 }
+
+/* ==========================================================================
+   READING PROGRESS
+   ========================================================================== */
+.sf-progress {
+  position: fixed;
+  top: var(--vp-nav-height);
+  left: 0;
+  right: 0;
+  height: 3px;
+  z-index: 25;
+  pointer-events: none;
+  opacity: 0;
+}
+.sf-progress.on { opacity: 1; }
+@media (max-width: 959px) {
+  .sf-progress { top: 48px; /* nav scrolls away; the sticky local-nav bar sits at top:0 */ }
+}
+.sf-progress-fill {
+  display: block;
+  height: 100%;
+  background: var(--sf-coral);
+  transform-origin: left center;
+  transform: scaleX(0);
+  will-change: transform;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .sf-progress-fill { transition: transform 0.08s linear; }
+}
+.sf-totop { margin: 32px 0 0; text-align: right; font-size: 13px; }
+.sf-totop a {
+  color: var(--vp-c-text-2);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--sf-coral);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.sf-totop a:hover { color: var(--vp-c-text-1); }
+@media print {
+  .sf-progress, .sf-totop { display: none !important; }
+}

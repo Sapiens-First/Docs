@@ -39,6 +39,10 @@ jobs:
         run: npm run docs:check
       - name: Build with VitePress
         run: npm run docs:build
+      - name: Install Chromium for handbook downloads
+        run: npx playwright-core install --with-deps chromium
+      - name: Build handbook downloads (HTML, PDF, EPUB)
+        run: npm run book:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

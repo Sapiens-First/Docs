@@ -4,6 +4,7 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
+    "book:build": "node scripts/build-book.mjs",
     "docs:preview": "vitepress preview docs",
     "docs:check": "node scripts/validate-docs.mjs && npm run diagrams:check",
     "diagrams:check": "python3 scripts/validate-diagrams.py"
@@ -18,8 +19,10 @@
   },
   "homepage": "https://github.com/Sapiens-First/docs#readme",
   "devDependencies": {
+    "jszip": "^3.10.2",
     "markdown-it-container": "^4.0.0",
     "mermaid": "^11.17.2",
+    "playwright-core": "^1.60.0",
     "vitepress": "^1.6.4",
     "vitepress-plugin-mermaid": "^2.0.17"
   },

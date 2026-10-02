@@ -161,3 +161,12 @@ Include it at the point of explanation with a docs-relative source path:
 Keep frontmatter, H1, Summary, and navigation outside the marked block. Included headings receive unique local anchors; relative links resolve from the source page. Every embed shows its source title/link, status, and editorial date. Nested blocks and includes are unsupported and fail validation/build, as do missing or ambiguous blocks. Update the source once; HTML, raw Markdown and combined exports resolve the same body at the next build. Raw Markdown also includes page source, status, and date.
 
 Run `node --test scripts/handbook-*.test.mjs` for resolver, TOC and validator integration fixtures. CI runs these before documentation checks and the build. Generated views never replace the canonical source.
+
+## Releasing a version
+
+The handbook uses CalVer, `YYYY.0M.MICRO`: the year, the zero-padded month, and a counter that starts at 0 each month (`2026.09.0`, `2026.09.1`, `2026.10.0`). The reader-facing history is the [Version log](docs/changelog.md).
+
+- **When:** cut a release at the end of a working day that had meaningful reader-facing change (new or substantially rewritten pages, navigation or design changes, new downloads). Typo fixes, tooling and maintenance notes wait for the next release. Aim for at most one release a day, not one per commit.
+- **How:** move the entries under "Unreleased" in `docs/changelog.md` into a new dated section titled with the next version, newest first, then update `VERSION` and `RELEASE_DATE` in `docs/.vitepress/version.mjs`. The footer reads from that file. Keep a headline, two to five plain-language bullets, and the pages touched.
+- **Numbering:** a new month resets MICRO to 0; otherwise increment MICRO.
+- **package.json:** leave its `version` alone. npm's semver rejects zero-padded CalVer such as `2026.09.0`.

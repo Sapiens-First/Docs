@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 import PageMeta from './components/PageMeta.vue'
 import SearchButton from './components/SearchButton.vue'
 import NotFound from './components/NotFound.vue'
+import ReadingProgress from './components/ReadingProgress.vue'
 import './style.css'
 
 let toastTimer: number | undefined
@@ -43,7 +44,10 @@ export default {
       // "Handbook" tag hung off the Sapiens First wordmark
       'nav-bar-title-after': () => h('span', { class: 'sf-title-tag' }, 'Handbook'),
       // section · reading time · audience, above each page title
-      'doc-before': () => h(PageMeta)
+      'doc-before': () => h(PageMeta),
+      // reading progress bar + end-of-page "Back to top"
+      'layout-bottom': () => h(ReadingProgress, { mode: 'bar' }),
+      'doc-footer-before': () => h(ReadingProgress, { mode: 'top' })
       })
     }
   }
